@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Multi-Sport Predictor
 
 ## Overview
@@ -32,3 +33,7 @@ MultiSportPredict/
    ```bash
    git clone https://github.com/ItsMytime44/MultiSportPredict.git
    cd MultiSportPredict
+=======
+# MultiSportPredict
+This is a Sports Handicapping Model that predicts the projected outcomes of Basketball and Soccer matches
+>>>>>>> 943f96fcbefcf73847b4d3ba8efc44ca2e85e826
