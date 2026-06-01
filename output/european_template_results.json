@@ -7,10 +7,10 @@
     "league": "Basketball Bundesliga",
     "home_team": "Alba Berlin",
     "away_team": "Brose Bamberg",
-    "entity_name": NaN,
-    "stat_name": NaN,
-    "stat_value": NaN,
-    "secondary_value": NaN,
+    "entity_name": null,
+    "stat_name": null,
+    "stat_value": null,
+    "secondary_value": null,
     "market_line": -5.5,
     "current_line": -5.5,
     "open_line": -4.5,
@@ -38,5 +38,28 @@
     "projected_home_score": 91.2,
     "projected_away_score": 72.4,
     "projected_total": 163.6
+  },
+  {
+    "match": "Luanda Villa SC vs Mombassa United",
+    "league": "Angola Girabola",
+    "date": "2026-06-01",
+    "actual_score": "1-0",
+    "home_goals": 1,
+    "away_goals": 0,
+    "total_goals": 1,
+    "actual_corners": 7,
+    "home_corners": 2,
+    "away_corners": 7,
+    "model_predictions": {
+      "goals_total": {"prediction": "Under 2.5", "probability": 0.365, "correct": true},
+      "btts": {"prediction": "BTTS No", "probability": 0.209, "correct": true},
+      "corners": {"prediction": "Under 9.5", "probability": 0.057, "correct": true}
+    },
+    "model_accuracy": {
+      "goals_total": "Correct - Actual 1 goal vs Under 2.5",
+      "btts": "Correct - Both teams did NOT score (1-0)",
+      "corners": "Correct - Actual 7 corners vs Under 9.5"
+    },
+    "logged_at": "2026-06-01T16:00:00.000000"
   }
 ]
