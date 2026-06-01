@@ -1,0 +1,54 @@
+{
+  "match": "Luanda Villa SC vs Mombassa United",
+  "league": "Angola Girabola",
+  "date": "2026-06-01",
+  "sport": "Soccer",
+  "actual_score": "1-0",
+  "home_team": "Luanda Villa SC",
+  "away_team": "Mombassa United",
+  "home_goals": 1,
+  "away_goals": 0,
+  "total_goals": 1,
+  "actual_corners": {
+    "total": 7,
+    "home": 2,
+    "away": 7
+  },
+  "model_predictions": {
+    "goals_total": {
+      "prediction": "Under 2.5",
+      "probability": 0.365,
+      "actual": 1,
+      "correct": true,
+      "notes": "Model correctly predicted under 2.5 goals - only 1 goal scored"
+    },
+    "btts": {
+      "prediction": "BTTS No",
+      "probability": 0.209,
+      "actual": "Only home team scored",
+      "correct": true,
+      "notes": "Model correctly predicted both teams would NOT score"
+    },
+    "corners": {
+      "prediction": "Under 9.5",
+      "probability": 0.057,
+      "actual": 7,
+      "correct": true,
+      "notes": "Model correctly predicted under 9.5 corners - only 7 corners"
+    }
+  },
+  "model_accuracy": {
+    "goals_total": "CORRECT - Actual 1 goal vs Under 2.5 prediction",
+    "btts": "CORRECT - Both teams did NOT score (1-0 final)",
+    "corners": "CORRECT - Actual 7 corners vs Under 9.5 prediction",
+    "overall": "3/3 predictions CORRECT (100% accuracy)"
+  },
+  "model_details": {
+    "model_score": 5.669,
+    "model_edge": 5.45,
+    "market_line": -0.5,
+    "open_line": -0.25,
+    "line_movement": -0.25
+  },
+  "logged_at": "2026-06-01T16:00:00.000000"
+}

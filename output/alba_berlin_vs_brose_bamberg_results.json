@@ -1,0 +1,52 @@
+{
+  "match": "Alba Berlin vs Brose Bamberg",
+  "league": "Basketball Bundesliga",
+  "date": "2026-06-01",
+  "sport": "Basketball",
+  "actual_score": "85-71",
+  "home_team": "Alba Berlin",
+  "away_team": "Brose Bamberg",
+  "home_points": 85,
+  "away_points": 71,
+  "actual_total": 156,
+  "model_predictions": {
+    "winner": {
+      "prediction": "Alba Berlin",
+      "probability": 0.8399,
+      "correct": true,
+      "notes": "Model correctly predicted Alba Berlin would win with 83.99% confidence"
+    },
+    "total_points": {
+      "projected": 163.6,
+      "actual": 156,
+      "difference": 7.6,
+      "correct": false,
+      "notes": "Model overestimated total points by 7.6"
+    },
+    "point_spread": {
+      "projected_margin": 18.8,
+      "actual_margin": 14,
+      "notes": "Model projected Alba Berlin by ~19 points, actual margin was 14"
+    }
+  },
+  "model_accuracy": {
+    "winner": "CORRECT - Alba Berlin won 85-71 (model had 83.99% win probability)",
+    "total_points": "INCORRECT - Projected 163.6, Actual 156 (7.6 points off)",
+    "point_spread": "CLOSE - Projected -18.8, Actual -14 (4.8 points off)"
+  },
+  "additional_predictions": {
+    "q1_winner": {
+      "projection": "Alba Berlin Q1 -2.2",
+      "probability": 0.653,
+      "notes": "Q1 projected score: Alba Berlin 20.9 - Brose Bamberg 18.2"
+    }
+  },
+  "model_details": {
+    "model_score": 8.143,
+    "model_edge": 6.49,
+    "market_line": -5.5,
+    "open_line": -4.5,
+    "line_movement": -1.0
+  },
+  "logged_at": "2026-06-01T16:00:00.000000"
+}
