@@ -367,7 +367,7 @@ def eu_home_away_split(home_split_edge: float, away_split_edge: float) -> float:
 
 def eu_score_to_prob(score: float) -> float:
     """Convert raw score to win probability (European version)"""
-    return clamp(sigmoid(score - 4.0) * 2.5)
+    return clamp(sigmoid((score - 4.0) / 2.5))
 
 
 def eu_recommendation(prob: float, market_ok: bool) -> str:
@@ -803,7 +803,16 @@ class SoccerHandicapper:
 
 def poisson_pmf(k: int, lam: float) -> float:
     """Poisson probability mass function"""
-    return math.exp(-lam) * lam**k / math.factorial(k)
+    if lam <= 0:
+        return 0.0 if k > 0 else 1.0
+    if k < 0:
+        return 0.0
+    # Use logarithms to avoid overflow for large k
+    try:
+        log_pmf = -lam + k * math.log(lam) - math.lgamma(k + 1)
+        return math.exp(log_pmf)
+    except (ValueError, OverflowError):
+        return 0.0
 
 
 def poisson_over_prob(lam: float, line: float) -> float:
