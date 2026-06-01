@@ -37,7 +37,20 @@
     "probability": 0.6537,
     "projected_home_score": 91.2,
     "projected_away_score": 72.4,
-    "projected_total": 163.6
+    "projected_total": 163.6,
+    "actual_score": "85-71",
+    "home_points": 85,
+    "away_points": 71,
+    "actual_total": 156,
+    "model_predictions": {
+      "winner": {"prediction": "Alba Berlin", "probability": 0.8399, "correct": true},
+      "total_points": {"prediction": "Over 163.5", "projected": 163.6, "actual": 156, "correct": false}
+    },
+    "model_accuracy": {
+      "winner": "Correct - Alba Berlin won 85-71 (model had 83.99% win probability)",
+      "total_points": "Incorrect - Projected 163.6, Actual 156 (7.6 points off)"
+    },
+    "logged_at": "2026-06-01T16:00:00.000000"
   },
   {
     "match": "Luanda Villa SC vs Mombassa United",
