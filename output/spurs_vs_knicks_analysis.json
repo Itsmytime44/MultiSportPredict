@@ -1,0 +1,207 @@
+{
+  "game_info": {
+    "home_team": "San Antonio Spurs",
+    "away_team": "New York Knicks",
+    "league": "NBA",
+    "date": "2026-06-03",
+    "venue": "AT&T Center, San Antonio"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 112.5,
+      "drtg": 115.2,
+      "baseline_net": -2.7,
+      "recent_net": -1.5,
+      "pace": 99.5,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 3.2,
+      "rotation_depth": 9,
+      "injury_status": "yellow",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 114.8,
+      "drtg": 110.5,
+      "baseline_net": 4.3,
+      "recent_net": 5.2,
+      "pace": 97.2,
+      "rest_days": 1,
+      "travel_km": 350,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": -1.8,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": -3.5,
+    "current_line": -4.0,
+    "spread": -4.0,
+    "total": 218.5
+  },
+  "projections": {
+    "home_score": 84.8,
+    "away_score": 75.6,
+    "total": 160.4,
+    "spread": 9.2,
+    "home_win_prob": 0.444,
+    "away_win_prob": 0.556
+  },
+  "q1_projections": {
+    "home_q1_points": 27.6,
+    "away_q1_points": 26.3,
+    "q1_spread": 1.3,
+    "q1_total": 54.0,
+    "q1_prob_home_win": 0.575,
+    "q1_prob_home_ml": 0.569,
+    "q1_pace_factor": 1.41,
+    "q1_ctx_adjustment": -0.6
+  },
+  "recommendations": {
+    "full_game_spread": "Pass",
+    "full_game_total": "Under 218.5",
+    "q1_spread": "Home Q1 1.3"
+  },
+  "model_details": {
+    "efficiency_gap": -7.0,
+    "historical_gap": 0.12,
+    "pace_gap": 2.3,
+    "rest_gap": 2,
+    "split_gap": 5.0,
+    "context_gap": -2,
+    "model_score": 3.441,
+    "model_prob": 0.4443
+  },
+  "confidence": "MEDIUM",
+  "timestamp": "2026-06-03T17:59:44.734000",
+  "player_props": [
+    {
+      "player_name": "Victor Wembanyama",
+      "team": "San Antonio Spurs",
+      "prop_type": "Points",
+      "prop_line": 24.5,
+      "model_projection": 25.2,
+      "edge": 6.06,
+      "model_prob": 0.695,
+      "lean": "Lean Over Victor Wembanyama Points",
+      "details": "player_avg=25.20; minutes=32.00; usage=28.50; pace=98.35"
+    },
+    {
+      "player_name": "Victor Wembanyama",
+      "team": "San Antonio Spurs",
+      "prop_type": "Rebounds",
+      "prop_line": 10.5,
+      "model_projection": 10.8,
+      "edge": 5.8,
+      "model_prob": 0.673,
+      "lean": "Lean Over Victor Wembanyama Rebounds",
+      "details": "player_avg=10.80; minutes=32.00; usage=28.50; pace=98.35"
+    },
+    {
+      "player_name": "Victor Wembanyama",
+      "team": "San Antonio Spurs",
+      "prop_type": "Blocks",
+      "prop_line": 3.5,
+      "model_projection": 3.8,
+      "edge": 6.05,
+      "model_prob": 0.694,
+      "lean": "Lean Over Victor Wembanyama Blocks",
+      "details": "player_avg=3.80; minutes=32.00; usage=28.50; pace=98.35"
+    },
+    {
+      "player_name": "Devin Vassell",
+      "team": "San Antonio Spurs",
+      "prop_type": "Points",
+      "prop_line": 18.5,
+      "model_projection": 19.2,
+      "edge": 4.27,
+      "model_prob": 0.527,
+      "lean": "Pass",
+      "details": "player_avg=19.20; minutes=30.00; usage=24.00; pace=98.35"
+    },
+    {
+      "player_name": "Devin Vassell",
+      "team": "San Antonio Spurs",
+      "prop_type": "3-Pointers Made",
+      "prop_line": 2.5,
+      "model_projection": 2.8,
+      "edge": 4.2,
+      "model_prob": 0.52,
+      "lean": "Pass",
+      "details": "player_avg=2.80; minutes=30.00; usage=24.00; pace=98.35"
+    },
+    {
+      "player_name": "Jalen Brunson",
+      "team": "New York Knicks",
+      "prop_type": "Points",
+      "prop_line": 27.5,
+      "model_projection": 28.1,
+      "edge": 5.47,
+      "model_prob": 0.643,
+      "lean": "Lean Over Jalen Brunson Points",
+      "details": "player_avg=28.10; minutes=35.00; usage=32.00; pace=98.35"
+    },
+    {
+      "player_name": "Jalen Brunson",
+      "team": "New York Knicks",
+      "prop_type": "Assists",
+      "prop_line": 6.5,
+      "model_projection": 6.8,
+      "edge": 5.61,
+      "model_prob": 0.655,
+      "lean": "Lean Over Jalen Brunson Assists",
+      "details": "player_avg=6.80; minutes=35.00; usage=32.00; pace=98.35"
+    },
+    {
+      "player_name": "Karl-Anthony Towns",
+      "team": "New York Knicks",
+      "prop_type": "Points",
+      "prop_line": 22.5,
+      "model_projection": 23.5,
+      "edge": 4.97,
+      "model_prob": 0.596,
+      "lean": "Pass",
+      "details": "player_avg=23.50; minutes=33.00; usage=26.00; pace=98.35"
+    },
+    {
+      "player_name": "Karl-Anthony Towns",
+      "team": "New York Knicks",
+      "prop_type": "Rebounds",
+      "prop_line": 9.5,
+      "model_projection": 10.2,
+      "edge": 5.05,
+      "model_prob": 0.603,
+      "lean": "Lean Over Karl-Anthony Towns Rebounds",
+      "details": "player_avg=10.20; minutes=33.00; usage=26.00; pace=98.35"
+    },
+    {
+      "player_name": "OG Anunoby",
+      "team": "New York Knicks",
+      "prop_type": "Points",
+      "prop_line": 15.5,
+      "model_projection": 15.8,
+      "edge": 3.92,
+      "model_prob": 0.492,
+      "lean": "Pass",
+      "details": "player_avg=15.80; minutes=32.00; usage=20.00; pace=98.35"
+    },
+    {
+      "player_name": "Miles McBride",
+      "team": "New York Knicks",
+      "prop_type": "3-Pointers Made",
+      "prop_line": 2.5,
+      "model_projection": 2.9,
+      "edge": 3.06,
+      "model_prob": 0.407,
+      "lean": "Pass",
+      "details": "player_avg=2.90; minutes=28.00; usage=18.00; pace=98.35"
+    }
+  ]
+}
