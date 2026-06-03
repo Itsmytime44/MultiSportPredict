@@ -1,0 +1,86 @@
+{
+  "game_info": {
+    "home_team": "Albania",
+    "away_team": "Israel",
+    "league": "International Friendly",
+    "date": "2026-06-03",
+    "venue": "Air Albania Stadium, Tirana"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.2,
+      "xg_against": 1.35,
+      "shots": 10.5,
+      "sot": 3.8,
+      "goals_for": 1.0,
+      "goals_against": 1.2,
+      "clean_sheets_last10": 3,
+      "missing_attacker": 1,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.1,
+      "width_crossing": 0.45,
+      "final_third_pressure": 0.45
+    },
+    "away": {
+      "xg_for": 1.35,
+      "xg_against": 1.2,
+      "shots": 11.8,
+      "sot": 4.3,
+      "goals_for": 1.2,
+      "goals_against": 1.0,
+      "clean_sheets_last10": 4,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.25,
+      "width_crossing": 0.55,
+      "final_third_pressure": 0.55
+    }
+  },
+  "market_data": {
+    "open_line": 2.5,
+    "current_line": 2.5,
+    "total": 2.5,
+    "corner_total": 9.5
+  },
+  "projections": {
+    "home_goals": 1.55,
+    "away_goals": 1.82,
+    "total_goals": 3.37,
+    "btts_probability": 0.525,
+    "corner_total": 10.2
+  },
+  "probabilities": {
+    "over_15": 0.8494,
+    "over_25": 0.6539,
+    "over_35": 0.4345,
+    "btts": 0.525,
+    "corners_over_85": 0.693,
+    "corners_over_95": 0.5711,
+    "corners_over_105": 0.4463
+  },
+  "recommendations": {
+    "goals_total": "Over 2.5",
+    "btts": "BTTS Yes",
+    "corners_total": "Over 2.5"
+  },
+  "model_details": {
+    "home_goal_strength": -0.48,
+    "away_goal_strength": 0.27,
+    "home_btts_strength": -0.2,
+    "away_btts_strength": 0.24,
+    "home_corner_strength": 0.41,
+    "away_corner_strength": 0.97,
+    "goals_model_score": 0.8675,
+    "goals_model_prob": 0.6539,
+    "btts_model_score": 0.1031,
+    "btts_model_prob": 0.6031,
+    "corners_model_score": 7.7346,
+    "corners_model_prob": 0.693
+  },
+  "confidence": "HIGH",
+  "timestamp": "2026-06-03T10:46:16.341555"
+}

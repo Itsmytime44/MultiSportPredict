@@ -1,0 +1,85 @@
+{
+  "game_info": {
+    "home_team": "UCAM Murcia",
+    "away_team": "FC Barcelona",
+    "league": "EuroLeague",
+    "date": "2026-06-02",
+    "venue": "Palacio de Deportes de Murcia"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 108.5,
+      "drtg": 112.3,
+      "baseline_net": -3.8,
+      "recent_net": -2.5,
+      "pace": 73.2,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 2.1,
+      "rotation_depth": 8,
+      "injury_status": "yellow",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 118.2,
+      "drtg": 105.8,
+      "baseline_net": 12.4,
+      "recent_net": 10.8,
+      "pace": 76.8,
+      "rest_days": 3,
+      "travel_km": 850,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": -1.2,
+      "rotation_depth": 10,
+      "injury_status": "yellow",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": 5.5,
+    "current_line": 6.5,
+    "total": 158.5
+  },
+  "projections": {
+    "home_score": 86.8,
+    "away_score": 75.0,
+    "total": 161.8,
+    "spread": 11.8,
+    "home_win_prob": 0.427,
+    "away_win_prob": 0.573
+  },
+  "q1_projections": {
+    "home_q1_points": 21.5,
+    "away_q1_points": 21.0,
+    "q1_spread": 0.5,
+    "q1_total": 42.4,
+    "q1_prob_home_win": 0.528,
+    "q1_prob_home_ml": 0.526,
+    "q1_pace_factor": 1.07,
+    "q1_ctx_adjustment": 0.0
+  },
+  "recommendations": {
+    "full_game_spread": "LEAN MURCIA +6.5",
+    "full_game_total": "LEAN OVER 158.5",
+    "full_game_moneyline": "PASS",
+    "q1_spread": "LEAN MURCIA Q1 -2.6",
+    "q1_total": "LEAN OVER Q1 39.6"
+  },
+  "model_details": {
+    "efficiency_gap": -16.2,
+    "historical_gap": 1.16,
+    "rest_gap": -1,
+    "split_gap": 3.3,
+    "context_gap": 0,
+    "pace_gap": -3.6,
+    "model_edge": 1.47,
+    "market_score": 2,
+    "total_score": 3.27
+  },
+  "timestamp": "2026-06-02T09:48:45.493511"
+}

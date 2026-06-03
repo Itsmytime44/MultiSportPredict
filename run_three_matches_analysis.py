@@ -1,0 +1,515 @@
+#!/usr/bin/env python
+"""
+Comprehensive Analysis for Three International Matches
+- Netherlands vs Algeria
+- Poland vs Nigeria  
+- Albania vs Israel
+International Friendlies - June 3, 2026
+"""
+
+import sys
+import json
+from datetime import datetime
+from pathlib import Path
+
+# Import the MultiSportModel functions
+from MultiSportModel import (
+    run_universal_match,
+    process_soccer_goals,
+    process_soccer_corners,
+    process_soccer_btts,
+    team_goal_strength,
+    team_btts_strength,
+    team_corner_strength,
+    estimate_team_goals,
+    estimate_btts_prob,
+    estimate_corner_total,
+    poisson_over_prob,
+    poisson_at_least_one,
+    sigmoid,
+    clamp,
+    market_recommendation,
+    btts_recommendation,
+)
+
+def analyze_match(home_team, away_team, home_data, away_data, market_data, venue, date="2026-06-03", league="International Friendly"):
+    """Analyze a single match and return results"""
+    
+    print("=" * 80)
+    print(f"COMPREHENSIVE MATCH ANALYSIS: {home_team} vs {away_team}")
+    print(f"{league} - {date}")
+    print("=" * 80)
+    print()
+    
+    # 1. TEAM OFFENSIVE ANALYSIS
+    print("1. TEAM OFFENSIVE ANALYSIS")
+    print("-" * 40)
+    
+    home_goal_strength = team_goal_strength(
+        home_data['xg_for'], home_data['xg_against'], home_data['shots'], home_data['sot'],
+        home_data['goals_for'], home_data['goals_against'], home_data['tempo'], 1,
+        home_data['missing_attacker'], home_data['missing_creator'], 
+        home_data['missing_cb'], home_data['missing_gk']
+    )
+    
+    away_goal_strength = team_goal_strength(
+        away_data['xg_for'], away_data['xg_against'], away_data['shots'], away_data['sot'],
+        away_data['goals_for'], away_data['goals_against'], away_data['tempo'], 0,
+        away_data['missing_attacker'], away_data['missing_creator'], 
+        away_data['missing_cb'], away_data['missing_gk']
+    )
+    
+    print(f"   {home_team} Goal Strength: {home_goal_strength:.2f}")
+    print(f"   {away_team} Goal Strength: {away_goal_strength:.2f}")
+    print(f"   Offensive Edge: {home_team if home_goal_strength > away_goal_strength else away_team}")
+    print()
+    
+    # 2. TEAM DEFENSIVE ANALYSIS
+    print("2. TEAM DEFENSIVE ANALYSIS")
+    print("-" * 40)
+    
+    home_btts_strength = team_btts_strength(
+        home_data['xg_for'], home_data['xg_against'], home_data['goals_for'], home_data['goals_against'],
+        home_data['sot'], home_data['tempo'], home_data['final_third_pressure'], 
+        home_data['missing_attacker'], home_data['missing_cb'], home_data['missing_gk'], 
+        home_data['clean_sheets_last10']
+    )
+    
+    away_btts_strength = team_btts_strength(
+        away_data['xg_for'], away_data['xg_against'], away_data['goals_for'], away_data['goals_against'],
+        away_data['sot'], away_data['tempo'], away_data['final_third_pressure'], 
+        away_data['missing_attacker'], away_data['missing_cb'], away_data['missing_gk'], 
+        away_data['clean_sheets_last10']
+    )
+    
+    print(f"   {home_team} BTTS Strength: {home_btts_strength:.2f}")
+    print(f"   {away_team} BTTS Strength: {away_btts_strength:.2f}")
+    print(f"   BTTS Lean: {'Yes' if (home_btts_strength + away_btts_strength) > 0 else 'No'}")
+    print()
+    
+    # 3. CORNER KICK ANALYSIS
+    print("3. CORNER KICK ANALYSIS")
+    print("-" * 40)
+    
+    home_corner_strength = team_corner_strength(
+        home_data['shots'], home_data['sot'], home_data['final_third_pressure'], 
+        home_data['width_crossing'], home_data['tempo'], 1,
+        home_data['missing_cb'], home_data['missing_gk'], home_data['missing_attacker']
+    )
+    
+    away_corner_strength = team_corner_strength(
+        away_data['shots'], away_data['sot'], away_data['final_third_pressure'], 
+        away_data['width_crossing'], away_data['tempo'], 0,
+        away_data['missing_cb'], away_data['missing_gk'], away_data['missing_attacker']
+    )
+    
+    print(f"   {home_team} Corner Strength: {home_corner_strength:.2f}")
+    print(f"   {away_team} Corner Strength: {away_corner_strength:.2f}")
+    print()
+    
+    # 4. EXPECTED GOALS PROJECTION
+    print("4. EXPECTED GOALS PROJECTION")
+    print("-" * 40)
+    
+    home_lam = estimate_team_goals(
+        home_data['xg_for'], home_data['sot'], home_data['tempo'], 1,
+        home_data['missing_attacker'], home_data['missing_creator'],
+        away_data['xg_against'], away_data['missing_cb'], away_data['missing_gk']
+    )
+    
+    away_lam = estimate_team_goals(
+        away_data['xg_for'], away_data['sot'], away_data['tempo'], 0,
+        away_data['missing_attacker'], away_data['missing_creator'],
+        home_data['xg_against'], home_data['missing_cb'], home_data['missing_gk']
+    )
+    
+    total_lam = home_lam + away_lam
+    
+    print(f"   {home_team} Expected Goals: {home_lam:.2f}")
+    print(f"   {away_team} Expected Goals: {away_lam:.2f}")
+    print(f"   Total Expected Goals: {total_lam:.2f}")
+    print()
+    
+    # 5. GOALS MARKET PROBABILITIES
+    print("5. GOALS MARKET PROBABILITIES")
+    print("-" * 40)
+    
+    p_over_15 = poisson_over_prob(total_lam, 1.5)
+    p_over_25 = poisson_over_prob(total_lam, 2.5)
+    p_over_35 = poisson_over_prob(total_lam, 3.5)
+    
+    print(f"   Over 1.5 Goals Probability: {p_over_15:.3f}")
+    print(f"   Over 2.5 Goals Probability: {p_over_25:.3f}")
+    print(f"   Over 3.5 Goals Probability: {p_over_35:.3f}")
+    print()
+    
+    # 6. BTTS ANALYSIS
+    print("6. BTTS ANALYSIS")
+    print("-" * 40)
+    
+    btts_prob = estimate_btts_prob(home_data['xg_for'], away_data['xg_for'], 
+                                   home_btts_strength, away_btts_strength)
+    
+    defensive_weakness = (home_data['xg_against'] + away_data['xg_against'] - 2.5) * 0.05
+    btts_prob = clamp(btts_prob + defensive_weakness)
+    
+    missing_defenders = (home_data['missing_cb'] + home_data['missing_gk'] + 
+                        away_data['missing_cb'] + away_data['missing_gk']) * 0.02
+    btts_prob = clamp(btts_prob + missing_defenders)
+    
+    tempo_factor = (home_data['tempo'] + away_data['tempo']) * 0.03
+    btts_prob = clamp(btts_prob + tempo_factor)
+    
+    print(f"   BTTS Probability: {btts_prob:.3f}")
+    print(f"   BTTS Recommendation: {btts_recommendation(btts_prob)}")
+    print()
+    
+    # 7. CORNERS PROJECTION
+    print("7. CORNERS PROJECTION")
+    print("-" * 40)
+    
+    corner_total = estimate_corner_total(
+        home_corner_strength, away_corner_strength,
+        weather_penalty=0, referee_flow=0,
+        must_win_home=0, must_win_away=0
+    )
+    
+    p_corners_85 = poisson_over_prob(corner_total, 8.5)
+    p_corners_95 = poisson_over_prob(corner_total, 9.5)
+    p_corners_105 = poisson_over_prob(corner_total, 10.5)
+    
+    print(f"   Projected Total Corners: {corner_total:.1f}")
+    print(f"   Over 8.5 Corners Probability: {p_corners_85:.3f}")
+    print(f"   Over 9.5 Corners Probability: {p_corners_95:.3f}")
+    print(f"   Over 10.5 Corners Probability: {p_corners_105:.3f}")
+    print()
+    
+    # 8. MARKET LINE ANALYSIS
+    print("8. MARKET LINE ANALYSIS")
+    print("-" * 40)
+    
+    if market_data['total'] <= 1.5:
+        prob_over = p_over_15
+    elif market_data['total'] <= 2.5:
+        prob_over = p_over_25
+    else:
+        prob_over = p_over_35
+    
+    goals_lean = market_recommendation(prob_over, market_data['total'])
+    
+    if market_data['corner_total'] <= 8.5:
+        prob_corners_over = p_corners_85
+    elif market_data['corner_total'] <= 9.5:
+        prob_corners_over = p_corners_95
+    else:
+        prob_corners_over = p_corners_105
+    
+    corners_lean = market_recommendation(prob_corners_over, market_data['corner_total'])
+    
+    print(f"   Goals Total Line: {market_data['total']}")
+    print(f"   Goals Recommendation: {goals_lean}")
+    print(f"   Corners Total Line: {market_data['corner_total']}")
+    print(f"   Corners Recommendation: {corners_lean}")
+    print()
+    
+    # 9. UNIVERSAL MODEL ANALYSIS
+    print("9. UNIVERSAL MODEL ANALYSIS")
+    print("-" * 40)
+    
+    core = {
+        'home_team': home_team,
+        'away_team': away_team,
+        'league': league,
+        'date': date,
+        'market_line': market_data['total'],
+        'current_line': market_data['current_line'],
+        'open_line': market_data['open_line'],
+    }
+    
+    goals_metrics = {
+        'home_xg_for': home_data['xg_for'],
+        'home_xg_against': home_data['xg_against'],
+        'home_shots': home_data['shots'],
+        'home_sot': home_data['sot'],
+        'home_goals_for': home_data['goals_for'],
+        'home_goals_against': home_data['goals_against'],
+        'home_clean_sheets_last10': home_data['clean_sheets_last10'],
+        'home_missing_attacker': home_data['missing_attacker'],
+        'home_missing_creator': home_data['missing_creator'],
+        'home_missing_cb': home_data['missing_cb'],
+        'home_missing_gk': home_data['missing_gk'],
+        'home_tempo': home_data['tempo'],
+        'home_width_crossing': home_data['width_crossing'],
+        'home_final_third_pressure': home_data['final_third_pressure'],
+        'away_xg_for': away_data['xg_for'],
+        'away_xg_against': away_data['xg_against'],
+        'away_shots': away_data['shots'],
+        'away_sot': away_data['sot'],
+        'away_goals_for': away_data['goals_for'],
+        'away_goals_against': away_data['goals_against'],
+        'away_clean_sheets_last10': away_data['clean_sheets_last10'],
+        'away_missing_attacker': away_data['missing_attacker'],
+        'away_missing_creator': away_data['missing_creator'],
+        'away_missing_cb': away_data['missing_cb'],
+        'away_missing_gk': away_data['missing_gk'],
+        'away_tempo': away_data['tempo'],
+        'away_width_crossing': away_data['width_crossing'],
+        'away_final_third_pressure': away_data['final_third_pressure'],
+    }
+    
+    goals_result = run_universal_match('soccer_goals', core, goals_metrics)
+    btts_result = run_universal_match('soccer_btts', core, goals_metrics)
+    corners_result = run_universal_match('soccer_corners', core, goals_metrics)
+    
+    print(f"   Goals Model Score: {goals_result['model_score']:.2f}")
+    print(f"   Goals Model Probability: {goals_result['model_prob']:.3f}")
+    print(f"   Goals Recommendation: {goals_result['lean']}")
+    print()
+    print(f"   BTTS Model Score: {btts_result['model_score']:.2f}")
+    print(f"   BTTS Model Probability: {btts_result['model_prob']:.3f}")
+    print(f"   BTTS Recommendation: {btts_result['lean']}")
+    print()
+    print(f"   Corners Model Score: {corners_result['model_score']:.2f}")
+    print(f"   Corners Model Probability: {corners_result['model_prob']:.3f}")
+    print(f"   Corners Recommendation: {corners_result['lean']}")
+    print()
+    
+    # 10. BETTING RECOMMENDATIONS
+    print("10. BETTING RECOMMENDATIONS")
+    print("-" * 40)
+    
+    recommendations = {
+        'goals_total': goals_result['lean'],
+        'btts': btts_result['lean'],
+        'corners_total': corners_result['lean'],
+    }
+    
+    for market, rec in recommendations.items():
+        print(f"   {market.replace('_', ' ').title()}: {rec}")
+    print()
+    
+    # 11. KEY FACTORS SUMMARY
+    print("11. KEY HANDICAPPING FACTORS SUMMARY")
+    print("-" * 40)
+    print()
+    print(f"   FACTORS FAVORING {home_team.upper()}:")
+    print(f"   [+] Home advantage")
+    if home_data['xg_for'] > away_data['xg_for']:
+        print(f"   [+] Better xG for ({home_data['xg_for']:.2f} vs {away_data['xg_for']:.2f})")
+    if home_data['shots'] > away_data['shots']:
+        print(f"   [+] More shots per game ({home_data['shots']:.1f} vs {away_data['shots']:.1f})")
+    if home_data['goals_against'] < away_data['goals_against']:
+        print(f"   [+] Better defensive record ({home_data['goals_against']:.1f} GA vs {away_data['goals_against']:.1f} GA)")
+    if home_data['clean_sheets_last10'] > away_data['clean_sheets_last10']:
+        print(f"   [+] More clean sheets ({home_data['clean_sheets_last10']} vs {away_data['clean_sheets_last10']} in last 10)")
+    print()
+    
+    print(f"   FACTORS FAVORING {away_team.upper()}:")
+    if away_data['tempo'] > home_data['tempo']:
+        print(f"   [+] Faster tempo could create chances")
+    if home_data['missing_creator'] > 0:
+        print(f"   [+] {home_team} missing creative players")
+    print()
+    
+    # Determine confidence
+    max_prob = max(goals_result['model_prob'], btts_result['model_prob'], corners_result['model_prob'])
+    if max_prob >= 0.65:
+        confidence = "HIGH"
+    elif max_prob >= 0.58:
+        confidence = "MEDIUM"
+    else:
+        confidence = "LOW"
+    
+    # FINAL SUMMARY
+    print("=" * 80)
+    print("FINAL ANALYSIS SUMMARY")
+    print("=" * 80)
+    print()
+    print(f"   Projected Score: {home_team} {home_lam:.1f} - {away_team} {away_lam:.1f}")
+    print(f"   Total Expected Goals: {total_lam:.2f}")
+    print(f"   BTTS Probability: {btts_prob:.1%}")
+    print(f"   Projected Corners: {corner_total:.0f}")
+    print()
+    print("   PRIMARY RECOMMENDATIONS:")
+    for market, rec in recommendations.items():
+        print(f"   - {market.replace('_', ' ').title()}: {rec}")
+    print()
+    print(f"   CONFIDENCE LEVEL: {confidence}")
+    print()
+    
+    # Return results dictionary
+    results = {
+        "game_info": {
+            "home_team": home_team,
+            "away_team": away_team,
+            "league": league,
+            "date": date,
+            "venue": venue
+        },
+        "team_metrics": {
+            "home": home_data,
+            "away": away_data
+        },
+        "market_data": market_data,
+        "projections": {
+            "home_goals": round(home_lam, 2),
+            "away_goals": round(away_lam, 2),
+            "total_goals": round(total_lam, 2),
+            "btts_probability": round(btts_prob, 4),
+            "corner_total": round(corner_total, 1)
+        },
+        "probabilities": {
+            "over_15": round(p_over_15, 4),
+            "over_25": round(p_over_25, 4),
+            "over_35": round(p_over_35, 4),
+            "btts": round(btts_prob, 4),
+            "corners_over_85": round(p_corners_85, 4),
+            "corners_over_95": round(p_corners_95, 4),
+            "corners_over_105": round(p_corners_105, 4)
+        },
+        "recommendations": recommendations,
+        "model_details": {
+            "home_goal_strength": round(home_goal_strength, 2),
+            "away_goal_strength": round(away_goal_strength, 2),
+            "home_btts_strength": round(home_btts_strength, 2),
+            "away_btts_strength": round(away_btts_strength, 2),
+            "home_corner_strength": round(home_corner_strength, 2),
+            "away_corner_strength": round(away_corner_strength, 2),
+            "goals_model_score": goals_result['model_score'],
+            "goals_model_prob": goals_result['model_prob'],
+            "btts_model_score": btts_result['model_score'],
+            "btts_model_prob": btts_result['model_prob'],
+            "corners_model_score": corners_result['model_score'],
+            "corners_model_prob": corners_result['model_prob'],
+        },
+        "confidence": confidence,
+        "timestamp": datetime.now().isoformat()
+    }
+    
+    return results
+
+
+def run_comprehensive_analysis():
+    """Run comprehensive analysis for all three matches"""
+    
+    print("=" * 80)
+    print("COMPREHENSIVE ANALYSIS: THREE INTERNATIONAL MATCHES")
+    print("June 3, 2026")
+    print("=" * 80)
+    print()
+    
+    # Define match data
+    matches = [
+        {
+            "home_team": "Netherlands",
+            "away_team": "Algeria",
+            "venue": "Johan Cruyff Arena, Amsterdam",
+            "home_data": {
+                'xg_for': 1.65, 'xg_against': 0.95, 'shots': 13.2, 'sot': 5.1,
+                'goals_for': 1.5, 'goals_against': 0.9, 'clean_sheets_last10': 5,
+                'missing_attacker': 0, 'missing_creator': 0, 'missing_cb': 0, 'missing_gk': 0,
+                'tempo': 0.4, 'width_crossing': 0.7, 'final_third_pressure': 0.65
+            },
+            "away_data": {
+                'xg_for': 1.15, 'xg_against': 1.40, 'shots': 9.8, 'sot': 3.5,
+                'goals_for': 1.0, 'goals_against': 1.3, 'clean_sheets_last10': 2,
+                'missing_attacker': 1, 'missing_creator': 1, 'missing_cb': 0, 'missing_gk': 0,
+                'tempo': 0.1, 'width_crossing': 0.4, 'final_third_pressure': 0.45
+            },
+            "market_data": {'open_line': 2.5, 'current_line': 2.5, 'total': 2.5, 'corner_total': 9.5}
+        },
+        {
+            "home_team": "Poland",
+            "away_team": "Nigeria",
+            "venue": "PGE Narodowy, Warsaw",
+            "home_data": {
+                'xg_for': 1.45, 'xg_against': 1.15, 'shots': 12.0, 'sot': 4.5,
+                'goals_for': 1.3, 'goals_against': 1.0, 'clean_sheets_last10': 4,
+                'missing_attacker': 0, 'missing_creator': 1, 'missing_cb': 1, 'missing_gk': 0,
+                'tempo': 0.2, 'width_crossing': 0.55, 'final_third_pressure': 0.55
+            },
+            "away_data": {
+                'xg_for': 1.30, 'xg_against': 1.25, 'shots': 11.2, 'sot': 4.0,
+                'goals_for': 1.2, 'goals_against': 1.1, 'clean_sheets_last10': 3,
+                'missing_attacker': 0, 'missing_creator': 0, 'missing_cb': 0, 'missing_gk': 1,
+                'tempo': 0.3, 'width_crossing': 0.5, 'final_third_pressure': 0.50
+            },
+            "market_data": {'open_line': 2.5, 'current_line': 2.5, 'total': 2.5, 'corner_total': 9.5}
+        },
+        {
+            "home_team": "Albania",
+            "away_team": "Israel",
+            "venue": "Air Albania Stadium, Tirana",
+            "home_data": {
+                'xg_for': 1.20, 'xg_against': 1.35, 'shots': 10.5, 'sot': 3.8,
+                'goals_for': 1.0, 'goals_against': 1.2, 'clean_sheets_last10': 3,
+                'missing_attacker': 1, 'missing_creator': 0, 'missing_cb': 0, 'missing_gk': 0,
+                'tempo': 0.1, 'width_crossing': 0.45, 'final_third_pressure': 0.45
+            },
+            "away_data": {
+                'xg_for': 1.35, 'xg_against': 1.20, 'shots': 11.8, 'sot': 4.3,
+                'goals_for': 1.2, 'goals_against': 1.0, 'clean_sheets_last10': 4,
+                'missing_attacker': 0, 'missing_creator': 0, 'missing_cb': 0, 'missing_gk': 0,
+                'tempo': 0.25, 'width_crossing': 0.55, 'final_third_pressure': 0.55
+            },
+            "market_data": {'open_line': 2.5, 'current_line': 2.5, 'total': 2.5, 'corner_total': 9.5}
+        }
+    ]
+    
+    all_results = []
+    
+    for match in matches:
+        result = analyze_match(
+            match["home_team"], match["away_team"],
+            match["home_data"], match["away_data"],
+            match["market_data"], match["venue"]
+        )
+        all_results.append(result)
+        
+        # Save individual match results
+        output_path = Path(f"output/{match['home_team'].lower()}_vs_{match['away_team'].lower()}_analysis.json")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        with open(output_path, 'w') as f:
+            json.dump(result, f, indent=2)
+        
+        print(f"   Detailed results saved to: {output_path}")
+        print()
+    
+    # Print overall summary
+    print("=" * 80)
+    print("OVERALL SUMMARY - ALL THREE MATCHES")
+    print("=" * 80)
+    print()
+    
+    for result in all_results:
+        home = result['game_info']['home_team']
+        away = result['game_info']['away_team']
+        proj = result['projections']
+        rec = result['recommendations']
+        conf = result['confidence']
+        
+        print(f"{home} vs {away}:")
+        print(f"  Projected: {proj['home_goals']:.1f} - {proj['away_goals']:.1f} (Total: {proj['total_goals']:.2f})")
+        print(f"  Recommendations: Goals={rec['goals_total']}, BTTS={rec['btts']}, Corners={rec['corners_total']}")
+        print(f"  Confidence: {conf}")
+        print()
+    
+    # Save combined results
+    combined_results = {
+        "analysis_date": datetime.now().isoformat(),
+        "matches_analyzed": 3,
+        "results": all_results
+    }
+    
+    combined_path = Path("output/three_matches_analysis.json")
+    with open(combined_path, 'w') as f:
+        json.dump(combined_results, f, indent=2)
+    
+    print(f"Combined results saved to: {combined_path}")
+    print()
+    print("=" * 80)
+
+
+if __name__ == "__main__":
+    run_comprehensive_analysis()

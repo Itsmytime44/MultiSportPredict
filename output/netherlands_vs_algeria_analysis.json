@@ -1,0 +1,86 @@
+{
+  "game_info": {
+    "home_team": "Netherlands",
+    "away_team": "Algeria",
+    "league": "International Friendly",
+    "date": "2026-06-03",
+    "venue": "Johan Cruyff Arena, Amsterdam"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.65,
+      "xg_against": 0.95,
+      "shots": 13.2,
+      "sot": 5.1,
+      "goals_for": 1.5,
+      "goals_against": 0.9,
+      "clean_sheets_last10": 5,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.4,
+      "width_crossing": 0.7,
+      "final_third_pressure": 0.65
+    },
+    "away": {
+      "xg_for": 1.15,
+      "xg_against": 1.4,
+      "shots": 9.8,
+      "sot": 3.5,
+      "goals_for": 1.0,
+      "goals_against": 1.3,
+      "clean_sheets_last10": 2,
+      "missing_attacker": 1,
+      "missing_creator": 1,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.1,
+      "width_crossing": 0.4,
+      "final_third_pressure": 0.45
+    }
+  },
+  "market_data": {
+    "open_line": 2.5,
+    "current_line": 2.5,
+    "total": 2.5,
+    "corner_total": 9.5
+  },
+  "projections": {
+    "home_goals": 2.23,
+    "away_goals": 1.2,
+    "total_goals": 3.43,
+    "btts_probability": 0.5499,
+    "corner_total": 10.6
+  },
+  "probabilities": {
+    "over_15": 0.8571,
+    "over_25": 0.667,
+    "over_35": 0.4493,
+    "btts": 0.5499,
+    "corners_over_85": 0.7307,
+    "corners_over_95": 0.6147,
+    "corners_over_105": 0.4917
+  },
+  "recommendations": {
+    "goals_total": "Over 2.5",
+    "btts": "BTTS Yes",
+    "corners_total": "Over 2.5"
+  },
+  "model_details": {
+    "home_goal_strength": 1.47,
+    "away_goal_strength": -1.16,
+    "home_btts_strength": 0.46,
+    "away_btts_strength": -0.21,
+    "home_corner_strength": 2.04,
+    "away_corner_strength": -0.18,
+    "goals_model_score": 0.935,
+    "goals_model_prob": 0.667,
+    "btts_model_score": 0.0897,
+    "btts_model_prob": 0.5897,
+    "corners_model_score": 8.101,
+    "corners_model_prob": 0.7307
+  },
+  "confidence": "HIGH",
+  "timestamp": "2026-06-03T10:46:16.332229"
+}

@@ -1,0 +1,264 @@
+{
+  "analysis_date": "2026-06-03T10:46:16.346081",
+  "matches_analyzed": 3,
+  "results": [
+    {
+      "game_info": {
+        "home_team": "Netherlands",
+        "away_team": "Algeria",
+        "league": "International Friendly",
+        "date": "2026-06-03",
+        "venue": "Johan Cruyff Arena, Amsterdam"
+      },
+      "team_metrics": {
+        "home": {
+          "xg_for": 1.65,
+          "xg_against": 0.95,
+          "shots": 13.2,
+          "sot": 5.1,
+          "goals_for": 1.5,
+          "goals_against": 0.9,
+          "clean_sheets_last10": 5,
+          "missing_attacker": 0,
+          "missing_creator": 0,
+          "missing_cb": 0,
+          "missing_gk": 0,
+          "tempo": 0.4,
+          "width_crossing": 0.7,
+          "final_third_pressure": 0.65
+        },
+        "away": {
+          "xg_for": 1.15,
+          "xg_against": 1.4,
+          "shots": 9.8,
+          "sot": 3.5,
+          "goals_for": 1.0,
+          "goals_against": 1.3,
+          "clean_sheets_last10": 2,
+          "missing_attacker": 1,
+          "missing_creator": 1,
+          "missing_cb": 0,
+          "missing_gk": 0,
+          "tempo": 0.1,
+          "width_crossing": 0.4,
+          "final_third_pressure": 0.45
+        }
+      },
+      "market_data": {
+        "open_line": 2.5,
+        "current_line": 2.5,
+        "total": 2.5,
+        "corner_total": 9.5
+      },
+      "projections": {
+        "home_goals": 2.23,
+        "away_goals": 1.2,
+        "total_goals": 3.43,
+        "btts_probability": 0.5499,
+        "corner_total": 10.6
+      },
+      "probabilities": {
+        "over_15": 0.8571,
+        "over_25": 0.667,
+        "over_35": 0.4493,
+        "btts": 0.5499,
+        "corners_over_85": 0.7307,
+        "corners_over_95": 0.6147,
+        "corners_over_105": 0.4917
+      },
+      "recommendations": {
+        "goals_total": "Over 2.5",
+        "btts": "BTTS Yes",
+        "corners_total": "Over 2.5"
+      },
+      "model_details": {
+        "home_goal_strength": 1.47,
+        "away_goal_strength": -1.16,
+        "home_btts_strength": 0.46,
+        "away_btts_strength": -0.21,
+        "home_corner_strength": 2.04,
+        "away_corner_strength": -0.18,
+        "goals_model_score": 0.935,
+        "goals_model_prob": 0.667,
+        "btts_model_score": 0.0897,
+        "btts_model_prob": 0.5897,
+        "corners_model_score": 8.101,
+        "corners_model_prob": 0.7307
+      },
+      "confidence": "HIGH",
+      "timestamp": "2026-06-03T10:46:16.332229"
+    },
+    {
+      "game_info": {
+        "home_team": "Poland",
+        "away_team": "Nigeria",
+        "league": "International Friendly",
+        "date": "2026-06-03",
+        "venue": "PGE Narodowy, Warsaw"
+      },
+      "team_metrics": {
+        "home": {
+          "xg_for": 1.45,
+          "xg_against": 1.15,
+          "shots": 12.0,
+          "sot": 4.5,
+          "goals_for": 1.3,
+          "goals_against": 1.0,
+          "clean_sheets_last10": 4,
+          "missing_attacker": 0,
+          "missing_creator": 1,
+          "missing_cb": 1,
+          "missing_gk": 0,
+          "tempo": 0.2,
+          "width_crossing": 0.55,
+          "final_third_pressure": 0.55
+        },
+        "away": {
+          "xg_for": 1.3,
+          "xg_against": 1.25,
+          "shots": 11.2,
+          "sot": 4.0,
+          "goals_for": 1.2,
+          "goals_against": 1.1,
+          "clean_sheets_last10": 3,
+          "missing_attacker": 0,
+          "missing_creator": 0,
+          "missing_cb": 0,
+          "missing_gk": 1,
+          "tempo": 0.3,
+          "width_crossing": 0.5,
+          "final_third_pressure": 0.5
+        }
+      },
+      "market_data": {
+        "open_line": 2.5,
+        "current_line": 2.5,
+        "total": 2.5,
+        "corner_total": 9.5
+      },
+      "projections": {
+        "home_goals": 1.99,
+        "away_goals": 1.81,
+        "total_goals": 3.8,
+        "btts_probability": 0.6427,
+        "corner_total": 11.1
+      },
+      "probabilities": {
+        "over_15": 0.8924,
+        "over_25": 0.7307,
+        "over_35": 0.526,
+        "btts": 0.6427,
+        "corners_over_85": 0.7761,
+        "corners_over_95": 0.6695,
+        "corners_over_105": 0.5511
+      },
+      "recommendations": {
+        "goals_total": "Over 2.5",
+        "btts": "BTTS Yes",
+        "corners_total": "Over 2.5"
+      },
+      "model_details": {
+        "home_goal_strength": 0.72,
+        "away_goal_strength": 0.28,
+        "home_btts_strength": 0.61,
+        "away_btts_strength": 0.51,
+        "home_corner_strength": 1.6,
+        "away_corner_strength": 0.93,
+        "goals_model_score": 1.2975,
+        "goals_model_prob": 0.7307,
+        "btts_model_score": 0.2334,
+        "btts_model_prob": 0.7334,
+        "corners_model_score": 8.5926,
+        "corners_model_prob": 0.7761
+      },
+      "confidence": "HIGH",
+      "timestamp": "2026-06-03T10:46:16.336813"
+    },
+    {
+      "game_info": {
+        "home_team": "Albania",
+        "away_team": "Israel",
+        "league": "International Friendly",
+        "date": "2026-06-03",
+        "venue": "Air Albania Stadium, Tirana"
+      },
+      "team_metrics": {
+        "home": {
+          "xg_for": 1.2,
+          "xg_against": 1.35,
+          "shots": 10.5,
+          "sot": 3.8,
+          "goals_for": 1.0,
+          "goals_against": 1.2,
+          "clean_sheets_last10": 3,
+          "missing_attacker": 1,
+          "missing_creator": 0,
+          "missing_cb": 0,
+          "missing_gk": 0,
+          "tempo": 0.1,
+          "width_crossing": 0.45,
+          "final_third_pressure": 0.45
+        },
+        "away": {
+          "xg_for": 1.35,
+          "xg_against": 1.2,
+          "shots": 11.8,
+          "sot": 4.3,
+          "goals_for": 1.2,
+          "goals_against": 1.0,
+          "clean_sheets_last10": 4,
+          "missing_attacker": 0,
+          "missing_creator": 0,
+          "missing_cb": 0,
+          "missing_gk": 0,
+          "tempo": 0.25,
+          "width_crossing": 0.55,
+          "final_third_pressure": 0.55
+        }
+      },
+      "market_data": {
+        "open_line": 2.5,
+        "current_line": 2.5,
+        "total": 2.5,
+        "corner_total": 9.5
+      },
+      "projections": {
+        "home_goals": 1.55,
+        "away_goals": 1.82,
+        "total_goals": 3.37,
+        "btts_probability": 0.525,
+        "corner_total": 10.2
+      },
+      "probabilities": {
+        "over_15": 0.8494,
+        "over_25": 0.6539,
+        "over_35": 0.4345,
+        "btts": 0.525,
+        "corners_over_85": 0.693,
+        "corners_over_95": 0.5711,
+        "corners_over_105": 0.4463
+      },
+      "recommendations": {
+        "goals_total": "Over 2.5",
+        "btts": "BTTS Yes",
+        "corners_total": "Over 2.5"
+      },
+      "model_details": {
+        "home_goal_strength": -0.48,
+        "away_goal_strength": 0.27,
+        "home_btts_strength": -0.2,
+        "away_btts_strength": 0.24,
+        "home_corner_strength": 0.41,
+        "away_corner_strength": 0.97,
+        "goals_model_score": 0.8675,
+        "goals_model_prob": 0.6539,
+        "btts_model_score": 0.1031,
+        "btts_model_prob": 0.6031,
+        "corners_model_score": 7.7346,
+        "corners_model_prob": 0.693
+      },
+      "confidence": "HIGH",
+      "timestamp": "2026-06-03T10:46:16.341555"
+    }
+  ]
+}
