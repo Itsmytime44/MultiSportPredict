@@ -36,7 +36,7 @@ MultiSportPredict/
 =======
 # MultiSportPredict
 overview
-This file implements a self‑contained “handicapping” and projection model for European basketball (EuroLeague) games, focused on evaluating a single matchup and producing betting‑oriented outputs (win probabilities, spreads, totals, and recommendations).
+This file implements a self‑contained “handicapping” and projection model for European basketball (EuroLeague) games, focused on evaluating a single matchup and producing betting‑oriented outputs (win probabilities, spreads, totals, and recommendations). It also analyzes soccer matches and handicaps for the project goals total and corners total with recommendations as well as pass.
 
 At a high level it:
 
