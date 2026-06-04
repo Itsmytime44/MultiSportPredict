@@ -1,0 +1,185 @@
+{
+  "game_info": {
+    "home_team": "Telekom Baskets Bonn",
+    "away_team": "Bayern Munich",
+    "league": "BBL",
+    "date": "2026-06-04",
+    "venue": "Telekom Dome, Bonn",
+    "live_status": true,
+    "current_quarter": 1,
+    "current_score": {
+      "home": 13,
+      "away": 13
+    }
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 110.5,
+      "drtg": 108.2,
+      "baseline_net": 2.3,
+      "recent_net": 3.1,
+      "pace": 72.5,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 3.8,
+      "rotation_depth": 9,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 115.2,
+      "drtg": 106.8,
+      "baseline_net": 8.4,
+      "recent_net": 7.5,
+      "pace": 71.8,
+      "rest_days": 3,
+      "travel_km": 350,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": -2.2,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": -4.5,
+    "current_line": -3.5,
+    "spread": -3.5,
+    "total": 162.5
+  },
+  "live_adjustments": {
+    "q1_pace_factor": 0.36,
+    "live_adjustment": -0.192
+  },
+  "projections": {
+    "first_half": {
+      "home_score": 23.9,
+      "away_score": 24.2,
+      "total": 48.0,
+      "spread": -0.3,
+      "home_win_prob": 0.486
+    },
+    "full_game": {
+      "home_score": 81.7,
+      "away_score": 68.1,
+      "total": 149.8,
+      "spread": 13.6,
+      "home_win_prob": 0.416
+    }
+  },
+  "team_totals": {
+    "home": {
+      "over_75": 0.7508,
+      "over_80": 0.5459,
+      "over_85": 0.3319
+    },
+    "away": {
+      "over_75": 0.1849,
+      "over_80": 0.0701,
+      "over_85": 0.0206
+    }
+  },
+  "full_game_totals": {
+    "over_155": 0.3182,
+    "over_160": 0.191,
+    "over_165": 0.1018,
+    "over_170": 0.048,
+    "over_175": 0.02
+  },
+  "recommendations": {
+    "full_game_total": "Under 162.5"
+  },
+  "player_props": [
+    {
+      "player_name": "TJ DiLeo",
+      "team": "Telekom Baskets Bonn",
+      "prop_type": "Points",
+      "prop_line": 14.5,
+      "model_projection": 15.2,
+      "edge": 3.68,
+      "live_edge": 3.47,
+      "model_prob": 0.468,
+      "lean": "Pass",
+      "details": "player_avg=15.20; minutes=28.00; usage=24.00; pace=72.15"
+    },
+    {
+      "player_name": "TJ DiLeo",
+      "team": "Telekom Baskets Bonn",
+      "prop_type": "Assists",
+      "prop_line": 4.5,
+      "model_projection": 5.1,
+      "edge": 3.77,
+      "live_edge": 3.56,
+      "model_prob": 0.477,
+      "lean": "Pass",
+      "details": "player_avg=5.10; minutes=28.00; usage=24.00; pace=72.15"
+    },
+    {
+      "player_name": "Louis Olinde",
+      "team": "Telekom Baskets Bonn",
+      "prop_type": "Points",
+      "prop_line": 12.5,
+      "model_projection": 13.5,
+      "edge": 2.78,
+      "live_edge": 2.62,
+      "model_prob": 0.38,
+      "lean": "Lean Under Louis Olinde Points",
+      "details": "player_avg=13.50; minutes=25.00; usage=20.00; pace=72.15"
+    },
+    {
+      "player_name": "Carsen Edwards",
+      "team": "Bayern Munich",
+      "prop_type": "Points",
+      "prop_line": 18.5,
+      "model_projection": 19.8,
+      "edge": 3.5,
+      "live_edge": 3.3,
+      "model_prob": 0.45,
+      "lean": "Pass",
+      "details": "player_avg=19.80; minutes=30.00; usage=28.00; pace=72.15"
+    },
+    {
+      "player_name": "Carsen Edwards",
+      "team": "Bayern Munich",
+      "prop_type": "3-Pointers Made",
+      "prop_line": 3.5,
+      "model_projection": 3.9,
+      "edge": 3.25,
+      "live_edge": 3.06,
+      "model_prob": 0.426,
+      "lean": "Pass",
+      "details": "player_avg=3.90; minutes=30.00; usage=28.00; pace=72.15"
+    },
+    {
+      "player_name": "Vladimir Lucic",
+      "team": "Bayern Munich",
+      "prop_type": "Points",
+      "prop_line": 13.5,
+      "model_projection": 14.2,
+      "edge": 2.04,
+      "live_edge": 1.92,
+      "model_prob": 0.314,
+      "lean": "Lean Under Vladimir Lucic Points",
+      "details": "player_avg=14.20; minutes=26.00; usage=22.00; pace=72.15"
+    },
+    {
+      "player_name": "Niels Giffey",
+      "team": "Bayern Munich",
+      "prop_type": "Rebounds",
+      "prop_line": 4.5,
+      "model_projection": 5.0,
+      "edge": 1.22,
+      "live_edge": 1.15,
+      "model_prob": 0.247,
+      "lean": "Lean Under Niels Giffey Rebounds",
+      "details": "player_avg=5.00; minutes=24.00; usage=16.00; pace=72.15"
+    }
+  ],
+  "confidence": "MEDIUM",
+  "timestamp": "2026-06-04T12:53:12.988843"
+}
