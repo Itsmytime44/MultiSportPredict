@@ -1,0 +1,136 @@
+{
+  "game_info": {
+    "home_team": "Sydney FC NPL",
+    "away_team": "NWS Spirit FC",
+    "league": "NPL NSW",
+    "date": "2026-06-03",
+    "venue": "Jubilee Oval, Sydney"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.85,
+      "xg_against": 1.15,
+      "shots": 14.2,
+      "sot": 5.5,
+      "goals_for": 1.9,
+      "goals_against": 1.1,
+      "clean_sheets_last10": 5,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.35,
+      "width_crossing": 0.65,
+      "final_third_pressure": 0.7
+    },
+    "away": {
+      "xg_for": 1.45,
+      "xg_against": 1.55,
+      "shots": 11.8,
+      "sot": 4.2,
+      "goals_for": 1.4,
+      "goals_against": 1.5,
+      "clean_sheets_last10": 2,
+      "missing_attacker": 1,
+      "missing_creator": 0,
+      "missing_cb": 1,
+      "missing_gk": 0,
+      "tempo": 0.25,
+      "width_crossing": 0.5,
+      "final_third_pressure": 0.5
+    }
+  },
+  "market_data": {
+    "open_line": 2.5,
+    "current_line": 2.5,
+    "total": 2.5,
+    "corners": 9.5
+  },
+  "projections": {
+    "home_goals": 2.56,
+    "away_goals": 1.65,
+    "total_goals": 4.21,
+    "home_corners": 9.0,
+    "away_corners": 7.0,
+    "total_corners": 11.7
+  },
+  "moneyline": {
+    "full_game": {
+      "home_win_prob": 0.5754,
+      "draw_prob": 0.1845,
+      "away_win_prob": 0.2401,
+      "implied_odds": {
+        "home": -136.0,
+        "draw": 442.0,
+        "away": 316.0
+      }
+    },
+    "first_half": {
+      "home_win_prob": 0.4547,
+      "draw_prob": 0.3092,
+      "away_win_prob": 0.2361
+    }
+  },
+  "totals": {
+    "full_game": {
+      "over_15": 0.9227,
+      "over_25": 0.7911,
+      "over_35": 0.6064,
+      "under_15": 0.0773,
+      "under_25": 0.2089,
+      "under_35": 0.3936
+    },
+    "first_half": {
+      "over_05": 0.8496,
+      "over_15": 0.5647,
+      "under_05": 0.1504,
+      "under_15": 0.4353
+    },
+    "team_totals": {
+      "home": {
+        "over_15": 0.7253,
+        "over_25": 0.4721,
+        "under_15": 0.2747,
+        "under_25": 0.5279
+      },
+      "away": {
+        "over_15": 0.4903,
+        "over_25": 0.229,
+        "under_15": 0.5097,
+        "under_25": 0.771
+      }
+    }
+  },
+  "btts": {
+    "yes_prob": 0.7165,
+    "no_prob": 0.2835
+  },
+  "corners": {
+    "total": 11.7,
+    "over_85": 0.823,
+    "over_95": 0.7287,
+    "over_105": 0.6185,
+    "over_115": 0.5015
+  },
+  "recommendations": {
+    "goals_total": "Over 2.5",
+    "btts": "BTTS Yes",
+    "corners_total": "Over 9.5"
+  },
+  "model_details": {
+    "home_goal_strength": 1.73,
+    "away_goal_strength": -0.05,
+    "home_btts_strength": 0.97,
+    "away_btts_strength": 0.7,
+    "home_corner_strength": 2.39,
+    "away_corner_strength": 0.92,
+    "goals_model_score": 1.71,
+    "goals_model_prob": 0.7911,
+    "btts_model_score": 0.2716,
+    "btts_model_prob": 0.7716,
+    "corners_model_score": 9.1814,
+    "corners_model_prob": 0.823
+  },
+  "confidence": "HIGH",
+  "timestamp": "2026-06-03T23:32:41.302581"
+}
