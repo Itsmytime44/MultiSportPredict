@@ -1,0 +1,193 @@
+{
+  "game_info": {
+    "home_team": "Barcelona",
+    "away_team": "UCAM Murcia",
+    "league": "EuroLeague",
+    "date": "2026-06-04",
+    "venue": "Palau Blaugrana, Barcelona"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 118.5,
+      "drtg": 108.2,
+      "baseline_net": 10.3,
+      "recent_net": 9.5,
+      "pace": 76.5,
+      "rest_days": 3,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 5.2,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 108.2,
+      "drtg": 112.5,
+      "baseline_net": -4.3,
+      "recent_net": -3.8,
+      "pace": 73.8,
+      "rest_days": 2,
+      "travel_km": 450,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": -2.8,
+      "rotation_depth": 8,
+      "injury_status": "yellow",
+      "coach_stability": "green",
+      "motivation": "yellow"
+    }
+  },
+  "market_data": {
+    "open_line": -8.5,
+    "current_line": -9.5,
+    "spread": -9.5,
+    "total": 162.5
+  },
+  "projections": {
+    "home_score": 92.8,
+    "away_score": 71.6,
+    "total": 164.4,
+    "spread": 21.2,
+    "home_win_prob": 0.645,
+    "away_win_prob": 0.355
+  },
+  "q1_projections": {
+    "home_q1_points": 22.5,
+    "away_q1_points": 19.5,
+    "q1_spread": 3.0,
+    "q1_total": 42.1,
+    "q1_prob_home_win": 0.669,
+    "q1_prob_home_ml": 0.656,
+    "q1_pace_factor": 1.07,
+    "q1_ctx_adjustment": 0.9
+  },
+  "team_totals": {
+    "home": {
+      "over_75": 0.967,
+      "over_80": 0.9013,
+      "over_85": 0.7735
+    },
+    "away": {
+      "over_75": 0.3169,
+      "over_80": 0.1468,
+      "over_85": 0.0534
+    }
+  },
+  "full_game_totals": {
+    "over_155": 0.7541,
+    "over_160": 0.615,
+    "over_165": 0.4607,
+    "over_170": 0.3136,
+    "over_175": 0.1924
+  },
+  "recommendations": {
+    "full_game_spread": "Pass",
+    "full_game_total": "Pass",
+    "q1_spread": "Home Q1 3.0"
+  },
+  "model_details": {
+    "efficiency_gap": 14.6,
+    "historical_gap": -0.52,
+    "pace_gap": 2.7,
+    "rest_gap": 1,
+    "split_gap": 8.0,
+    "context_gap": 3,
+    "model_score": 5.489,
+    "model_prob": 0.6446
+  },
+  "confidence": "HIGH",
+  "timestamp": "2026-06-04T12:59:06.570591",
+  "player_props": [
+    {
+      "player_name": "Nikola Mirotic",
+      "team": "Barcelona",
+      "prop_type": "Points",
+      "prop_line": 16.5,
+      "model_projection": 17.8,
+      "edge": 2.99,
+      "model_prob": 0.401,
+      "lean": "Pass",
+      "details": "player_avg=17.80; minutes=28.00; usage=26.00; pace=75.15"
+    },
+    {
+      "player_name": "Nikola Mirotic",
+      "team": "Barcelona",
+      "prop_type": "Rebounds",
+      "prop_line": 6.5,
+      "model_projection": 7.2,
+      "edge": 2.79,
+      "model_prob": 0.381,
+      "lean": "Lean Under Nikola Mirotic Rebounds",
+      "details": "player_avg=7.20; minutes=28.00; usage=26.00; pace=75.15"
+    },
+    {
+      "player_name": "Tomas Satoransky",
+      "team": "Barcelona",
+      "prop_type": "Points",
+      "prop_line": 12.5,
+      "model_projection": 13.5,
+      "edge": 2.98,
+      "model_prob": 0.399,
+      "lean": "Lean Under Tomas Satoransky Points",
+      "details": "player_avg=13.50; minutes=26.00; usage=20.00; pace=75.15"
+    },
+    {
+      "player_name": "Tomas Satoransky",
+      "team": "Barcelona",
+      "prop_type": "Assists",
+      "prop_line": 5.5,
+      "model_projection": 6.1,
+      "edge": 2.99,
+      "model_prob": 0.401,
+      "lean": "Pass",
+      "details": "player_avg=6.10; minutes=26.00; usage=20.00; pace=75.15"
+    },
+    {
+      "player_name": "Dylan Osetkowski",
+      "team": "UCAM Murcia",
+      "prop_type": "Points",
+      "prop_line": 14.5,
+      "model_projection": 15.8,
+      "edge": 4.45,
+      "model_prob": 0.545,
+      "lean": "Pass",
+      "details": "player_avg=15.80; minutes=30.00; usage=24.00; pace=75.15"
+    },
+    {
+      "player_name": "Dylan Osetkowski",
+      "team": "UCAM Murcia",
+      "prop_type": "Rebounds",
+      "prop_line": 6.5,
+      "model_projection": 7.0,
+      "edge": 4.33,
+      "model_prob": 0.533,
+      "lean": "Pass",
+      "details": "player_avg=7.00; minutes=30.00; usage=24.00; pace=75.15"
+    },
+    {
+      "player_name": "Tyler Kalinoski",
+      "team": "UCAM Murcia",
+      "prop_type": "Points",
+      "prop_line": 11.5,
+      "model_projection": 12.2,
+      "edge": 1.7,
+      "model_prob": 0.285,
+      "lean": "Lean Under Tyler Kalinoski Points",
+      "details": "player_avg=12.20; minutes=25.00; usage=18.00; pace=75.15"
+    },
+    {
+      "player_name": "Tyler Kalinoski",
+      "team": "UCAM Murcia",
+      "prop_type": "3-Pointers Made",
+      "prop_line": 2.5,
+      "model_projection": 2.8,
+      "edge": 1.75,
+      "model_prob": 0.289,
+      "lean": "Lean Under Tyler Kalinoski 3-Pointers Made",
+      "details": "player_avg=2.80; minutes=25.00; usage=18.00; pace=75.15"
+    }
+  ]
+}
