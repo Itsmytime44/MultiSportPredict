@@ -1,0 +1,174 @@
+{
+  "game_info": {
+    "home_team": "Hawke's Bay Hawks",
+    "away_team": "Nelson Giants",
+    "league": "NZNBL",
+    "date": "2026-06-03",
+    "venue": "Pettigrew Green Arena, Napier"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 108.5,
+      "drtg": 106.2,
+      "baseline_net": 2.3,
+      "recent_net": 3.5,
+      "pace": 72.5,
+      "rest_days": 3,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 4.2,
+      "rotation_depth": 9,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 105.8,
+      "drtg": 108.5,
+      "baseline_net": -2.7,
+      "recent_net": -1.8,
+      "pace": 70.8,
+      "rest_days": 2,
+      "travel_km": 280,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": -2.5,
+      "rotation_depth": 8,
+      "injury_status": "yellow",
+      "coach_stability": "green",
+      "motivation": "yellow"
+    }
+  },
+  "market_data": {
+    "open_line": -5.5,
+    "current_line": -6.5,
+    "spread": -6.5,
+    "total": 162.5
+  },
+  "projections": {
+    "home_score": 90.6,
+    "away_score": 72.7,
+    "total": 163.3,
+    "spread": 17.9,
+    "home_win_prob": 0.606,
+    "away_win_prob": 0.394
+  },
+  "q1_projections": {
+    "home_q1_points": 20.4,
+    "away_q1_points": 18.5,
+    "q1_spread": 1.9,
+    "q1_total": 39.0,
+    "q1_prob_home_win": 0.61,
+    "q1_prob_home_ml": 0.602,
+    "q1_pace_factor": 1.02,
+    "q1_ctx_adjustment": 0.9
+  },
+  "recommendations": {
+    "full_game_spread": "Pass",
+    "full_game_total": "Over 162.5",
+    "q1_spread": "Home Q1 1.9"
+  },
+  "model_details": {
+    "efficiency_gap": 5.0,
+    "historical_gap": 0.12,
+    "pace_gap": 1.7,
+    "rest_gap": 1,
+    "split_gap": 6.7,
+    "context_gap": 3,
+    "model_score": 5.071,
+    "model_prob": 0.6055
+  },
+  "confidence": "HIGH",
+  "timestamp": "2026-06-03T23:23:19.106965",
+  "player_props": [
+    {
+      "player_name": "Tom Vodanovich",
+      "team": "Hawke's Bay Hawks",
+      "prop_type": "Points",
+      "prop_line": 18.5,
+      "model_projection": 19.2,
+      "edge": 3.22,
+      "model_prob": 0.422,
+      "lean": "Pass",
+      "details": "player_avg=19.20; minutes=30.00; usage=26.00; pace=71.65"
+    },
+    {
+      "player_name": "Tom Vodanovich",
+      "team": "Hawke's Bay Hawks",
+      "prop_type": "Rebounds",
+      "prop_line": 7.5,
+      "model_projection": 8.1,
+      "edge": 3.22,
+      "model_prob": 0.422,
+      "lean": "Pass",
+      "details": "player_avg=8.10; minutes=30.00; usage=26.00; pace=71.65"
+    },
+    {
+      "player_name": "Quintin Berry",
+      "team": "Hawke's Bay Hawks",
+      "prop_type": "Points",
+      "prop_line": 16.5,
+      "model_projection": 17.5,
+      "edge": 3.7,
+      "model_prob": 0.47,
+      "lean": "Pass",
+      "details": "player_avg=17.50; minutes=28.00; usage=24.00; pace=71.65"
+    },
+    {
+      "player_name": "Quintin Berry",
+      "team": "Hawke's Bay Hawks",
+      "prop_type": "Assists",
+      "prop_line": 5.5,
+      "model_projection": 6.2,
+      "edge": 3.78,
+      "model_prob": 0.478,
+      "lean": "Pass",
+      "details": "player_avg=6.20; minutes=28.00; usage=24.00; pace=71.65"
+    },
+    {
+      "player_name": "Dominic Kelman",
+      "team": "Nelson Giants",
+      "prop_type": "Points",
+      "prop_line": 20.5,
+      "model_projection": 21.8,
+      "edge": 5.68,
+      "model_prob": 0.662,
+      "lean": "Lean Over Dominic Kelman Points",
+      "details": "player_avg=21.80; minutes=34.00; usage=30.00; pace=71.65"
+    },
+    {
+      "player_name": "Dominic Kelman",
+      "team": "Nelson Giants",
+      "prop_type": "Assists",
+      "prop_line": 4.5,
+      "model_projection": 5.1,
+      "edge": 5.56,
+      "model_prob": 0.651,
+      "lean": "Lean Over Dominic Kelman Assists",
+      "details": "player_avg=5.10; minutes=34.00; usage=30.00; pace=71.65"
+    },
+    {
+      "player_name": "Michael Ane",
+      "team": "Nelson Giants",
+      "prop_type": "Points",
+      "prop_line": 14.5,
+      "model_projection": 15.2,
+      "edge": 2.14,
+      "model_prob": 0.322,
+      "lean": "Lean Under Michael Ane Points",
+      "details": "player_avg=15.20; minutes=26.00; usage=22.00; pace=71.65"
+    },
+    {
+      "player_name": "Michael Ane",
+      "team": "Nelson Giants",
+      "prop_type": "Rebounds",
+      "prop_line": 6.5,
+      "model_projection": 7.0,
+      "edge": 2.31,
+      "model_prob": 0.337,
+      "lean": "Lean Under Michael Ane Rebounds",
+      "details": "player_avg=7.00; minutes=26.00; usage=22.00; pace=71.65"
+    }
+  ]
+}
