@@ -170,8 +170,8 @@ def analyze_basketball_match(
     print(f"   Recommendation: {lean}")
     print()
     
-    # 7. Q1 PROJECTION
-    print("7. FIRST QUARTER PROJECTION")
+    # 7. Q1 AND FIRST HALF PROJECTION
+    print("7. FIRST QUARTER & FIRST HALF PROJECTION")
     print("-" * 40)
     
     q1_proj = project_basketball_q1(
@@ -195,10 +195,37 @@ def analyze_basketball_match(
         }
     )
     
-    print(f"   Projected Q1 Score: {home_team} {q1_proj['home_q1_points']:.1f} - {away_team} {q1_proj['away_q1_points']:.1f}")
-    print(f"   Q1 Spread: {q1_proj['q1_spread']:+.1f}")
-    print(f"   Q1 Total: {q1_proj['q1_total']:.1f}")
-    print(f"   Q1 Home Win Probability: {q1_proj['q1_prob_home_win']:.3f}")
+    # Calculate First Half projections (approximately 2x Q1 with adjustments)
+    q1_home = q1_proj['home_q1_points']
+    q1_away = q1_proj['away_q1_points']
+    
+    # First half typically sees slight efficiency adjustments
+    # Teams adjust at halftime, so Q2 is often slightly different
+    q2_home = q1_home * 1.02  # Slight adjustment for Q2
+    q2_away = q1_away * 0.98
+    
+    q1_total = q1_home + q1_away
+    first_half_home = q1_home + q2_home
+    first_half_away = q1_away + q2_away
+    first_half_total = first_half_home + first_half_away
+    first_half_spread = first_half_home - first_half_away
+    
+    # Calculate first half probability using similar methodology as Q1
+    from MultiSportModel import sigmoid, clamp
+    first_half_score = first_half_spread * 0.65
+    first_half_prob = clamp(sigmoid(first_half_score / 3.5))
+    
+    print(f"   FIRST QUARTER:")
+    print(f"      Projected Q1 Score: {home_team} {q1_home:.1f} - {away_team} {q1_away:.1f}")
+    print(f"      Q1 Spread: {q1_proj['q1_spread']:+.1f}")
+    print(f"      Q1 Total: {q1_total:.1f}")
+    print(f"      Q1 Home Win Probability: {q1_proj['q1_prob_home_win']:.3f}")
+    print()
+    print(f"   FIRST HALF:")
+    print(f"      Projected 1H Score: {home_team} {first_half_home:.1f} - {away_team} {first_half_away:.1f}")
+    print(f"      1H Spread: {first_half_spread:+.1f}")
+    print(f"      1H Total: {first_half_total:.1f}")
+    print(f"      1H Home Win Probability: {first_half_prob:.3f}")
     print()
     
     # 8. PROJECTED SCORES
