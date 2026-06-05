@@ -48,8 +48,8 @@
 ---
 
 ### 4. Luanda Villa vs Mombassa United
-**League:** FIBA Africa  
-**Sport:** Basketball  
+**League:** FIFA Africa Qualifiers  
+**Sport:** Soccer  
 **Output File:** `luanda_villa_vs_mombassa_united_results.json`
 
 | Market | Recommendation | Model Projection | Result |
@@ -78,8 +78,8 @@
 ## June 3, 2026 (Wednesday)
 
 ### 6. Albania vs Israel
-**League:** FIBA Qualifiers  
-**Sport:** Basketball  
+**League:** FIFA World Cup Qualifiers  
+**Sport:** Soccer  
 **Output File:** `albania_vs_israel_analysis.json`
 
 | Market | Recommendation | Model Projection | Result |
@@ -91,8 +91,8 @@
 ---
 
 ### 7. Netherlands vs Algeria
-**League:** FIBA Qualifiers  
-**Sport:** Basketball  
+**League:** FIFA World Cup Qualifiers  
+**Sport:** Soccer  
 **Output File:** `netherlands_vs_algeria_analysis.json`
 
 | Market | Recommendation | Model Projection | Result |
@@ -104,8 +104,8 @@
 ---
 
 ### 8. Poland vs Nigeria
-**League:** FIBA Qualifiers  
-**Sport:** Basketball  
+**League:** FIFA World Cup Qualifiers  
+**Sport:** Soccer  
 **Output File:** `poland_vs_nigeria_analysis.json`
 
 | Market | Recommendation | Model Projection | Result |
@@ -130,8 +130,8 @@
 ---
 
 ### 10. Wales vs Ghana
-**League:** FIBA Qualifiers  
-**Sport:** Basketball  
+**League:** FIFA World Cup Qualifiers  
+**Sport:** Soccer  
 **Output File:** `wales_vs_ghana_analysis.json`
 
 | Market | Recommendation | Model Projection | Result |
@@ -223,8 +223,8 @@
 ---
 
 ### 17. Spain vs Iraq
-**League:** FIBA Qualifiers  
-**Sport:** Basketball  
+**League:** FIFA World Cup Qualifiers  
+**Sport:** Soccer  
 **Output File:** `spain_vs_iraq_analysis.json`
 
 | Market | Recommendation | Model Projection | Result |
@@ -236,8 +236,8 @@
 ---
 
 ### 18. Sweden vs Greece
-**League:** FIBA Qualifiers  
-**Sport:** Basketball  
+**League:** FIFA World Cup Qualifiers  
+**Sport:** Soccer  
 **Output File:** `sweden_vs_greece_analysis.json`
 
 | Market | Recommendation | Model Projection | Result |

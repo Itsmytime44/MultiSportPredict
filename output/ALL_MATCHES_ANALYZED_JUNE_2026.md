@@ -15,7 +15,7 @@
 | 1 | Alba Berlin vs Brose Bamberg | BBL (Germany) | Basketball | `alba_berlin_vs_brose_bamberg_results.json` |
 | 2 | European Template Results | Multi-league | Basketball | `european_template_results.json` |
 | 3 | Gigantes de Carolina vs Manatí | BSN (Puerto Rico) | Basketball | `gigantes_carolina_vs_manati_results.json` |
-| 4 | Luanda Villa vs Mombassa United | FIBA Africa | Basketball | `luanda_villa_vs_mombassa_united_results.json` |
+| 4 | Luanda Villa vs Mombassa United | FIFA Africa Qualifiers | Soccer | `luanda_villa_vs_mombassa_united_results.json` |
 
 ---
 
@@ -31,11 +31,11 @@
 
 | # | Match | League | Sport | Output File |
 |---|-------|--------|-------|-------------|
-| 6 | Albania vs Israel | FIBA Qualifiers | Basketball | `albania_vs_israel_analysis.json` |
-| 7 | Netherlands vs Algeria | FIBA Qualifiers | Basketball | `netherlands_vs_algeria_analysis.json` |
-| 8 | Poland vs Nigeria | FIBA Qualifiers | Basketball | `poland_vs_nigeria_analysis.json` |
+| 6 | Albania vs Israel | FIFA World Cup Qualifiers | Soccer | `albania_vs_israel_analysis.json` |
+| 7 | Netherlands vs Algeria | FIFA World Cup Qualifiers | Soccer | `netherlands_vs_algeria_analysis.json` |
+| 8 | Poland vs Nigeria | FIFA World Cup Qualifiers | Soccer | `poland_vs_nigeria_analysis.json` |
 | 9 | Three Matches Analysis (Combined) | Multi-league | Basketball | `three_matches_analysis.json` |
-| 10 | Wales vs Ghana | FIBA Qualifiers | Basketball | `wales_vs_ghana_analysis.json` |
+| 10 | Wales vs Ghana | FIFA World Cup Qualifiers | Soccer | `wales_vs_ghana_analysis.json` |
 | 11 | Atlanta Hawks vs NY Giants | Cross-sport Analysis | Basketball vs American Football | `hawks_vs_giants_analysis.json` |
 | 12 | The Bay Hawks vs Nelson Giants | NBL (New Zealand) | Basketball | `sydney_vs_nws_analysis.json` |
 | 13 | San Antonio Spurs vs NY Knicks | NBA | Basketball | `spurs_vs_knicks_analysis.json` |
@@ -49,8 +49,8 @@
 | 14 | Barcelona vs UCAM Murcia | ACB (Spain) | Basketball | `barcelona_vs_murcia_analysis.json` |
 | 15 | Telekom Baskets Bonn vs Bayern Munich | BBL (Germany) | Basketball | `bonn_vs_bayern_live_analysis.json` |
 | 16 | **Otago Nuggets vs Franklin Bulls** | NZNBL (New Zealand) | **Basketball** | `otago_nuggets_vs_franklin_bulls_analysis.json` |
-| 17 | Spain vs Iraq | FIBA Qualifiers | Basketball | `spain_vs_iraq_analysis.json` |
-| 18 | Sweden vs Greece | FIBA Qualifiers | Basketball | `sweden_vs_greece_analysis.json` |
+| 17 | Spain vs Iraq | FIFA World Cup Qualifiers | Soccer | `spain_vs_iraq_analysis.json` |
+| 18 | Sweden vs Greece | FIFA World Cup Qualifiers | Soccer | `sweden_vs_greece_analysis.json` |
 
 ---
 
@@ -72,12 +72,12 @@
 | Category | Count |
 |----------|-------|
 | **Total Matches Analyzed** | 24 |
-| **Basketball Matches** | 21 |
-| **Soccer Matches** | 3 |
+| **Basketball Matches** | 14 |
+| **Soccer Matches** | 10 |
 | **EuroLeague Games** | 2 |
 | **ACB (Spain) Games** | 3 |
 | **BBL (Germany) Games** | 2 |
-| **FIBA Qualifier Games** | 6 |
+| **FIFA World Cup Qualifier Games** | 7 |
 | **NZNBL Games** | 1 |
 | **Soccer - Sweden** | 1 |
 | **Soccer - Finland** | 2 |
