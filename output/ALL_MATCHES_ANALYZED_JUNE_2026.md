@@ -64,6 +64,7 @@
 | 22 | FC Haka vs JaPS | Finland Ykkonen | Soccer | `fc_haka_vs_japs_analysis.json` |
 | 23 | KaPa vs KTP Kotka | Finland Ykkonen | Soccer | `kapa_vs_ktp_kotka_analysis.json` |
 | 24 | Joventut Badalona vs Baskonia | ACB (Spain) | Basketball | `joventut_baskonia_analysis.json` |
+| 25 | Georgia vs Bahrain | FIFA World Cup Qualifiers | Soccer | `georgia_vs_bahrain_analysis.json` |
 
 ---
 
@@ -71,9 +72,9 @@
 
 | Category | Count |
 |----------|-------|
-| **Total Matches Analyzed** | 24 |
+| **Total Matches Analyzed** | 25 |
 | **Basketball Matches** | 14 |
-| **Soccer Matches** | 10 |
+| **Soccer Matches** | 11 |
 | **EuroLeague Games** | 2 |
 | **ACB (Spain) Games** | 3 |
 | **BBL (Germany) Games** | 2 |
