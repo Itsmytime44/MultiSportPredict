@@ -36,8 +36,8 @@
 | 8 | Poland vs Nigeria | FIBA Qualifiers | Basketball | `poland_vs_nigeria_analysis.json` |
 | 9 | Three Matches Analysis (Combined) | Multi-league | Basketball | `three_matches_analysis.json` |
 | 10 | Wales vs Ghana | FIBA Qualifiers | Basketball | `wales_vs_ghana_analysis.json` |
-| 11 | Atlanta Hawks vs NY Giants | Cross-sport | Basketball/American Football | `hawks_vs_giants_analysis.json` |
-| 12 | Sydney Kings vs NWS Spirit | NBL (Australia) | Basketball | `sydney_vs_nws_analysis.json` |
+| 11 | Atlanta Hawks vs NY Giants | Cross-sport Analysis | Basketball vs American Football | `hawks_vs_giants_analysis.json` |
+| 12 | The Bay Hawks vs Nelson Giants | NBL (New Zealand) | Basketball | `sydney_vs_nws_analysis.json` |
 | 13 | San Antonio Spurs vs NY Knicks | NBA | Basketball | `spurs_vs_knicks_analysis.json` |
 
 ---

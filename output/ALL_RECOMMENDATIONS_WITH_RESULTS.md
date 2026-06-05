@@ -143,8 +143,8 @@
 ---
 
 ### 11. Atlanta Hawks vs NY Giants
-**League:** Cross-sport  
-**Sport:** Basketball/American Football  
+**League:** Cross-sport Analysis  
+**Sport:** Basketball vs American Football  
 **Output File:** `hawks_vs_giants_analysis.json`
 
 | Market | Recommendation | Model Projection | Result |
@@ -155,8 +155,8 @@
 
 ---
 
-### 12. Sydney Kings vs NWS Spirit
-**League:** NBL (Australia)  
+### 12. The Bay Hawks vs Nelson Giants
+**League:** NBL (New Zealand)  
 **Sport:** Basketball  
 **Output File:** `sydney_vs_nws_analysis.json`
 
