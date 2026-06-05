@@ -1,0 +1,143 @@
+{
+  "game_info": {
+    "home_team": "Joventut Badalona",
+    "away_team": "Baskonia",
+    "league": "ACB",
+    "date": "2026-06-05",
+    "venue": "Olimpic de Badalona, Barcelona"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 112.8,
+      "drtg": 109.5,
+      "baseline_net": 3.3,
+      "recent_net": 4.1,
+      "pace": 73.0,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 4.8,
+      "rotation_depth": 9,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 114.5,
+      "drtg": 110.2,
+      "baseline_net": 4.3,
+      "recent_net": 5.0,
+      "pace": 72.0,
+      "rest_days": 2,
+      "travel_km": 50,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 1.5,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": -2.5,
+    "current_line": -3.0,
+    "spread": -3.0,
+    "total": 165.5,
+    "q1_spread": -0.5,
+    "h1_spread": -1.5
+  },
+  "full_game_projection": {
+    "record_type": "full_game",
+    "current_gap": -1.0,
+    "baseline_gap": -1.0,
+    "recent_gap": -0.9,
+    "historical_gap": 0.04,
+    "rest_gap": 0.0,
+    "split_gap": 3.3,
+    "context_gap": -1.0,
+    "model_edge": 1.21,
+    "market_score": 1.0,
+    "probability": 0.3197,
+    "lean": "Pass",
+    "projected_home_score": 84.2,
+    "projected_away_score": 75.9,
+    "projected_total": 160.1
+  },
+  "q1_projection": {
+    "home_q1_points": 20.7,
+    "away_q1_points": 20.1,
+    "q1_spread": 0.6,
+    "q1_total": 40.8,
+    "q1_prob_home_win": 0.533,
+    "q1_prob_home_ml": 0.53,
+    "q1_pace_factor": 1.04,
+    "q1_ctx_adjustment": 0.0
+  },
+  "h1_projection": {
+    "home_points": 77.6,
+    "away_points": 67.6,
+    "spread": 10.1,
+    "total": 145.2,
+    "home_win_prob": 0.693,
+    "recommendation": "Home 1H 1.5"
+  },
+  "fg_analysis": {
+    "home_full_game_fg_pct": 0.4855,
+    "away_full_game_fg_pct": 0.4862,
+    "home_q1_fg_pct": 0.4709,
+    "away_q1_fg_pct": 0.4716,
+    "fg_edge": -0.0007
+  },
+  "recommendations": {
+    "spread": "Home 3.0",
+    "moneyline": "Away ML (Baskonia)",
+    "total": "Under 165.5",
+    "q1_spread": "Pass",
+    "h1_spread": "Home 1H 1.5"
+  },
+  "player_props": [
+    {
+      "player_name": "Nikola Kalinic",
+      "team": "Joventut",
+      "prop_type": "Points",
+      "prop_line": 14.5,
+      "model_projection": 15.2,
+      "edge": 3.27,
+      "model_prob": 0.428,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Ante Tomic",
+      "team": "Joventut",
+      "prop_type": "Rebounds",
+      "prop_line": 6.5,
+      "model_projection": 7.1,
+      "edge": 2.59,
+      "model_prob": 0.363,
+      "lean": "Lean Under Ante Tomic Rebounds"
+    },
+    {
+      "player_name": "Markus Howard",
+      "team": "Baskonia",
+      "prop_type": "Points",
+      "prop_line": 17.5,
+      "model_projection": 18.3,
+      "edge": 4.32,
+      "model_prob": 0.532,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Chima Moneke",
+      "team": "Baskonia",
+      "prop_type": "Rebounds",
+      "prop_line": 5.5,
+      "model_projection": 6.0,
+      "edge": 2.85,
+      "model_prob": 0.387,
+      "lean": "Lean Under Chima Moneke Rebounds"
+    }
+  ],
+  "timestamp": "2026-06-05T13:26:23.392320"
+}
