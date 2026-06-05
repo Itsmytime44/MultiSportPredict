@@ -1,0 +1,163 @@
+{
+  "game_info": {
+    "home_team": "Anadolu Efes Istanbul",
+    "away_team": "Fenerbahce Beko Istanbul",
+    "league": "EuroLeague",
+    "date": "2026-06-05",
+    "venue": "Sinan Erdem Dome, Istanbul"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 115.8,
+      "drtg": 108.2,
+      "baseline_net": 7.6,
+      "recent_net": 8.2,
+      "pace": 72.5,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 5.8,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 113.5,
+      "drtg": 109.8,
+      "baseline_net": 3.7,
+      "recent_net": 4.5,
+      "pace": 71.0,
+      "rest_days": 2,
+      "travel_km": 15,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 2.1,
+      "rotation_depth": 11,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": -3.5,
+    "current_line": -4.0,
+    "spread": -4.0,
+    "total": 162.5,
+    "q1_spread": -1.0,
+    "h1_spread": -2.5
+  },
+  "full_game_projection": {
+    "record_type": "full_game",
+    "current_gap": 3.9,
+    "baseline_gap": 3.9,
+    "recent_gap": 3.7,
+    "historical_gap": -0.08,
+    "rest_gap": 0.0,
+    "split_gap": 3.7,
+    "context_gap": 0.0,
+    "model_edge": 2.16,
+    "market_score": 1.0,
+    "probability": 0.4067,
+    "lean": "Pass",
+    "projected_home_score": 86.1,
+    "projected_away_score": 74.9,
+    "projected_total": 161.1
+  },
+  "q1_projection": {
+    "home_q1_points": 21.1,
+    "away_q1_points": 20.0,
+    "q1_spread": 1.1,
+    "q1_total": 41.1,
+    "q1_prob_home_win": 0.565,
+    "q1_prob_home_ml": 0.559,
+    "q1_pace_factor": 1.02,
+    "q1_ctx_adjustment": 0.0
+  },
+  "h1_projection": {
+    "home_points": 79.3,
+    "away_points": 66.9,
+    "spread": 12.4,
+    "total": 146.2,
+    "home_win_prob": 0.799,
+    "recommendation": "Home 1H 2.5"
+  },
+  "fg_analysis": {
+    "home_full_game_fg_pct": 0.5002,
+    "away_full_game_fg_pct": 0.4878,
+    "home_q1_fg_pct": 0.4852,
+    "away_q1_fg_pct": 0.4731,
+    "fg_edge": 0.0124
+  },
+  "recommendations": {
+    "spread": "Home 4.0",
+    "moneyline": "Pass",
+    "total": "Pass",
+    "q1_spread": "Home Q1 1.0",
+    "h1_spread": "Home 1H 2.5"
+  },
+  "player_props": [
+    {
+      "player_name": "Shane Larkin",
+      "team": "Anadolu Efes",
+      "prop_type": "Points",
+      "prop_line": 16.5,
+      "model_projection": 17.2,
+      "edge": 4.25,
+      "model_prob": 0.525,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Shane Larkin",
+      "team": "Anadolu Efes",
+      "prop_type": "Assists",
+      "prop_line": 5.5,
+      "model_projection": 6.1,
+      "edge": 4.28,
+      "model_prob": 0.528,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Bryant Dunston",
+      "team": "Anadolu Efes",
+      "prop_type": "Rebounds",
+      "prop_line": 5.5,
+      "model_projection": 6.2,
+      "edge": 2.54,
+      "model_prob": 0.358,
+      "lean": "Lean Under Bryant Dunston Rebounds"
+    },
+    {
+      "player_name": "Nigel Hayes-Davis",
+      "team": "Fenerbahce",
+      "prop_type": "Points",
+      "prop_line": 14.5,
+      "model_projection": 15.3,
+      "edge": 3.63,
+      "model_prob": 0.463,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Scottie Wilbekin",
+      "team": "Fenerbahce",
+      "prop_type": "Points",
+      "prop_line": 13.5,
+      "model_projection": 14.1,
+      "edge": 3.55,
+      "model_prob": 0.455,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Jan Vesely",
+      "team": "Fenerbahce",
+      "prop_type": "Rebounds",
+      "prop_line": 6.5,
+      "model_projection": 7.2,
+      "edge": 2.75,
+      "model_prob": 0.377,
+      "lean": "Lean Under Jan Vesely Rebounds"
+    }
+  ],
+  "timestamp": "2026-06-05T09:07:49.536477"
+}

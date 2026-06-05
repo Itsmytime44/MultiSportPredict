@@ -1,0 +1,96 @@
+{
+  "game_info": {
+    "home_team": "Otago Nuggets",
+    "away_team": "Franklin Bulls",
+    "league": "NZ_NBL",
+    "date": "2026-06-05",
+    "venue": "Edgar Centre, Dunedin"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 108.5,
+      "drtg": 112.3,
+      "baseline_net": -3.8,
+      "recent_net": -2.1,
+      "pace": 96.0,
+      "rest_days": 3,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 4.5,
+      "rotation_depth": 9,
+      "injury_status": "yellow",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 113.2,
+      "drtg": 109.8,
+      "baseline_net": 3.4,
+      "recent_net": 4.1,
+      "pace": 98.5,
+      "rest_days": 2,
+      "travel_km": 650,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": -0.8,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": 2.5,
+    "current_line": 1.5,
+    "spread": 1.5,
+    "total": 185.5
+  },
+  "projections": {
+    "home_score": 83.8,
+    "away_score": 76.1,
+    "total": 159.9,
+    "spread": 7.7,
+    "home_win_prob": 0.33,
+    "away_win_prob": 0.67
+  },
+  "q1_projections": {
+    "home_q1_points": 26.5,
+    "away_q1_points": 26.3,
+    "q1_spread": 0.2,
+    "q1_total": 52.9,
+    "q1_prob_home_win": 0.51,
+    "q1_prob_home_ml": 0.509,
+    "q1_pace_factor": 1.39,
+    "q1_ctx_adjustment": -0.6,
+    "home_fg_pct": 0.4448,
+    "away_fg_pct": 0.4449
+  },
+  "fg_analysis": {
+    "home_full_game_fg_pct": 0.4586,
+    "away_full_game_fg_pct": 0.4586,
+    "home_q1_fg_pct": 0.4448,
+    "away_q1_fg_pct": 0.4449,
+    "fg_edge": -0.0,
+    "q1_fg_edge": -0.0,
+    "league_avg_fg_pct": 0.455
+  },
+  "recommendations": {
+    "full_game_spread": "Pass",
+    "full_game_total": "Under 185.5",
+    "q1_spread": "Home Q1 0.2",
+    "q1_total": "Under 52.9"
+  },
+  "model_details": {
+    "efficiency_gap": -7.2,
+    "historical_gap": 0.4,
+    "pace_gap": -2.5,
+    "rest_gap": 1,
+    "split_gap": 5.3,
+    "context_gap": -2,
+    "model_score": 2.225,
+    "model_prob": 0.3296
+  },
+  "confidence": "MEDIUM",
+  "timestamp": "2026-06-04T22:15:15.894837"
+}
