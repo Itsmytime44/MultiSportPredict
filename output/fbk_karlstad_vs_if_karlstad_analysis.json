@@ -1,0 +1,85 @@
+{
+  "game_info": {
+    "home_team": "FBK Karlstad",
+    "away_team": "IF Karlstad",
+    "league": "Sweden_Division_2",
+    "date": "2026-06-05",
+    "venue": "Tingvalla IP, Karlstad"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.65,
+      "xg_against": 1.25,
+      "shots": 13.5,
+      "sot": 4.8,
+      "goals_for": 1.7,
+      "goals_against": 1.1,
+      "clean_sheets": 4,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.3,
+      "width_crossing": 0.6,
+      "final_third_pressure": 0.55
+    },
+    "away": {
+      "xg_for": 1.45,
+      "xg_against": 1.4,
+      "shots": 11.2,
+      "sot": 4.0,
+      "goals_for": 1.4,
+      "goals_against": 1.3,
+      "clean_sheets": 3,
+      "missing_attacker": 0,
+      "missing_creator": 1,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.1,
+      "width_crossing": 0.5,
+      "final_third_pressure": 0.45
+    }
+  },
+  "projections": {
+    "home_expected_goals": 2.18,
+    "away_expected_goals": 1.68,
+    "total_expected_goals": 3.86,
+    "home_win_prob": 0.493,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.391
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.898,
+    "over_25_prob": 0.741,
+    "over_35_prob": 0.539,
+    "market_line": 2.5,
+    "recommendation": "Over 2.5"
+  },
+  "btts_analysis": {
+    "home_btts_strength": 0.73,
+    "away_btts_strength": 0.53,
+    "btts_probability": 0.654,
+    "recommendation": "BTTS Yes"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 1.88,
+    "away_corner_strength": 0.58,
+    "projected_total": 11.0,
+    "over_85_prob": 0.772,
+    "over_95_prob": 0.665,
+    "over_105_prob": 0.546,
+    "market_line": 9.5,
+    "recommendation": "Over 9.5"
+  },
+  "recommendations": {
+    "match_outcome": "Pass",
+    "goals": "Over 2.5",
+    "btts": "BTTS Yes",
+    "corners": "Over 9.5"
+  },
+  "goal_strength": {
+    "home": 1.14,
+    "away": -0.19
+  },
+  "timestamp": "2026-06-05T09:39:31.187692"
+}
