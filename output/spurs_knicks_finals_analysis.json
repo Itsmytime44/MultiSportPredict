@@ -1,0 +1,163 @@
+{
+  "game_info": {
+    "home_team": "San Antonio Spurs",
+    "away_team": "NY Knicks",
+    "league": "NBA Finals",
+    "date": "2026-06-05",
+    "venue": "AT&T Center, San Antonio"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 118.5,
+      "drtg": 112.3,
+      "baseline_net": 6.2,
+      "recent_net": 7.1,
+      "pace": 99.0,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 5.8,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 115.2,
+      "drtg": 113.8,
+      "baseline_net": 1.4,
+      "recent_net": 2.0,
+      "pace": 97.5,
+      "rest_days": 2,
+      "travel_km": 2500,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": -0.5,
+      "rotation_depth": 9,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": -4.0,
+    "current_line": -4.5,
+    "spread": -4.5,
+    "total": 218.5,
+    "q1_spread": -1.0,
+    "h1_spread": -2.5
+  },
+  "full_game_projection": {
+    "record_type": "full_game",
+    "current_gap": 4.8,
+    "baseline_gap": 4.8,
+    "recent_gap": 5.1,
+    "historical_gap": 0.12,
+    "rest_gap": 2.0,
+    "split_gap": 6.3,
+    "context_gap": 1.0,
+    "model_edge": 6.48,
+    "market_score": -1.0,
+    "probability": 0.6526,
+    "lean": "Pass",
+    "projected_home_score": 91.2,
+    "projected_away_score": 72.4,
+    "projected_total": 163.6
+  },
+  "q1_projection": {
+    "home_q1_points": 28.5,
+    "away_q1_points": 26.8,
+    "q1_spread": 1.8,
+    "q1_total": 55.3,
+    "q1_prob_home_win": 0.601,
+    "q1_prob_home_ml": 0.593,
+    "q1_pace_factor": 1.4,
+    "q1_ctx_adjustment": 0.0
+  },
+  "h1_projection": {
+    "home_points": 91.6,
+    "away_points": 73.3,
+    "spread": 18.3,
+    "total": 164.9,
+    "home_win_prob": 0.942,
+    "recommendation": "Home 1H 2.5"
+  },
+  "fg_analysis": {
+    "home_full_game_fg_pct": 0.4939,
+    "away_full_game_fg_pct": 0.477,
+    "home_q1_fg_pct": 0.4791,
+    "away_q1_fg_pct": 0.4627,
+    "fg_edge": 0.0169
+  },
+  "recommendations": {
+    "spread": "Home 4.5",
+    "moneyline": "Home ML (San Antonio Spurs)",
+    "total": "Under 218.5",
+    "q1_spread": "Home Q1 1.0",
+    "h1_spread": "Home 1H 2.5"
+  },
+  "player_props": [
+    {
+      "player_name": "Victor Wembanyama",
+      "team": "Spurs",
+      "prop_type": "Points",
+      "prop_line": 24.5,
+      "model_projection": 25.8,
+      "edge": 6.56,
+      "model_prob": 0.735,
+      "lean": "Lean Over Victor Wembanyama Points"
+    },
+    {
+      "player_name": "Victor Wembanyama",
+      "team": "Spurs",
+      "prop_type": "Rebounds",
+      "prop_line": 10.5,
+      "model_projection": 11.2,
+      "edge": 6.53,
+      "model_prob": 0.734,
+      "lean": "Lean Over Victor Wembanyama Rebounds"
+    },
+    {
+      "player_name": "Devin Vassell",
+      "team": "Spurs",
+      "prop_type": "Points",
+      "prop_line": 18.5,
+      "model_projection": 19.3,
+      "edge": 5.53,
+      "model_prob": 0.648,
+      "lean": "Lean Over Devin Vassell Points"
+    },
+    {
+      "player_name": "Jalen Brunson",
+      "team": "Knicks",
+      "prop_type": "Points",
+      "prop_line": 26.5,
+      "model_projection": 27.2,
+      "edge": 7.01,
+      "model_prob": 0.769,
+      "lean": "Lean Over Jalen Brunson Points"
+    },
+    {
+      "player_name": "Karl-Anthony Towns",
+      "team": "Knicks",
+      "prop_type": "Rebounds",
+      "prop_line": 9.5,
+      "model_projection": 10.1,
+      "edge": 5.97,
+      "model_prob": 0.688,
+      "lean": "Lean Over Karl-Anthony Towns Rebounds"
+    },
+    {
+      "player_name": "OG Anunoby",
+      "team": "Knicks",
+      "prop_type": "Points",
+      "prop_line": 15.5,
+      "model_projection": 16.2,
+      "edge": 5.62,
+      "model_prob": 0.657,
+      "lean": "Lean Over OG Anunoby Points"
+    }
+  ],
+  "timestamp": "2026-06-05T20:08:07.047478"
+}
