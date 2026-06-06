@@ -1,0 +1,53 @@
+{
+  "game_info": {
+    "home_team": "MC Oran",
+    "away_team": "USM Alger",
+    "league": "Algerian Ligue 1",
+    "date": "2026-06-06",
+    "venue": "Stade Habib Bouakeul, Oran"
+  },
+  "team_data": {
+    "home": {
+      "matches_played": 28,
+      "goals_scored": 38,
+      "goals_conceded": 25,
+      "home_wins": 9,
+      "home_draws": 4,
+      "home_losses": 1,
+      "avg_corners_for": 5.2,
+      "form": "W-D-W-W-L"
+    },
+    "away": {
+      "matches_played": 28,
+      "goals_scored": 32,
+      "goals_conceded": 28,
+      "away_wins": 5,
+      "away_draws": 6,
+      "away_losses": 3,
+      "avg_corners_for": 4.3,
+      "form": "L-W-D-W-D"
+    }
+  },
+  "expected_goals": {
+    "home": 0.64,
+    "away": 0.4,
+    "total": 1.04
+  },
+  "probabilities": {
+    "home_win": 0.355,
+    "draw": 0.45,
+    "away_win": 0.195,
+    "over_25": 0.088,
+    "under_25": 0.912,
+    "btts_yes": 0.156,
+    "btts_no": 0.844
+  },
+  "recommendations": {
+    "match_outcome": "Draw",
+    "goals_ou": "Under 2.5",
+    "btts": "BTTS No",
+    "corners": "Pass"
+  },
+  "projected_score": "1-0",
+  "timestamp": "2026-06-06T12:10:31.216196"
+}
