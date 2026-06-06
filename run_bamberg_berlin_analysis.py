@@ -453,12 +453,12 @@ def run_bamberg_berlin_analysis():
     }
     
     market_data = {
-        'open_line': -3.5,
-        'current_line': -4.5,
-        'spread': -4.5,
+        'open_line': -1.5,
+        'current_line': -2.5,
+        'spread': -2.5,
         'total': 165.5,
-        'q1_spread': -1.0,
-        'h1_spread': -2.5,
+        'q1_spread': -0.5,
+        'h1_spread': -1.5,
     }
     
     # Player props for key players
