@@ -1,0 +1,10 @@
+ref_id,league,season,games,yellows_per_game,reds_per_game,pens_per_game,home_card_diff
+FIFA_001,FIFA WC Qualifiers,2025-26,15,4.2,0.3,0.2,0.5
+FIFA_002,FIFA WC Qualifiers,2025-26,12,3.8,0.2,0.3,0.3
+FIFA_003,FIFA WC Qualifiers,2025-26,14,5.1,0.4,0.1,0.8
+UEFA_001,UEFA Champions,2025-26,20,3.5,0.1,0.2,0.2
+UEFA_002,UEFA Champions,2025-26,18,4.0,0.3,0.3,0.4
+ALGERIA_001,Algerian Ligue 1,2025-26,22,4.5,0.3,0.2,0.6
+ALGERIA_002,Algerian Ligue 1,2025-26,20,3.9,0.2,0.4,0.3
+SWEDEN_001,Sweden Div 2,2025-26,18,3.2,0.1,0.3,0.2
+FINLAND_001,Finland Ykkonen,2025-26,16,3.7,0.2,0.2,0.4

@@ -1,0 +1,10 @@
+ref_id,league,season,games,avg_total_fouls,home_foul_diff,tech_fouls_per_game,over_rate_totals,playoff_flag
+NBA_001,NBA,2025-26,45,38.5,1.2,0.3,0.52,false
+NBA_002,NBA,2025-26,42,41.2,0.8,0.5,0.58,false
+NBA_003,NBA,2025-26,48,36.8,-0.5,0.2,0.45,false
+EUROLEAGUE_001,EuroLeague,2025-26,30,35.2,0.3,0.1,0.48,false
+EUROLEAGUE_002,EuroLeague,2025-26,28,37.8,1.5,0.4,0.55,false
+BBL_001,BBL Germany,2025-26,25,39.5,0.7,0.3,0.50,false
+BBL_002,BBL Germany,2025-26,27,34.2,-0.2,0.1,0.42,false
+ACB_001,ACB Spain,2025-26,28,36.5,0.5,0.2,0.47,false
+NZNBL_001,NZNBL,2025-26,20,40.2,1.0,0.4,0.53,false

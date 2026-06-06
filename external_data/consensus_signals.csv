@@ -1,0 +1,16 @@
+match_id,sport,home_team,away_team,public_pct_home,public_pct_over,sharp_side,expert_consensus_score
+spurs_knicks_20260603,basketball,San Antonio Spurs,NY Knicks,0.62,0.55,home,0.72
+alba_berlin_20260601,basketball,Alba Berlin,Brose Bamberg,0.58,0.48,away,0.65
+barca_murcia_20260602,basketball,FC Barcelona,UCAM Murcia,0.75,0.42,home,0.80
+mc_oran_usma_20260606,soccer,MC Oran,USM Alger,0.45,0.35,under,0.58
+albania_israel_20260603,soccer,Albania,Israel,0.52,0.60,over,0.62
+netherlands_algeria_20260603,soccer,Netherlands,Algeria,0.68,0.58,home,0.70
+poland_nigeria_20260603,soccer,Poland,Nigeria,0.55,0.38,under,0.55
+wales_ghana_20260603,soccer,Wales,Ghana,0.60,0.40,home,0.65
+spain_iraq_20260604,soccer,Spain,Iraq,0.82,0.55,home,0.85
+sweden_greece_20260604,soccer,Sweden,Greece,0.48,0.42,under,0.52
+efes_fener_20260605,basketball,Anadolu Efes,Fenerbahce Beko,0.55,0.62,over,0.68
+pao_oly_20260605,basketball,Panathinaikos,Olympiacos,0.58,0.45,home,0.62
+joventut_baskonia_20260605,basketball,Joventut Badalona,Baskonia,0.48,0.40,under,0.55
+otago_franklin_20260604,basketball,Otago Nuggets,Franklin Bulls,0.45,0.58,over,0.60
+georgia_bahrain_20260605,soccer,Georgia,Bahrain,0.65,0.38,home,0.68
