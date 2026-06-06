@@ -41,12 +41,12 @@
     }
   },
   "market_data": {
-    "open_line": -4.0,
-    "current_line": -4.5,
-    "spread": -4.5,
+    "open_line": -5.5,
+    "current_line": -6.5,
+    "spread": -6.5,
     "total": 218.5,
-    "q1_spread": -1.0,
-    "h1_spread": -2.5
+    "q1_spread": -1.5,
+    "h1_spread": -3.5
   },
   "full_game_projection": {
     "record_type": "full_game",
@@ -81,7 +81,7 @@
     "spread": 18.3,
     "total": 164.9,
     "home_win_prob": 0.942,
-    "recommendation": "Home 1H 2.5"
+    "recommendation": "Home 1H 3.5"
   },
   "fg_analysis": {
     "home_full_game_fg_pct": 0.4939,
@@ -91,11 +91,11 @@
     "fg_edge": 0.0169
   },
   "recommendations": {
-    "spread": "Home 4.5",
+    "spread": "Home 6.5",
     "moneyline": "Home ML (San Antonio Spurs)",
     "total": "Under 218.5",
-    "q1_spread": "Home Q1 1.0",
-    "h1_spread": "Home 1H 2.5"
+    "q1_spread": "Home Q1 1.5",
+    "h1_spread": "Home 1H 3.5"
   },
   "player_props": [
     {
@@ -159,5 +159,5 @@
       "lean": "Lean Over OG Anunoby Points"
     }
   ],
-  "timestamp": "2026-06-05T20:08:07.047478"
+  "timestamp": "2026-06-05T20:18:18.864452"
 }

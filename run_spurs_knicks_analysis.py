@@ -453,12 +453,12 @@ def run_spurs_knicks_analysis():
     }
     
     market_data = {
-        'open_line': -4.0,
-        'current_line': -4.5,
-        'spread': -4.5,
+        'open_line': -5.5,
+        'current_line': -6.5,
+        'spread': -6.5,
         'total': 218.5,
-        'q1_spread': -1.0,
-        'h1_spread': -2.5,
+        'q1_spread': -1.5,
+        'h1_spread': -3.5,
     }
     
     # Player props for key players
