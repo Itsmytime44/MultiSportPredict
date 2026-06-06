@@ -1,0 +1,53 @@
+{
+  "game_info": {
+    "home_team": "Villa Espanola",
+    "away_team": "Sportivo Bella Italia",
+    "league": "Uruguay Segunda Division",
+    "date": "2026-06-06",
+    "venue": "Estadio Jose Pedro Damiani, Montevideo"
+  },
+  "team_data": {
+    "home": {
+      "matches_played": 14,
+      "goals_scored": 18,
+      "goals_conceded": 16,
+      "home_wins": 5,
+      "home_draws": 2,
+      "home_losses": 0,
+      "avg_corners_for": 5.0,
+      "form": "W-D-W-W-D"
+    },
+    "away": {
+      "matches_played": 14,
+      "goals_scored": 12,
+      "goals_conceded": 20,
+      "away_wins": 2,
+      "away_draws": 3,
+      "away_losses": 2,
+      "avg_corners_for": 3.8,
+      "form": "L-D-L-W-L"
+    }
+  },
+  "expected_goals": {
+    "home": 0.9,
+    "away": 0.4,
+    "total": 1.3
+  },
+  "probabilities": {
+    "home_win": 0.462,
+    "draw": 0.38,
+    "away_win": 0.158,
+    "over_25": 0.143,
+    "under_25": 0.857,
+    "btts_yes": 0.196,
+    "btts_no": 0.804
+  },
+  "recommendations": {
+    "match_outcome": "Draw",
+    "goals_ou": "Under 2.5",
+    "btts": "BTTS No",
+    "corners": "Pass"
+  },
+  "projected_score": "1-0",
+  "timestamp": "2026-06-06T13:57:36.109898"
+}
