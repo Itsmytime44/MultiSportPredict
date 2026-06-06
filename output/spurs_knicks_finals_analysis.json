@@ -119,6 +119,26 @@
       "lean": "Lean Over Victor Wembanyama Rebounds"
     },
     {
+      "player_name": "Victor Wembanyama",
+      "team": "Spurs",
+      "prop_type": "3PTM",
+      "prop_line": 1.5,
+      "model_projection": 1.8,
+      "edge": 6.24,
+      "model_prob": 0.71,
+      "lean": "Lean Over Victor Wembanyama 3PTM"
+    },
+    {
+      "player_name": "Victor Wembanyama",
+      "team": "Spurs",
+      "prop_type": "1Q Points",
+      "prop_line": 6.5,
+      "model_projection": 7.2,
+      "edge": 1.15,
+      "model_prob": 0.242,
+      "lean": "Lean Under Victor Wembanyama 1Q Points"
+    },
+    {
       "player_name": "Devin Vassell",
       "team": "Spurs",
       "prop_type": "Points",
@@ -127,6 +147,16 @@
       "edge": 5.53,
       "model_prob": 0.648,
       "lean": "Lean Over Devin Vassell Points"
+    },
+    {
+      "player_name": "Devin Vassell",
+      "team": "Spurs",
+      "prop_type": "3PTM",
+      "prop_line": 2.5,
+      "model_projection": 2.8,
+      "edge": 5.39,
+      "model_prob": 0.636,
+      "lean": "Lean Over Devin Vassell 3PTM"
     },
     {
       "player_name": "Jalen Brunson",
@@ -139,6 +169,16 @@
       "lean": "Lean Over Jalen Brunson Points"
     },
     {
+      "player_name": "Jalen Brunson",
+      "team": "Knicks",
+      "prop_type": "1Q Points",
+      "prop_line": 7.5,
+      "model_projection": 8.1,
+      "edge": 1.58,
+      "model_prob": 0.275,
+      "lean": "Lean Under Jalen Brunson 1Q Points"
+    },
+    {
       "player_name": "Karl-Anthony Towns",
       "team": "Knicks",
       "prop_type": "Rebounds",
@@ -149,6 +189,16 @@
       "lean": "Lean Over Karl-Anthony Towns Rebounds"
     },
     {
+      "player_name": "Karl-Anthony Towns",
+      "team": "Knicks",
+      "prop_type": "3PTM",
+      "prop_line": 1.5,
+      "model_projection": 1.9,
+      "edge": 5.69,
+      "model_prob": 0.663,
+      "lean": "Lean Over Karl-Anthony Towns 3PTM"
+    },
+    {
       "player_name": "OG Anunoby",
       "team": "Knicks",
       "prop_type": "Points",
@@ -157,7 +207,17 @@
       "edge": 5.62,
       "model_prob": 0.657,
       "lean": "Lean Over OG Anunoby Points"
+    },
+    {
+      "player_name": "OG Anunoby",
+      "team": "Knicks",
+      "prop_type": "3PTM",
+      "prop_line": 1.5,
+      "model_projection": 1.7,
+      "edge": 5.48,
+      "model_prob": 0.644,
+      "lean": "Lean Over OG Anunoby 3PTM"
     }
   ],
-  "timestamp": "2026-06-05T20:18:18.864452"
+  "timestamp": "2026-06-05T20:22:01.253537"
 }
