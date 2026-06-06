@@ -1,0 +1,143 @@
+{
+  "game_info": {
+    "home_team": "Brose Bamberg",
+    "away_team": "Alba Berlin",
+    "league": "BBL (Germany)",
+    "date": "2026-06-06",
+    "venue": "Brose Arena, Bamberg"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 112.5,
+      "drtg": 114.8,
+      "baseline_net": -2.3,
+      "recent_net": -1.8,
+      "pace": 96.5,
+      "rest_days": 5,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 1.5,
+      "rotation_depth": 9,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 118.5,
+      "drtg": 112.3,
+      "baseline_net": 6.2,
+      "recent_net": 7.1,
+      "pace": 99.0,
+      "rest_days": 5,
+      "travel_km": 380,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 3.2,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": -3.5,
+    "current_line": -4.5,
+    "spread": -4.5,
+    "total": 165.5,
+    "q1_spread": -1.0,
+    "h1_spread": -2.5
+  },
+  "full_game_projection": {
+    "record_type": "full_game",
+    "current_gap": -8.5,
+    "baseline_gap": -8.5,
+    "recent_gap": -8.9,
+    "historical_gap": -0.16,
+    "rest_gap": 0.0,
+    "split_gap": -1.7,
+    "context_gap": -1.0,
+    "model_edge": -1.95,
+    "market_score": 2.0,
+    "probability": 0.1599,
+    "lean": "Pass",
+    "projected_home_score": 79.7,
+    "projected_away_score": 78.1,
+    "projected_total": 157.9
+  },
+  "q1_projection": {
+    "home_q1_points": 27.3,
+    "away_q1_points": 26.8,
+    "q1_spread": 0.5,
+    "q1_total": 54.1,
+    "q1_prob_home_win": 0.53,
+    "q1_prob_home_ml": 0.527,
+    "q1_pace_factor": 1.4,
+    "q1_ctx_adjustment": 0.0
+  },
+  "h1_projection": {
+    "home_points": 83.0,
+    "away_points": 76.6,
+    "spread": 6.3,
+    "total": 159.6,
+    "home_win_prob": 0.481,
+    "recommendation": "Home 1H 2.5"
+  },
+  "fg_analysis": {
+    "home_full_game_fg_pct": 0.4751,
+    "away_full_game_fg_pct": 0.48,
+    "home_q1_fg_pct": 0.4609,
+    "away_q1_fg_pct": 0.4656,
+    "fg_edge": -0.0048
+  },
+  "recommendations": {
+    "spread": "Home 4.5",
+    "moneyline": "Away ML (Alba Berlin)",
+    "total": "Under 165.5",
+    "q1_spread": "Home Q1 1.0",
+    "h1_spread": "Home 1H 2.5"
+  },
+  "player_props": [
+    {
+      "player_name": "Jonas Mattisseck",
+      "team": "Alba Berlin",
+      "prop_type": "Points",
+      "prop_line": 12.5,
+      "model_projection": 13.2,
+      "edge": 4.45,
+      "model_prob": 0.544,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Jaleen Smith",
+      "team": "Alba Berlin",
+      "prop_type": "Points",
+      "prop_line": 15.5,
+      "model_projection": 16.1,
+      "edge": 5.08,
+      "model_prob": 0.606,
+      "lean": "Lean Over Jaleen Smith Points"
+    },
+    {
+      "player_name": "Toney Douglas",
+      "team": "Brose Bamberg",
+      "prop_type": "Points",
+      "prop_line": 14.5,
+      "model_projection": 15.2,
+      "edge": 4.92,
+      "model_prob": 0.591,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Louis Olinde",
+      "team": "Brose Bamberg",
+      "prop_type": "Rebounds",
+      "prop_line": 6.5,
+      "model_projection": 7.1,
+      "edge": 3.99,
+      "model_prob": 0.499,
+      "lean": "Pass"
+    }
+  ],
+  "timestamp": "2026-06-06T12:16:24.137413"
+}
