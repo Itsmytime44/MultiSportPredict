@@ -307,8 +307,17 @@ def run_mlb_game(home_team: str, away_team: str) -> dict:
         
         result = mlb_predict(home_team, away_team)
         
-        print(f"Projected Total Runs: {result['game']['projected_total_runs']:.1f}")
-        print(f"Projected Run Differential: {result['game']['projected_run_diff_home_minus_away']:+.1f}")
+        # Display game projection with confidence
+        game = result['game']
+        print(f"Projected Total Runs: {game['projected_total_runs']:.1f}")
+        print(f"Projected Run Differential: {game['projected_run_diff_home_minus_away']:+.1f}")
+        
+        # Display confidence scores
+        if 'confidence' in game:
+            conf = game['confidence']
+            print(f"\nConfidence Scores:")
+            print(f"  Total: {conf['total']['score']:.1f}% -> {conf['total']['recommendation']}")
+            print(f"  Side: {conf['side']['score']:.1f}% -> {conf['side']['recommendation']}")
         
         print(f"\nK Props:")
         for team, props in result['k_props'].items():
@@ -323,7 +332,7 @@ def run_mlb_game(home_team: str, away_team: str) -> dict:
             for prop in props:
                 print(f"  {prop['player_name']} ({prop['prop_type']}): {prop['projection']:.1f} (Line: {prop['line']}) -> {prop['lean']}")
         
-        print(f"\nResults saved to: output/mlb/{result['game']['home_team']}_vs_{result['game']['away_team']}.json")
+        print(f"\nResults saved to: output/mlb/{game['home_team']}_vs_{game['away_team']}.json")
         
         return result
         

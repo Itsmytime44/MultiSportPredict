@@ -3,7 +3,19 @@
     "home_team": "SD",
     "away_team": "NYM",
     "projected_total_runs": 7.0,
-    "projected_run_diff_home_minus_away": 1.0
+    "projected_run_diff_home_minus_away": 1.0,
+    "confidence": {
+      "total": {
+        "score": 23.1,
+        "recommendation": "PASS",
+        "volatility": 0.65
+      },
+      "side": {
+        "score": 42.1,
+        "recommendation": "PASS",
+        "volatility": 0.55
+      }
+    }
   },
   "k_props": {
     "home": {

@@ -22,6 +22,9 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
+# Import confidence engine
+from core.confidence_engine import confidence_score, bet_recommendation, get_volatility
+
 try:
     from pybaseball import statcast
 except Exception:
@@ -692,13 +695,34 @@ def predict_match(
         "wind_direction_factor": 0.5
     }
     
-    # Generate prop projections
+    # Calculate confidence scores for game predictions
+    total_volatility = get_volatility("mlb_totals")
+    total_confidence = confidence_score(total_pred - 7.0, total_volatility)  # vs average line
+    total_recommendation = bet_recommendation(total_confidence, "mlb_totals")
+    
+    side_volatility = get_volatility("mlb_sides")
+    side_confidence = confidence_score(abs(side_pred), side_volatility)
+    side_recommendation = bet_recommendation(side_confidence, "mlb_sides")
+    
+    # Generate prop projections with confidence
     result = {
         "game": {
             "home_team": home_team,
             "away_team": away_team,
             "projected_total_runs": round(total_pred, 2),
             "projected_run_diff_home_minus_away": round(side_pred, 2),
+            "confidence": {
+                "total": {
+                    "score": total_confidence,
+                    "recommendation": total_recommendation,
+                    "volatility": total_volatility
+                },
+                "side": {
+                    "score": side_confidence,
+                    "recommendation": side_recommendation,
+                    "volatility": side_volatility
+                }
+            }
         },
         "k_props": {
             "home": project_k_prop(home_pitcher, away_hitter, ump, park_factor),
