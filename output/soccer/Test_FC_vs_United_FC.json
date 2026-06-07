@@ -1,0 +1,19 @@
+{
+  "sport": "soccer",
+  "game": {
+    "home_team": "Test FC",
+    "away_team": "United FC",
+    "projected_home_goals": 2.12,
+    "projected_away_goals": 1.77,
+    "projected_total_goals": 3.88,
+    "home_win_prob": 0.563,
+    "draw_prob": 0.0,
+    "away_win_prob": 0.437
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.9,
+    "over_25_prob": 0.745,
+    "over_35_prob": 0.544
+  },
+  "btts_probability": 0.565
+}

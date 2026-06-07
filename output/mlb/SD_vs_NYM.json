@@ -1,0 +1,74 @@
+{
+  "game": {
+    "home_team": "SD",
+    "away_team": "NYM",
+    "projected_total_runs": 7.0,
+    "projected_run_diff_home_minus_away": 1.0
+  },
+  "k_props": {
+    "home": {
+      "projection": 0.8,
+      "edge": -4.7,
+      "lean": "Under",
+      "line": 5.5
+    },
+    "away": {
+      "projection": 0.8,
+      "edge": -4.7,
+      "lean": "Under",
+      "line": 5.5
+    }
+  },
+  "hr_props": {
+    "home": {
+      "hr_probability": 0.095,
+      "lean": "No HR"
+    },
+    "away": {
+      "hr_probability": 0.095,
+      "lean": "No HR"
+    }
+  },
+  "player_props": {
+    "home": [
+      {
+        "player_name": "SD Slugger",
+        "team": "SD",
+        "prop_type": "Total Bases",
+        "projection": 1.92,
+        "edge": 0.42,
+        "lean": "Over",
+        "line": 1.5
+      },
+      {
+        "player_name": "SD Hitter",
+        "team": "SD",
+        "prop_type": "Hits",
+        "projection": 1.12,
+        "edge": 0.62,
+        "lean": "Over",
+        "line": 0.5
+      }
+    ],
+    "away": [
+      {
+        "player_name": "NYM Slugger",
+        "team": "NYM",
+        "prop_type": "Total Bases",
+        "projection": 1.72,
+        "edge": 0.22,
+        "lean": "Over",
+        "line": 1.5
+      },
+      {
+        "player_name": "NYM Hitter",
+        "team": "NYM",
+        "prop_type": "Hits",
+        "projection": 1.04,
+        "edge": 0.54,
+        "lean": "Over",
+        "line": 0.5
+      }
+    ]
+  }
+}

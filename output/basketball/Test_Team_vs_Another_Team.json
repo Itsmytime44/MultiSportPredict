@@ -1,0 +1,23 @@
+{
+  "sport": "basketball",
+  "game": {
+    "home_team": "Test Team",
+    "away_team": "Another Team",
+    "projected_home_score": 84.5,
+    "projected_away_score": 75.7,
+    "projected_total": 160.3,
+    "win_probability": 0.3327,
+    "model_edge": 1.36,
+    "lean": "Pass"
+  },
+  "q1_projection": {
+    "home_q1_points": 27.3,
+    "away_q1_points": 25.4,
+    "q1_spread": 1.9,
+    "q1_total": 52.7,
+    "q1_prob_home_win": 0.607,
+    "q1_prob_home_ml": 0.599,
+    "q1_pace_factor": 1.34,
+    "q1_ctx_adjustment": 0.6
+  }
+}

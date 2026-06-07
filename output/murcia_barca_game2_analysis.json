@@ -41,12 +41,12 @@
     }
   },
   "market_data": {
-    "open_line": -3.5,
-    "current_line": -4.5,
-    "spread": -4.5,
+    "open_line": -1.0,
+    "current_line": -1.5,
+    "spread": -1.5,
     "total": 162.5,
-    "q1_spread": -1.0,
-    "h1_spread": -2.5
+    "q1_spread": -0.5,
+    "h1_spread": -1.0
   },
   "full_game_projection": {
     "record_type": "full_game",
@@ -81,7 +81,7 @@
     "spread": 6.9,
     "total": 160.9,
     "home_win_prob": 0.516,
-    "recommendation": "Home 1H 2.5"
+    "recommendation": "Home 1H 1.0"
   },
   "fg_analysis": {
     "home_full_game_fg_pct": 0.4743,
@@ -91,11 +91,11 @@
     "fg_edge": -0.0361
   },
   "recommendations": {
-    "spread": "Home 4.5",
+    "spread": "Home 1.5",
     "moneyline": "Away ML (FC Barcelona)",
     "total": "Under 162.5",
     "q1_spread": "Pass",
-    "h1_spread": "Home 1H 2.5"
+    "h1_spread": "Home 1H 1.0"
   },
   "player_props": [
     {
@@ -129,5 +129,5 @@
       "lean": "Pass"
     }
   ],
-  "timestamp": "2026-06-06T13:57:35.695626"
+  "timestamp": "2026-06-06T14:15:07.802215"
 }

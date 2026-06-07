@@ -1,0 +1,143 @@
+{
+  "game_info": {
+    "home_team": "Quisma",
+    "away_team": "Gimnasia CR",
+    "league": "LNB (Argentina)",
+    "date": "2026-06-06",
+    "venue": "Estadio Quisma, Santiago del Estero"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 106.8,
+      "drtg": 103.2,
+      "baseline_net": 3.6,
+      "recent_net": 4.8,
+      "pace": 92.5,
+      "rest_days": 3,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 5.2,
+      "rotation_depth": 9,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 102.5,
+      "drtg": 105.8,
+      "baseline_net": -3.3,
+      "recent_net": -2.1,
+      "pace": 90.8,
+      "rest_days": 2,
+      "travel_km": 1200,
+      "back_to_back": false,
+      "three_in_six": true,
+      "split_edge": -1.5,
+      "rotation_depth": 8,
+      "injury_status": "yellow",
+      "coach_stability": "green",
+      "motivation": "yellow"
+    }
+  },
+  "market_data": {
+    "open_line": -3.5,
+    "current_line": -4.5,
+    "spread": -4.5,
+    "total": 158.5,
+    "q1_spread": -1.5,
+    "h1_spread": -2.5
+  },
+  "full_game_projection": {
+    "record_type": "full_game",
+    "current_gap": 6.9,
+    "baseline_gap": 6.9,
+    "recent_gap": 6.9,
+    "historical_gap": -0.0,
+    "rest_gap": 3.0,
+    "split_gap": 6.7,
+    "context_gap": 1.5,
+    "model_edge": 7.92,
+    "market_score": -1.0,
+    "probability": 0.7699,
+    "lean": "Pass",
+    "projected_home_score": 94.0,
+    "projected_away_score": 71.0,
+    "projected_total": 165.0
+  },
+  "q1_projection": {
+    "home_q1_points": 26.3,
+    "away_q1_points": 23.7,
+    "q1_spread": 2.5,
+    "q1_total": 50.0,
+    "q1_prob_home_win": 0.643,
+    "q1_prob_home_ml": 0.632,
+    "q1_pace_factor": 1.31,
+    "q1_ctx_adjustment": 0.9
+  },
+  "h1_projection": {
+    "home_points": 90.6,
+    "away_points": 68.9,
+    "spread": 21.7,
+    "total": 159.5,
+    "home_win_prob": 0.974,
+    "recommendation": "Home 1H 2.5"
+  },
+  "fg_analysis": {
+    "home_full_game_fg_pct": 0.4788,
+    "away_full_game_fg_pct": 0.4618,
+    "home_q1_fg_pct": 0.4644,
+    "away_q1_fg_pct": 0.448,
+    "fg_edge": 0.0169
+  },
+  "recommendations": {
+    "spread": "Home 4.5",
+    "moneyline": "Home ML (Quisma)",
+    "total": "Over 158.5",
+    "q1_spread": "Home Q1 1.5",
+    "h1_spread": "Home 1H 2.5"
+  },
+  "player_props": [
+    {
+      "player_name": "M. Morales",
+      "team": "Quisma",
+      "prop_type": "Points",
+      "prop_line": 16.5,
+      "model_projection": 18.2,
+      "edge": 6.16,
+      "model_prob": 0.703,
+      "lean": "Lean Over M. Morales Points"
+    },
+    {
+      "player_name": "L. Vildoza",
+      "team": "Quisma",
+      "prop_type": "Assists",
+      "prop_line": 5.5,
+      "model_projection": 6.1,
+      "edge": 4.81,
+      "model_prob": 0.58,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "F. Barre",
+      "team": "Gimnasia CR",
+      "prop_type": "Points",
+      "prop_line": 14.5,
+      "model_projection": 15.3,
+      "edge": 4.54,
+      "model_prob": 0.554,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "T. Zanzottera",
+      "team": "Gimnasia CR",
+      "prop_type": "Rebounds",
+      "prop_line": 7.5,
+      "model_projection": 8.2,
+      "edge": 5.26,
+      "model_prob": 0.623,
+      "lean": "Lean Over T. Zanzottera Rebounds"
+    }
+  ],
+  "timestamp": "2026-06-06T16:16:28.115554"
+}

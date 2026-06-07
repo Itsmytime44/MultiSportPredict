@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 """
-Comprehensive Analysis for ACB (Spain) Game
-- UCAM Murcia vs FC Barcelona
+Comprehensive Analysis for Argentine LNB Game
+- Asociacion Atletica Quisma vs Gimnasia Esgrima Comodoro Rivadavia
 
-Focus: 1Q, 1H, FG, Spreads, Moneyline, Totals, and Player Props
+Focus: Full Game, 1Q, 1H, Spreads, Moneyline, Totals
 """
 
 import sys
@@ -38,7 +38,7 @@ from MultiSportModel import (
 
 def analyze_basketball_match(
     home_team, away_team, home_data, away_data, market_data, venue, 
-    date="2026-06-06", league="ACB (Spain)", player_props_data=None
+    date="2026-06-06", league="LNB (Argentina)", player_props_data=None
 ):
     """Analyze a basketball match with comprehensive betting analysis"""
     
@@ -408,110 +408,91 @@ def analyze_basketball_match(
     return results
 
 
-def run_murcia_barca_analysis():
-    """Run comprehensive analysis for UCAM Murcia vs FC Barcelona"""
+def run_quisma_gimnasia_analysis():
+    """Run comprehensive analysis for Quisma vs Gimnasia"""
     
     print("\n" + "=" * 80)
-    print("ACB SPAIN: UCAM MURCIA vs FC BARCELONA")
-    print("ACB (Spain) - June 6, 2026")
+    print("ARGENTINE LNB: ASOCIACION ATLETICA QUISMA vs GIMNASIA ESGRIMA COMODORO RIVADAVIA")
+    print("LNB (Argentina) - June 6, 2026")
     print("=" * 80 + "\n")
     
-    # UCAM Murcia (Home)
+    # Quisma (Home) - Strong home team with good offense
     home_data = {
-        'ortg': 108.2,
-        'drtg': 105.5,
-        'baseline_net': 2.7,
-        'recent_net': 4.2,
-        'pace': 94.5,
-        'rest_days': 2,
+        'ortg': 106.8,
+        'drtg': 103.2,
+        'baseline_net': 3.6,
+        'recent_net': 4.8,
+        'pace': 92.5,
+        'rest_days': 3,
         'travel_km': 0,
         'back_to_back': False,
         'three_in_six': False,
-        'split_edge': 3.5,
+        'split_edge': 5.2,  # Strong home court advantage
         'rotation_depth': 9,
         'injury_status': 'green',
         'coach_stability': 'green',
         'motivation': 'green',
     }
     
-    # FC Barcelona (Away)
+    # Gimnasia Comodoro Rivadavia (Away) - Decent road team
     away_data = {
-        'ortg': 115.8,
-        'drtg': 108.2,
-        'baseline_net': 7.6,
-        'recent_net': 6.8,
-        'pace': 96.0,
+        'ortg': 102.5,
+        'drtg': 105.8,
+        'baseline_net': -3.3,
+        'recent_net': -2.1,
+        'pace': 90.8,
         'rest_days': 2,
-        'travel_km': 450,
+        'travel_km': 1200,  # Significant travel from Comodoro Rivadavia
         'back_to_back': False,
-        'three_in_six': False,
-        'split_edge': 4.2,
-        'rotation_depth': 10,
-        'injury_status': 'green',
+        'three_in_six': True,  # Playing 3 games in 6 days
+        'split_edge': -1.5,  # Poor road record
+        'rotation_depth': 8,
+        'injury_status': 'yellow',  # Some minor injuries
         'coach_stability': 'green',
-        'motivation': 'green',
+        'motivation': 'yellow',
     }
     
     market_data = {
-        'open_line': -1.0,
-        'current_line': -1.5,
-        'spread': -1.5,
-        'total': 162.5,
-        'q1_spread': -0.5,
-        'h1_spread': -1.0,
+        'open_line': -3.5,
+        'current_line': -4.5,
+        'spread': -4.5,  # Quisma favored by 4.5
+        'total': 158.5,
+        'q1_spread': -1.5,
+        'h1_spread': -2.5,
     }
     
-    # Player props for key players
+    # Player props for key players (typical LNB stats)
     player_props = [
-        # UCAM Murcia
+        # Quisma key players
         {
-            "player_name": "J. DeJulius",
-            "team": "UCAM Murcia",
-            "opponent": "FC Barcelona",
+            "player_name": "M. Morales",
+            "team": "Quisma",
+            "opponent": "Gimnasia CR",
             "prop_type": "Points",
             "prop_line": 16.5,
-            "player_avg": 17.8,
+            "player_avg": 18.2,
             "minutes_proj": 32.0,
-            "usage_rate": 28.0,
-            "game_pace": 95,
-            "opp_def_rating": 108.2,
-            "opp_position_def_rating": 106.0,
+            "usage_rate": 26.0,
+            "game_pace": 92,
+            "opp_def_rating": 105.8,
+            "opp_position_def_rating": 104.0,
             "injury_boost": "green",
             "blowout_risk": "yellow",
             "role": "starter",
             "open_prop_line": 16.0,
             "current_prop_line": 16.5,
         },
-        # FC Barcelona
         {
-            "player_name": "Nikola Mirotic",
-            "team": "FC Barcelona",
-            "opponent": "UCAM Murcia",
-            "prop_type": "Points",
-            "prop_line": 18.5,
-            "player_avg": 19.5,
-            "minutes_proj": 30.0,
-            "usage_rate": 26.0,
-            "game_pace": 95,
-            "opp_def_rating": 105.5,
-            "opp_position_def_rating": 104.0,
-            "injury_boost": "green",
-            "blowout_risk": "yellow",
-            "role": "starter",
-            "open_prop_line": 18.0,
-            "current_prop_line": 18.5,
-        },
-        {
-            "player_name": "Tomas Satoransky",
-            "team": "FC Barcelona",
-            "opponent": "UCAM Murcia",
+            "player_name": "L. Vildoza",
+            "team": "Quisma",
+            "opponent": "Gimnasia CR",
             "prop_type": "Assists",
             "prop_line": 5.5,
-            "player_avg": 6.2,
+            "player_avg": 6.1,
             "minutes_proj": 28.0,
-            "usage_rate": 18.0,
-            "game_pace": 95,
-            "opp_def_rating": 105.5,
+            "usage_rate": 22.0,
+            "game_pace": 92,
+            "opp_def_rating": 105.8,
             "opp_position_def_rating": 103.0,
             "injury_boost": "green",
             "blowout_risk": "yellow",
@@ -519,17 +500,54 @@ def run_murcia_barca_analysis():
             "open_prop_line": 5.5,
             "current_prop_line": 5.5,
         },
+        # Gimnasia CR key players
+        {
+            "player_name": "F. Barre",
+            "team": "Gimnasia CR",
+            "opponent": "Quisma",
+            "prop_type": "Points",
+            "prop_line": 14.5,
+            "player_avg": 15.3,
+            "minutes_proj": 30.0,
+            "usage_rate": 24.0,
+            "game_pace": 92,
+            "opp_def_rating": 103.2,
+            "opp_position_def_rating": 102.0,
+            "injury_boost": "yellow",
+            "blowout_risk": "yellow",
+            "role": "starter",
+            "open_prop_line": 14.5,
+            "current_prop_line": 14.5,
+        },
+        {
+            "player_name": "T. Zanzottera",
+            "team": "Gimnasia CR",
+            "opponent": "Quisma",
+            "prop_type": "Rebounds",
+            "prop_line": 7.5,
+            "player_avg": 8.2,
+            "minutes_proj": 26.0,
+            "usage_rate": 18.0,
+            "game_pace": 92,
+            "opp_def_rating": 103.2,
+            "opp_position_def_rating": 101.0,
+            "injury_boost": "green",
+            "blowout_risk": "red",
+            "role": "starter",
+            "open_prop_line": 7.5,
+            "current_prop_line": 7.5,
+        },
     ]
     
     result = analyze_basketball_match(
-        home_team="UCAM Murcia",
-        away_team="FC Barcelona",
+        home_team="Quisma",
+        away_team="Gimnasia CR",
         home_data=home_data,
         away_data=away_data,
         market_data=market_data,
-        venue="Palacio de Deportes, Murcia",
+        venue="Estadio Quisma, Santiago del Estero",
         date="2026-06-06",
-        league="ACB (Spain)",
+        league="LNB (Argentina)",
         player_props_data=player_props
     )
     
@@ -537,20 +555,20 @@ def run_murcia_barca_analysis():
 
 
 def main():
-    """Run UCAM Murcia vs FC Barcelona analysis"""
+    """Run Quisma vs Gimnasia analysis"""
     
     print("=" * 80)
-    print("ACB SPAIN COMPREHENSIVE ANALYSIS")
+    print("ARGENTINE LNB COMPREHENSIVE ANALYSIS")
     print("June 6, 2026")
     print("=" * 80)
     
-    result = run_murcia_barca_analysis()
+    result = run_quisma_gimnasia_analysis()
     
     # Save results
     output_dir = Path("output")
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    with open(output_dir / "murcia_barca_game2_analysis.json", 'w') as f:
+    with open(output_dir / "quisma_vs_gimnasia_analysis.json", 'w') as f:
         json.dump(result, f, indent=2)
     
     # Print summary
@@ -558,14 +576,14 @@ def main():
     print("RESULTS SUMMARY")
     print("=" * 80)
     print()
-    print("UCAM Murcia vs FC Barcelona:")
+    print("Quisma vs Gimnasia CR:")
     print(f"  Spread: {result['recommendations']['spread']}")
     print(f"  Moneyline: {result['recommendations']['moneyline']}")
     print(f"  Total: {result['recommendations']['total']}")
     print(f"  1Q: {result['recommendations']['q1_spread']}")
     print(f"  1H: {result['recommendations']['h1_spread']}")
     print()
-    print(f"Results saved to: output/murcia_barca_game2_analysis.json")
+    print(f"Results saved to: output/quisma_vs_gimnasia_analysis.json")
     print()
     print("=" * 80)
 

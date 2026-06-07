@@ -1,0 +1,85 @@
+{
+  "game_info": {
+    "home_team": "Brazil",
+    "away_team": "USA",
+    "league": "International_Friendly_Women",
+    "date": "2026-06-06",
+    "venue": "Est\u00e1dio Nacional, Bras\u00edlia"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.85,
+      "xg_against": 1.2,
+      "shots": 14.5,
+      "sot": 5.5,
+      "goals_for": 1.9,
+      "goals_against": 1.0,
+      "clean_sheets": 5,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.4,
+      "width_crossing": 0.65,
+      "final_third_pressure": 0.6
+    },
+    "away": {
+      "xg_for": 2.05,
+      "xg_against": 0.95,
+      "shots": 16.0,
+      "sot": 6.2,
+      "goals_for": 2.2,
+      "goals_against": 0.8,
+      "clean_sheets": 6,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.5,
+      "width_crossing": 0.6,
+      "final_third_pressure": 0.65
+    }
+  },
+  "projections": {
+    "home_expected_goals": 2.27,
+    "away_expected_goals": 2.47,
+    "total_expected_goals": 4.73,
+    "home_win_prob": 0.431,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.454
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.95,
+    "over_25_prob": 0.851,
+    "over_35_prob": 0.696,
+    "market_line": 2.5,
+    "recommendation": "Over 2.5"
+  },
+  "btts_analysis": {
+    "home_btts_strength": 1.0,
+    "away_btts_strength": 1.07,
+    "btts_probability": 0.745,
+    "recommendation": "BTTS Yes"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 2.4,
+    "away_corner_strength": 2.68,
+    "projected_total": 13.0,
+    "over_85_prob": 0.9,
+    "over_95_prob": 0.835,
+    "over_105_prob": 0.749,
+    "market_line": 9.5,
+    "recommendation": "Over 9.5"
+  },
+  "recommendations": {
+    "match_outcome": "Pass",
+    "goals": "Over 2.5",
+    "btts": "BTTS Yes",
+    "corners": "Over 9.5"
+  },
+  "goal_strength": {
+    "home": 1.74,
+    "away": 2.41
+  },
+  "timestamp": "2026-06-06T16:22:09.579450"
+}
