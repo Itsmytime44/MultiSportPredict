@@ -23,7 +23,7 @@ import os
 import json
 import requests
 import pandas as pd
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 from datetime import datetime
 
 
@@ -72,6 +72,12 @@ class OddsApiIngestor:
             response = requests.get(url, params=params, timeout=10)
             response.raise_for_status()
             data = response.json()
+            
+            # Check for API errors in response
+            if "errors" in data:
+                print(f"[ERROR] API returned errors: {data['errors']}")
+                return None
+                
             self.last_fetch = datetime.now()
             
             # Cache the raw data
@@ -80,9 +86,15 @@ class OddsApiIngestor:
                 'fetched_at': self.last_fetch.isoformat()
             }
             
-            return data
+            return data.get('events', []) if isinstance(data, dict) else data
+        except requests.exceptions.Timeout:
+            print(f"[ERROR] Request timeout fetching {sport_key}")
+            return None
         except requests.exceptions.RequestException as e:
             print(f"[ERROR] Failed to communicate with Odds API: {e}")
+            return None
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"[ERROR] Invalid JSON response: {e}")
             return None
 
     def fetch_specific_match(self, sport_key: str, home_team: str, away_team: str) -> Optional[Dict]:
@@ -105,8 +117,10 @@ class OddsApiIngestor:
         
         # Try case-insensitive match
         for match in all_matches:
-            if (match.get("home_team", "").lower() == home_team.lower() and 
-                match.get("away_team", "").lower() == away_team.lower()):
+            home = match.get("home_team", "").lower().strip()
+            away = match.get("away_team", "").lower().strip()
+            if (home == home_team.lower().strip() and 
+                away == away_team.lower().strip()):
                 return match
         
         return None
@@ -124,21 +138,21 @@ class OddsApiIngestor:
         parsed_records = []
 
         for match in raw_json:
-            match_id = match.get("id")
-            sport = match.get("sport_title")
-            commence_time = match.get("commence_time")
-            home_team = match.get("home_team")
-            away_team = match.get("away_team")
+            match_id = match.get("id", "unknown")
+            sport = match.get("sport_title", "unknown")
+            commence_time = match.get("commence_time", "")
+            home_team = match.get("home_team", "")
+            away_team = match.get("away_team", "")
 
             # Iterate through available bookmakers
             for bookmaker in match.get("bookmakers", []):
-                bk_name = bookmaker.get("key")
+                bk_name = bookmaker.get("key", "unknown")
 
                 for market in bookmaker.get("markets", []):
-                    market_key = market.get("key")
+                    market_key = market.get("key", "unknown")
 
                     for outcome in market.get("outcomes", []):
-                        name = outcome.get("name")
+                        name = outcome.get("name", "")
                         price = outcome.get("price")
                         point = outcome.get("point")
 
@@ -151,8 +165,8 @@ class OddsApiIngestor:
                             "bookmaker": bk_name,
                             "market_type": market_key,
                             "selection": name,
-                            "odds": price,
-                            "line_value": point if point is not None else 0.0
+                            "odds": price if price else 0.0,
+                            "line_value": float(point) if point is not None else 0.0
                         }
                         parsed_records.append(record)
 
@@ -186,6 +200,9 @@ class OddsApiIngestor:
         bookmakers = match_data.get('bookmakers', [])
         result['bookmaker_count'] = len(bookmakers)
         
+        if not bookmakers:
+            return result
+        
         # Aggregate odds across bookmakers (use median for robustness)
         home_ml_odds = []
         away_ml_odds = []
@@ -203,40 +220,61 @@ class OddsApiIngestor:
                 
                 if market_key == 'h2h':
                     for outcome in market.get('outcomes', []):
-                        name = outcome.get('name')
+                        name = outcome.get('name', '').strip()
                         price = outcome.get('price')
-                        if name == match_data.get('home_team'):
+                        if price is None:
+                            continue
+                        
+                        home_name = match_data.get('home_team', '').strip()
+                        away_name = match_data.get('away_team', '').strip()
+                        
+                        if name == home_name:
                             home_ml_odds.append(price)
-                        elif name == match_data.get('away_team'):
+                        elif name == away_name:
                             away_ml_odds.append(price)
-                        elif name == 'Draw':
+                        elif name.lower() == 'draw':
                             draw_ml_odds.append(price)
                 
                 elif market_key == 'spreads':
                     for outcome in market.get('outcomes', []):
-                        name = outcome.get('name')
+                        name = outcome.get('name', '').strip()
                         price = outcome.get('price')
                         point = outcome.get('point')
-                        if name == match_data.get('home_team'):
+                        
+                        if price is None:
+                            continue
+                        
+                        home_name = match_data.get('home_team', '').strip()
+                        away_name = match_data.get('away_team', '').strip()
+                        
+                        if name == home_name:
                             spread_home_odds.append(price)
-                            spread_lines.append(point)
-                        elif name == match_data.get('away_team'):
+                            if point is not None:
+                                spread_lines.append(point)
+                        elif name == away_name:
                             spread_away_odds.append(price)
-                            spread_lines.append(point)
+                            if point is not None:
+                                spread_lines.append(point)
                 
                 elif market_key == 'totals':
                     for outcome in market.get('outcomes', []):
-                        name = outcome.get('name')
+                        name = outcome.get('name', '').lower().strip()
                         price = outcome.get('price')
                         point = outcome.get('point')
-                        if name == 'Over':
+                        
+                        if price is None:
+                            continue
+                        
+                        if 'over' in name:
                             over_odds.append(price)
-                            total_lines.append(point)
-                        elif name == 'Under':
+                            if point is not None:
+                                total_lines.append(point)
+                        elif 'under' in name:
                             under_odds.append(price)
-                            total_lines.append(point)
+                            if point is not None:
+                                total_lines.append(point)
         
-        # Calculate medians
+        # Calculate medians safely
         if home_ml_odds:
             result['moneyline_home'] = sorted(home_ml_odds)[len(home_ml_odds)//2]
         if away_ml_odds:
@@ -261,7 +299,10 @@ class OddsApiIngestor:
     def convert_decimal_to_implied_prob(self, decimal_odds: float) -> float:
         """Convert decimal odds to implied probability"""
         if decimal_odds and decimal_odds > 1:
-            return 1.0 / decimal_odds
+            try:
+                return 1.0 / float(decimal_odds)
+            except (ValueError, ZeroDivisionError):
+                return 0.0
         return 0.0
 
     def extract_model_ready_features(self, match_data: Dict) -> Dict:
@@ -315,7 +356,11 @@ def fetch_and_save_odds(sport_key: str, output_file: str = "data/current_market_
         print("[ERROR] No API key provided. Set ODDS_API_KEY env var or pass api_key parameter.")
         return pd.DataFrame()
     
-    ingestor = OddsApiIngestor(api_key=api_key)
+    try:
+        ingestor = OddsApiIngestor(api_key=api_key)
+    except ValueError as e:
+        print(f"[ERROR] {e}")
+        return pd.DataFrame()
     
     print(f"[INFO] Fetching odds for {sport_key}...")
     raw_data = ingestor.fetch_live_odds(sport_key)
@@ -326,11 +371,19 @@ def fetch_and_save_odds(sport_key: str, output_file: str = "data/current_market_
     
     df = ingestor.parse_odds_to_dataframe(raw_data)
     
-    # Save to CSV
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    df.to_csv(output_file, index=False)
+    if df.empty:
+        print("[WARNING] No records parsed from API response.")
+        return pd.DataFrame()
     
-    print(f"[SUCCESS] Saved {len(df)} records to {output_file}")
+    # Save to CSV
+    try:
+        os.makedirs(os.path.dirname(output_file) or ".", exist_ok=True)
+        df.to_csv(output_file, index=False)
+        print(f"[SUCCESS] Saved {len(df)} records to {output_file}")
+    except IOError as e:
+        print(f"[ERROR] Failed to save CSV: {e}")
+        return pd.DataFrame()
+    
     return df
 
 
@@ -377,11 +430,14 @@ if __name__ == "__main__":
             ]
         }
         
-        ingestor = OddsApiIngestor(api_key="demo")
-        features = ingestor.extract_model_ready_features(sample_match)
-        print("\nSample extracted features:")
-        for key, value in features.items():
-            print(f"  {key}: {value}")
+        try:
+            ingestor = OddsApiIngestor(api_key="demo")
+            features = ingestor.extract_model_ready_features(sample_match)
+            print("\nSample extracted features:")
+            for key, value in features.items():
+                print(f"  {key}: {value}")
+        except ValueError:
+            print("[INFO] Demo mode - API not initialized (as expected with demo key)")
     else:
         # Real API usage
         print("[INFO] Using API key from environment.")
