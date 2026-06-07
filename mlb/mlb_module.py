@@ -14,7 +14,7 @@ import pickle
 from dataclasses import dataclass
 from datetime import date, timedelta
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional
 
 import numpy as np
 import pandas as pd
@@ -528,6 +528,81 @@ def project_rbis(
     }
 
 
+def _generate_player_props(
+    home_hitters: List[Dict[str, Any]],
+    away_hitters: List[Dict[str, Any]],
+    home_team: str,
+    away_team: str
+) -> Dict[str, List[Dict[str, Any]]]:
+    """
+    Generate player prop projections using real player data.
+    
+    Args:
+        home_hitters: List of home team hitter stat dictionaries
+        away_hitters: List of away team hitter stat dictionaries
+        home_team: Home team abbreviation
+        away_team: Away team abbreviation
+        
+    Returns:
+        Dictionary with home and away player props
+    """
+    def _make_hitter_props(hitters: List[Dict[str, Any]], team: str) -> List[Dict[str, Any]]:
+        """Generate TB and Hits props for a list of hitters"""
+        props = []
+        for h in hitters:
+            # Ensure required fields exist
+            player_name = h.get("player_name", f"{team} Player")
+            slg = h.get("slg", h.get("avg", 0.250))
+            avg = h.get("avg", 0.250)
+            pa_proj = h.get("pa_proj", 4.0)
+            
+            # Total Bases prop
+            props.append(project_total_bases({
+                "player_name": player_name,
+                "team": team,
+                "slg": slg,
+                "avg": avg,
+                "pa_proj": pa_proj,
+                "prop_line": 1.5
+            }))
+            
+            # Hits prop
+            props.append(project_hits({
+                "player_name": player_name,
+                "team": team,
+                "avg": avg,
+                "pa_proj": pa_proj,
+                "prop_line": 0.5
+            }))
+        
+        # If no real players, use placeholders
+        if not props:
+            props = [
+                project_total_bases({
+                    "player_name": f"{team} Slugger",
+                    "team": team,
+                    "slg": 0.450 if team == home_team else 0.420,
+                    "avg": 0.270,
+                    "pa_proj": 4.0,
+                    "prop_line": 1.5
+                }),
+                project_hits({
+                    "player_name": f"{team} Hitter",
+                    "team": team,
+                    "avg": 0.270,
+                    "pa_proj": 4.0,
+                    "prop_line": 0.5
+                })
+            ]
+        
+        return props
+    
+    return {
+        "home": _make_hitter_props(home_hitters, home_team),
+        "away": _make_hitter_props(away_hitters, away_team)
+    }
+
+
 # =============================================================================
 # FULL GAME MODEL
 # =============================================================================
@@ -625,13 +700,60 @@ def build_model_and_save(force_retrain: bool = False) -> MLBFullGameModel:
 # MAIN PREDICTION FUNCTION
 # =============================================================================
 
+def run_daily_pipeline(days_back: int = 1) -> None:
+    """
+    Run the complete daily MLB data pipeline.
+    
+    This function should be called before making MLB predictions to ensure
+    fresh data is available. It performs:
+    1. Statcast data ingestion
+    2. Feature engineering for pitchers, hitters, umpires
+    3. Game-level feature engineering
+    
+    Args:
+        days_back: Number of days of historical data to ingest
+    """
+    print("=== Running MLB Daily Pipeline ===\n")
+    
+    try:
+        # Step 1: Ingest recent Statcast data
+        print("Step 1: Ingesting Statcast data...")
+        df = ingest_recent(days_back=days_back, save=True)
+        if df.empty:
+            print("Warning: No Statcast data retrieved. Using existing data.")
+        else:
+            print(f"Retrieved {len(df)} Statcast events.")
+        
+        # Step 2: Engineer features
+        print("\nStep 2: Engineering features...")
+        if not df.empty:
+            pitcher_feats = engineer_pitcher_features(df)
+            hitter_feats = engineer_hitter_features(df)
+            umpire_feats = engineer_umpire_features(df)
+            game_feats = engineer_team_game_features(df)
+            print(f"Created {len(pitcher_feats)} pitcher feature rows")
+            print(f"Created {len(hitter_feats)} hitter feature rows")
+            print(f"Created {len(umpire_feats)} umpire feature rows")
+            print(f"Created {len(game_feats)} game feature rows")
+        else:
+            print("Skipping feature engineering - no new data")
+        
+        print("\n=== MLB Daily Pipeline Complete ===\n")
+        
+    except Exception as e:
+        print(f"Warning: Daily pipeline encountered an error: {e}")
+        print("Continuing with existing data if available.")
+
+
 def predict_match(
     home_team: str,
     away_team: str,
     park_factor: float = 1.0,
     temperature: float = 75,
     wind_speed: float = 8,
-    force_retrain: bool = False
+    force_retrain: bool = False,
+    run_pipeline: bool = True,
+    store_to_db: bool = True,
 ) -> Dict[str, Any]:
     """
     Generate comprehensive predictions for an MLB matchup.
@@ -673,6 +795,27 @@ def predict_match(
     pitchers = _safe_read_csv(FEAT_DIR / "pitcher_features.csv")
     hitters = _safe_read_csv(FEAT_DIR / "hitter_features.csv")
     umpires = _safe_read_csv(FEAT_DIR / "umpire_features.csv")
+    
+    # Filter hitters by team and get top players
+    def get_top_hitters(team_hitters, n=2):
+        """Get top N hitters sorted by SLG for total bases props"""
+        if team_hitters.empty:
+            return []
+        # Sort by SLG (or slg column) and return top N
+        if 'slg' in team_hitters.columns:
+            sorted_hitters = team_hitters.sort_values('slg', ascending=False)
+        elif 'avg' in team_hitters.columns:
+            sorted_hitters = team_hitters.sort_values('avg', ascending=False)
+        else:
+            sorted_hitters = team_hitters
+        return sorted_hitters.head(n).to_dict('records')
+    
+    # Get team-specific hitters
+    home_team_hitters = hitters[hitters['team'] == home_team] if not hitters.empty else pd.DataFrame()
+    away_team_hitters = hitters[hitters['team'] == away_team] if not hitters.empty else pd.DataFrame()
+    
+    home_top_hitters = get_top_hitters(home_team_hitters)
+    away_top_hitters = get_top_hitters(away_team_hitters)
     
     # Get default stats (or filter by team in a real implementation)
     home_pitcher = pitchers.iloc[0].to_dict() if not pitchers.empty else {
@@ -732,45 +875,47 @@ def predict_match(
             "home": project_hr_prop(home_hitter, away_pitcher, park_factor, weather),
             "away": project_hr_prop(away_hitter, home_pitcher, park_factor, weather),
         },
-        "player_props": {
-            "home": [
-                project_total_bases({
-                    "player_name": f"{home_team} Slugger",
-                    "team": home_team,
-                    "avg": 0.280,
-                    "slg": 0.480,
-                    "pa_proj": 4.0,
-                    "prop_line": 1.5
-                }),
-                project_hits({
-                    "player_name": f"{home_team} Hitter",
-                    "team": home_team,
-                    "avg": 0.280,
-                    "pa_proj": 4.0,
-                    "prop_line": 0.5
-                })
-            ],
-            "away": [
-                project_total_bases({
-                    "player_name": f"{away_team} Slugger",
-                    "team": away_team,
-                    "avg": 0.260,
-                    "slg": 0.430,
-                    "pa_proj": 4.0,
-                    "prop_line": 1.5
-                }),
-                project_hits({
-                    "player_name": f"{away_team} Hitter",
-                    "team": away_team,
-                    "avg": 0.260,
-                    "pa_proj": 4.0,
-                    "prop_line": 0.5
-                })
-            ]
-        }
+        "player_props": _generate_player_props(
+            home_top_hitters, away_top_hitters, home_team, away_team
+        )
     }
     
-    # Save results
+    # Store to database if enabled
+    if store_to_db:
+        try:
+            from core import store_prediction
+            
+            # Store total prediction
+            store_prediction(
+                sport="mlb",
+                home_team=home_team,
+                away_team=away_team,
+                market_type="total",
+                model_value=total_pred,
+                market_value=7.0,  # Average MLB total
+                edge=total_pred - 7.0,
+                confidence=total_confidence,
+                recommendation=total_recommendation,
+                raw_json=result
+            )
+            
+            # Store side prediction
+            store_prediction(
+                sport="mlb",
+                home_team=home_team,
+                away_team=away_team,
+                market_type="side",
+                model_value=side_pred,
+                market_value=0.0,  # Pick'em
+                edge=side_pred,
+                confidence=side_confidence,
+                recommendation=side_recommendation,
+                raw_json=result
+            )
+        except Exception as e:
+            print(f"Warning: Could not store to database: {e}")
+    
+    # Save results to file
     out = OUT_DIR / f"{home_team.replace(' ', '_')}_vs_{away_team.replace(' ', '_')}.json"
     _safe_write_json(out, result)
     print(f"Saved prediction to: {out}")

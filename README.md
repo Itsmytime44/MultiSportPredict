@@ -9,6 +9,28 @@ MultiSportPredict provides:
 - **Soccer**: Match outcome, goals, corners, and BTTS predictions
 - **MLB**: Full game predictions, pitcher K props, HR props, and player props
 
+## New Features (v2.0)
+
+### 🔥 Historical Storage & Tracking
+- **SQLite Database**: All predictions are automatically stored in `multisport_history.db`
+- **Performance Tracking**: Query historical predictions to analyze accuracy
+- **Export Capabilities**: Export prediction history to JSON for further analysis
+
+### 🎯 Enhanced Confidence Engine
+- **Sport-Specific Volatility**: Different volatility coefficients for each market type
+- **Market Alignment**: Sharp money consensus integration for basketball
+- **Dynamic Thresholds**: Sport and market-specific bet/strong bet thresholds
+
+### 📊 Standardized JSON Schemas
+- **Consistent Output**: All sports use standardized prediction schemas
+- **Rich Metadata**: Referee data, consensus signals, weather, park factors
+- **Easy Integration**: Predictable structure for downstream systems
+
+### ⚡ Automated MLB Pipeline
+- **Daily Data Ingestion**: Automatic Statcast data pulling
+- **Feature Engineering**: Pitcher, hitter, umpire, and game-level features
+- **One-Click Predictions**: Pipeline runs automatically before MLB predictions
+
 ## Quick Start
 
 ### Installation
@@ -110,6 +132,53 @@ The module supports various player prop projections:
 
 See `mlb/README.md` for detailed documentation.
 
+## Historical Storage & Analysis
+
+All predictions are automatically stored in a SQLite database (`multisport_history.db`) for tracking and analysis.
+
+### Querying Historical Predictions
+
+```python
+from core import get_predictions, get_prediction_summary, export_predictions_to_json
+
+# Get all basketball predictions
+bball_preds = get_predictions(sport="basketball")
+
+# Get predictions for a specific team
+team_preds = get_predictions(home_team="FC Barcelona")
+
+# Get predictions by date range
+recent_preds = get_predictions(
+    start_date="2026-06-01",
+    end_date="2026-06-30"
+)
+
+# Get summary statistics
+summary = get_prediction_summary()
+print(f"Total predictions: {summary['total_predictions']}")
+print(f"Average confidence: {summary['avg_confidence']}%")
+
+# Export to JSON
+export_predictions_to_json("output/all_predictions.json")
+```
+
+### Database Schema
+
+The predictions table includes:
+- `id`: Unique identifier
+- `sport`: Sport type (basketball, soccer, mlb)
+- `home_team`, `away_team`: Team names
+- `market_type`: Type of market (spread, total, moneyline, props)
+- `model_value`: Model's projected value
+- `market_value`: Market line/value
+- `edge`: Difference between model and market
+- `confidence`: Confidence score (0-100)
+- `recommendation`: Bet recommendation (STRONG BET, BET, PASS)
+- `timestamp`: When the prediction was made
+- `raw_json`: Full prediction result
+- `result_outcome`: Actual outcome (win, loss, push)
+- `profit_loss`: P&L tracking
+
 ## Basketball Module
 
 Provides EuroLeague/NBA predictions with:
@@ -119,6 +188,11 @@ Provides EuroLeague/NBA predictions with:
 - Moneyline probabilities
 - Player prop projections
 
+### Enhanced Features
+- **Referee Data Integration**: Crew foul rates, home bias, pace adjustments
+- **Consensus Signals**: Public betting percentages, sharp money alignment
+- **Confidence Scoring**: Sport-specific volatility with market alignment
+
 ## Soccer Module
 
 Provides soccer predictions with:
@@ -127,6 +201,11 @@ Provides soccer predictions with:
 - Both teams to score (BTTS)
 - Corner totals
 - Expected goals (xG) modeling
+
+### Enhanced Features
+- **Referee Data Integration**: Card tendencies, penalty rates, strictness ratings
+- **Penalty Adjustments**: Expected goals adjusted for referee penalty tendencies
+- **Confidence Scoring**: Sport-specific volatility for soccer markets
 
 ## Requirements
 

@@ -7,4 +7,5 @@ venv/
 .DS_Store
 *.csv
 data/
-models/
+# Note: models/ directory now contains the modular predictor package
+# which should be tracked in git
