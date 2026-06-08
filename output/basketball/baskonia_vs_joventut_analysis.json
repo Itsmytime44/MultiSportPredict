@@ -1,0 +1,84 @@
+{
+  "game_info": {
+    "home_team": "Baskonia Vitoria",
+    "away_team": "DKU Joventut",
+    "league": "Spain_ACB",
+    "date": "2026-06-07",
+    "venue": "Fernando Buesa Arena, Vitoria-Gasteiz"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 112.0,
+      "drtg": 108.0,
+      "baseline_net": 4.0,
+      "recent_net": 3.5,
+      "pace": 72.0,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 4.0,
+      "rotation_depth": 9,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 109.0,
+      "drtg": 110.0,
+      "baseline_net": -1.0,
+      "recent_net": 0.5,
+      "pace": 70.0,
+      "rest_days": 2,
+      "travel_km": 80,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 1.0,
+      "rotation_depth": 8,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": -3.5,
+    "current_line": -4.0,
+    "spread": -4.0,
+    "total": 162.5
+  },
+  "projections": {
+    "home_score": 84.1,
+    "away_score": 75.9,
+    "total": 160.1,
+    "spread": 8.2,
+    "win_probability": 0.315,
+    "model_edge": 1.16
+  },
+  "q1_projections": {
+    "home_q1_points": 20.2,
+    "away_q1_points": 19.0,
+    "q1_spread": 1.1,
+    "q1_total": 39.2,
+    "q1_prob_home_win": 0.565,
+    "q1_prob_home_ml": 0.56,
+    "q1_pace_factor": 1.01,
+    "q1_ctx_adjustment": 0.0
+  },
+  "recommendations": {
+    "spread": {
+      "recommendation": "STRONG BET",
+      "confidence": 82.6,
+      "edge": 12.2
+    },
+    "total": {
+      "recommendation": "PASS",
+      "confidence": 0.0,
+      "edge": -2.4
+    },
+    "moneyline": {
+      "lean": "Pass",
+      "win_probability": 0.315
+    }
+  },
+  "timestamp": "2026-06-07T12:23:32.443426"
+}

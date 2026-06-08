@@ -1,0 +1,63 @@
+{
+  "sport": "basketball",
+  "game": {
+    "home_team": "UCAM Murcia",
+    "away_team": "FC Barcelona",
+    "projected_home_score": 86.4,
+    "projected_away_score": 74.9,
+    "projected_total": 161.3,
+    "win_probability": 0.4168,
+    "model_edge": 1.36,
+    "lean": "Pass"
+  },
+  "predictions": {
+    "spread": {
+      "model_spread": 11.57,
+      "market_spread": -2.5,
+      "edge": 14.07,
+      "confidence": 84.1,
+      "recommendation": "STRONG BET"
+    },
+    "total": {
+      "model_total": 161.3,
+      "market_total": 165.0,
+      "edge": -3.7,
+      "confidence": 0.0,
+      "recommendation": "PASS"
+    },
+    "moneyline": {
+      "model_prob": 0.61,
+      "edge": 11.0,
+      "confidence": 83.2,
+      "recommendation": "STRONG BET"
+    }
+  },
+  "q1_projection": {
+    "home_q1_points": 27.3,
+    "away_q1_points": 25.4,
+    "q1_spread": 1.9,
+    "q1_total": 52.7,
+    "q1_prob_home_win": 0.607,
+    "q1_prob_home_ml": 0.599,
+    "q1_pace_factor": 1.34,
+    "q1_ctx_adjustment": 0.6
+  },
+  "meta": {
+    "ref_data": {
+      "crew_foul_rate": 1.02,
+      "home_bias": 0.03,
+      "pace_bias": 0.01,
+      "tech_fouls_per_game": 0.3,
+      "over_rate_totals": 0.52,
+      "playoff_flag": 0
+    },
+    "consensus": {
+      "public_pct_home": 0.62,
+      "public_pct_over": 0.58,
+      "sharp_alignment": 0.15,
+      "line_movement": -0.5,
+      "ticket_pct_home": 0.55,
+      "money_pct_home": 0.68
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "game_info": {
+    "home_team": "Philadelphia Phillies",
+    "away_team": "Chicago White Sox",
+    "league": "MLB",
+    "date": "2026-06-07",
+    "venue": "Citizens Bank Park, Philadelphia",
+    "game_time": "1:35 PM ET"
+  },
+  "team_metrics": {
+    "home": {
+      "runs_per_game": 4.85,
+      "runs_allowed_per_game": 4.45,
+      "team_era": 4.15,
+      "team_ops": 0.755,
+      "starting_pitcher": {
+        "name": "Aaron Nola",
+        "record": "3-4",
+        "era": 5.55,
+        "k_per_9": 8.5,
+        "whip": 1.39,
+        "k_rate": 0.24,
+        "handedness": "R",
+        "innings_proj": 5.5,
+        "hr_per_9": 1.4
+      }
+    },
+    "away": {
+      "runs_per_game": 4.55,
+      "runs_allowed_per_game": 4.65,
+      "team_era": 4.35,
+      "team_ops": 0.725,
+      "starting_pitcher": {
+        "name": "Tyler Gilbert",
+        "record": "0-0",
+        "era": 20.25,
+        "k_per_9": 6.0,
+        "whip": 2.5,
+        "k_rate": 0.15,
+        "handedness": "L",
+        "innings_proj": 3.5,
+        "hr_per_9": 3.0
+      }
+    }
+  },
+  "market_data": {
+    "moneyline_home": -167,
+    "moneyline_away": 138,
+    "run_line": -1.5,
+    "run_line_home_odds": 114,
+    "run_line_away_odds": -137,
+    "total": 9.5
+  },
+  "projections": {
+    "home_runs": 15.59,
+    "away_runs": 6.27,
+    "total_runs": 21.86,
+    "run_differential": 9.32,
+    "home_win_probability": 0.942,
+    "away_win_probability": 0.058
+  },
+  "recommendations": {
+    "moneyline": "LEAN Philadelphia Phillies ML (-167)",
+    "total": "LEAN OVER 9.5",
+    "run_line": "LEAN Home -1.5",
+    "confidence": "HIGH"
+  },
+  "confidence_scores": {
+    "total": {
+      "score": 78.0,
+      "recommendation": "STRONG BET",
+      "volatility": 0.65,
+      "edge": 12.36
+    },
+    "side": {
+      "score": 79.2,
+      "recommendation": "STRONG BET",
+      "volatility": 0.55,
+      "edge": 9.32
+    }
+  },
+  "pitcher_props": {
+    "home": {
+      "projection": 0.94,
+      "edge": -4.56,
+      "lean": "Under",
+      "line": 5.5
+    },
+    "away": {
+      "projection": 0.39,
+      "edge": -5.11,
+      "lean": "Under",
+      "line": 5.5
+    }
+  },
+  "hr_props": [
+    {
+      "player_name": "Bryce Harper",
+      "team": "PHI",
+      "hr_probability": 0.315,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Kyle Schwarber",
+      "team": "PHI",
+      "hr_probability": 0.334,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Trea Turner",
+      "team": "PHI",
+      "hr_probability": 0.237,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "J.T. Realmuto",
+      "team": "PHI",
+      "hr_probability": 0.25,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Andrew Benintendi",
+      "team": "CHW",
+      "hr_probability": 0.146,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Colson Montgomery",
+      "team": "CHW",
+      "hr_probability": 0.203,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Randal Grichuk",
+      "team": "CHW",
+      "hr_probability": 0.174,
+      "lean": "Yes HR"
+    }
+  ],
+  "player_props": [
+    {
+      "player_name": "Bryce Harper",
+      "team": "PHI",
+      "prop_type": "Total Bases",
+      "projection": 2.15,
+      "edge": 0.65,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Bryce Harper",
+      "team": "PHI",
+      "prop_type": "Hits",
+      "projection": 1.2,
+      "edge": 0.7,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Kyle Schwarber",
+      "team": "PHI",
+      "prop_type": "Total Bases",
+      "projection": 2.06,
+      "edge": 0.56,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Kyle Schwarber",
+      "team": "PHI",
+      "prop_type": "Hits",
+      "projection": 1.03,
+      "edge": 0.53,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Trea Turner",
+      "team": "PHI",
+      "prop_type": "Total Bases",
+      "projection": 2.02,
+      "edge": 0.52,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Trea Turner",
+      "team": "PHI",
+      "prop_type": "Hits",
+      "projection": 1.28,
+      "edge": 0.78,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "J.T. Realmuto",
+      "team": "PHI",
+      "prop_type": "Total Bases",
+      "projection": 1.76,
+      "edge": 0.26,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "J.T. Realmuto",
+      "team": "PHI",
+      "prop_type": "Hits",
+      "projection": 1.06,
+      "edge": 0.56,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Andrew Benintendi",
+      "team": "CHW",
+      "prop_type": "Total Bases",
+      "projection": 1.72,
+      "edge": 0.22,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Andrew Benintendi",
+      "team": "CHW",
+      "prop_type": "Hits",
+      "projection": 1.13,
+      "edge": 0.63,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Colson Montgomery",
+      "team": "CHW",
+      "prop_type": "Total Bases",
+      "projection": 1.84,
+      "edge": 0.34,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Colson Montgomery",
+      "team": "CHW",
+      "prop_type": "Hits",
+      "projection": 1.02,
+      "edge": 0.52,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Randal Grichuk",
+      "team": "CHW",
+      "prop_type": "Total Bases",
+      "projection": 1.63,
+      "edge": 0.13,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Randal Grichuk",
+      "team": "CHW",
+      "prop_type": "Hits",
+      "projection": 0.95,
+      "edge": 0.45,
+      "lean": "Over",
+      "line": 0.5
+    }
+  ],
+  "timestamp": "2026-06-07T10:04:36.637570"
+}

@@ -1,0 +1,86 @@
+{
+  "game_info": {
+    "home_team": "Netherlands",
+    "away_team": "Uzbekistan",
+    "league": "International",
+    "date": "2026-06-08",
+    "venue": "Netherlands"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.95,
+      "xg_against": 1.05,
+      "shots": 14.5,
+      "sot": 5.5,
+      "goals_for": 1.8,
+      "goals_against": 0.95,
+      "clean_sheets_last10": 5,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.35,
+      "width_crossing": 0.7,
+      "final_third_pressure": 0.75
+    },
+    "away": {
+      "xg_for": 1.1,
+      "xg_against": 1.55,
+      "shots": 10.0,
+      "sot": 3.5,
+      "goals_for": 1.0,
+      "goals_against": 1.4,
+      "clean_sheets_last10": 3,
+      "missing_attacker": 0,
+      "missing_creator": 1,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.0,
+      "width_crossing": 0.5,
+      "final_third_pressure": 0.45
+    }
+  },
+  "market_data": {
+    "open_line": 2.5,
+    "current_line": 2.5,
+    "total": 2.5,
+    "corner_total": 9.0
+  },
+  "projections": {
+    "home_goals": 2.5,
+    "away_goals": 1.35,
+    "total_goals": 3.84,
+    "btts_probability": 0.6185,
+    "corner_total": 11.2
+  },
+  "probabilities": {
+    "over_15": 0.8962,
+    "over_25": 0.7379,
+    "over_35": 0.5352,
+    "btts": 0.6185,
+    "corners_over_85": 0.7866,
+    "corners_over_95": 0.6824,
+    "corners_over_105": 0.5656
+  },
+  "recommendations": {
+    "goals_total": "Over 2.5",
+    "btts": "BTTS Yes",
+    "corners_total": "Over 2.5"
+  },
+  "model_details": {
+    "home_goal_strength": 1.99,
+    "away_goal_strength": -1.08,
+    "home_btts_strength": 0.96,
+    "away_btts_strength": 0.2,
+    "home_corner_strength": 2.56,
+    "away_corner_strength": 0.13,
+    "goals_model_score": 1.3425,
+    "goals_model_prob": 0.7379,
+    "btts_model_score": 0.177,
+    "btts_model_prob": 0.677,
+    "corners_model_score": 8.7156,
+    "corners_model_prob": 0.7866
+  },
+  "confidence": "HIGH",
+  "timestamp": "2026-06-08T12:20:11.186493"
+}

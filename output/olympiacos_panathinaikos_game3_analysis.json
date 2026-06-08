@@ -1,0 +1,194 @@
+{
+  "game_info": {
+    "home_team": "Olympiacos",
+    "away_team": "Panathinaikos",
+    "league": "Greek Basket League Finals",
+    "date": "2026-06-08",
+    "venue": "Peace and Friendship Stadium, Piraeus",
+    "series_status": "Tied 1-1",
+    "game_number": 3
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 112.5,
+      "drtg": 105.8,
+      "baseline_net": 6.7,
+      "recent_net": 7.5,
+      "pace": 72.0,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 8.5,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 102.5,
+      "drtg": 108.2,
+      "baseline_net": -5.7,
+      "recent_net": -4.5,
+      "pace": 70.0,
+      "rest_days": 2,
+      "travel_km": 350,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": -3.5,
+      "rotation_depth": 8,
+      "injury_status": "red",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "key_absence": "Cedi Osman (Panathinaikos) - OUT (lower back discomfort)"
+  },
+  "market_data": {
+    "open_line": -5.5,
+    "current_line": -6.5,
+    "spread": -6.5,
+    "total": 164.5,
+    "q1_spread": -0.5,
+    "h1_spread": -2.5
+  },
+  "full_game_projection": {
+    "record_type": "full_game",
+    "current_gap": 12.4,
+    "baseline_gap": 12.4,
+    "recent_gap": 12.0,
+    "historical_gap": -0.16,
+    "rest_gap": 0.0,
+    "split_gap": 12.0,
+    "context_gap": 3.0,
+    "model_edge": 9.47,
+    "market_score": -1.0,
+    "probability": 0.8616,
+    "lean": "Pass",
+    "projected_home_score": 97.1,
+    "projected_away_score": 69.4,
+    "projected_total": 166.6
+  },
+  "q1_projection": {
+    "home_q1_points": 21.2,
+    "away_q1_points": 17.7,
+    "q1_spread": 3.5,
+    "q1_total": 38.9,
+    "q1_prob_home_win": 0.694,
+    "q1_prob_home_ml": 0.679,
+    "q1_pace_factor": 1.01,
+    "q1_ctx_adjustment": 1.2
+  },
+  "h1_projection": {
+    "home_points": 86.2,
+    "away_points": 61.0,
+    "spread": 25.2,
+    "total": 147.2,
+    "home_win_prob": 0.988,
+    "recommendation": "Home 1H 2.5"
+  },
+  "fg_analysis": {
+    "home_full_game_fg_pct": 0.4825,
+    "away_full_game_fg_pct": 0.4408,
+    "home_q1_fg_pct": 0.4681,
+    "away_q1_fg_pct": 0.4276,
+    "fg_edge": 0.0417
+  },
+  "recommendations": {
+    "spread": "Home 6.5",
+    "moneyline": "Home ML (Olympiacos)",
+    "total": "Over 164.5",
+    "q1_spread": "Home Q1 0.5",
+    "h1_spread": "Home 1H 2.5"
+  },
+  "safe_wager_slip": {
+    "q1": "Olympiacos -0.5",
+    "h1": "Olympiacos -2.5",
+    "moneyline": "Olympiacos ML",
+    "total": "Under 164.5",
+    "prop1": "Kendrick Nunn Over 17.5 Points",
+    "prop2": "Nikola Milutinov Over 6.5 Rebounds"
+  },
+  "player_props": [
+    {
+      "player_name": "Evan Fournier",
+      "team": "Olympiacos",
+      "prop_type": "Points",
+      "prop_line": 18.5,
+      "model_projection": 20.2,
+      "edge": 5.13,
+      "model_prob": 0.612,
+      "lean": "Lean Over Evan Fournier Points"
+    },
+    {
+      "player_name": "Sasha Vezenkov",
+      "team": "Olympiacos",
+      "prop_type": "Points",
+      "prop_line": 15.5,
+      "model_projection": 16.8,
+      "edge": 4.24,
+      "model_prob": 0.524,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Nikola Milutinov",
+      "team": "Olympiacos",
+      "prop_type": "Rebounds",
+      "prop_line": 6.5,
+      "model_projection": 8.2,
+      "edge": 3.69,
+      "model_prob": 0.469,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Nikola Milutinov",
+      "team": "Olympiacos",
+      "prop_type": "Points",
+      "prop_line": 10.5,
+      "model_projection": 11.5,
+      "edge": 3.44,
+      "model_prob": 0.445,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Kendrick Nunn",
+      "team": "Panathinaikos",
+      "prop_type": "Points",
+      "prop_line": 17.5,
+      "model_projection": 21.5,
+      "edge": 6.99,
+      "model_prob": 0.768,
+      "lean": "Lean Over Kendrick Nunn Points"
+    },
+    {
+      "player_name": "Kendrick Nunn",
+      "team": "Panathinaikos",
+      "prop_type": "Assists",
+      "prop_line": 4.5,
+      "model_projection": 5.2,
+      "edge": 5.96,
+      "model_prob": 0.687,
+      "lean": "Lean Over Kendrick Nunn Assists"
+    },
+    {
+      "player_name": "Nigel Hayes-Davis",
+      "team": "Panathinaikos",
+      "prop_type": "Points",
+      "prop_line": 14.5,
+      "model_projection": 15.8,
+      "edge": 4.83,
+      "model_prob": 0.582,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Mathias Lessort",
+      "team": "Panathinaikos",
+      "prop_type": "Rebounds",
+      "prop_line": 5.5,
+      "model_projection": 6.2,
+      "edge": 2.59,
+      "model_prob": 0.363,
+      "lean": "Lean Under Mathias Lessort Rebounds"
+    }
+  ],
+  "timestamp": "2026-06-08T13:18:42.036182"
+}

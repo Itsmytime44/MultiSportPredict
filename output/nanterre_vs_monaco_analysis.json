@@ -1,0 +1,183 @@
+{
+  "game_info": {
+    "home_team": "Nanterre",
+    "away_team": "Monaco",
+    "league": "French Pro A",
+    "date": "2026-06-08",
+    "venue": "Palais des Sports Maurice Thorez, Nanterre"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 108.5,
+      "drtg": 110.2,
+      "baseline_net": -1.7,
+      "recent_net": -2.1,
+      "pace": 74.0,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 2.5,
+      "rotation_depth": 9,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "yellow"
+    },
+    "away": {
+      "ortg": 114.2,
+      "drtg": 107.5,
+      "baseline_net": 6.7,
+      "recent_net": 7.2,
+      "pace": 73.5,
+      "rest_days": 3,
+      "travel_km": 950,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 3.5,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": 4.5,
+    "current_line": 5.0,
+    "spread": 5.0,
+    "total": 162.5,
+    "q1_spread": 1.5,
+    "h1_spread": 2.5
+  },
+  "full_game_projection": {
+    "record_type": "full_game",
+    "current_gap": -8.4,
+    "baseline_gap": -8.4,
+    "recent_gap": -9.3,
+    "historical_gap": -0.36,
+    "rest_gap": -1.0,
+    "split_gap": -1.0,
+    "context_gap": -1.5,
+    "model_edge": -2.99,
+    "market_score": -1.0,
+    "probability": 0.0409,
+    "lean": "Pass",
+    "projected_home_score": 72.2,
+    "projected_away_score": 81.9,
+    "projected_total": 154.1
+  },
+  "q1_projection": {
+    "home_q1_points": 20.6,
+    "away_q1_points": 20.5,
+    "q1_spread": 0.2,
+    "q1_total": 41.1,
+    "q1_prob_home_win": 0.509,
+    "q1_prob_home_ml": 0.509,
+    "q1_pace_factor": 1.05,
+    "q1_ctx_adjustment": -0.3
+  },
+  "h1_projection": {
+    "home_points": 70.1,
+    "away_points": 71.5,
+    "spread": -1.4,
+    "total": 141.6,
+    "home_win_prob": 0.125,
+    "recommendation": "Away 1H 2.5"
+  },
+  "fg_analysis": {
+    "home_full_game_fg_pct": 0.4684,
+    "away_full_game_fg_pct": 0.4715,
+    "home_q1_fg_pct": 0.4544,
+    "away_q1_fg_pct": 0.4574,
+    "fg_edge": -0.0031
+  },
+  "recommendations": {
+    "spread": "Away 5.0",
+    "moneyline": "Away ML (Monaco)",
+    "total": "Under 162.5",
+    "q1_spread": "Away Q1 1.5",
+    "h1_spread": "Away 1H 2.5"
+  },
+  "player_props": [
+    {
+      "player_name": "Mouhammadou Jaiteh",
+      "team": "Nanterre",
+      "prop_type": "Points",
+      "prop_line": 15.5,
+      "model_projection": 16.2,
+      "edge": 3.97,
+      "model_prob": 0.497,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Mouhammadou Jaiteh",
+      "team": "Nanterre",
+      "prop_type": "Rebounds",
+      "prop_line": 7.5,
+      "model_projection": 8.1,
+      "edge": 4.06,
+      "model_prob": 0.506,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "David Michineau",
+      "team": "Nanterre",
+      "prop_type": "Points",
+      "prop_line": 12.5,
+      "model_projection": 13.1,
+      "edge": 3.15,
+      "model_prob": 0.416,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Mike James",
+      "team": "Monaco",
+      "prop_type": "Points",
+      "prop_line": 17.5,
+      "model_projection": 18.8,
+      "edge": 5.13,
+      "model_prob": 0.611,
+      "lean": "Lean Over Mike James Points"
+    },
+    {
+      "player_name": "Mike James",
+      "team": "Monaco",
+      "prop_type": "Assists",
+      "prop_line": 5.5,
+      "model_projection": 6.2,
+      "edge": 5.04,
+      "model_prob": 0.603,
+      "lean": "Lean Over Mike James Assists"
+    },
+    {
+      "player_name": "Elie Okobo",
+      "team": "Monaco",
+      "prop_type": "Points",
+      "prop_line": 14.5,
+      "model_projection": 15.3,
+      "edge": 3.67,
+      "model_prob": 0.467,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Jordan Loyd",
+      "team": "Monaco",
+      "prop_type": "Points",
+      "prop_line": 13.5,
+      "model_projection": 14.1,
+      "edge": 3.32,
+      "model_prob": 0.433,
+      "lean": "Pass"
+    },
+    {
+      "player_name": "Donatas Motiejunas",
+      "team": "Monaco",
+      "prop_type": "Rebounds",
+      "prop_line": 6.5,
+      "model_projection": 7.2,
+      "edge": 2.9,
+      "model_prob": 0.392,
+      "lean": "Lean Under Donatas Motiejunas Rebounds"
+    }
+  ],
+  "timestamp": "2026-06-08T13:30:41.379403"
+}

@@ -1,0 +1,293 @@
+{
+  "game_info": {
+    "home_team": "Baskonia Vitoria",
+    "away_team": "DKV Joventut",
+    "league": "Spain_ACB",
+    "date": "2026-06-07",
+    "venue": "Fernando Buesa Arena, Vitoria-Gasteiz"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 112.0,
+      "drtg": 108.0,
+      "baseline_net": 4.0,
+      "recent_net": 3.5,
+      "pace": 72.0,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 4.0,
+      "rotation_depth": 9,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 110.0,
+      "drtg": 109.0,
+      "baseline_net": 1.0,
+      "recent_net": 1.5,
+      "pace": 71.0,
+      "rest_days": 2,
+      "travel_km": 80,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 1.5,
+      "rotation_depth": 8,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": -5.5,
+    "current_line": -6.5,
+    "spread": -6.5,
+    "total": 186.0,
+    "moneyline_home": -250,
+    "moneyline_away": 200
+  },
+  "full_game": {
+    "projected_home_score": 84.2,
+    "projected_away_score": 75.9,
+    "projected_total": 160.1,
+    "projected_spread": 8.3,
+    "win_probability": 0.3169,
+    "model_edge": 1.18,
+    "lean": "Pass",
+    "recommendations": {
+      "spread": {
+        "line": -6.5,
+        "edge": 14.8,
+        "confidence": 82.6,
+        "recommendation": "STRONG BET"
+      },
+      "total": {
+        "line": 186.0,
+        "edge": -25.9,
+        "confidence": 0.0,
+        "recommendation": "PASS"
+      },
+      "moneyline": {
+        "edge": -0.3974,
+        "confidence": 0.0,
+        "recommendation": "PASS"
+      }
+    }
+  },
+  "first_quarter": {
+    "projected_home": 20.5,
+    "projected_away": 19.4,
+    "projected_total": 39.8,
+    "projected_spread": 1.1,
+    "win_probability": 0.567,
+    "recommendations": {
+      "spread": {
+        "line": -1.6,
+        "edge": 2.73,
+        "confidence": 66.0,
+        "recommendation": "BET"
+      },
+      "total": {
+        "line": 46.5,
+        "edge": -6.7,
+        "confidence": 0.0,
+        "recommendation": "PASS"
+      }
+    }
+  },
+  "player_props": [
+    {
+      "player": "Markus Howard",
+      "team": "Baskonia Vitoria",
+      "prop_type": "Points",
+      "line": 16.5,
+      "projection": 17.51,
+      "edge": 1.01,
+      "recommendation": "Over 16.5",
+      "confidence": 43.8
+    },
+    {
+      "player": "Markus Howard",
+      "team": "Baskonia Vitoria",
+      "prop_type": "Assists",
+      "line": 3.5,
+      "projection": 17.51,
+      "edge": 14.01,
+      "recommendation": "Over 3.5",
+      "confidence": 80.9
+    },
+    {
+      "player": "Markus Howard",
+      "team": "Baskonia Vitoria",
+      "prop_type": "Rebounds",
+      "line": 2.5,
+      "projection": 17.51,
+      "edge": 15.01,
+      "recommendation": "Over 2.5",
+      "confidence": 80.9
+    },
+    {
+      "player": "Markus Howard",
+      "team": "Baskonia Vitoria",
+      "prop_type": "Threes",
+      "line": 2.5,
+      "projection": 17.51,
+      "edge": 15.01,
+      "recommendation": "Over 2.5",
+      "confidence": 80.9
+    },
+    {
+      "player": "Chima Moneke",
+      "team": "Baskonia Vitoria",
+      "prop_type": "Points",
+      "line": 12.5,
+      "projection": 12.66,
+      "edge": 0.16,
+      "recommendation": "Pass",
+      "confidence": 28.9
+    },
+    {
+      "player": "Chima Moneke",
+      "team": "Baskonia Vitoria",
+      "prop_type": "Rebounds",
+      "line": 5.5,
+      "projection": 12.66,
+      "edge": 7.16,
+      "recommendation": "Over 5.5",
+      "confidence": 80.0
+    },
+    {
+      "player": "Chima Moneke",
+      "team": "Baskonia Vitoria",
+      "prop_type": "Assists",
+      "line": 2.5,
+      "projection": 12.66,
+      "edge": 10.16,
+      "recommendation": "Over 2.5",
+      "confidence": 80.8
+    },
+    {
+      "player": "Darius Thompson",
+      "team": "Baskonia Vitoria",
+      "prop_type": "Points",
+      "line": 10.5,
+      "projection": 9.36,
+      "edge": -1.14,
+      "recommendation": "Under 10.5",
+      "confidence": 6.0
+    },
+    {
+      "player": "Darius Thompson",
+      "team": "Baskonia Vitoria",
+      "prop_type": "Assists",
+      "line": 4.5,
+      "projection": 9.36,
+      "edge": 4.86,
+      "recommendation": "Over 4.5",
+      "confidence": 76.8
+    },
+    {
+      "player": "Darius Thompson",
+      "team": "Baskonia Vitoria",
+      "prop_type": "Rebounds",
+      "line": 3.5,
+      "projection": 9.36,
+      "edge": 5.86,
+      "recommendation": "Over 3.5",
+      "confidence": 78.8
+    },
+    {
+      "player": "Nikola Radicevic",
+      "team": "DKV Joventut",
+      "prop_type": "Points",
+      "line": 14.5,
+      "projection": 13.97,
+      "edge": -0.53,
+      "recommendation": "Pass",
+      "confidence": 16.3
+    },
+    {
+      "player": "Nikola Radicevic",
+      "team": "DKV Joventut",
+      "prop_type": "Assists",
+      "line": 4.5,
+      "projection": 13.97,
+      "edge": 9.47,
+      "recommendation": "Over 4.5",
+      "confidence": 80.7
+    },
+    {
+      "player": "Nikola Radicevic",
+      "team": "DKV Joventut",
+      "prop_type": "Rebounds",
+      "line": 3.5,
+      "projection": 13.97,
+      "edge": 10.47,
+      "recommendation": "Over 3.5",
+      "confidence": 80.8
+    },
+    {
+      "player": "Ante Tomic",
+      "team": "DKV Joventut",
+      "prop_type": "Points",
+      "line": 11.5,
+      "projection": 9.72,
+      "edge": -1.78,
+      "recommendation": "Under 11.5",
+      "confidence": 0.0
+    },
+    {
+      "player": "Ante Tomic",
+      "team": "DKV Joventut",
+      "prop_type": "Rebounds",
+      "line": 6.5,
+      "projection": 9.72,
+      "edge": 3.22,
+      "recommendation": "Over 6.5",
+      "confidence": 69.4
+    },
+    {
+      "player": "Ante Tomic",
+      "team": "DKV Joventut",
+      "prop_type": "Assists",
+      "line": 2.5,
+      "projection": 9.72,
+      "edge": 7.22,
+      "recommendation": "Over 2.5",
+      "confidence": 80.1
+    },
+    {
+      "player": "Pau Ribas",
+      "team": "DKV Joventut",
+      "prop_type": "Points",
+      "line": 9.5,
+      "projection": 7.94,
+      "edge": -1.56,
+      "recommendation": "Under 9.5",
+      "confidence": 0.0
+    },
+    {
+      "player": "Pau Ribas",
+      "team": "DKV Joventut",
+      "prop_type": "Assists",
+      "line": 3.5,
+      "projection": 7.94,
+      "edge": 4.44,
+      "recommendation": "Over 3.5",
+      "confidence": 75.5
+    },
+    {
+      "player": "Pau Ribas",
+      "team": "DKV Joventut",
+      "prop_type": "Rebounds",
+      "line": 2.5,
+      "projection": 7.94,
+      "edge": 5.44,
+      "recommendation": "Over 2.5",
+      "confidence": 78.1
+    }
+  ],
+  "timestamp": "2026-06-07T12:31:52.070936"
+}

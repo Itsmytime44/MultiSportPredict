@@ -1,0 +1,692 @@
+{
+  "game_info": {
+    "home_team": "Olympiacos",
+    "away_team": "Panathinaikos",
+    "league": "Greek Super League",
+    "date": "2026-06-08",
+    "venue": "Georgios Karaiskakis Stadium, Piraeus",
+    "match_type": "Greek Derby"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.85,
+      "xg_against": 1.05,
+      "shots": 14.5,
+      "sot": 5.2,
+      "goals_for": 2.0,
+      "goals_against": 0.9,
+      "clean_sheets": 5,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.3,
+      "width_crossing": 0.55,
+      "final_third_pressure": 0.58
+    },
+    "away": {
+      "xg_for": 1.55,
+      "xg_against": 1.25,
+      "shots": 11.5,
+      "sot": 4.2,
+      "goals_for": 1.6,
+      "goals_against": 1.2,
+      "clean_sheets": 4,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.2,
+      "width_crossing": 0.48,
+      "final_third_pressure": 0.5
+    }
+  },
+  "projections": {
+    "home_expected_goals": 2.3,
+    "away_expected_goals": 1.82,
+    "total_expected_goals": 4.12,
+    "home_win_prob": 0.482,
+    "draw_prob": 0.207,
+    "away_win_prob": 0.311
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.917,
+    "over_25_prob": 0.779,
+    "over_35_prob": 0.59,
+    "market_line": 2.5,
+    "edge": 1.62,
+    "confidence": 66.2,
+    "recommendation": "BET",
+    "lean": "OVER"
+  },
+  "btts_analysis": {
+    "home_btts_strength": 0.8,
+    "away_btts_strength": 0.53,
+    "btts_probability": 0.676,
+    "confidence": 67.6,
+    "recommendation": "BET"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 2.23,
+    "away_corner_strength": 0.76,
+    "projected_total": 12.0,
+    "over_85_prob": 0.845,
+    "over_95_prob": 0.758,
+    "over_105_prob": 0.654,
+    "market_line": 9.5,
+    "confidence": 75.8,
+    "recommendation": "BET"
+  },
+  "side_analysis": {
+    "market_line": -0.25,
+    "model_goal_diff": 0.48,
+    "edge": 0.735,
+    "confidence": 57.4,
+    "recommendation": "PASS",
+    "lean": "HOME"
+  },
+  "player_props": {
+    "sport": "soccer",
+    "matchup": "Olympiacos vs Panathinaikos",
+    "player_props": [
+      {
+        "player_name": "Rodinei",
+        "team": "Olympiacos",
+        "position": "RB",
+        "prop_type": "Shots on Target",
+        "line": 0.5,
+        "projection": 0.27,
+        "edge": -0.23,
+        "confidence": 43.1,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Rodinei",
+        "team": "Olympiacos",
+        "position": "RB",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.201,
+        "edge": 0.001,
+        "confidence": 50.2,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Panagiotis Retsos",
+        "team": "Olympiacos",
+        "position": "CB",
+        "prop_type": "Shots on Target",
+        "line": 0.0,
+        "projection": 0.18,
+        "edge": 0.18,
+        "confidence": 55.4,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Francisco Ortega",
+        "team": "Olympiacos",
+        "position": "CB",
+        "prop_type": "Shots on Target",
+        "line": 0.0,
+        "projection": 0.14,
+        "edge": 0.14,
+        "confidence": 54.0,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Costas Fortounis",
+        "team": "Olympiacos",
+        "position": "LB",
+        "prop_type": "Shots on Target",
+        "line": 0.5,
+        "projection": 0.45,
+        "edge": -0.05,
+        "confidence": 48.5,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Costas Fortounis",
+        "team": "Olympiacos",
+        "position": "LB",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.27,
+        "edge": 0.07,
+        "confidence": 60.5,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Iborra",
+        "team": "Olympiacos",
+        "position": "CDM",
+        "prop_type": "Shots on Target",
+        "line": 0.5,
+        "projection": 0.36,
+        "edge": -0.14,
+        "confidence": 45.8,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Chiquinho",
+        "team": "Olympiacos",
+        "position": "CM",
+        "prop_type": "Shots on Target",
+        "line": 1.0,
+        "projection": 0.72,
+        "edge": -0.28,
+        "confidence": 41.6,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Chiquinho",
+        "team": "Olympiacos",
+        "position": "CM",
+        "prop_type": "Anytime Goalscorer",
+        "line": 0.5,
+        "projection": 0.081,
+        "edge": -0.169,
+        "confidence": 24.7,
+        "recommendation": "No Goal"
+      },
+      {
+        "player_name": "Chiquinho",
+        "team": "Olympiacos",
+        "position": "CM",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.237,
+        "edge": 0.037,
+        "confidence": 55.5,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Stevan Jovetic",
+        "team": "Olympiacos",
+        "position": "CAM",
+        "prop_type": "Shots on Target",
+        "line": 1.5,
+        "projection": 1.35,
+        "edge": -0.15,
+        "confidence": 45.5,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Stevan Jovetic",
+        "team": "Olympiacos",
+        "position": "CAM",
+        "prop_type": "Anytime Goalscorer",
+        "line": 0.5,
+        "projection": 0.257,
+        "edge": 0.007,
+        "confidence": 51.1,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Stevan Jovetic",
+        "team": "Olympiacos",
+        "position": "CAM",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.302,
+        "edge": 0.102,
+        "confidence": 65.3,
+        "recommendation": "Yes Assist"
+      },
+      {
+        "player_name": "Ayoub El Kaabi",
+        "team": "Olympiacos",
+        "position": "ST",
+        "prop_type": "Shots on Target",
+        "line": 2.5,
+        "projection": 1.98,
+        "edge": -0.52,
+        "confidence": 34.4,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Ayoub El Kaabi",
+        "team": "Olympiacos",
+        "position": "ST",
+        "prop_type": "Anytime Goalscorer",
+        "line": 0.5,
+        "projection": 0.373,
+        "edge": 0.123,
+        "confidence": 68.5,
+        "recommendation": "Yes Goal"
+      },
+      {
+        "player_name": "Daniel Podence",
+        "team": "Olympiacos",
+        "position": "LW",
+        "prop_type": "Shots on Target",
+        "line": 1.5,
+        "projection": 1.62,
+        "edge": 0.12,
+        "confidence": 53.6,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Daniel Podence",
+        "team": "Olympiacos",
+        "position": "LW",
+        "prop_type": "Anytime Goalscorer",
+        "line": 0.5,
+        "projection": 0.225,
+        "edge": -0.025,
+        "confidence": 46.3,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Daniel Podence",
+        "team": "Olympiacos",
+        "position": "LW",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.333,
+        "edge": 0.133,
+        "confidence": 70.0,
+        "recommendation": "Yes Assist"
+      },
+      {
+        "player_name": "Luis Henrique",
+        "team": "Olympiacos",
+        "position": "RW",
+        "prop_type": "Shots on Target",
+        "line": 1.5,
+        "projection": 1.44,
+        "edge": -0.06,
+        "confidence": 48.2,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Luis Henrique",
+        "team": "Olympiacos",
+        "position": "RW",
+        "prop_type": "Anytime Goalscorer",
+        "line": 0.5,
+        "projection": 0.191,
+        "edge": -0.059,
+        "confidence": 41.2,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Luis Henrique",
+        "team": "Olympiacos",
+        "position": "RW",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.27,
+        "edge": 0.07,
+        "confidence": 60.5,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Genutis",
+        "team": "Panathinaikos",
+        "position": "RB",
+        "prop_type": "Shots on Target",
+        "line": 0.0,
+        "projection": 0.18,
+        "edge": 0.18,
+        "confidence": 55.4,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Genutis",
+        "team": "Panathinaikos",
+        "position": "RB",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.165,
+        "edge": -0.035,
+        "confidence": 44.7,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Ioannis Kotsiras",
+        "team": "Panathinaikos",
+        "position": "CB",
+        "prop_type": "Shots on Target",
+        "line": 0.0,
+        "projection": 0.23,
+        "edge": 0.23,
+        "confidence": 56.8,
+        "recommendation": "Over"
+      },
+      {
+        "player_name": "Bart Schenkeveld",
+        "team": "Panathinaikos",
+        "position": "CB",
+        "prop_type": "Shots on Target",
+        "line": 0.0,
+        "projection": 0.14,
+        "edge": 0.14,
+        "confidence": 54.0,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Tom van de Looi",
+        "team": "Panathinaikos",
+        "position": "LB",
+        "prop_type": "Shots on Target",
+        "line": 0.5,
+        "projection": 0.27,
+        "edge": -0.23,
+        "confidence": 43.1,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Tom van de Looi",
+        "team": "Panathinaikos",
+        "position": "LB",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.201,
+        "edge": 0.001,
+        "confidence": 50.2,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Aitor Cantalapiedra",
+        "team": "Panathinaikos",
+        "position": "CM",
+        "prop_type": "Shots on Target",
+        "line": 1.0,
+        "projection": 0.9,
+        "edge": -0.1,
+        "confidence": 47.0,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Aitor Cantalapiedra",
+        "team": "Panathinaikos",
+        "position": "CM",
+        "prop_type": "Anytime Goalscorer",
+        "line": 0.5,
+        "projection": 0.12,
+        "edge": -0.13,
+        "confidence": 30.5,
+        "recommendation": "No Goal"
+      },
+      {
+        "player_name": "Aitor Cantalapiedra",
+        "team": "Panathinaikos",
+        "position": "CM",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.237,
+        "edge": 0.037,
+        "confidence": 55.5,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Daniel Mancini",
+        "team": "Panathinaikos",
+        "position": "CM",
+        "prop_type": "Shots on Target",
+        "line": 1.5,
+        "projection": 1.08,
+        "edge": -0.42,
+        "confidence": 37.4,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Daniel Mancini",
+        "team": "Panathinaikos",
+        "position": "CM",
+        "prop_type": "Anytime Goalscorer",
+        "line": 0.5,
+        "projection": 0.142,
+        "edge": -0.108,
+        "confidence": 33.8,
+        "recommendation": "No Goal"
+      },
+      {
+        "player_name": "Daniel Mancini",
+        "team": "Panathinaikos",
+        "position": "CM",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.302,
+        "edge": 0.102,
+        "confidence": 65.3,
+        "recommendation": "Yes Assist"
+      },
+      {
+        "player_name": "Fotisis Ioannidis",
+        "team": "Panathinaikos",
+        "position": "CAM",
+        "prop_type": "Shots on Target",
+        "line": 1.5,
+        "projection": 1.26,
+        "edge": -0.24,
+        "confidence": 42.8,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Fotisis Ioannidis",
+        "team": "Panathinaikos",
+        "position": "CAM",
+        "prop_type": "Anytime Goalscorer",
+        "line": 0.5,
+        "projection": 0.212,
+        "edge": -0.038,
+        "confidence": 44.3,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Fotisis Ioannidis",
+        "team": "Panathinaikos",
+        "position": "CAM",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.27,
+        "edge": 0.07,
+        "confidence": 60.5,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Fotis Ioannidis",
+        "team": "Panathinaikos",
+        "position": "ST",
+        "prop_type": "Shots on Target",
+        "line": 2.5,
+        "projection": 1.8,
+        "edge": -0.7,
+        "confidence": 29.0,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Fotis Ioannidis",
+        "team": "Panathinaikos",
+        "position": "ST",
+        "prop_type": "Anytime Goalscorer",
+        "line": 0.5,
+        "projection": 0.335,
+        "edge": 0.085,
+        "confidence": 62.8,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Vangelis Pavlidis",
+        "team": "Panathinaikos",
+        "position": "ST",
+        "prop_type": "Shots on Target",
+        "line": 2.5,
+        "projection": 2.25,
+        "edge": -0.25,
+        "confidence": 42.5,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Vangelis Pavlidis",
+        "team": "Panathinaikos",
+        "position": "ST",
+        "prop_type": "Anytime Goalscorer",
+        "line": 0.5,
+        "projection": 0.4,
+        "edge": 0.15,
+        "confidence": 72.4,
+        "recommendation": "Yes Goal"
+      },
+      {
+        "player_name": "Angelos Tsingaras",
+        "team": "Panathinaikos",
+        "position": "LW",
+        "prop_type": "Shots on Target",
+        "line": 1.5,
+        "projection": 1.17,
+        "edge": -0.33,
+        "confidence": 40.1,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Angelos Tsingaras",
+        "team": "Panathinaikos",
+        "position": "LW",
+        "prop_type": "Anytime Goalscorer",
+        "line": 0.5,
+        "projection": 0.156,
+        "edge": -0.094,
+        "confidence": 36.0,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Angelos Tsingaras",
+        "team": "Panathinaikos",
+        "position": "LW",
+        "prop_type": "Assists",
+        "line": 0.5,
+        "projection": 0.237,
+        "edge": 0.037,
+        "confidence": 55.5,
+        "recommendation": "Pass"
+      }
+    ],
+    "top_recommendations": [
+      {
+        "player_name": "Fotis Ioannidis",
+        "team": "Panathinaikos",
+        "position": "ST",
+        "prop_type": "Shots on Target",
+        "line": 2.5,
+        "projection": 1.8,
+        "edge": -0.7,
+        "confidence": 29.0,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Ayoub El Kaabi",
+        "team": "Olympiacos",
+        "position": "ST",
+        "prop_type": "Shots on Target",
+        "line": 2.5,
+        "projection": 1.98,
+        "edge": -0.52,
+        "confidence": 34.4,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Daniel Mancini",
+        "team": "Panathinaikos",
+        "position": "CM",
+        "prop_type": "Shots on Target",
+        "line": 1.5,
+        "projection": 1.08,
+        "edge": -0.42,
+        "confidence": 37.4,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Angelos Tsingaras",
+        "team": "Panathinaikos",
+        "position": "LW",
+        "prop_type": "Shots on Target",
+        "line": 1.5,
+        "projection": 1.17,
+        "edge": -0.33,
+        "confidence": 40.1,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Chiquinho",
+        "team": "Olympiacos",
+        "position": "CM",
+        "prop_type": "Shots on Target",
+        "line": 1.0,
+        "projection": 0.72,
+        "edge": -0.28,
+        "confidence": 41.6,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Vangelis Pavlidis",
+        "team": "Panathinaikos",
+        "position": "ST",
+        "prop_type": "Shots on Target",
+        "line": 2.5,
+        "projection": 2.25,
+        "edge": -0.25,
+        "confidence": 42.5,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Fotisis Ioannidis",
+        "team": "Panathinaikos",
+        "position": "CAM",
+        "prop_type": "Shots on Target",
+        "line": 1.5,
+        "projection": 1.26,
+        "edge": -0.24,
+        "confidence": 42.8,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Rodinei",
+        "team": "Olympiacos",
+        "position": "RB",
+        "prop_type": "Shots on Target",
+        "line": 0.5,
+        "projection": 0.27,
+        "edge": -0.23,
+        "confidence": 43.1,
+        "recommendation": "Under"
+      }
+    ]
+  },
+  "recommendations": {
+    "match_outcome": "Pass",
+    "side": {
+      "recommendation": "PASS",
+      "lean": "HOME",
+      "confidence": 57.4
+    },
+    "goals": {
+      "recommendation": "BET",
+      "lean": "OVER",
+      "confidence": 66.2
+    },
+    "btts": {
+      "recommendation": "BET",
+      "confidence": 67.6
+    },
+    "corners": {
+      "recommendation": "BET",
+      "confidence": 75.8
+    }
+  },
+  "goal_strength": {
+    "home": 1.83,
+    "away": 0.43
+  },
+  "model_info": {
+    "type": "Bivariate Poisson with Dixon-Coles adjustments",
+    "league_config": {
+      "goal_variance": 1.0,
+      "avg_goals_per_game": 2.7,
+      "home_advantage": 0.35,
+      "draw_rate": 0.26
+    }
+  },
+  "timestamp": "2026-06-07T22:02:26.923743"
+}

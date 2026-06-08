@@ -1,0 +1,109 @@
+{
+  "sport": "baseball",
+  "league": "MLB",
+  "home_team": "San Francisco Giants",
+  "away_team": "Chicago Cubs",
+  "timestamp": "2026-06-07T17:04:17.914721",
+  "game": {
+    "projected_home_runs": 4.88,
+    "projected_away_runs": 3.62,
+    "projected_total_runs": 8.5,
+    "projected_run_differential": 1.26,
+    "home_win_probability": 0.6748,
+    "away_win_probability": 0.3252,
+    "confidence": {
+      "total": {
+        "score": 23.1,
+        "recommendation": "PASS"
+      },
+      "side": {
+        "score": 46.3,
+        "recommendation": "PASS"
+      }
+    }
+  },
+  "notes": "League-specific run environment and pitcher matchup considered. KBO foreign player impact: 0.0",
+  "player_props": {
+    "sport": "baseball",
+    "league": "MLB",
+    "matchup": "San Francisco Giants vs Chicago Cubs",
+    "park_factor": {
+      "hr": 0.92,
+      "runs": 0.95,
+      "k": 1.02
+    },
+    "pitcher_props": [
+      {
+        "player_name": "Logan Webb",
+        "team": "SF",
+        "prop_type": "Strikeouts",
+        "line": 1,
+        "projection": 0.82,
+        "edge": -0.18,
+        "confidence": 47.3,
+        "recommendation": "Pass",
+        "lean": "No Lean",
+        "factors": {
+          "pitcher_k_rate": 0.22,
+          "opp_k_rate": 0.22,
+          "innings_proj": 5.5,
+          "park_k_factor": 1.02
+        }
+      },
+      {
+        "player_name": "Shota Imanaga",
+        "team": "CHC",
+        "prop_type": "Strikeouts",
+        "line": 1,
+        "projection": 0.9,
+        "edge": -0.1,
+        "confidence": 48.5,
+        "recommendation": "Pass",
+        "lean": "No Lean",
+        "factors": {
+          "pitcher_k_rate": 0.24,
+          "opp_k_rate": 0.22,
+          "innings_proj": 5.5,
+          "park_k_factor": 1.02
+        }
+      }
+    ],
+    "hitter_props": [],
+    "top_recommendations": [
+      {
+        "player_name": "Logan Webb",
+        "team": "SF",
+        "prop_type": "Strikeouts",
+        "line": 1,
+        "projection": 0.82,
+        "edge": -0.18,
+        "confidence": 47.3,
+        "recommendation": "Pass",
+        "lean": "No Lean",
+        "factors": {
+          "pitcher_k_rate": 0.22,
+          "opp_k_rate": 0.22,
+          "innings_proj": 5.5,
+          "park_k_factor": 1.02
+        }
+      },
+      {
+        "player_name": "Shota Imanaga",
+        "team": "CHC",
+        "prop_type": "Strikeouts",
+        "line": 1,
+        "projection": 0.9,
+        "edge": -0.1,
+        "confidence": 48.5,
+        "recommendation": "Pass",
+        "lean": "No Lean",
+        "factors": {
+          "pitcher_k_rate": 0.24,
+          "opp_k_rate": 0.22,
+          "innings_proj": 5.5,
+          "park_k_factor": 1.02
+        }
+      }
+    ]
+  }
+}

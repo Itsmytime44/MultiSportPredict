@@ -1,0 +1,85 @@
+{
+  "game_info": {
+    "home_team": "Greece",
+    "away_team": "Italy",
+    "league": "International_Friendly",
+    "date": "2026-06-07",
+    "venue": "OAKA, Athens"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.25,
+      "xg_against": 1.15,
+      "shots": 10.5,
+      "sot": 3.5,
+      "goals_for": 1.2,
+      "goals_against": 1.0,
+      "clean_sheets": 4,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": -0.05,
+      "width_crossing": 0.45,
+      "final_third_pressure": 0.42
+    },
+    "away": {
+      "xg_for": 1.7,
+      "xg_against": 1.05,
+      "shots": 14.5,
+      "sot": 5.2,
+      "goals_for": 1.8,
+      "goals_against": 0.9,
+      "clean_sheets": 5,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.3,
+      "width_crossing": 0.55,
+      "final_third_pressure": 0.58
+    }
+  },
+  "projections": {
+    "home_expected_goals": 1.62,
+    "away_expected_goals": 2.09,
+    "total_expected_goals": 3.71,
+    "home_win_prob": 0.401,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.483
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.885,
+    "over_25_prob": 0.717,
+    "over_35_prob": 0.508,
+    "market_line": 2.5,
+    "recommendation": "Over 2.5"
+  },
+  "btts_analysis": {
+    "home_btts_strength": -0.08,
+    "away_btts_strength": 0.62,
+    "btts_probability": 0.569,
+    "recommendation": "Pass"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 0.49,
+    "away_corner_strength": 1.93,
+    "projected_total": 11.0,
+    "over_85_prob": 0.769,
+    "over_95_prob": 0.661,
+    "over_105_prob": 0.542,
+    "market_line": 9.5,
+    "recommendation": "Over 9.5"
+  },
+  "recommendations": {
+    "match_outcome": "Pass",
+    "goals": "Over 2.5",
+    "btts": "Pass",
+    "corners": "Over 9.5"
+  },
+  "goal_strength": {
+    "home": 0.02,
+    "away": 1.42
+  },
+  "timestamp": "2026-06-07T12:23:20.315638"
+}

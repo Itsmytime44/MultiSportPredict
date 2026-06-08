@@ -1,0 +1,122 @@
+{
+  "game_info": {
+    "home_team": "France",
+    "away_team": "Northern Ireland",
+    "league": "International Friendly",
+    "date": "2026-06-08",
+    "venue": "Stade de France, Paris"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 2.1,
+      "xg_against": 0.85,
+      "shots": 16.0,
+      "sot": 6.2,
+      "goals_for": 2.3,
+      "goals_against": 0.7,
+      "clean_sheets": 6,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.35,
+      "width_crossing": 0.58,
+      "final_third_pressure": 0.65
+    },
+    "away": {
+      "xg_for": 0.95,
+      "xg_against": 1.45,
+      "shots": 8.5,
+      "sot": 3.0,
+      "goals_for": 0.9,
+      "goals_against": 1.4,
+      "clean_sheets": 3,
+      "missing_attacker": 0,
+      "missing_creator": 1,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.1,
+      "width_crossing": 0.38,
+      "final_third_pressure": 0.35
+    }
+  },
+  "projections": {
+    "home_expected_goals": 2.66,
+    "away_expected_goals": 1.14,
+    "total_expected_goals": 3.79,
+    "home_win_prob": 0.681,
+    "draw_prob": 0.172,
+    "away_win_prob": 0.147
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.892,
+    "over_25_prob": 0.73,
+    "over_35_prob": 0.525,
+    "market_line": 2.5,
+    "edge": 1.293,
+    "confidence": 62.9,
+    "recommendation": "BET",
+    "lean": "OVER"
+  },
+  "btts_analysis": {
+    "home_btts_strength": 1.0,
+    "away_btts_strength": -0.12,
+    "btts_probability": 0.624,
+    "confidence": 62.4,
+    "recommendation": "BET"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 2.92,
+    "away_corner_strength": -0.54,
+    "projected_total": 11.0,
+    "over_85_prob": 0.767,
+    "over_95_prob": 0.659,
+    "over_105_prob": 0.539,
+    "market_line": 9.5,
+    "confidence": 65.9,
+    "recommendation": "BET"
+  },
+  "side_analysis": {
+    "market_line": -1.5,
+    "model_goal_diff": 1.52,
+    "edge": 3.018,
+    "confidence": 80.2,
+    "recommendation": "BET",
+    "lean": "HOME"
+  },
+  "recommendations": {
+    "match_outcome": "Home Win (France)",
+    "side": {
+      "recommendation": "BET",
+      "lean": "HOME",
+      "confidence": 80.2
+    },
+    "goals": {
+      "recommendation": "BET",
+      "lean": "OVER",
+      "confidence": 62.9
+    },
+    "btts": {
+      "recommendation": "BET",
+      "confidence": 62.4
+    },
+    "corners": {
+      "recommendation": "BET",
+      "confidence": 65.9
+    }
+  },
+  "goal_strength": {
+    "home": 2.75,
+    "away": -1.43
+  },
+  "model_info": {
+    "type": "Bivariate Poisson with Dixon-Coles adjustments",
+    "league_config": {
+      "goal_variance": 1.0,
+      "avg_goals_per_game": 2.7,
+      "home_advantage": 0.35,
+      "draw_rate": 0.26
+    }
+  },
+  "timestamp": "2026-06-07T21:53:29.090226"
+}

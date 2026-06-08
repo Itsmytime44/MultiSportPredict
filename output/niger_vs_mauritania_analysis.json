@@ -1,0 +1,97 @@
+{
+  "game_info": {
+    "home_team": "Niger",
+    "away_team": "Mauritania",
+    "league": "International",
+    "date": "2026-06-08",
+    "venue": "Neutral/International"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 0.85,
+      "xg_against": 1.15,
+      "shots": 8.5,
+      "sot": 2.8,
+      "goals_for": 0.75,
+      "goals_against": 1.0,
+      "clean_sheets_last10": 4,
+      "missing_attacker": 0,
+      "missing_creator": 1,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": -0.2,
+      "width_crossing": 0.35,
+      "final_third_pressure": 0.3
+    },
+    "away": {
+      "xg_for": 0.9,
+      "xg_against": 1.1,
+      "shots": 9.0,
+      "sot": 3.0,
+      "goals_for": 0.8,
+      "goals_against": 0.95,
+      "clean_sheets_last10": 5,
+      "missing_attacker": 0,
+      "missing_creator": 1,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": -0.1,
+      "width_crossing": 0.4,
+      "final_third_pressure": 0.35
+    }
+  },
+  "market_data": {
+    "open_line": 2.0,
+    "current_line": 2.0,
+    "total": 2.0,
+    "corner_total": 7.5
+  },
+  "projections": {
+    "home_goals": 1.2,
+    "away_goals": 1.18,
+    "total_goals": 2.38,
+    "btts_probability": 0.3192,
+    "corner_total": 8.6
+  },
+  "probabilities": {
+    "over_15": 0.6866,
+    "over_25": 0.4244,
+    "over_35": 0.2166,
+    "btts": 0.3192,
+    "corners_over_85": 0.4861,
+    "corners_over_95": 0.3558,
+    "corners_over_105": 0.2441
+  },
+  "recommendations": {
+    "goals_total": "Under 2.0",
+    "btts": "BTTS No",
+    "corners_total": "Pass"
+  },
+  "smart_picks": {
+    "safest_wager": "Under 2.5 Total Goals (-190)",
+    "value_play": "Under 1.5 Goals (+115)",
+    "first_half": "Draw (-110)",
+    "double_chance": "Niger or Draw (-210)"
+  },
+  "model_details": {
+    "home_goal_strength": -1.15,
+    "away_goal_strength": -1.11,
+    "home_btts_strength": -0.67,
+    "away_btts_strength": -0.64,
+    "home_corner_strength": -0.41,
+    "away_corner_strength": -0.43,
+    "goals_model_score": 0.3775,
+    "goals_model_prob": 0.4244,
+    "btts_model_score": -0.1017,
+    "btts_model_prob": 0.3983,
+    "corners_model_score": 6.5674,
+    "corners_model_prob": 0.4861
+  },
+  "match_characteristics": {
+    "expected_style": "Physical, defensive, low-scoring",
+    "key_factor": "Extreme offensive deficiencies for both teams",
+    "likely_outcome": "Under 2.5 goals, possible draw"
+  },
+  "confidence": "LOW",
+  "timestamp": "2026-06-08T12:14:07.121796"
+}

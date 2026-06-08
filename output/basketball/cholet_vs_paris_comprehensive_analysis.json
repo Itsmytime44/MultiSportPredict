@@ -1,0 +1,283 @@
+{
+  "game_info": {
+    "home_team": "Cholet",
+    "away_team": "Paris",
+    "league": "France_LNB_Pro_A",
+    "date": "2026-06-07",
+    "venue": "La Meilleraie, Cholet"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 107.0,
+      "drtg": 109.0,
+      "baseline_net": -2.0,
+      "recent_net": -1.0,
+      "pace": 68.0,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 2.0,
+      "rotation_depth": 8,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 111.0,
+      "drtg": 106.0,
+      "baseline_net": 5.0,
+      "recent_net": 4.5,
+      "pace": 71.0,
+      "rest_days": 2,
+      "travel_km": 300,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 3.0,
+      "rotation_depth": 9,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": 2.5,
+    "current_line": 6.5,
+    "spread": 6.5,
+    "total": 160.5,
+    "moneyline_home": 200,
+    "moneyline_away": -250
+  },
+  "full_game": {
+    "projected_home_score": 78.0,
+    "projected_away_score": 79.0,
+    "projected_total": 157.0,
+    "projected_spread": -1.0,
+    "win_probability": 0.1184,
+    "model_edge": -0.12,
+    "lean": "Pass",
+    "recommendations": {
+      "spread": {
+        "line": 6.5,
+        "edge": -7.5,
+        "confidence": 0.0,
+        "recommendation": "PASS"
+      },
+      "total": {
+        "line": 160.5,
+        "edge": -3.5,
+        "confidence": 0.0,
+        "recommendation": "PASS"
+      },
+      "moneyline": {
+        "edge": -0.5483,
+        "confidence": 0.0,
+        "recommendation": "PASS"
+      }
+    }
+  },
+  "first_quarter": {
+    "projected_home": 19.6,
+    "projected_away": 18.8,
+    "projected_total": 38.4,
+    "projected_spread": 0.8,
+    "win_probability": 0.545,
+    "recommendations": {
+      "spread": {
+        "line": 1.6,
+        "edge": -0.82,
+        "confidence": 11.7,
+        "recommendation": "PASS"
+      },
+      "total": {
+        "line": 40.1,
+        "edge": -1.73,
+        "confidence": 0.0,
+        "recommendation": "PASS"
+      }
+    }
+  },
+  "player_props": [
+    {
+      "player": "Mike Jervis",
+      "team": "Cholet",
+      "prop_type": "Points",
+      "line": 14.5,
+      "projection": 13.59,
+      "edge": -0.91,
+      "recommendation": "Pass",
+      "confidence": 9.8
+    },
+    {
+      "player": "Mike Jervis",
+      "team": "Cholet",
+      "prop_type": "Rebounds",
+      "line": 6.5,
+      "projection": 13.59,
+      "edge": 7.09,
+      "recommendation": "Over 6.5",
+      "confidence": 80.0
+    },
+    {
+      "player": "Mike Jervis",
+      "team": "Cholet",
+      "prop_type": "Assists",
+      "line": 2.5,
+      "projection": 13.59,
+      "edge": 11.09,
+      "recommendation": "Over 2.5",
+      "confidence": 80.9
+    },
+    {
+      "player": "Axel Bouteille",
+      "team": "Cholet",
+      "prop_type": "Points",
+      "line": 12.5,
+      "projection": 11.34,
+      "edge": -1.16,
+      "recommendation": "Under 12.5",
+      "confidence": 5.7
+    },
+    {
+      "player": "Axel Bouteille",
+      "team": "Cholet",
+      "prop_type": "Assists",
+      "line": 3.5,
+      "projection": 11.34,
+      "edge": 7.84,
+      "recommendation": "Over 3.5",
+      "confidence": 80.4
+    },
+    {
+      "player": "Axel Bouteille",
+      "team": "Cholet",
+      "prop_type": "Rebounds",
+      "line": 3.5,
+      "projection": 11.34,
+      "edge": 7.84,
+      "recommendation": "Over 3.5",
+      "confidence": 80.4
+    },
+    {
+      "player": "Deon Thompson",
+      "team": "Cholet",
+      "prop_type": "Points",
+      "line": 10.5,
+      "projection": 8.54,
+      "edge": -1.96,
+      "recommendation": "Under 10.5",
+      "confidence": 0.0
+    },
+    {
+      "player": "Deon Thompson",
+      "team": "Cholet",
+      "prop_type": "Rebounds",
+      "line": 5.5,
+      "projection": 8.54,
+      "edge": 3.04,
+      "recommendation": "Over 5.5",
+      "confidence": 68.1
+    },
+    {
+      "player": "Deon Thompson",
+      "team": "Cholet",
+      "prop_type": "Assists",
+      "line": 1.5,
+      "projection": 8.54,
+      "edge": 7.04,
+      "recommendation": "Over 1.5",
+      "confidence": 79.9
+    },
+    {
+      "player": "T.J. Shorts",
+      "team": "Paris",
+      "prop_type": "Points",
+      "line": 16.5,
+      "projection": 17.57,
+      "edge": 1.07,
+      "recommendation": "Over 16.5",
+      "confidence": 44.8
+    },
+    {
+      "player": "T.J. Shorts",
+      "team": "Paris",
+      "prop_type": "Assists",
+      "line": 5.5,
+      "projection": 17.57,
+      "edge": 12.07,
+      "recommendation": "Over 5.5",
+      "confidence": 80.9
+    },
+    {
+      "player": "T.J. Shorts",
+      "team": "Paris",
+      "prop_type": "Rebounds",
+      "line": 3.5,
+      "projection": 17.57,
+      "edge": 14.07,
+      "recommendation": "Over 3.5",
+      "confidence": 80.9
+    },
+    {
+      "player": "Nadir Hifi",
+      "team": "Paris",
+      "prop_type": "Points",
+      "line": 13.5,
+      "projection": 12.41,
+      "edge": -1.09,
+      "recommendation": "Under 13.5",
+      "confidence": 6.8
+    },
+    {
+      "player": "Nadir Hifi",
+      "team": "Paris",
+      "prop_type": "Rebounds",
+      "line": 4.5,
+      "projection": 12.41,
+      "edge": 7.91,
+      "recommendation": "Over 4.5",
+      "confidence": 80.4
+    },
+    {
+      "player": "Nadir Hifi",
+      "team": "Paris",
+      "prop_type": 2.5,
+      "line": 2.5,
+      "projection": 12.41,
+      "edge": 9.91,
+      "recommendation": "Over 2.5",
+      "confidence": 80.8
+    },
+    {
+      "player": "Leopold Delaunay",
+      "team": "Paris",
+      "prop_type": "Points",
+      "line": 11.5,
+      "projection": 9.56,
+      "edge": -1.94,
+      "recommendation": "Under 11.5",
+      "confidence": 0.0
+    },
+    {
+      "player": "Leopold Delaunay",
+      "team": "Paris",
+      "prop_type": "Rebounds",
+      "line": 6.5,
+      "projection": 9.56,
+      "edge": 3.06,
+      "recommendation": "Over 6.5",
+      "confidence": 68.3
+    },
+    {
+      "player": "Leopold Delaunay",
+      "team": "Paris",
+      "prop_type": "Assists",
+      "line": 2.5,
+      "projection": 9.56,
+      "edge": 7.06,
+      "recommendation": "Over 2.5",
+      "confidence": 80.0
+    }
+  ],
+  "timestamp": "2026-06-07T12:58:26.240248"
+}

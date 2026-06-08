@@ -1,0 +1,267 @@
+{
+  "game_info": {
+    "home_team": "Pittsburgh Pirates",
+    "away_team": "Atlanta Braves",
+    "league": "MLB",
+    "date": "2026-06-07",
+    "venue": "PNC Park, Pittsburgh",
+    "game_time": "1:00 PM ET"
+  },
+  "team_metrics": {
+    "home": {
+      "runs_per_game": 4.35,
+      "runs_allowed_per_game": 4.82,
+      "team_era": 4.45,
+      "team_ops": 0.71,
+      "starting_pitcher": {
+        "name": "Paul Skenes",
+        "era": 2.85,
+        "k_per_9": 11.2,
+        "whip": 1.05,
+        "k_rate": 0.32,
+        "handedness": "R",
+        "innings_proj": 6.0,
+        "hr_per_9": 0.7
+      }
+    },
+    "away": {
+      "runs_per_game": 5.12,
+      "runs_allowed_per_game": 4.25,
+      "team_era": 3.95,
+      "team_ops": 0.765,
+      "starting_pitcher": {
+        "name": "Spencer Strider",
+        "era": 3.15,
+        "k_per_9": 12.5,
+        "whip": 1.1,
+        "k_rate": 0.34,
+        "handedness": "R",
+        "innings_proj": 6.0,
+        "hr_per_9": 0.9
+      }
+    }
+  },
+  "market_data": {
+    "moneyline_home": 124,
+    "moneyline_away": -146,
+    "run_line": -1.5,
+    "run_line_home_odds": -158,
+    "run_line_away_odds": 131,
+    "total": 8.5
+  },
+  "projections": {
+    "home_runs": 3.67,
+    "away_runs": 3.91,
+    "total_runs": 7.58,
+    "run_differential": -0.23,
+    "home_win_probability": 0.483,
+    "away_win_probability": 0.517
+  },
+  "recommendations": {
+    "moneyline": "NO STRONG MONEYLINE LEAN",
+    "total": "LEAN UNDER 8.5",
+    "run_line": "NO LEAN Away -1.5",
+    "confidence": "LOW"
+  },
+  "confidence_scores": {
+    "total": {
+      "score": 6.7,
+      "recommendation": "PASS",
+      "volatility": 0.65,
+      "edge": -0.92
+    },
+    "side": {
+      "score": 28.6,
+      "recommendation": "PASS",
+      "volatility": 0.55,
+      "edge": -0.23
+    }
+  },
+  "pitcher_props": {
+    "home": {
+      "projection": 1.13,
+      "edge": -4.37,
+      "lean": "Under",
+      "line": 5.5
+    },
+    "away": {
+      "projection": 1.44,
+      "edge": -4.06,
+      "lean": "Under",
+      "line": 5.5
+    }
+  },
+  "hr_props": [
+    {
+      "player_name": "Ronald Acu\u00f1a Jr.",
+      "team": "ATL",
+      "hr_probability": 0.14,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Matt Olson",
+      "team": "ATL",
+      "hr_probability": 0.156,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Austin Riley",
+      "team": "ATL",
+      "hr_probability": 0.126,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Marcell Ozuna",
+      "team": "ATL",
+      "hr_probability": 0.121,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Bryan Reynolds",
+      "team": "PIT",
+      "hr_probability": 0.103,
+      "lean": "No HR"
+    },
+    {
+      "player_name": "Oneil Cruz",
+      "team": "PIT",
+      "hr_probability": 0.123,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Ryan O'Hearn",
+      "team": "PIT",
+      "hr_probability": 0.097,
+      "lean": "No HR"
+    }
+  ],
+  "player_props": [
+    {
+      "player_name": "Ronald Acu\u00f1a Jr.",
+      "team": "ATL",
+      "prop_type": "Total Bases",
+      "projection": 2.16,
+      "edge": 0.66,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Ronald Acu\u00f1a Jr.",
+      "team": "ATL",
+      "prop_type": "Hits",
+      "projection": 1.28,
+      "edge": 0.78,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Matt Olson",
+      "team": "ATL",
+      "prop_type": "Total Bases",
+      "projection": 2.14,
+      "edge": 0.64,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Matt Olson",
+      "team": "ATL",
+      "prop_type": "Hits",
+      "projection": 1.11,
+      "edge": 0.61,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Austin Riley",
+      "team": "ATL",
+      "prop_type": "Total Bases",
+      "projection": 1.98,
+      "edge": 0.48,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Austin Riley",
+      "team": "ATL",
+      "prop_type": "Hits",
+      "projection": 1.16,
+      "edge": 0.66,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Marcell Ozuna",
+      "team": "ATL",
+      "prop_type": "Total Bases",
+      "projection": 1.88,
+      "edge": 0.38,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Marcell Ozuna",
+      "team": "ATL",
+      "prop_type": "Hits",
+      "projection": 1.1,
+      "edge": 0.6,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Bryan Reynolds",
+      "team": "PIT",
+      "prop_type": "Total Bases",
+      "projection": 1.89,
+      "edge": 0.39,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Bryan Reynolds",
+      "team": "PIT",
+      "prop_type": "Hits",
+      "projection": 1.18,
+      "edge": 0.68,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Oneil Cruz",
+      "team": "PIT",
+      "prop_type": "Total Bases",
+      "projection": 1.8,
+      "edge": 0.3,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Oneil Cruz",
+      "team": "PIT",
+      "prop_type": "Hits",
+      "projection": 1.02,
+      "edge": 0.52,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Ryan O'Hearn",
+      "team": "PIT",
+      "prop_type": "Total Bases",
+      "projection": 1.6,
+      "edge": 0.1,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Ryan O'Hearn",
+      "team": "PIT",
+      "prop_type": "Hits",
+      "projection": 0.99,
+      "edge": 0.49,
+      "lean": "Over",
+      "line": 0.5
+    }
+  ],
+  "timestamp": "2026-06-07T09:55:41.760305"
+}

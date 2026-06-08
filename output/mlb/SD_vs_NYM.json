@@ -47,8 +47,8 @@
         "player_name": "SD Slugger",
         "team": "SD",
         "prop_type": "Total Bases",
-        "projection": 1.92,
-        "edge": 0.42,
+        "projection": 1.8,
+        "edge": 0.3,
         "lean": "Over",
         "line": 1.5
       },
@@ -56,8 +56,8 @@
         "player_name": "SD Hitter",
         "team": "SD",
         "prop_type": "Hits",
-        "projection": 1.12,
-        "edge": 0.62,
+        "projection": 1.08,
+        "edge": 0.58,
         "lean": "Over",
         "line": 0.5
       }
@@ -67,8 +67,8 @@
         "player_name": "NYM Slugger",
         "team": "NYM",
         "prop_type": "Total Bases",
-        "projection": 1.72,
-        "edge": 0.22,
+        "projection": 1.68,
+        "edge": 0.18,
         "lean": "Over",
         "line": 1.5
       },
@@ -76,8 +76,8 @@
         "player_name": "NYM Hitter",
         "team": "NYM",
         "prop_type": "Hits",
-        "projection": 1.04,
-        "edge": 0.54,
+        "projection": 1.08,
+        "edge": 0.58,
         "lean": "Over",
         "line": 0.5
       }

@@ -1,0 +1,61 @@
+{
+  "match": "San Francisco Giants vs Chicago Cubs",
+  "timestamp": "2026-06-07T16:58:04.252807",
+  "league": "MLB",
+  "park": "Oracle Park",
+  "park_factor": 0.92,
+  "pitcher_props": {
+    "giants_sp": {
+      "projection": 0.91,
+      "edge": -5.59,
+      "lean": "Under",
+      "line": 6.5
+    },
+    "cubs_sp": {
+      "projection": 0.7,
+      "edge": -4.8,
+      "lean": "Under",
+      "line": 5.5
+    }
+  },
+  "hitter_props": [
+    {
+      "player": "Matt Chapman",
+      "team": "Giants",
+      "hr_probability": 0.11,
+      "lean": "No HR"
+    },
+    {
+      "player": "Jung Hoo Lee",
+      "team": "Giants",
+      "hr_probability": 0.08,
+      "lean": "No HR"
+    },
+    {
+      "player": "Seiya Suzuki",
+      "team": "Cubs",
+      "hr_probability": 0.097,
+      "lean": "No HR"
+    },
+    {
+      "player": "Ian Happ",
+      "team": "Cubs",
+      "hr_probability": 0.09,
+      "lean": "No HR"
+    }
+  ],
+  "top_recommendations": {
+    "best_k_prop": {
+      "lean": "Under",
+      "projection": 0.91,
+      "edge": -5.59
+    },
+    "best_hr_candidate": {
+      "player": "Matt Chapman",
+      "team": "Giants",
+      "hr_probability": 0.11,
+      "lean": "No HR"
+    },
+    "game_lean": "Under 8.5"
+  }
+}

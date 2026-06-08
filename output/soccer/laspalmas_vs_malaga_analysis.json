@@ -1,0 +1,85 @@
+{
+  "game_info": {
+    "home_team": "UD Las Palmas",
+    "away_team": "Malaga",
+    "league": "Spain_Segunda_Division",
+    "date": "2026-06-07",
+    "venue": "Estadio Gran Canaria, Las Palmas"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.5,
+      "xg_against": 1.25,
+      "shots": 12.0,
+      "sot": 4.2,
+      "goals_for": 1.5,
+      "goals_against": 1.1,
+      "clean_sheets": 4,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.2,
+      "width_crossing": 0.5,
+      "final_third_pressure": 0.5
+    },
+    "away": {
+      "xg_for": 1.35,
+      "xg_against": 1.4,
+      "shots": 11.0,
+      "sot": 3.8,
+      "goals_for": 1.3,
+      "goals_against": 1.3,
+      "clean_sheets": 3,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.05,
+      "width_crossing": 0.48,
+      "final_third_pressure": 0.45
+    }
+  },
+  "projections": {
+    "home_expected_goals": 2.0,
+    "away_expected_goals": 1.69,
+    "total_expected_goals": 3.69,
+    "home_win_prob": 0.476,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.408
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.883,
+    "over_25_prob": 0.712,
+    "over_35_prob": 0.503,
+    "market_line": 2.5,
+    "recommendation": "Over 2.5"
+  },
+  "btts_analysis": {
+    "home_btts_strength": 0.46,
+    "away_btts_strength": 0.38,
+    "btts_probability": 0.603,
+    "recommendation": "BTTS Yes"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 1.21,
+    "away_corner_strength": 0.46,
+    "projected_total": 10.5,
+    "over_85_prob": 0.716,
+    "over_95_prob": 0.597,
+    "over_105_prob": 0.474,
+    "market_line": 9.5,
+    "recommendation": "Over 9.5"
+  },
+  "recommendations": {
+    "match_outcome": "Pass",
+    "goals": "Over 2.5",
+    "btts": "BTTS Yes",
+    "corners": "Over 9.5"
+  },
+  "goal_strength": {
+    "home": 0.62,
+    "away": -0.18
+  },
+  "timestamp": "2026-06-07T12:52:26.049452"
+}

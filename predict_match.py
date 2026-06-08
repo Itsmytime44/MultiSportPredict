@@ -171,7 +171,7 @@ def run_baseball_game(home_team: str, away_team: str, league: str = "MLB") -> Di
         league: League type (MLB or KBO)
         
     Returns:
-        Dictionary with prediction results
+        Dictionary with prediction results (including player props)
     """
     print(f"\n{'='*60}")
     print(f"BASEBALL ({league.upper()}) MATCHUP: {home_team} vs {away_team}")
@@ -200,6 +200,48 @@ def run_baseball_game(home_team: str, away_team: str, league: str = "MLB") -> Di
         if 'side' in confidence:
             side = confidence['side']
             print(f"Side: {side.get('recommendation', 'N/A')} (Confidence: {side.get('score', 0):.1f}%)")
+        
+        # Generate player props automatically
+        print(f"\n{'='*60}")
+        print("PLAYER PROPS")
+        print('='*60)
+        
+        try:
+            from models.props_engine import generate_player_props
+            
+            props = generate_player_props('baseball', home_team, away_team, league)
+            result['player_props'] = props
+            
+            # Display pitcher props
+            pitcher_props = props.get('pitcher_props', [])
+            if pitcher_props:
+                print("\n--- Pitcher Props ---")
+                for prop in pitcher_props:
+                    print(f"\n{prop['player_name']} ({prop['team']}) - {prop['prop_type']}:")
+                    print(f"  Line: {prop['line']}, Projection: {prop['projection']}")
+                    print(f"  Edge: {prop['edge']:+.2f}, Confidence: {prop['confidence']:.1f}%")
+                    print(f"  Recommendation: {prop['recommendation']}")
+            
+            # Display top hitter props
+            hitter_props = props.get('hitter_props', [])
+            if hitter_props:
+                print("\n--- Top Hitter Props ---")
+                for prop in hitter_props[:5]:  # Show top 5
+                    print(f"\n{prop['player_name']} ({prop['team']}) - {prop['prop_type']}:")
+                    print(f"  Projection: {prop['projection']:.3f}")
+                    print(f"  Recommendation: {prop['recommendation']}")
+            
+            # Display top recommendations
+            top_recs = props.get('top_recommendations', [])
+            if top_recs:
+                print(f"\n--- TOP {len(top_recs)} PROP RECOMMENDATIONS ---")
+                for i, rec in enumerate(top_recs[:3], 1):
+                    print(f"{i}. {rec['player_name']} - {rec['prop_type']}: {rec['recommendation']} (Conf: {rec['confidence']:.1f}%)")
+                    
+        except ImportError:
+            print("Props engine not available")
+        except Exception as e:
+            print(f"Error generating props: {e}")
         
         # Save to output file
         out_dir = Path("output/baseball")

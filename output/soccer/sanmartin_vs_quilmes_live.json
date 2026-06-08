@@ -1,0 +1,103 @@
+{
+  "match": "San Martin Tucuman vs Quilmes",
+  "league": "Primera Nacional",
+  "status": "LIVE",
+  "minute": 19,
+  "current_score": "0-0",
+  "timestamp": "2026-06-07T16:52:53.666124",
+  "original_projections": {
+    "sport": "soccer",
+    "league": "Primera Nacional",
+    "home_team": "San Martin Tucuman",
+    "away_team": "Quilmes",
+    "timestamp": "2026-06-07T16:52:53.665950",
+    "game": {
+      "projected_home_goals": 1.85,
+      "projected_away_goals": 1.44,
+      "projected_total_goals": 3.29,
+      "home_win_prob": 0.469,
+      "draw_prob": 0.229,
+      "away_win_prob": 0.302
+    },
+    "predictions": {
+      "side": {
+        "model_xg_diff": 0.413,
+        "market_line": 0.0,
+        "edge": 0.413,
+        "confidence": 32.7,
+        "recommendation": "PASS"
+      },
+      "total": {
+        "model_total_xg": 3.288,
+        "market_total": 2.25,
+        "edge": 1.038,
+        "confidence": 42.7,
+        "recommendation": "PASS"
+      },
+      "btts": {
+        "probability": 0.593,
+        "confidence": 80.2,
+        "recommendation": "STRONG BET"
+      }
+    },
+    "goals_analysis": {
+      "over_15_prob": 0.84,
+      "over_25_prob": 0.638,
+      "over_35_prob": 0.417
+    },
+    "btts_probability": 0.593,
+    "corner_projection": 9.8,
+    "team_metrics": {
+      "home": {
+        "xg_for": 1.35,
+        "xg_against": 1.15,
+        "shots": 11.0,
+        "sot": 3.5,
+        "goals_for": 1.2,
+        "goals_against": 1.0,
+        "clean_sheets": 3,
+        "missing_attacker": 0,
+        "missing_creator": 0,
+        "missing_cb": 0,
+        "missing_gk": 0,
+        "tempo": 0.3,
+        "width_crossing": 0.45,
+        "final_third_pressure": 0.5
+      },
+      "away": {
+        "xg_for": 1.25,
+        "xg_against": 1.3,
+        "shots": 10.0,
+        "sot": 3.2,
+        "goals_for": 1.1,
+        "goals_against": 1.2,
+        "clean_sheets": 2,
+        "missing_attacker": 0,
+        "missing_creator": 1,
+        "missing_cb": 0,
+        "missing_gk": 0,
+        "tempo": 0.25,
+        "width_crossing": 0.4,
+        "final_third_pressure": 0.45
+      }
+    },
+    "league_config": {
+      "goal_variance": 1.0,
+      "avg_goals_per_game": 2.7,
+      "home_advantage": 0.35,
+      "draw_rate": 0.26
+    },
+    "notes": "Soccer prediction using Bivariate Poisson with Dixon-Coles time-decay adjustments on xG metrics"
+  },
+  "live_adjustments": {
+    "remaining_factor": 0.789,
+    "adjusted_home_goals": 1.46,
+    "adjusted_away_goals": 1.14,
+    "adjusted_total": 2.6,
+    "live_win_probabilities": {
+      "home": 0.333,
+      "draw": 0.453,
+      "away": 0.214
+    }
+  }
+}

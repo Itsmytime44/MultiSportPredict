@@ -1,0 +1,405 @@
+{
+  "game_info": {
+    "home_team": "Olympiacos",
+    "away_team": "Panathinaikos",
+    "league": "EuroLeague",
+    "date": "2026-06-08",
+    "venue": "Peace and Friendship Stadium, Piraeus",
+    "match_type": "Greek Basketball Derby"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg_per_100": 112.5,
+      "drtg_per_100": 105.2,
+      "net_rating": 7.299999999999997,
+      "pace": 71.0,
+      "three_pt_pct": 0.39,
+      "rest_days": 3,
+      "rotation_depth": 10,
+      "injury_status": "green"
+    },
+    "away": {
+      "ortg_per_100": 110.8,
+      "drtg_per_100": 106.5,
+      "net_rating": 4.299999999999997,
+      "pace": 69.5,
+      "three_pt_pct": 0.37,
+      "rest_days": 1,
+      "rotation_depth": 9,
+      "injury_status": "yellow"
+    }
+  },
+  "efficiency_gaps": {
+    "current": 3.0,
+    "baseline": 3.0,
+    "recent": 4.4,
+    "historical": 0.56,
+    "rest": 6.0,
+    "context": 2.0
+  },
+  "projections": {
+    "home_score": 104.6,
+    "away_score": 79.2,
+    "total": 183.8,
+    "home_win_prob": 0.8605
+  },
+  "q1_projection": {
+    "home_score": 23.8,
+    "away_score": 21.7,
+    "total": 44.7,
+    "lean": "Strong lean"
+  },
+  "market_analysis": {
+    "spread": {
+      "line": -3.5,
+      "model_spread": 25.4,
+      "edge": 28.9,
+      "confidence": 100,
+      "recommendation": "BET",
+      "lean": "Olympiacos"
+    },
+    "total": {
+      "line": 155.5,
+      "model_total": 183.8,
+      "edge": 28.3,
+      "confidence": 100,
+      "recommendation": "BET",
+      "lean": "OVER"
+    }
+  },
+  "player_props": {
+    "sport": "basketball",
+    "matchup": "Olympiacos vs Panathinaikos",
+    "player_props": [
+      {
+        "player_name": "Sasha Vezenkov",
+        "team": "Olympiacos",
+        "position": "PF",
+        "prop_type": "Points",
+        "line": 14.5,
+        "projection": 13.8,
+        "edge": -0.73,
+        "confidence": 41.3,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Sasha Vezenkov",
+        "team": "Olympiacos",
+        "position": "PF",
+        "prop_type": "Rebounds",
+        "line": 6.5,
+        "projection": 6.7,
+        "edge": 0.16,
+        "confidence": 52.5,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Nikola Milutinov",
+        "team": "Olympiacos",
+        "position": "C",
+        "prop_type": "Points",
+        "line": 10.5,
+        "projection": 9.7,
+        "edge": -0.81,
+        "confidence": 40.3,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Nikola Milutinov",
+        "team": "Olympiacos",
+        "position": "C",
+        "prop_type": "Rebounds",
+        "line": 7.5,
+        "projection": 7.3,
+        "edge": -0.15,
+        "confidence": 47.7,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Thomas Walkup",
+        "team": "Olympiacos",
+        "position": "PG",
+        "prop_type": "Points",
+        "line": 8.5,
+        "projection": 8.1,
+        "edge": -0.43,
+        "confidence": 44.9,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Thomas Walkup",
+        "team": "Olympiacos",
+        "position": "PG",
+        "prop_type": "Assists",
+        "line": 5.5,
+        "projection": 5.9,
+        "edge": 0.42,
+        "confidence": 56.2,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Isaiah Canaan",
+        "team": "Olympiacos",
+        "position": "SG",
+        "prop_type": "Points",
+        "line": 12.5,
+        "projection": 12.2,
+        "edge": -0.34,
+        "confidence": 45.9,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Isaiah Canaan",
+        "team": "Olympiacos",
+        "position": "SG",
+        "prop_type": "Assists",
+        "line": 3.5,
+        "projection": 3.3,
+        "edge": -0.24,
+        "confidence": 46.5,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Alec Peters",
+        "team": "Olympiacos",
+        "position": "SF",
+        "prop_type": "Points",
+        "line": 9.5,
+        "projection": 9.0,
+        "edge": -0.47,
+        "confidence": 44.3,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Alec Peters",
+        "team": "Olympiacos",
+        "position": "SF",
+        "prop_type": "Rebounds",
+        "line": 4.5,
+        "projection": 4.1,
+        "edge": -0.38,
+        "confidence": 44.2,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Kostas Sloukas",
+        "team": "Panathinaikos",
+        "position": "PG",
+        "prop_type": "Points",
+        "line": 11.5,
+        "projection": 10.9,
+        "edge": -0.58,
+        "confidence": 43.1,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Kostas Sloukas",
+        "team": "Panathinaikos",
+        "position": "PG",
+        "prop_type": "Assists",
+        "line": 6.5,
+        "projection": 6.6,
+        "edge": 0.13,
+        "confidence": 51.9,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Mathias Lessort",
+        "team": "Panathinaikos",
+        "position": "C",
+        "prop_type": "Points",
+        "line": 11.5,
+        "projection": 11.2,
+        "edge": -0.29,
+        "confidence": 46.5,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Mathias Lessort",
+        "team": "Panathinaikos",
+        "position": "C",
+        "prop_type": "Rebounds",
+        "line": 6.5,
+        "projection": 6.1,
+        "edge": -0.42,
+        "confidence": 43.6,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Kendrick Nunn",
+        "team": "Panathinaikos",
+        "position": "SG",
+        "prop_type": "Points",
+        "line": 15.5,
+        "projection": 14.4,
+        "edge": -1.06,
+        "confidence": 37.3,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Kendrick Nunn",
+        "team": "Panathinaikos",
+        "position": "SG",
+        "prop_type": "Assists",
+        "line": 4.5,
+        "projection": 4.3,
+        "edge": -0.22,
+        "confidence": 46.8,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Jerian Grant",
+        "team": "Panathinaikos",
+        "position": "PG",
+        "prop_type": "Points",
+        "line": 9.5,
+        "projection": 8.7,
+        "edge": -0.76,
+        "confidence": 40.9,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Jerian Grant",
+        "team": "Panathinaikos",
+        "position": "PG",
+        "prop_type": "Assists",
+        "line": 5.0,
+        "projection": 5.1,
+        "edge": 0.1,
+        "confidence": 51.5,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Luca Vildoza",
+        "team": "Panathinaikos",
+        "position": "SG",
+        "prop_type": "Points",
+        "line": 8.5,
+        "projection": 8.4,
+        "edge": -0.14,
+        "confidence": 48.3,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Luca Vildoza",
+        "team": "Panathinaikos",
+        "position": "SG",
+        "prop_type": "Assists",
+        "line": 3.5,
+        "projection": 3.6,
+        "edge": 0.07,
+        "confidence": 51.1,
+        "recommendation": "Pass"
+      }
+    ],
+    "top_recommendations": [
+      {
+        "player_name": "Kendrick Nunn",
+        "team": "Panathinaikos",
+        "position": "SG",
+        "prop_type": "Points",
+        "line": 15.5,
+        "projection": 14.4,
+        "edge": -1.06,
+        "confidence": 37.3,
+        "recommendation": "Under"
+      },
+      {
+        "player_name": "Nikola Milutinov",
+        "team": "Olympiacos",
+        "position": "C",
+        "prop_type": "Points",
+        "line": 10.5,
+        "projection": 9.7,
+        "edge": -0.81,
+        "confidence": 40.3,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Jerian Grant",
+        "team": "Panathinaikos",
+        "position": "PG",
+        "prop_type": "Points",
+        "line": 9.5,
+        "projection": 8.7,
+        "edge": -0.76,
+        "confidence": 40.9,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Sasha Vezenkov",
+        "team": "Olympiacos",
+        "position": "PF",
+        "prop_type": "Points",
+        "line": 14.5,
+        "projection": 13.8,
+        "edge": -0.73,
+        "confidence": 41.3,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Kostas Sloukas",
+        "team": "Panathinaikos",
+        "position": "PG",
+        "prop_type": "Points",
+        "line": 11.5,
+        "projection": 10.9,
+        "edge": -0.58,
+        "confidence": 43.1,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Alec Peters",
+        "team": "Olympiacos",
+        "position": "SF",
+        "prop_type": "Points",
+        "line": 9.5,
+        "projection": 9.0,
+        "edge": -0.47,
+        "confidence": 44.3,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Thomas Walkup",
+        "team": "Olympiacos",
+        "position": "PG",
+        "prop_type": "Points",
+        "line": 8.5,
+        "projection": 8.1,
+        "edge": -0.43,
+        "confidence": 44.9,
+        "recommendation": "Pass"
+      },
+      {
+        "player_name": "Thomas Walkup",
+        "team": "Olympiacos",
+        "position": "PG",
+        "prop_type": "Assists",
+        "line": 5.5,
+        "projection": 5.9,
+        "edge": 0.42,
+        "confidence": 56.2,
+        "recommendation": "Pass"
+      }
+    ]
+  },
+  "recommendations": {
+    "spread": {
+      "recommendation": "BET",
+      "lean": "Olympiacos",
+      "confidence": 100
+    },
+    "total": {
+      "recommendation": "BET",
+      "lean": "OVER",
+      "confidence": 100
+    },
+    "q1": "Strong lean"
+  },
+  "model_info": {
+    "type": "FIBA/European Basketball Model",
+    "league": "EuroLeague",
+    "notes": "40-minute game format, per-100 possession metrics, tournament fatigue tracking"
+  },
+  "timestamp": "2026-06-07T22:06:00.367282"
+}

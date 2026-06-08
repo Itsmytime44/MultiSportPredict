@@ -1,0 +1,84 @@
+{
+  "game_info": {
+    "home_team": "Cholet",
+    "away_team": "Paris",
+    "league": "France_LNB_Pro_A",
+    "date": "2026-06-07",
+    "venue": "La Meilleraie, Cholet"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 107.0,
+      "drtg": 109.0,
+      "baseline_net": -2.0,
+      "recent_net": -1.0,
+      "pace": 68.0,
+      "rest_days": 2,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 2.0,
+      "rotation_depth": 8,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 111.0,
+      "drtg": 106.0,
+      "baseline_net": 5.0,
+      "recent_net": 4.5,
+      "pace": 71.0,
+      "rest_days": 2,
+      "travel_km": 300,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 3.0,
+      "rotation_depth": 9,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    }
+  },
+  "market_data": {
+    "open_line": 2.5,
+    "current_line": 3.0,
+    "spread": 3.0,
+    "total": 160.5
+  },
+  "projections": {
+    "home_score": 83.4,
+    "away_score": 76.3,
+    "total": 159.7,
+    "spread": 7.1,
+    "win_probability": 0.283,
+    "model_edge": -0.12
+  },
+  "q1_projections": {
+    "home_q1_points": 19.6,
+    "away_q1_points": 18.8,
+    "q1_spread": 0.8,
+    "q1_total": 38.4,
+    "q1_prob_home_win": 0.545,
+    "q1_prob_home_ml": 0.541,
+    "q1_pace_factor": 0.99,
+    "q1_ctx_adjustment": 0.0
+  },
+  "recommendations": {
+    "spread": {
+      "recommendation": "STRONG BET",
+      "confidence": 75.9,
+      "edge": 4.1
+    },
+    "total": {
+      "recommendation": "PASS",
+      "confidence": 12.8,
+      "edge": -0.8
+    },
+    "moneyline": {
+      "lean": "Pass",
+      "win_probability": 0.283
+    }
+  },
+  "timestamp": "2026-06-07T12:23:33.447685"
+}

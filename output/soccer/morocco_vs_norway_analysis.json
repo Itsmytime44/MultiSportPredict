@@ -1,0 +1,85 @@
+{
+  "game_info": {
+    "home_team": "Morocco",
+    "away_team": "Norway",
+    "league": "International_Friendly",
+    "date": "2026-06-07",
+    "venue": "Stade Mohammed V, Casablanca"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.55,
+      "xg_against": 1.2,
+      "shots": 12.5,
+      "sot": 4.5,
+      "goals_for": 1.6,
+      "goals_against": 1.0,
+      "clean_sheets": 4,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.25,
+      "width_crossing": 0.52,
+      "final_third_pressure": 0.52
+    },
+    "away": {
+      "xg_for": 1.65,
+      "xg_against": 1.3,
+      "shots": 13.0,
+      "sot": 4.8,
+      "goals_for": 1.7,
+      "goals_against": 1.2,
+      "clean_sheets": 3,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.2,
+      "width_crossing": 0.5,
+      "final_third_pressure": 0.5
+    }
+  },
+  "projections": {
+    "home_expected_goals": 2.04,
+    "away_expected_goals": 2.01,
+    "total_expected_goals": 4.05,
+    "home_win_prob": 0.449,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.435
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.912,
+    "over_25_prob": 0.769,
+    "over_35_prob": 0.576,
+    "market_line": 2.5,
+    "recommendation": "Over 2.5"
+  },
+  "btts_analysis": {
+    "home_btts_strength": 0.51,
+    "away_btts_strength": 0.79,
+    "btts_probability": 0.659,
+    "recommendation": "BTTS Yes"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 1.45,
+    "away_corner_strength": 1.3,
+    "projected_total": 11.3,
+    "over_85_prob": 0.79,
+    "over_95_prob": 0.687,
+    "over_105_prob": 0.571,
+    "market_line": 9.5,
+    "recommendation": "Over 9.5"
+  },
+  "recommendations": {
+    "match_outcome": "Pass",
+    "goals": "Over 2.5",
+    "btts": "BTTS Yes",
+    "corners": "Over 9.5"
+  },
+  "goal_strength": {
+    "home": 0.88,
+    "away": 0.8
+  },
+  "timestamp": "2026-06-07T12:53:55.584635"
+}
