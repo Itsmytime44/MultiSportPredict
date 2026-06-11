@@ -37,6 +37,12 @@ from config import (
 from OddsApiIngestor import OddsApiIngestor
 from ingest.odds_client import OddsClient
 from ingest.error_handling import safe_to_csv, logger
+from models.soccer_league_config import (
+    get_league_config,
+    list_supported_leagues,
+    LeagueDetector,
+    add_league_detection_to_df,
+)
 
 # ──────────────────────────────────────────────
 # LOGGING
@@ -245,12 +251,17 @@ class AutoDispatcher:
                 try:
                     from models.soccer_predict import run_soccer_game
                     LOG.info(f"Running soccer prediction...")
-                    result = run_soccer_game(home_team, away_team)
+                    # Auto-detect league for better model tuning
+                    detector = LeagueDetector()
+                    detected_league = detector.detect_from_row(
+                        pd.Series({"home_team": home_team})
+                    )
+                    result = run_soccer_game(home_team, away_team, league=detected_league)
                 except ValueError as e:
                     if "No soccer game found" in str(e):
                         LOG.warning(f"Match not in CSV. Adding {home_team} vs {away_team}...")
                         if self._add_match_to_csv(sport, home_team, away_team):
-                            result = run_soccer_game(home_team, away_team)
+                            result = run_soccer_game(home_team, away_team, league=detected_league)
                         else:
                             raise
                     else:
@@ -310,6 +321,13 @@ class AutoDispatcher:
                 features = self.generator._generate_soccer_features_from_odds(home_team, away_team)
                 features["total_goals"] = 2.5
                 target_col = "total_goals"
+                # Add league detection
+                detector = LeagueDetector()
+                detected_league = detector.detect_from_row(
+                    pd.Series({"home_team": home_team})
+                )
+                if detected_league:
+                    features["league"] = detected_league
             elif sport == "basketball":
                 csv_path = self.processed_dir / "basketball_features.csv"
                 features = self.generator._generate_basketball_features_from_odds(home_team, away_team)
@@ -340,6 +358,11 @@ class AutoDispatcher:
             # Add new row
             new_row = pd.DataFrame([features])
             df = pd.concat([df, new_row], ignore_index=True)
+            
+            # Add league detection if sport is soccer and column missing
+            if sport == "soccer" and "league" not in df.columns:
+                df = add_league_detection_to_df(df)
+            
             safe_to_csv(df, csv_path)
             LOG.info(f"Added {home_team} vs {away_team} to {csv_path}")
             return True
