@@ -1,0 +1,4 @@
+timestamp,record_type,game_id,date,league,home_team,away_team,entity_name,stat_name,stat_value,secondary_value,market_line,current_line,open_line,notes,model_score,model_prob,lean,details
+2026-06-03T10:30:47.552572,nan,,,,,,,,,,,,,,,,Skipped,Unknown record_type: nan
+2026-06-03T10:30:47.552609,nan,,,,,,,,,,,,,,,,Skipped,Unknown record_type: nan
+2026-06-03T10:30:47.552631,nan,,,,,,,,,,,,,,,,Skipped,Unknown record_type: nan

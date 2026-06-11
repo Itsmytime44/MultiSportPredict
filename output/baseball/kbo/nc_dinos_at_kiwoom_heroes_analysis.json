@@ -1,0 +1,153 @@
+{
+  "game_info": {
+    "home_team": "Kiwoom Heroes",
+    "away_team": "NC Dinos",
+    "league": "KBO",
+    "date": "2026-06-10",
+    "venue": "Gocheok Sky Dome"
+  },
+  "team_stats": {
+    "home": {
+      "team_name": "Kiwoom Heroes",
+      "abbreviation": "KIW",
+      "record": "23-38",
+      "standing": "10th Place",
+      "runs_per_game": 4.2,
+      "runs_allowed_per_game": 5.8,
+      "batting_avg": 0.258,
+      "on_base_pct": 0.325,
+      "slugging_pct": 0.405,
+      "ops": 0.73,
+      "home_runs_per_game": 0.9,
+      "strikeouts_per_game": 8.2,
+      "walks_per_game": 3.2,
+      "hits_per_game": 8.8,
+      "era": 5.2,
+      "whip": 1.48,
+      "quality_start_pct": 0.32,
+      "bullpen_era": 4.25,
+      "recent_form": 0.6,
+      "home_record": 0.48,
+      "vs_opponent_record": 0.5,
+      "key_players": [
+        "Seo Geon-chang (DH)",
+        "Choi Ju-hwan (1B)",
+        "Keston Hiura (LF)"
+      ],
+      "foreign_players": [
+        "Keston Hiura"
+      ],
+      "bullpen_status": "stable",
+      "bullpen_fatigue": 0.3
+    },
+    "away": {
+      "team_name": "NC Dinos",
+      "abbreviation": "NC",
+      "record": "26-32",
+      "standing": "7th Place",
+      "runs_per_game": 5.0,
+      "runs_allowed_per_game": 5.2,
+      "batting_avg": 0.27,
+      "on_base_pct": 0.335,
+      "slugging_pct": 0.415,
+      "ops": 0.75,
+      "home_runs_per_game": 1.0,
+      "strikeouts_per_game": 8.0,
+      "walks_per_game": 3.4,
+      "hits_per_game": 9.4,
+      "era": 4.85,
+      "whip": 1.42,
+      "quality_start_pct": 0.36,
+      "bullpen_era": 4.55,
+      "recent_form": 0.45,
+      "away_record": 0.42,
+      "vs_opponent_record": 0.5,
+      "key_players": [
+        "Park Min-woo",
+        "Park Geon-woo",
+        "Matt Davidson (1B)"
+      ],
+      "foreign_players": [
+        "Matt Davidson"
+      ],
+      "bullpen_status": "exhausted",
+      "bullpen_fatigue": 0.85
+    }
+  },
+  "pitching_matchup": {
+    "home_pitcher": {
+      "name": "Raul Alcantara",
+      "team": "Kiwoom Heroes",
+      "era": 3.12,
+      "estimated_fip": 3.25,
+      "estimated_k9": 7.5,
+      "estimated_bb9": 2.2,
+      "estimated_hr9": 0.8,
+      "quality": "ace",
+      "control": "excellent",
+      "pitch_profile": "keeps ball low",
+      "vs_nc_history": "strong"
+    },
+    "away_pitcher": {
+      "name": "Koo Chang-mo",
+      "team": "NC Dinos",
+      "era": 4.25,
+      "estimated_fip": 4.4,
+      "estimated_k9": 6.8,
+      "estimated_bb9": 2.8,
+      "estimated_hr9": 1.1,
+      "quality": "mid-rotation",
+      "control": "good",
+      "pitch_profile": "sharp slider, deceptive motion",
+      "vs_kiw_history": "mixed"
+    }
+  },
+  "projections": {
+    "home_runs": 2.49,
+    "away_runs": 0.84,
+    "total_runs": 3.34,
+    "home_win_prob": 0.755,
+    "away_win_prob": 0.245
+  },
+  "totals_analysis": {
+    "over_75_prob": 0.021,
+    "over_85_prob": 0.007,
+    "over_95_prob": 0.002,
+    "over_105_prob": 0.001,
+    "market_total": 9.5,
+    "model_total": 3.34,
+    "edge": -6.16,
+    "over_probability": 0.002,
+    "confidence": 0.0,
+    "recommendation": "Under 9.5"
+  },
+  "run_line_analysis": {
+    "model_spread": 1.65,
+    "market_line": 0.5,
+    "edge": 1.15,
+    "cover_probability": 0.621,
+    "confidence": 46.0,
+    "recommendation": "PASS"
+  },
+  "moneyline_analysis": {
+    "home_win_prob": 0.755,
+    "away_win_prob": 0.245,
+    "recommendation": "Moneyline Kiwoom Heroes"
+  },
+  "bullpen_analysis": {
+    "home": {
+      "status": "stable",
+      "fatigue": 0.3
+    },
+    "away": {
+      "status": "exhausted",
+      "fatigue": 0.85
+    }
+  },
+  "recommendations": {
+    "run_line": "PASS",
+    "total": "Under 9.5",
+    "moneyline": "Moneyline Kiwoom Heroes"
+  },
+  "timestamp": "2026-06-09T23:42:12.925047"
+}

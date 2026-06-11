@@ -1,0 +1,85 @@
+{
+  "game_info": {
+    "home_team": "Armenia",
+    "away_team": "Moldova",
+    "league": "International_Friendly",
+    "date": "2026-06-09",
+    "venue": "Vazgen Sargsyan Republican Stadium, Yerevan"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.4,
+      "xg_against": 1.45,
+      "shots": 11.5,
+      "sot": 4.0,
+      "goals_for": 1.4,
+      "goals_against": 1.4,
+      "clean_sheets": 3,
+      "missing_attacker": 0,
+      "missing_creator": 1,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.2,
+      "width_crossing": 0.55,
+      "final_third_pressure": 0.5
+    },
+    "away": {
+      "xg_for": 1.15,
+      "xg_against": 1.5,
+      "shots": 10.0,
+      "sot": 3.4,
+      "goals_for": 1.1,
+      "goals_against": 1.5,
+      "clean_sheets": 3,
+      "missing_attacker": 1,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": -0.2,
+      "width_crossing": 0.42,
+      "final_third_pressure": 0.38
+    }
+  },
+  "projections": {
+    "home_expected_goals": 1.84,
+    "away_expected_goals": 1.41,
+    "total_expected_goals": 3.25,
+    "home_win_prob": 0.494,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.39
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.835,
+    "over_25_prob": 0.63,
+    "over_35_prob": 0.408,
+    "market_line": 2.5,
+    "recommendation": "Over 2.5"
+  },
+  "btts_analysis": {
+    "home_btts_strength": 0.56,
+    "away_btts_strength": -0.19,
+    "btts_probability": 0.552,
+    "recommendation": "Pass"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 1.07,
+    "away_corner_strength": -0.26,
+    "projected_total": 9.8,
+    "over_85_prob": 0.645,
+    "over_95_prob": 0.518,
+    "over_105_prob": 0.393,
+    "market_line": 9.5,
+    "recommendation": "Pass"
+  },
+  "recommendations": {
+    "match_outcome": "Pass",
+    "goals": "Over 2.5",
+    "btts": "Pass",
+    "corners": "Pass"
+  },
+  "goal_strength": {
+    "home": -0.05,
+    "away": -1.12
+  },
+  "timestamp": "2026-06-09T09:01:41.164423"
+}

@@ -1,0 +1,123 @@
+{
+  "game_info": {
+    "home_team": "Doosan Bears",
+    "away_team": "Lotte Giants",
+    "league": "KBO",
+    "date": "2026-06-11",
+    "venue": "Jamsil Baseball Stadium"
+  },
+  "team_stats": {
+    "home": {
+      "team_name": "Doosan Bears",
+      "abbreviation": "DOO",
+      "runs_per_game": 5.8,
+      "runs_allowed_per_game": 4.8,
+      "batting_avg": 0.285,
+      "on_base_pct": 0.355,
+      "slugging_pct": 0.445,
+      "ops": 0.8,
+      "home_runs_per_game": 1.2,
+      "strikeouts_per_game": 7.5,
+      "walks_per_game": 3.8,
+      "hits_per_game": 10.2,
+      "era": 4.4,
+      "whip": 1.35,
+      "quality_start_pct": 0.42,
+      "bullpen_era": 4.1,
+      "recent_form": 0.58,
+      "home_record": 0.62,
+      "away_record": 0.48,
+      "vs_opponent_record": 0.52
+    },
+    "away": {
+      "team_name": "Lotte Giants",
+      "abbreviation": "LOT",
+      "runs_per_game": 5.0,
+      "runs_allowed_per_game": 5.2,
+      "batting_avg": 0.268,
+      "on_base_pct": 0.335,
+      "slugging_pct": 0.41,
+      "ops": 0.745,
+      "home_runs_per_game": 0.9,
+      "strikeouts_per_game": 8.5,
+      "walks_per_game": 3.2,
+      "hits_per_game": 9.0,
+      "era": 4.9,
+      "whip": 1.42,
+      "quality_start_pct": 0.35,
+      "bullpen_era": 4.65,
+      "recent_form": 0.45,
+      "home_record": 0.52,
+      "away_record": 0.42,
+      "vs_opponent_record": 0.45
+    }
+  },
+  "projections": {
+    "home_runs": 4.62,
+    "away_runs": 3.28,
+    "total_runs": 7.9,
+    "home_win_prob": 0.617,
+    "away_win_prob": 0.383
+  },
+  "totals_analysis": {
+    "over_75_prob": 0.533,
+    "over_85_prob": 0.394,
+    "over_95_prob": 0.271,
+    "over_105_prob": 0.174,
+    "market_total": 9.5,
+    "model_total": 7.9,
+    "edge": -1.6,
+    "over_probability": 0.271,
+    "confidence": 0.3,
+    "recommendation": "Under 9.5"
+  },
+  "run_line_analysis": {
+    "model_spread": 1.35,
+    "market_line": -1.5,
+    "edge": 2.85,
+    "cover_probability": 0.772,
+    "confidence": 67.4,
+    "recommendation": "BET"
+  },
+  "moneyline_analysis": {
+    "home_win_prob": 0.617,
+    "away_win_prob": 0.383,
+    "recommendation": "Moneyline Doosan Bears"
+  },
+  "player_props": {
+    "home_top_hitter": {
+      "total_bases": {
+        "projection": 1.78,
+        "line": 1.5,
+        "edge": 0.28,
+        "lean": "Over"
+      },
+      "hits": {
+        "projection": 1.14,
+        "line": 0.5,
+        "edge": 0.64,
+        "lean": "Over"
+      }
+    },
+    "away_top_hitter": {
+      "total_bases": {
+        "projection": 1.56,
+        "line": 1.5,
+        "edge": 0.06,
+        "lean": "Over"
+      },
+      "hits": {
+        "projection": 1.02,
+        "line": 0.5,
+        "edge": 0.52,
+        "lean": "Over"
+      }
+    }
+  },
+  "recommendations": {
+    "run_line": "BET",
+    "total": "Under 9.5",
+    "moneyline": "Moneyline Doosan Bears"
+  },
+  "timestamp": "2026-06-10T23:21:52.267586"
+}

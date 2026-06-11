@@ -1,0 +1,153 @@
+{
+  "game_info": {
+    "home_team": "Lotte Giants",
+    "away_team": "Doosan Bears",
+    "league": "KBO",
+    "date": "2026-06-10",
+    "venue": "Sajik Baseball Stadium"
+  },
+  "team_stats": {
+    "home": {
+      "team_name": "Lotte Giants",
+      "abbreviation": "LOT",
+      "record": "22-36",
+      "standing": "9th Place",
+      "runs_per_game": 4.5,
+      "runs_allowed_per_game": 5.5,
+      "batting_avg": 0.262,
+      "on_base_pct": 0.328,
+      "slugging_pct": 0.41,
+      "ops": 0.738,
+      "home_runs_per_game": 0.95,
+      "strikeouts_per_game": 8.5,
+      "walks_per_game": 3.1,
+      "hits_per_game": 9.0,
+      "era": 5.0,
+      "whip": 1.45,
+      "quality_start_pct": 0.34,
+      "bullpen_era": 5.2,
+      "recent_form": 0.15,
+      "home_record": 0.45,
+      "vs_opponent_record": 0.4,
+      "key_players": [
+        "Yoon Dong-hee",
+        "Jeon Jun-woo",
+        "Victor Reyes"
+      ],
+      "foreign_players": [
+        "Victor Reyes"
+      ],
+      "bullpen_status": "exhausted",
+      "bullpen_fatigue": 0.9
+    },
+    "away": {
+      "team_name": "Doosan Bears",
+      "abbreviation": "DOO",
+      "record": "30-29",
+      "standing": "6th Place",
+      "runs_per_game": 5.4,
+      "runs_allowed_per_game": 4.8,
+      "batting_avg": 0.275,
+      "on_base_pct": 0.345,
+      "slugging_pct": 0.43,
+      "ops": 0.775,
+      "home_runs_per_game": 1.1,
+      "strikeouts_per_game": 7.8,
+      "walks_per_game": 3.6,
+      "hits_per_game": 9.6,
+      "era": 4.4,
+      "whip": 1.35,
+      "quality_start_pct": 0.42,
+      "bullpen_era": 4.1,
+      "recent_form": 0.65,
+      "away_record": 0.52,
+      "vs_opponent_record": 0.6,
+      "key_players": [
+        "Jeong Soo-bin (CF)",
+        "Daz Cameron",
+        "Yang Eui-ji (C)"
+      ],
+      "foreign_players": [
+        "Daz Cameron"
+      ],
+      "bullpen_status": "limited",
+      "bullpen_fatigue": 0.65
+    }
+  },
+  "pitching_matchup": {
+    "home_pitcher": {
+      "name": "Kim Jin-uk",
+      "team": "Lotte Giants",
+      "era": 4.5,
+      "estimated_fip": 4.65,
+      "estimated_k9": 6.5,
+      "estimated_bb9": 3.2,
+      "estimated_hr9": 1.0,
+      "quality": "young_prospect",
+      "control": "developing",
+      "pitch_profile": "lefty, needs to prevent early walks",
+      "vs_doo_history": "challenging"
+    },
+    "away_pitcher": {
+      "name": "Choi Min-seok",
+      "team": "Doosan Bears",
+      "era": 3.06,
+      "estimated_fip": 3.2,
+      "estimated_k9": 7.8,
+      "estimated_bb9": 2.0,
+      "estimated_hr9": 0.7,
+      "quality": "ace",
+      "control": "excellent",
+      "pitch_profile": "strong sequencing",
+      "vs_lot_history": "dominant"
+    }
+  },
+  "projections": {
+    "home_runs": 1.13,
+    "away_runs": 2.78,
+    "total_runs": 3.92,
+    "home_win_prob": 0.366,
+    "away_win_prob": 0.634
+  },
+  "totals_analysis": {
+    "over_75_prob": 0.046,
+    "over_85_prob": 0.019,
+    "over_95_prob": 0.007,
+    "over_105_prob": 0.002,
+    "market_total": 9.5,
+    "model_total": 3.92,
+    "edge": -5.58,
+    "over_probability": 0.007,
+    "confidence": 0.0,
+    "recommendation": "Under 9.5"
+  },
+  "run_line_analysis": {
+    "model_spread": -1.65,
+    "market_line": 1.5,
+    "edge": -3.15,
+    "cover_probability": 0.206,
+    "confidence": 0.0,
+    "recommendation": "PASS"
+  },
+  "moneyline_analysis": {
+    "home_win_prob": 0.366,
+    "away_win_prob": 0.634,
+    "recommendation": "Moneyline Doosan Bears"
+  },
+  "bullpen_analysis": {
+    "home": {
+      "status": "exhausted",
+      "fatigue": 0.9
+    },
+    "away": {
+      "status": "limited",
+      "fatigue": 0.65
+    }
+  },
+  "recommendations": {
+    "run_line": "PASS",
+    "total": "Under 9.5",
+    "moneyline": "Moneyline Doosan Bears"
+  },
+  "timestamp": "2026-06-09T23:42:12.925421"
+}

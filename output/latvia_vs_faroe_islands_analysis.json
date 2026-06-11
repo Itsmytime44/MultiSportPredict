@@ -1,0 +1,85 @@
+{
+  "game_info": {
+    "home_team": "Latvia",
+    "away_team": "Faroe Islands",
+    "league": "International_Friendly",
+    "date": "2026-06-09",
+    "venue": "Daugava Stadium, Riga"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.35,
+      "xg_against": 1.4,
+      "shots": 11.0,
+      "sot": 3.8,
+      "goals_for": 1.3,
+      "goals_against": 1.3,
+      "clean_sheets": 3,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.1,
+      "width_crossing": 0.5,
+      "final_third_pressure": 0.45
+    },
+    "away": {
+      "xg_for": 1.1,
+      "xg_against": 1.65,
+      "shots": 9.5,
+      "sot": 3.2,
+      "goals_for": 1.0,
+      "goals_against": 1.6,
+      "clean_sheets": 2,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": -0.1,
+      "width_crossing": 0.4,
+      "final_third_pressure": 0.35
+    }
+  },
+  "projections": {
+    "home_expected_goals": 1.92,
+    "away_expected_goals": 1.5,
+    "total_expected_goals": 3.41,
+    "home_win_prob": 0.491,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.393
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.855,
+    "over_25_prob": 0.663,
+    "over_35_prob": 0.444,
+    "market_line": 2.5,
+    "recommendation": "Over 2.5"
+  },
+  "btts_analysis": {
+    "home_btts_strength": 0.39,
+    "away_btts_strength": 0.26,
+    "btts_probability": 0.561,
+    "recommendation": "Pass"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 0.79,
+    "away_corner_strength": -0.25,
+    "projected_total": 9.6,
+    "over_85_prob": 0.621,
+    "over_95_prob": 0.491,
+    "over_105_prob": 0.367,
+    "market_line": 9.5,
+    "recommendation": "Pass"
+  },
+  "recommendations": {
+    "match_outcome": "Pass",
+    "goals": "Over 2.5",
+    "btts": "Pass",
+    "corners": "Pass"
+  },
+  "goal_strength": {
+    "home": 0.04,
+    "away": -1.11
+  },
+  "timestamp": "2026-06-09T09:01:41.164021"
+}

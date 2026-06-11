@@ -1,0 +1,39 @@
+{
+  "sport": "baseball",
+  "league": "MLB",
+  "home_team": "Phillies",
+  "away_team": "Blue Jays",
+  "timestamp": "2026-06-08T19:09:44.075716",
+  "game": {
+    "projected_home_runs": 4.88,
+    "projected_away_runs": 3.62,
+    "projected_total_runs": 8.5,
+    "projected_run_differential": 1.26,
+    "home_win_probability": 0.6748,
+    "away_win_probability": 0.3252,
+    "confidence": {
+      "total": {
+        "score": 23.1,
+        "recommendation": "PASS"
+      },
+      "side": {
+        "score": 46.3,
+        "recommendation": "PASS"
+      }
+    }
+  },
+  "notes": "League-specific run environment and pitcher matchup considered. KBO foreign player impact: 0.0",
+  "player_props": {
+    "sport": "baseball",
+    "league": "MLB",
+    "matchup": "Phillies vs Blue Jays",
+    "park_factor": {
+      "hr": 1.0,
+      "runs": 1.0,
+      "k": 1.0
+    },
+    "pitcher_props": [],
+    "hitter_props": [],
+    "top_recommendations": []
+  }
+}

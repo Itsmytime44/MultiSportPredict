@@ -1,0 +1,85 @@
+{
+  "game_info": {
+    "home_team": "Estonia",
+    "away_team": "Lithuania",
+    "league": "International_Friendly",
+    "date": "2026-06-09",
+    "venue": "A. Le Coq Arena, Tallinn"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.25,
+      "xg_against": 1.5,
+      "shots": 10.5,
+      "sot": 3.6,
+      "goals_for": 1.2,
+      "goals_against": 1.4,
+      "clean_sheets": 3,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 1,
+      "missing_gk": 0,
+      "tempo": 0.0,
+      "width_crossing": 0.48,
+      "final_third_pressure": 0.42
+    },
+    "away": {
+      "xg_for": 1.3,
+      "xg_against": 1.45,
+      "shots": 11.0,
+      "sot": 3.8,
+      "goals_for": 1.3,
+      "goals_against": 1.4,
+      "clean_sheets": 3,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.1,
+      "width_crossing": 0.5,
+      "final_third_pressure": 0.45
+    }
+  },
+  "projections": {
+    "home_expected_goals": 1.76,
+    "away_expected_goals": 1.86,
+    "total_expected_goals": 3.63,
+    "home_win_prob": 0.436,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.448
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.877,
+    "over_25_prob": 0.702,
+    "over_35_prob": 0.491,
+    "market_line": 2.5,
+    "recommendation": "Over 2.5"
+  },
+  "btts_analysis": {
+    "home_btts_strength": 0.61,
+    "away_btts_strength": 0.4,
+    "btts_probability": 0.612,
+    "recommendation": "BTTS Yes"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 0.8,
+    "away_corner_strength": 0.49,
+    "projected_total": 10.2,
+    "over_85_prob": 0.685,
+    "over_95_prob": 0.562,
+    "over_105_prob": 0.437,
+    "market_line": 9.5,
+    "recommendation": "Pass"
+  },
+  "recommendations": {
+    "match_outcome": "Pass",
+    "goals": "Over 2.5",
+    "btts": "BTTS Yes",
+    "corners": "Pass"
+  },
+  "goal_strength": {
+    "home": -0.08,
+    "away": -0.28
+  },
+  "timestamp": "2026-06-09T09:01:41.164877"
+}

@@ -1,0 +1,86 @@
+{
+  "game_info": {
+    "home_team": "England",
+    "away_team": "Costa Rica",
+    "league": "International_Friendly",
+    "date": "2026-06-10",
+    "venue": "Camping World Stadium, Orlando, USA",
+    "context": "England demands rebound after unconvincing 1-0 vs New Zealand. Kane has 11 goals in last 11 appearances. Costa Rica in transition, winless in 2026, without Navas. Sharp money on England clean sheet (BTTS No)."
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 2.3,
+      "xg_against": 0.8,
+      "shots": 17.0,
+      "sot": 6.2,
+      "goals_for": 2.2,
+      "goals_against": 0.7,
+      "clean_sheets": 7,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.4,
+      "width_crossing": 0.55,
+      "final_third_pressure": 0.6
+    },
+    "away": {
+      "xg_for": 0.7,
+      "xg_against": 1.8,
+      "shots": 7.0,
+      "sot": 2.2,
+      "goals_for": 0.7,
+      "goals_against": 1.6,
+      "clean_sheets": 1,
+      "missing_attacker": 0,
+      "missing_creator": 1,
+      "missing_cb": 0,
+      "missing_gk": 1,
+      "tempo": -0.2,
+      "width_crossing": 0.3,
+      "final_third_pressure": 0.2
+    }
+  },
+  "projections": {
+    "home_expected_goals": 3.0,
+    "away_expected_goals": 0.84,
+    "total_expected_goals": 3.83,
+    "home_win_prob": 0.815,
+    "draw_prob": 0.115,
+    "away_win_prob": 0.07
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.895,
+    "over_25_prob": 0.736,
+    "over_35_prob": 0.533,
+    "market_line": 2.5,
+    "recommendation": "Over 2.5"
+  },
+  "btts_analysis": {
+    "home_btts_strength": 1.13,
+    "away_btts_strength": 0.1,
+    "btts_probability": 0.566,
+    "recommendation": "Pass"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 3.15,
+    "away_corner_strength": -1.12,
+    "projected_total": 10.9,
+    "over_85_prob": 0.761,
+    "over_95_prob": 0.651,
+    "over_105_prob": 0.531,
+    "market_line": 9.5,
+    "recommendation": "Over 9.5"
+  },
+  "recommendations": {
+    "match_outcome": "Home Win (England)",
+    "goals": "Over 2.5",
+    "btts": "Pass",
+    "corners": "Over 9.5"
+  },
+  "goal_strength": {
+    "home": 3.17,
+    "away": -2.27
+  },
+  "timestamp": "2026-06-10T12:13:55.296024"
+}

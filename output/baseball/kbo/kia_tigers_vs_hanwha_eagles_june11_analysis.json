@@ -1,0 +1,123 @@
+{
+  "game_info": {
+    "home_team": "Hanwha Eagles",
+    "away_team": "Kia Tigers",
+    "league": "KBO",
+    "date": "2026-06-11",
+    "venue": "Daejeon Hanwha Life Eagles Park"
+  },
+  "team_stats": {
+    "home": {
+      "team_name": "Hanwha Eagles",
+      "abbreviation": "HAN",
+      "runs_per_game": 5.5,
+      "runs_allowed_per_game": 4.6,
+      "batting_avg": 0.28,
+      "on_base_pct": 0.35,
+      "slugging_pct": 0.44,
+      "ops": 0.79,
+      "home_runs_per_game": 1.1,
+      "strikeouts_per_game": 7.8,
+      "walks_per_game": 3.6,
+      "hits_per_game": 9.8,
+      "era": 4.2,
+      "whip": 1.32,
+      "quality_start_pct": 0.45,
+      "bullpen_era": 3.95,
+      "recent_form": 0.6,
+      "home_record": 0.65,
+      "away_record": 0.5,
+      "vs_opponent_record": 0.55
+    },
+    "away": {
+      "team_name": "Kia Tigers",
+      "abbreviation": "KIA",
+      "runs_per_game": 5.2,
+      "runs_allowed_per_game": 5.0,
+      "batting_avg": 0.272,
+      "on_base_pct": 0.34,
+      "slugging_pct": 0.42,
+      "ops": 0.76,
+      "home_runs_per_game": 1.0,
+      "strikeouts_per_game": 8.0,
+      "walks_per_game": 3.4,
+      "hits_per_game": 9.5,
+      "era": 4.7,
+      "whip": 1.38,
+      "quality_start_pct": 0.38,
+      "bullpen_era": 4.5,
+      "recent_form": 0.52,
+      "home_record": 0.55,
+      "away_record": 0.45,
+      "vs_opponent_record": 0.48
+    }
+  },
+  "projections": {
+    "home_runs": 4.55,
+    "away_runs": 3.32,
+    "total_runs": 7.87,
+    "home_win_prob": 0.611,
+    "away_win_prob": 0.389
+  },
+  "totals_analysis": {
+    "over_75_prob": 0.528,
+    "over_85_prob": 0.389,
+    "over_95_prob": 0.267,
+    "over_105_prob": 0.171,
+    "market_total": 9.5,
+    "model_total": 7.87,
+    "edge": -1.63,
+    "over_probability": 0.267,
+    "confidence": 0.0,
+    "recommendation": "Under 9.5"
+  },
+  "run_line_analysis": {
+    "model_spread": 1.22,
+    "market_line": -1.5,
+    "edge": 2.72,
+    "cover_probability": 0.763,
+    "confidence": 66.3,
+    "recommendation": "BET"
+  },
+  "moneyline_analysis": {
+    "home_win_prob": 0.611,
+    "away_win_prob": 0.389,
+    "recommendation": "Moneyline Hanwha Eagles"
+  },
+  "player_props": {
+    "home_top_hitter": {
+      "total_bases": {
+        "projection": 1.76,
+        "line": 1.5,
+        "edge": 0.26,
+        "lean": "Over"
+      },
+      "hits": {
+        "projection": 1.12,
+        "line": 0.5,
+        "edge": 0.62,
+        "lean": "Over"
+      }
+    },
+    "away_top_hitter": {
+      "total_bases": {
+        "projection": 1.6,
+        "line": 1.5,
+        "edge": 0.1,
+        "lean": "Over"
+      },
+      "hits": {
+        "projection": 1.03,
+        "line": 0.5,
+        "edge": 0.53,
+        "lean": "Over"
+      }
+    }
+  },
+  "recommendations": {
+    "run_line": "BET",
+    "total": "Under 9.5",
+    "moneyline": "Moneyline Hanwha Eagles"
+  },
+  "timestamp": "2026-06-10T23:21:52.267129"
+}

@@ -1,0 +1,193 @@
+{
+  "game_info": {
+    "home_team": "Barcelona",
+    "away_team": "Isla De Tenerif Canarias",
+    "league": "Spanish Liga ACB",
+    "date": "2026-06-09",
+    "venue": "Palau Blaugrana, Barcelona"
+  },
+  "team_metrics": {
+    "home": {
+      "ortg": 116.8,
+      "drtg": 107.5,
+      "baseline_net": 9.3,
+      "recent_net": 8.7,
+      "pace": 75.2,
+      "rest_days": 4,
+      "travel_km": 0,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": 4.8,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green"
+    },
+    "away": {
+      "ortg": 109.5,
+      "drtg": 111.2,
+      "baseline_net": -1.7,
+      "recent_net": -1.2,
+      "pace": 73.5,
+      "rest_days": 3,
+      "travel_km": 2100,
+      "back_to_back": false,
+      "three_in_six": false,
+      "split_edge": -2.5,
+      "rotation_depth": 8,
+      "injury_status": "yellow",
+      "coach_stability": "green",
+      "motivation": "yellow"
+    }
+  },
+  "market_data": {
+    "open_line": -7.5,
+    "current_line": -8.5,
+    "spread": -8.5,
+    "total": 161.5
+  },
+  "projections": {
+    "home_score": 93.9,
+    "away_score": 71.1,
+    "total": 164.9,
+    "spread": 22.8,
+    "home_win_prob": 0.68,
+    "away_win_prob": 0.32
+  },
+  "q1_projections": {
+    "home_q1_points": 22.2,
+    "away_q1_points": 19.7,
+    "q1_spread": 2.6,
+    "q1_total": 41.9,
+    "q1_prob_home_win": 0.645,
+    "q1_prob_home_ml": 0.634,
+    "q1_pace_factor": 1.06,
+    "q1_ctx_adjustment": 0.9
+  },
+  "team_totals": {
+    "home": {
+      "over_75": 0.9743,
+      "over_80": 0.9193,
+      "over_85": 0.8059
+    },
+    "away": {
+      "over_75": 0.2959,
+      "over_80": 0.1333,
+      "over_85": 0.0471
+    }
+  },
+  "full_game_totals": {
+    "over_155": 0.7661,
+    "over_160": 0.6297,
+    "over_165": 0.4762,
+    "over_170": 0.3276,
+    "over_175": 0.2034
+  },
+  "recommendations": {
+    "full_game_spread": "Pass",
+    "full_game_total": "Pass",
+    "q1_spread": "Home Q1 2.6"
+  },
+  "model_details": {
+    "efficiency_gap": 11.0,
+    "historical_gap": -0.44,
+    "pace_gap": 1.7,
+    "rest_gap": 2,
+    "split_gap": 7.3,
+    "context_gap": 3,
+    "model_score": 5.883,
+    "model_prob": 0.6799
+  },
+  "confidence": "HIGH",
+  "timestamp": "2026-06-09T12:38:48.236591",
+  "player_props": [
+    {
+      "player_name": "Nikola Mirotic",
+      "team": "Barcelona",
+      "prop_type": "Points",
+      "prop_line": 17.5,
+      "model_projection": 18.2,
+      "edge": 2.89,
+      "model_prob": 0.391,
+      "lean": "Lean Under Nikola Mirotic Points",
+      "details": "player_avg=18.20; minutes=28.00; usage=27.00; pace=74.35"
+    },
+    {
+      "player_name": "Nikola Mirotic",
+      "team": "Barcelona",
+      "prop_type": "Rebounds",
+      "prop_line": 7.5,
+      "model_projection": 7.8,
+      "edge": 2.79,
+      "model_prob": 0.381,
+      "lean": "Lean Under Nikola Mirotic Rebounds",
+      "details": "player_avg=7.80; minutes=28.00; usage=27.00; pace=74.35"
+    },
+    {
+      "player_name": "Tomas Satoransky",
+      "team": "Barcelona",
+      "prop_type": "Points",
+      "prop_line": 13.5,
+      "model_projection": 14.1,
+      "edge": 3.15,
+      "model_prob": 0.415,
+      "lean": "Pass",
+      "details": "player_avg=14.10; minutes=27.00; usage=21.00; pace=74.35"
+    },
+    {
+      "player_name": "Tomas Satoransky",
+      "team": "Barcelona",
+      "prop_type": "Assists",
+      "prop_line": 6.5,
+      "model_projection": 6.8,
+      "edge": 3.2,
+      "model_prob": 0.42,
+      "lean": "Pass",
+      "details": "player_avg=6.80; minutes=27.00; usage=21.00; pace=74.35"
+    },
+    {
+      "player_name": "Marcelo Huertas",
+      "team": "Isla De Tenerif Canarias",
+      "prop_type": "Points",
+      "prop_line": 12.5,
+      "model_projection": 13.2,
+      "edge": 3.69,
+      "model_prob": 0.469,
+      "lean": "Pass",
+      "details": "player_avg=13.20; minutes=28.00; usage=22.00; pace=74.35"
+    },
+    {
+      "player_name": "Marcelo Huertas",
+      "team": "Isla De Tenerif Canarias",
+      "prop_type": "Assists",
+      "prop_line": 5.5,
+      "model_projection": 6.2,
+      "edge": 3.76,
+      "model_prob": 0.476,
+      "lean": "Pass",
+      "details": "player_avg=6.20; minutes=28.00; usage=22.00; pace=74.35"
+    },
+    {
+      "player_name": "Aaron Doornekamp",
+      "team": "Isla De Tenerif Canarias",
+      "prop_type": "Points",
+      "prop_line": 10.5,
+      "model_projection": 11.5,
+      "edge": 1.94,
+      "model_prob": 0.305,
+      "lean": "Lean Under Aaron Doornekamp Points",
+      "details": "player_avg=11.50; minutes=25.00; usage=18.00; pace=74.35"
+    },
+    {
+      "player_name": "Aaron Doornekamp",
+      "team": "Isla De Tenerif Canarias",
+      "prop_type": "Rebounds",
+      "prop_line": 5.5,
+      "model_projection": 6.1,
+      "edge": 1.86,
+      "model_prob": 0.298,
+      "lean": "Lean Under Aaron Doornekamp Rebounds",
+      "details": "player_avg=6.10; minutes=25.00; usage=18.00; pace=74.35"
+    }
+  ]
+}
