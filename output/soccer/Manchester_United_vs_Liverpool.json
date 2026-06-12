@@ -1,0 +1,12 @@
+{
+  "sport": "soccer",
+  "home_team": "Manchester United",
+  "away_team": "Liverpool",
+  "league": "soccer_epl",
+  "model": {
+    "predicted_goals": 2.5,
+    "lean": "Under",
+    "btts": "Yes",
+    "league": "soccer_epl"
+  }
+}

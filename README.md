@@ -1,42 +1,20 @@
 # MultiSportPredict
 
-A comprehensive machine learning platform for predicting outcomes across multiple sports including basketball, soccer, and MLB baseball.
+A comprehensive machine learning platform for predicting outcomes across multiple sports.
 
 ## Overview
 
 MultiSportPredict provides:
-- **Basketball**: EuroLeague/NBA game predictions with spread, totals, and player props
-- **Soccer**: Match outcome, goals, corners, and BTTS predictions
-- **MLB**: Full game predictions, pitcher K props, HR props, and player props
-
-## New Features (v2.0)
-
-### 🔥 Historical Storage & Tracking
-- **SQLite Database**: All predictions are automatically stored in `multisport_history.db`
-- **Performance Tracking**: Query historical predictions to analyze accuracy
-- **Export Capabilities**: Export prediction history to JSON for further analysis
-
-### 🎯 Enhanced Confidence Engine
-- **Sport-Specific Volatility**: Different volatility coefficients for each market type
-- **Market Alignment**: Sharp money consensus integration for basketball
-- **Dynamic Thresholds**: Sport and market-specific bet/strong bet thresholds
-
-### 📊 Standardized JSON Schemas
-- **Consistent Output**: All sports use standardized prediction schemas
-- **Rich Metadata**: Referee data, consensus signals, weather, park factors
-- **Easy Integration**: Predictable structure for downstream systems
-
-### ⚡ Automated MLB Pipeline
-- **Daily Data Ingestion**: Automatic Statcast data pulling
-- **Feature Engineering**: Pitcher, hitter, umpire, and game-level features
-- **One-Click Predictions**: Pipeline runs automatically before MLB predictions
+- **Basketball**: Game predictions (spread, totals)
+- **Soccer**: Match outcome, goals predictions
+- **KBO**: Game predictions (totals)
 
 ## Quick Start
 
 ### Installation
 
 ```bash
-pip install -r requirements.txt
+pip install -r MultiSportPredict/requirements.txt
 ```
 
 ### Unified CLI

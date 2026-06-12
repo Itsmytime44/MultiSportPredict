@@ -1,0 +1,12 @@
+{
+  "sport": "soccer",
+  "home_team": "mexico",
+  "away_team": "south africa",
+  "league": "unknown",
+  "model": {
+    "predicted_goals": 2.5,
+    "lean": "Under",
+    "btts": "Yes",
+    "league": "unknown"
+  }
+}
