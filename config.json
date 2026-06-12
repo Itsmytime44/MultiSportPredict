@@ -1,0 +1,16 @@
+{
+  "basketball": {
+    "probability_scaler": {
+      "mu": 4.0,
+      "sigma": 2.5
+    },
+    "weights": {
+      "historical_gap": 0.8,
+      "rest_gap": 0.9,
+      "split_gap": 0.6,
+      "context_gap": 0.8,
+      "pace_gap": 0.15
+    }
+  }
+}
+
