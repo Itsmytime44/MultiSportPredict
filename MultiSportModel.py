@@ -489,9 +489,38 @@ def eu_export_csv(records: List[Dict[str, Any]], path: str) -> None:
 # BASKETBALL PROCESSORS
 # ============================================================================
 
+def _extract_basketball_team_data(row: Dict, prefix: str) -> Dict:
+    """Extract team-specific basketball data from a row with given prefix ('home' or 'away').
+
+    Cleans up the bloated dictionaries in process_basketball_game.
+    """
+    return {
+        "ortg": to_num(row.get(f"{prefix}_ortg")),
+        "drtg": to_num(row.get(f"{prefix}_drtg")),
+        "baseline_net": to_num(row.get(f"{prefix}_baseline_net")),
+        "recent_net": to_num(row.get(f"{prefix}_recent_net")),
+        "pace": to_num(row.get(f"{prefix}_pace")),
+        "rest_days": int(to_num(row.get(f"{prefix}_rest_days"), 0)),
+        "travel_km": to_num(row.get(f"{prefix}_travel_km"), 0),
+        "back_to_back": to_bool(row.get(f"{prefix}_back_to_back")),
+        "three_in_six": to_bool(row.get(f"{prefix}_three_in_six")),
+        "split_edge": to_num(row.get(f"{prefix}_split_edge")),
+        "rotation_depth": str(row.get(f"{prefix}_rotation_depth", "yellow")),
+        "injury_status": str(row.get(f"{prefix}_injury_status", "yellow")),
+        "coach_stability": str(row.get(f"{prefix}_coach_stability", "yellow")),
+        "motivation": str(row.get(f"{prefix}_motivation", "yellow")),
+        "open_line": to_num(row.get(f"{prefix}_open_line"), 0),
+        "current_line": to_num(row.get(f"{prefix}_current_line"), 0),
+    }
+
+
 def process_basketball_game(row: Dict) -> Dict:
     """Process a basketball game record"""
-    home_ortg = to_num(row.get("home_ortg"))
+    home_tm = _extract_basketball_team_data(row, "home")
+    away_tm = _extract_basketball_team_data(row, "away")
+
+    home_ortg = home_tm["ortg"]
+
     home_drtg = to_num(row.get("home_drtg"))
     away_ortg = to_num(row.get("away_ortg"))
     away_drtg = to_num(row.get("away_drtg"))
