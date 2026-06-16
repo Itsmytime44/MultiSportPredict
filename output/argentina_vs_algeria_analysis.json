@@ -1,0 +1,82 @@
+{
+  "game_info": {
+    "home_team": "Argentina",
+    "away_team": "Algeria",
+    "league": "World Cup Group J",
+    "date": "2026-06-16"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 2.4,
+      "xg_against": 0.7,
+      "shots": 16.0,
+      "sot": 6.2,
+      "goals_for": 2.3,
+      "goals_against": 0.5,
+      "clean_sheets_last10": 6,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.45,
+      "width_crossing": 0.7,
+      "final_third_pressure": 0.85,
+      "possession_pct": 67,
+      "must_win": true
+    },
+    "away": {
+      "xg_for": 0.85,
+      "xg_against": 1.1,
+      "shots": 8.5,
+      "sot": 2.8,
+      "goals_for": 0.8,
+      "goals_against": 0.7,
+      "clean_sheets_last10": 5,
+      "missing_attacker": 0,
+      "missing_creator": 1,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": -0.15,
+      "width_crossing": 0.4,
+      "final_third_pressure": 0.3,
+      "possession_pct": 33,
+      "must_win": false
+    }
+  },
+  "market_data": {
+    "total": 2.5,
+    "moneyline_home": -255,
+    "moneyline_away": 770,
+    "moneyline_draw": 360,
+    "spread_home": -1.5,
+    "spread_away": 1.5,
+    "over_odds": -104,
+    "under_odds": -118
+  },
+  "projections": {
+    "home_goals": 2.73,
+    "away_goals": 0.98,
+    "total_goals": 3.71,
+    "btts_probability": 0.5102,
+    "corner_total": 11.3
+  },
+  "probabilities": {
+    "over_15": 0.8845,
+    "over_25": 0.7158,
+    "over_35": 0.5074,
+    "btts": 0.5102
+  },
+  "recommendations": {
+    "goals_total": "Over 2.5",
+    "btts": "Pass",
+    "corners_total": "Over 2.5"
+  },
+  "model_details": {
+    "home_goal_strength": 3.31,
+    "away_goal_strength": -1.26,
+    "goals_model_prob": 0.7158,
+    "btts_model_prob": 0.5454
+  },
+  "confidence": "HIGH",
+  "timestamp": "2026-06-16T17:49:16.158598"
+}

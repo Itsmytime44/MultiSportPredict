@@ -1,0 +1,390 @@
+{
+  "game_info": {
+    "home_team": "Atlanta Braves",
+    "away_team": "San Francisco Giants",
+    "league": "MLB",
+    "date": "2026-06-16",
+    "venue": "Truist Park, Atlanta, GA",
+    "game_time": "7:45 PM ET"
+  },
+  "team_metrics": {
+    "home": {
+      "runs_per_game": 5.12,
+      "runs_allowed_per_game": 4.25,
+      "team_era": 3.95,
+      "team_whip": 1.22,
+      "team_ops": 0.765,
+      "k_rate": 0.24,
+      "park_factor": 1.05,
+      "starting_pitcher": {
+        "name": "Max Fried / Braves SP",
+        "era": 3.4,
+        "k_per_9": 8.5,
+        "whip": 1.18,
+        "k_rate": 0.24,
+        "handedness": "L",
+        "innings_proj": 6.0,
+        "hr_per_9": 0.8,
+        "baa": 0.235,
+        "barrel_pct": 7.0
+      }
+    },
+    "away": {
+      "runs_per_game": 4.45,
+      "runs_allowed_per_game": 4.1,
+      "team_era": 3.85,
+      "team_whip": 1.24,
+      "team_ops": 0.735,
+      "k_rate": 0.195,
+      "starting_pitcher": {
+        "name": "Adrian Houser",
+        "era": 4.85,
+        "k_per_9": 6.4,
+        "whip": 1.45,
+        "k_rate": 0.15,
+        "handedness": "R",
+        "innings_proj": 4.9,
+        "hr_per_9": 1.1,
+        "baa": 0.289,
+        "barrel_pct": 9.5
+      }
+    }
+  },
+  "market_data": {
+    "moneyline_home": -145,
+    "moneyline_away": 125,
+    "run_line": -1.5,
+    "run_line_home_odds": 135,
+    "run_line_away_odds": -160,
+    "total": 9.0,
+    "total_juice_shift": "-105 to -115 (Over)"
+  },
+  "projections": {
+    "home_runs": 5.41,
+    "away_runs": 5.3,
+    "total_runs": 10.72,
+    "run_differential": 0.11,
+    "home_win_probability": 0.541,
+    "away_win_probability": 0.459
+  },
+  "recalibration_factors": {
+    "houser_contact_pitcher_adj": 0.35,
+    "giants_bp_fatigue_adj": 0.4,
+    "bader_outfield_injury_adj": 0.25,
+    "total_adjustment": 1.0
+  },
+  "recommendations": {
+    "moneyline": "NO STRONG MONEYLINE LEAN",
+    "total": "LEAN OVER 9.0",
+    "run_line": "NO LEAN Home -1.5",
+    "nrfi": {
+      "lean": "NRFI",
+      "probability": 0.5545,
+      "confidence": 75.9
+    },
+    "confidence": "MEDIUM"
+  },
+  "confidence_scores": {
+    "total": {
+      "score": 78.0,
+      "recommendation": "STRONG BET",
+      "volatility": 0.65,
+      "edge": 1.72
+    },
+    "side": {
+      "score": 75.9,
+      "recommendation": "STRONG BET",
+      "volatility": 0.55,
+      "edge": -5.1
+    }
+  },
+  "nrfi_analysis": {
+    "probability": 0.5545,
+    "lean": "NRFI",
+    "confidence": 75.9,
+    "recommendation": "STRONG BET"
+  },
+  "pitcher_props": {
+    "home": {
+      "projection": 0.91,
+      "edge": -4.59,
+      "lean": "Under",
+      "line": 5.5
+    },
+    "away": {
+      "projection": 0.46,
+      "edge": -3.04,
+      "lean": "Under",
+      "line": 3.5
+    }
+  },
+  "hr_props": [
+    {
+      "player_name": "Ronald Acu\u00f1a Jr.",
+      "team": "ATL",
+      "hr_probability": 0.159,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Matt Olson",
+      "team": "ATL",
+      "hr_probability": 0.178,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Austin Riley",
+      "team": "ATL",
+      "hr_probability": 0.144,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Marcell Ozuna",
+      "team": "ATL",
+      "hr_probability": 0.137,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Michael Harris II",
+      "team": "ATL",
+      "hr_probability": 0.124,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Ozzie Albies",
+      "team": "ATL",
+      "hr_probability": 0.125,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Matt Chapman",
+      "team": "SF",
+      "hr_probability": 0.159,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "LaMonte Wade Jr.",
+      "team": "SF",
+      "hr_probability": 0.117,
+      "lean": "No HR"
+    },
+    {
+      "player_name": "Mike Yastrzemski",
+      "team": "SF",
+      "hr_probability": 0.131,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Jorge Soler",
+      "team": "SF",
+      "hr_probability": 0.173,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Heliot Ramos",
+      "team": "SF",
+      "hr_probability": 0.135,
+      "lean": "Yes HR"
+    }
+  ],
+  "player_props": [
+    {
+      "player_name": "Ronald Acu\u00f1a Jr.",
+      "team": "ATL",
+      "prop_type": "Total Bases",
+      "projection": 2.35,
+      "edge": 0.85,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Ronald Acu\u00f1a Jr.",
+      "team": "ATL",
+      "prop_type": "Hits",
+      "projection": 1.39,
+      "edge": 0.89,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Matt Olson",
+      "team": "ATL",
+      "prop_type": "Total Bases",
+      "projection": 2.36,
+      "edge": 0.86,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Matt Olson",
+      "team": "ATL",
+      "prop_type": "Hits",
+      "projection": 1.24,
+      "edge": 0.74,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Austin Riley",
+      "team": "ATL",
+      "prop_type": "Total Bases",
+      "projection": 2.16,
+      "edge": 0.66,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Austin Riley",
+      "team": "ATL",
+      "prop_type": "Hits",
+      "projection": 1.26,
+      "edge": 0.76,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Marcell Ozuna",
+      "team": "ATL",
+      "prop_type": "Total Bases",
+      "projection": 2.11,
+      "edge": 0.61,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Marcell Ozuna",
+      "team": "ATL",
+      "prop_type": "Hits",
+      "projection": 1.2,
+      "edge": 0.7,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Michael Harris II",
+      "team": "ATL",
+      "prop_type": "Total Bases",
+      "projection": 1.94,
+      "edge": 0.44,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Michael Harris II",
+      "team": "ATL",
+      "prop_type": "Hits",
+      "projection": 1.23,
+      "edge": 0.73,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Ozzie Albies",
+      "team": "ATL",
+      "prop_type": "Total Bases",
+      "projection": 2.05,
+      "edge": 0.55,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Ozzie Albies",
+      "team": "ATL",
+      "prop_type": "Hits",
+      "projection": 1.25,
+      "edge": 0.75,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Matt Chapman",
+      "team": "SF",
+      "prop_type": "Total Bases",
+      "projection": 1.82,
+      "edge": 0.32,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Matt Chapman",
+      "team": "SF",
+      "prop_type": "Hits",
+      "projection": 1.0,
+      "edge": 0.5,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Jorge Soler",
+      "team": "SF",
+      "prop_type": "Total Bases",
+      "projection": 1.75,
+      "edge": 0.25,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Jorge Soler",
+      "team": "SF",
+      "prop_type": "Hits",
+      "projection": 0.94,
+      "edge": 0.44,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "LaMonte Wade Jr.",
+      "team": "SF",
+      "prop_type": "Total Bases",
+      "projection": 1.5,
+      "edge": 0.0,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "LaMonte Wade Jr.",
+      "team": "SF",
+      "prop_type": "Hits",
+      "projection": 0.99,
+      "edge": 0.49,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Heliot Ramos",
+      "team": "SF",
+      "prop_type": "Total Bases",
+      "projection": 1.45,
+      "edge": -0.05,
+      "lean": "Under",
+      "line": 1.5
+    },
+    {
+      "player_name": "Heliot Ramos",
+      "team": "SF",
+      "prop_type": "Hits",
+      "projection": 0.89,
+      "edge": 0.39,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Mike Yastrzemski",
+      "team": "SF",
+      "prop_type": "Total Bases",
+      "projection": 1.43,
+      "edge": -0.07,
+      "lean": "Under",
+      "line": 1.5
+    },
+    {
+      "player_name": "Mike Yastrzemski",
+      "team": "SF",
+      "prop_type": "Hits",
+      "projection": 0.88,
+      "edge": 0.38,
+      "lean": "Over",
+      "line": 0.5
+    }
+  ],
+  "timestamp": "2026-06-16T17:16:26.324477"
+}

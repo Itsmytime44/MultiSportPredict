@@ -1,0 +1,112 @@
+{
+  "sport": "soccer",
+  "league": "FIFA World Cup 2026",
+  "matchup": "France vs Senegal",
+  "venue": "World Cup 2026 - Neutral Venue",
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16 15:27",
+  "home_team": {
+    "name": "France",
+    "abbreviation": "FRA",
+    "fifa_ranking": 2,
+    "stats": {
+      "abbreviation": "FRA",
+      "xg_for": 2.1,
+      "xg_against": 0.95,
+      "shots_per_game": 15.5,
+      "sot_per_game": 5.8,
+      "goals_for_per_game": 2.05,
+      "goals_against_per_game": 0.9,
+      "clean_sheets_last10": 5,
+      "home_record": 0.75,
+      "away_record": 0.65,
+      "recent_form": 0.72,
+      "tempo": 0.7,
+      "width_crossing": 0.65,
+      "final_third_pressure": 0.75,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "fifa_ranking": 2,
+      "star_power": 0.95,
+      "notes": "World Cup defending champions (2022). Elite squad depth with world-class talent across all positions. Mbappe leads devastating attack. Strong defensive structure anchored by world-class midfield."
+    }
+  },
+  "away_team": {
+    "name": "Senegal",
+    "abbreviation": "SEN",
+    "fifa_ranking": 18,
+    "stats": {
+      "abbreviation": "SEN",
+      "xg_for": 1.55,
+      "xg_against": 1.2,
+      "shots_per_game": 12.0,
+      "sot_per_game": 4.2,
+      "goals_for_per_game": 1.45,
+      "goals_against_per_game": 1.15,
+      "clean_sheets_last10": 4,
+      "home_record": 0.65,
+      "away_record": 0.48,
+      "recent_form": 0.55,
+      "tempo": 0.55,
+      "width_crossing": 0.6,
+      "final_third_pressure": 0.55,
+      "missing_attacker": 0,
+      "missing_creator": 1,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "fifa_ranking": 18,
+      "star_power": 0.8,
+      "notes": "African champions. Physically imposing team with pace on the counter. Sadio Mane provides attacking threat. Strong defensive organization but missing key creator in midfield. Underdogs but dangerous on transition."
+    }
+  },
+  "projections": {
+    "home_xg": 1.76,
+    "away_xg": 1.19,
+    "total_xg": 2.95,
+    "home_projected_goals": 1.8,
+    "away_projected_goals": 1.2
+  },
+  "match_outcome": {
+    "home_win_prob": 0.4989,
+    "draw_prob": 0.2464,
+    "away_win_prob": 0.2547,
+    "ml_rec": "Pass (consider Double Chance)",
+    "ml_confidence": 26.2
+  },
+  "totals_analysis": {
+    "model_total": 2.95,
+    "market_total": 2.5,
+    "edge": 0.45,
+    "over_probability": 0.5649,
+    "confidence": 33.3,
+    "recommendation": "Pass",
+    "lean": "Over",
+    "over_15": 0.7929,
+    "over_25": 0.5649,
+    "over_35": 0.341
+  },
+  "btts_analysis": {
+    "probability": 0.6306,
+    "edge": 0.1306,
+    "confidence": 48.0,
+    "recommendation": "Yes BTTS"
+  },
+  "player_props": {
+    "home_star_goal_prob": 0.616,
+    "away_star_goal_prob": 0.475,
+    "total_cards_projected": 3.5,
+    "total_corners_projected": 12.0
+  },
+  "sharp_consensus": {
+    "sharp_lean": "France -0.75 (Asian Handicap)",
+    "prop_angle": "France Star Forward - Anytime Goalscorer (Senegal missing creator, France dominance expected)",
+    "venue": "Neutral Venue (World Cup 2026 USA/Canada/Mexico)",
+    "league_notes": "World Cup 2026 - 48-team expanded format. France defending champions (2022). Senegal African champions.",
+    "keyMatchup": "France's elite attack (#2 FIFA ranked) vs Senegal's organized defense (#18). Class difference in midfield.",
+    "rankGap": "France #2 FIFA, Senegal #18. France has significantly higher xG creation (2.10 vs 1.55).",
+    "senegalWeakness": "Senegal missing key creator in midfield. They'll rely on counter-attacks and set pieces. France defense is stingy (0.95 xGA).",
+    "sharpReasoning": "Sharp money on France. World Cup holders have too much quality. Senegal can be dangerous on the break but expect France to control possession and create higher-quality chances."
+  }
+}

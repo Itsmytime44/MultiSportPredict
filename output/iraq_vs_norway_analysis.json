@@ -1,0 +1,79 @@
+{
+  "game_info": {
+    "home_team": "Iraq",
+    "away_team": "Norway",
+    "league": "World Cup",
+    "date": "2026-06-16"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 0.9,
+      "xg_against": 1.5,
+      "shots": 8.0,
+      "sot": 2.9,
+      "goals_for": 0.85,
+      "goals_against": 1.4,
+      "clean_sheets_last10": 2,
+      "missing_attacker": 0,
+      "missing_creator": 1,
+      "missing_cb": 1,
+      "missing_gk": 0,
+      "tempo": -0.1,
+      "width_crossing": 0.4,
+      "final_third_pressure": 0.35,
+      "must_win": true
+    },
+    "away": {
+      "xg_for": 1.8,
+      "xg_against": 0.95,
+      "shots": 13.5,
+      "sot": 5.0,
+      "goals_for": 1.7,
+      "goals_against": 0.9,
+      "clean_sheets_last10": 4,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.3,
+      "width_crossing": 0.65,
+      "final_third_pressure": 0.7,
+      "possession_pct": 58,
+      "must_win": true
+    }
+  },
+  "market_data": {
+    "total": 2.5,
+    "moneyline_home": 400,
+    "moneyline_away": -175,
+    "moneyline_draw": 300,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_goals": 1.21,
+    "away_goals": 2.34,
+    "total_goals": 3.54,
+    "btts_probability": 0.5629,
+    "corner_total": 10.8
+  },
+  "probabilities": {
+    "over_15": 0.8688,
+    "over_25": 0.6874,
+    "over_35": 0.473,
+    "btts": 0.5629
+  },
+  "recommendations": {
+    "goals_total": "Over 2.5",
+    "btts": "BTTS Yes",
+    "corners_total": "Over 2.5"
+  },
+  "model_details": {
+    "home_goal_strength": -1.23,
+    "away_goal_strength": 1.47,
+    "goals_model_prob": 0.6874,
+    "btts_model_prob": 0.6385
+  },
+  "confidence": "HIGH",
+  "timestamp": "2026-06-16T17:49:16.160600"
+}

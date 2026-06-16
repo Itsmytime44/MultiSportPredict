@@ -1,0 +1,401 @@
+{
+  "game_info": {
+    "home_team": "Philadelphia Phillies",
+    "away_team": "Miami Marlins",
+    "league": "MLB",
+    "date": "2026-06-16",
+    "venue": "Citizens Bank Park, Philadelphia, PA",
+    "game_time": "6:40 PM ET",
+    "series": "NL East (Game 2 of 3)",
+    "home_record": "39-33",
+    "away_record": "36-37"
+  },
+  "team_metrics": {
+    "home": {
+      "record": "39-33",
+      "runs_per_game": 4.8,
+      "runs_allowed_per_game": 4.0,
+      "team_era": 3.7,
+      "team_ops": 0.76,
+      "park_factor": 1.08,
+      "home_hr_rank": "5th (51 HR)",
+      "june_home_record": "6-1",
+      "starting_pitcher": {
+        "name": "Jes\u00fas Luzardo",
+        "record": "5-4",
+        "era": 4.35,
+        "k_per_9": 10.1,
+        "whip": 1.33,
+        "k_rate": 0.27,
+        "handedness": "L",
+        "innings": 78.2,
+        "innings_proj": 5.5,
+        "hr_per_9": 0.9,
+        "baa": 0.252,
+        "baa_vs_rhb": 0.26,
+        "baa_vs_lhb": 0.281,
+        "barrel_pct": 8.0
+      }
+    },
+    "away": {
+      "record": "36-37",
+      "runs_per_game": 3.9,
+      "runs_allowed_per_game": 4.4,
+      "team_era": 4.1,
+      "team_ops": 0.68,
+      "starting_pitcher": {
+        "name": "Tyler Phillips",
+        "record": "N/A",
+        "era": 1.86,
+        "k_per_9": 7.6,
+        "whip": 1.3,
+        "k_rate": 0.2,
+        "handedness": "R",
+        "innings": 48.1,
+        "innings_proj": 5.0,
+        "hr_per_9": 0.6,
+        "bb": 24,
+        "k": 41,
+        "k_bb_ratio": 1.7083333333333333,
+        "baa": 0.255,
+        "barrel_pct": 7.0
+      }
+    }
+  },
+  "market_data": {
+    "moneyline_home": -174,
+    "moneyline_away": 145,
+    "public_percentage_ml": "79% on PHI",
+    "public_handle_ml": "76.3% on PHI",
+    "public_handle_rl": "74.1% on PHI -1.5",
+    "run_line": -1.5,
+    "run_line_home_odds": 123,
+    "run_line_away_odds": -148,
+    "total": 8.5,
+    "total_juice": "Under -120 to -124"
+  },
+  "recalibration_factors": {
+    "luzardo_vs_lhb_adj": 0.3,
+    "phillips_walk_rate_adj": 0.25,
+    "total_adjustment": 0.55
+  },
+  "projections": {
+    "home_runs": 3.97,
+    "away_runs": 4.78,
+    "total_runs": 8.76,
+    "run_differential": -0.81,
+    "home_win_probability": 0.449,
+    "away_win_probability": 0.551,
+    "external_model_range": "55.1%-57.7% for PHI"
+  },
+  "recommendations": {
+    "moneyline": "LEAN Miami Marlins ML (+145)",
+    "total": "NO STRONG TOTAL LEAN",
+    "nrfi": {
+      "lean": "NRFI",
+      "confidence": 76.9
+    },
+    "confidence": "MEDIUM",
+    "sharp_props": {
+      "otto_lopez_over_1.5_hits": {
+        "odds": "+175",
+        "implied_prob": 0.364,
+        "model_prob": 0.48,
+        "edge_pct": 11.6,
+        "verdict": "STRONG VALUE"
+      }
+    }
+  },
+  "confidence_scores": {
+    "total": {
+      "score": 55.9,
+      "recommendation": "PASS",
+      "edge": 0.26
+    },
+    "side": {
+      "score": 79.4,
+      "recommendation": "STRONG BET",
+      "edge": -18.57
+    }
+  },
+  "nrfi_analysis": {
+    "probability": 0.5609,
+    "lean": "NRFI",
+    "confidence": 76.9,
+    "recommendation": "STRONG BET"
+  },
+  "pitcher_props": {
+    "home": {
+      "projection": 1.06,
+      "edge": -4.44,
+      "lean": "Under",
+      "line": 5.5
+    },
+    "away": {
+      "projection": 0.75,
+      "edge": -3.75,
+      "lean": "Under",
+      "line": 4.5
+    }
+  },
+  "hr_props": [
+    {
+      "player_name": "Bryce Harper",
+      "team": "PHI",
+      "hr_probability": 0.165,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Kyle Schwarber",
+      "team": "PHI",
+      "hr_probability": 0.173,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Trea Turner",
+      "team": "PHI",
+      "hr_probability": 0.124,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Nick Castellanos",
+      "team": "PHI",
+      "hr_probability": 0.142,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Alec Bohm",
+      "team": "PHI",
+      "hr_probability": 0.107,
+      "lean": "No HR"
+    },
+    {
+      "player_name": "J.T. Realmuto",
+      "team": "PHI",
+      "hr_probability": 0.122,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Jazz Chisholm Jr.",
+      "team": "MIA",
+      "hr_probability": 0.152,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Josh Bell",
+      "team": "MIA",
+      "hr_probability": 0.131,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Jake Burger",
+      "team": "MIA",
+      "hr_probability": 0.159,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Bryan De La Cruz",
+      "team": "MIA",
+      "hr_probability": 0.133,
+      "lean": "Yes HR"
+    },
+    {
+      "player_name": "Otto Lopez",
+      "team": "MIA",
+      "hr_probability": 0.09,
+      "lean": "No HR"
+    }
+  ],
+  "player_props": [
+    {
+      "player_name": "Bryce Harper",
+      "team": "PHI",
+      "prop_type": "Total Bases",
+      "projection": 2.41,
+      "edge": 0.91,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Bryce Harper",
+      "team": "PHI",
+      "prop_type": "Hits",
+      "projection": 1.3,
+      "edge": 0.8,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Kyle Schwarber",
+      "team": "PHI",
+      "prop_type": "Total Bases",
+      "projection": 2.24,
+      "edge": 0.74,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Kyle Schwarber",
+      "team": "PHI",
+      "prop_type": "Hits",
+      "projection": 1.1,
+      "edge": 0.6,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Trea Turner",
+      "team": "PHI",
+      "prop_type": "Total Bases",
+      "projection": 2.07,
+      "edge": 0.57,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Trea Turner",
+      "team": "PHI",
+      "prop_type": "Hits",
+      "projection": 1.33,
+      "edge": 0.83,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Nick Castellanos",
+      "team": "PHI",
+      "prop_type": "Total Bases",
+      "projection": 1.97,
+      "edge": 0.47,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Nick Castellanos",
+      "team": "PHI",
+      "prop_type": "Hits",
+      "projection": 1.18,
+      "edge": 0.68,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Alec Bohm",
+      "team": "PHI",
+      "prop_type": "Total Bases",
+      "projection": 1.74,
+      "edge": 0.24,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Alec Bohm",
+      "team": "PHI",
+      "prop_type": "Hits",
+      "projection": 1.14,
+      "edge": 0.64,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "J.T. Realmuto",
+      "team": "PHI",
+      "prop_type": "Total Bases",
+      "projection": 1.78,
+      "edge": 0.28,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "J.T. Realmuto",
+      "team": "PHI",
+      "prop_type": "Hits",
+      "projection": 1.1,
+      "edge": 0.6,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Otto Lopez",
+      "team": "MIA",
+      "prop_type": "Total Bases",
+      "projection": 2.07,
+      "edge": 0.57,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Otto Lopez",
+      "team": "MIA",
+      "prop_type": "Hits",
+      "projection": 1.53,
+      "edge": 1.03,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Jazz Chisholm Jr.",
+      "team": "MIA",
+      "prop_type": "Total Bases",
+      "projection": 1.87,
+      "edge": 0.37,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Jazz Chisholm Jr.",
+      "team": "MIA",
+      "prop_type": "Hits",
+      "projection": 1.09,
+      "edge": 0.59,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Josh Bell",
+      "team": "MIA",
+      "prop_type": "Total Bases",
+      "projection": 1.7,
+      "edge": 0.2,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Josh Bell",
+      "team": "MIA",
+      "prop_type": "Hits",
+      "projection": 1.06,
+      "edge": 0.56,
+      "lean": "Over",
+      "line": 0.5
+    },
+    {
+      "player_name": "Jake Burger",
+      "team": "MIA",
+      "prop_type": "Total Bases",
+      "projection": 1.82,
+      "edge": 0.32,
+      "lean": "Over",
+      "line": 1.5
+    },
+    {
+      "player_name": "Jake Burger",
+      "team": "MIA",
+      "prop_type": "Hits",
+      "projection": 1.02,
+      "edge": 0.52,
+      "lean": "Over",
+      "line": 0.5
+    }
+  ],
+  "otto_lopez_sharp_analysis": {
+    "avg_vs_lhp": ".478",
+    "slg_vs_lhp": ".657",
+    "ops_vs_lhp": "1.142",
+    "season_avg": ".339",
+    "mlb_hits_rank": "1st (97)",
+    "career_vs_luzardo": "2-for-3 (.667)",
+    "hits_prop_verdict": "Over 1.5 (+175) \u2014 STRONG VALUE (+11.6% edge)"
+  },
+  "timestamp": "2026-06-16T17:25:17.478563"
+}
