@@ -1,0 +1,209 @@
+{
+  "sport": "baseball",
+  "league": "MLB",
+  "game_context": {
+    "matchup": "Detroit Tigers (Away) vs Cleveland Guardians (Home)",
+    "time": "4:10 PM EDT",
+    "venue": "Progressive Field, Cleveland, Ohio",
+    "pitchers": "Tarik Skubal (LHP, 2.70 ERA) vs Joey Cantillo (LHP, 4.57 ERA)",
+    "league_avg_runs_2026": 9.4,
+    "abs_system": "Challenge System active (53.5% top / 27% bottom strike zone)"
+  },
+  "weather": {
+    "temperature": 84.0,
+    "wind_speed": 8.0,
+    "wind_direction_factor": 0.5,
+    "park_factor": 1.02
+  },
+  "weather_multiplier": 0.11,
+  "umpire": {
+    "umpire_name": "Neutral ABS-Adjusted",
+    "k_rate": 0.23,
+    "zone_tightness": 0.535
+  },
+  "pitchers": {
+    "home": {
+      "pitcher_name": "Joey Cantillo",
+      "handedness": "L",
+      "k_rate": 0.224,
+      "recent_k_rate": 0.21,
+      "bb_rate": 0.115,
+      "hr_per_9": 1.35,
+      "hard_hit_allowed": 0.41,
+      "innings_proj": 4.2,
+      "prop_line": 4.5
+    },
+    "away": {
+      "pitcher_name": "Tarik Skubal",
+      "handedness": "L",
+      "k_rate": 0.315,
+      "recent_k_rate": 0.33,
+      "bb_rate": 0.045,
+      "hr_per_9": 0.75,
+      "hard_hit_allowed": 0.32,
+      "innings_proj": 6.0,
+      "prop_line": 6.5
+    }
+  },
+  "k_props": {
+    "skubal": {
+      "pitcher_name": "Tarik Skubal",
+      "handedness": "L",
+      "k_rate": 0.315,
+      "recent_k_rate": 0.33,
+      "blended_k_rate": 0.324,
+      "k_per_9": 2.92,
+      "innings_projected": 6.0,
+      "projected_ks": 1.94,
+      "prop_line": 6.5,
+      "edge": -4.56,
+      "confidence": 95,
+      "recommendation": "Under"
+    },
+    "cantillo": {
+      "pitcher_name": "Joey Cantillo",
+      "handedness": "L",
+      "k_rate": 0.224,
+      "recent_k_rate": 0.21,
+      "blended_k_rate": 0.2156,
+      "k_per_9": 1.94,
+      "innings_projected": 4.2,
+      "projected_ks": 0.91,
+      "prop_line": 4.5,
+      "edge": -3.59,
+      "confidence": 95,
+      "recommendation": "Under"
+    }
+  },
+  "batters": {
+    "ramirez": {
+      "player_name": "Jose Ramirez",
+      "handedness": "S",
+      "avg": 0.285,
+      "slg": 0.54,
+      "k_rate_vs_L": 0.12,
+      "k_rate_vs_R": 0.145,
+      "recent_k_rate": 0.13,
+      "hr_rate_vs_L": 0.055,
+      "hr_rate_vs_R": 0.048,
+      "barrel_rate": 0.115,
+      "hard_hit_rate": 0.44,
+      "launch_angle": 18.5,
+      "pa_proj": 4.2,
+      "prop_line": 1.5
+    },
+    "greene": {
+      "player_name": "Riley Greene",
+      "handedness": "L",
+      "avg": 0.265,
+      "slg": 0.475,
+      "k_rate_vs_L": 0.265,
+      "k_rate_vs_R": 0.22,
+      "recent_k_rate": 0.24,
+      "hr_rate_vs_L": 0.032,
+      "hr_rate_vs_R": 0.045,
+      "barrel_rate": 0.122,
+      "hard_hit_rate": 0.465,
+      "launch_angle": 14.2,
+      "pa_proj": 4.1,
+      "prop_line": 1.5
+    }
+  },
+  "hr_props": {
+    "ramirez": {
+      "player_name": "Jose Ramirez",
+      "handedness": "S",
+      "vs_pitcher_handedness": "L",
+      "hr_rate_vs_split": 0.055,
+      "barrel_rate": 0.115,
+      "weather_multiplier": 0.11,
+      "env_adjustment": 0.12,
+      "matchup_adjustment": 0.12,
+      "hr_probability": 0.8138,
+      "threshold": 0.12,
+      "confidence": 95,
+      "recommendation": "Yes HR"
+    },
+    "greene": {
+      "player_name": "Riley Greene",
+      "handedness": "L",
+      "vs_pitcher_handedness": "L",
+      "hr_rate_vs_split": 0.045,
+      "barrel_rate": 0.122,
+      "weather_multiplier": 0.11,
+      "env_adjustment": 0.12,
+      "matchup_adjustment": 0.084,
+      "hr_probability": 0.7764,
+      "threshold": 0.12,
+      "confidence": 95,
+      "recommendation": "Yes HR"
+    }
+  },
+  "total_bases_props": {
+    "ramirez": {
+      "player_name": "Jose Ramirez",
+      "handedness": "S",
+      "slg": 0.54,
+      "pa_projected": 4.2,
+      "projected_ab": 3.86,
+      "projected_tb": 3.0,
+      "prop_line": 1.5,
+      "edge": 1.5,
+      "confidence": 72.5,
+      "recommendation": "Over"
+    },
+    "greene": {
+      "player_name": "Riley Greene",
+      "handedness": "L",
+      "slg": 0.475,
+      "pa_projected": 4.1,
+      "projected_ab": 3.77,
+      "projected_tb": 2.75,
+      "prop_line": 1.5,
+      "edge": 1.25,
+      "confidence": 66.3,
+      "recommendation": "Over"
+    }
+  },
+  "full_game": {
+    "projected_total_runs": 9.48,
+    "projected_cle_runs": 4.31,
+    "projected_det_runs": 5.16,
+    "run_differential": -0.85,
+    "cle_win_prob": 0.0724,
+    "det_win_prob": 0.9276
+  },
+  "recommendations": {
+    "side": {
+      "recommendation": "Detroit Tigers",
+      "confidence": 60.5
+    },
+    "total": {
+      "recommendation": "Over",
+      "confidence": 67.0
+    },
+    "skubal_k": {
+      "recommendation": "Under",
+      "line": 6.5,
+      "projected": 1.94,
+      "confidence": 95
+    },
+    "cantillo_k": {
+      "recommendation": "Under",
+      "line": 4.5,
+      "projected": 0.91,
+      "confidence": 95
+    },
+    "ramirez_hr": {
+      "recommendation": "Yes HR",
+      "probability": 0.8138,
+      "confidence": 95
+    },
+    "greene_tb": {
+      "recommendation": "Over",
+      "line": 1.5,
+      "projected": 2.75,
+      "confidence": 66.3
+    }
+  }
+}

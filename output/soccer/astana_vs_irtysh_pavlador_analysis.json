@@ -1,0 +1,53 @@
+{
+  "sport": "soccer",
+  "league": "Kazakhstan Premier League",
+  "matchup": "Astana vs Irtysh Pavilion",
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14 10:33",
+  "projections": {
+    "home_goals": 1.73,
+    "away_goals": 1.27,
+    "total": 3.0
+  },
+  "match_result": {
+    "home_win": 0.4799,
+    "draw": 0.2364,
+    "away_win": 0.2836
+  },
+  "totals": {
+    "over_2_5": 0.5768,
+    "over_3_5": 0.3528,
+    "model_lean": "Over",
+    "confidence": 77.4
+  },
+  "btts": {
+    "probability": 0.5922,
+    "confidence": 78.5
+  },
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "probability": 0.1095
+    },
+    {
+      "score": "2-1",
+      "probability": 0.0944
+    },
+    {
+      "score": "1-0",
+      "probability": 0.0859
+    },
+    {
+      "score": "2-0",
+      "probability": 0.0741
+    },
+    {
+      "score": "1-2",
+      "probability": 0.0698
+    },
+    {
+      "score": "0-1",
+      "probability": 0.0635
+    }
+  ]
+}

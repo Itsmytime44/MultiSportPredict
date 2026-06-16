@@ -1,0 +1,125 @@
+{
+  "game_info": {
+    "home_team": "FC Dinamo Tbilisi",
+    "away_team": "FC Samgurali Tskhaltubo",
+    "league": "Georgia_Erovnuli_Liga",
+    "date": "2026-06-18",
+    "venue": "Boris Paichadze Dinamo Arena, Tbilisi",
+    "kickoff": "12:00 PM EDT (16:00 UTC)"
+  },
+  "standings_and_form": {
+    "home": {
+      "position": 4,
+      "points": 25,
+      "record": "6W-7D-4L",
+      "gd": "+7",
+      "form": "W, W, D, L, W"
+    },
+    "away": {
+      "position": 6,
+      "points": 24,
+      "record": "7W-3D-7L",
+      "gd": "-5",
+      "form": "D, L, W, W, W"
+    },
+    "h2h_last_meeting": "2026-04-25: Dinamo Tbilisi 2-1 Samgurali (away)",
+    "h2h_series": "Dinamo 8W, Samgurali 7W, 6D"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.65,
+      "xg_against": 1.1,
+      "shots": 12.5,
+      "sot": 4.5,
+      "goals_for": 1.41,
+      "goals_against": 1.0,
+      "clean_sheets": 6,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.3,
+      "width_crossing": 0.55,
+      "final_third_pressure": 0.55
+    },
+    "away": {
+      "xg_for": 1.2,
+      "xg_against": 1.55,
+      "shots": 10.5,
+      "sot": 3.8,
+      "goals_for": 1.29,
+      "goals_against": 1.59,
+      "clean_sheets": 4,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.2,
+      "width_crossing": 0.45,
+      "final_third_pressure": 0.48
+    }
+  },
+  "projections": {
+    "home_expected_goals": 2.25,
+    "away_expected_goals": 1.58,
+    "total_expected_goals": 3.83,
+    "home_win_prob": 0.51,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.34,
+    "double_chance_home_or_draw": 0.66,
+    "double_chance_away_or_draw": 0.49,
+    "dnb_home": 0.6,
+    "dnb_away": 0.4
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.895,
+    "over_25_prob": 0.737,
+    "over_35_prob": 0.533,
+    "market_line": 2.5,
+    "alt_line": 1.5,
+    "edge_vs_market": 1.334,
+    "edge_vs_alt": 2.334,
+    "confidence": 79.4,
+    "recommendation": "OVER",
+    "alt_recommendation": "OVER 1.5"
+  },
+  "btts_analysis": {
+    "home_btts_strength": 0.48,
+    "away_btts_strength": 0.41,
+    "btts_probability": 0.717,
+    "confidence": 80.5,
+    "recommendation": "BTTS YES"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 1.51,
+    "away_corner_strength": 0.36,
+    "projected_total": 10.6,
+    "over_85_prob": 0.731,
+    "over_95_prob": 0.615,
+    "over_105_prob": 0.492
+  },
+  "goal_strength": {
+    "home": 1.09,
+    "away": -0.56
+  },
+  "safety_net_parlay": {
+    "leg1_description": "FC Dinamo Tbilisi Double Chance (Home or Draw)",
+    "leg1_probability": 0.66,
+    "leg1_confidence": 0.0,
+    "leg2_description": "Over 1.5 Total Goals",
+    "leg2_probability": 0.895,
+    "leg2_confidence": 77.5,
+    "combined_probability": 0.591,
+    "recommendation": "PASS"
+  },
+  "recommendations": {
+    "match_outcome": "Home Win (FC Dinamo Tbilisi)",
+    "double_chance": "FC Dinamo Tbilisi or Draw",
+    "goals_market": "OVER",
+    "alt_goals": "OVER 1.5",
+    "btts": "BTTS YES",
+    "corners": "OVER 9.5"
+  },
+  "analysis_notes": "Dinamo Tbilisi enters as a strong home favorite: higher league position (4th), vastly superior goal differential (+7 vs -5), and won the H2H 2-1 away in April. Their attack is clicking (11 goals in last 5) and defense is reliable (1.0 GA/game). Samgurali has been inconsistent defensively (-5 GD) despite a recent hot streak. The loan narrative (Berelidze, Shatirishvili facing parent club) adds spice. Best plays: Dinamo DC (Home or Draw) + Over 1.5 Goals as a safety net parlay, or standalone Over 2.5 Goals given both teams' recent scoring output.",
+  "timestamp": "2026-06-15T10:23:19.191435"
+}

@@ -879,8 +879,17 @@ def predict_match(
             home_top_hitters, away_top_hitters, home_team, away_team
         )
     }
-    
-    # Store to database if enabled
+
+    # ── Fetch advanced sabermetric markets ─────────────────────────────
+    try:
+        from mlb.mlb_prop_edges import fetch_mlb_advanced_markets
+        advanced = fetch_mlb_advanced_markets(
+            api_key="", home_team=home_team, away_team=away_team,
+        )
+        result["advanced_markets"] = advanced
+    except Exception as e:
+        print(f"Warning: Advanced markets not available: {e}")
+
     if store_to_db:
         try:
             from core import store_prediction

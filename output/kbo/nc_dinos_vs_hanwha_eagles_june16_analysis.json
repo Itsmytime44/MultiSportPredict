@@ -1,0 +1,121 @@
+{
+  "sport": "baseball",
+  "league": "KBO",
+  "matchup": "NC Dinos @ Hanwha Eagles",
+  "venue": "Hanwha Life Eagles Park",
+  "date": "2026-06-16",
+  "series_context": "First game of series",
+  "generated_at": "2026-06-15 22:39",
+  "park_factor": {
+    "hr_factor": 1.02,
+    "runs_factor": 1.0,
+    "hits_factor": 1.01,
+    "k_factor": 0.99,
+    "description": "Neutral-to-slightly offensive park. Average dimensions, moderate run environment."
+  },
+  "home_team": {
+    "name": "Hanwha Eagles",
+    "abbreviation": "HAN",
+    "stats": {
+      "abbreviation": "HAN",
+      "runs_per_game": 4.2,
+      "runs_allowed_per_game": 5.0,
+      "batting_avg": 0.248,
+      "on_base_pct": 0.31,
+      "slugging_pct": 0.365,
+      "ops": 0.675,
+      "iso": 0.118,
+      "home_runs_per_game": 0.6,
+      "strikeouts_per_game": 8.8,
+      "walks_per_game": 3.2,
+      "hits_per_game": 8.5,
+      "era": 4.5,
+      "whip": 1.4,
+      "k_per_9": 7.5,
+      "bb_per_9": 3.0,
+      "fip": 4.2,
+      "bullpen_fip": 4.1,
+      "oswing_pct": 0.34,
+      "quality_start_pct": 0.36,
+      "recent_form": 0.38,
+      "home_record": 0.5,
+      "away_record": 0.48,
+      "vs_opponent_record": 0.4,
+      "woba": 0.3,
+      "wrc_plus": 78,
+      "swstr_pct": 0.11,
+      "notes": "Severe offensive slump. ISO <.120, O-Swing% spiked. Chasing bad pitches. Severe power outage. Pitching staff also struggling."
+    }
+  },
+  "away_team": {
+    "name": "NC Dinos",
+    "abbreviation": "NC",
+    "stats": {
+      "abbreviation": "NC",
+      "runs_per_game": 5.0,
+      "runs_allowed_per_game": 5.2,
+      "batting_avg": 0.27,
+      "on_base_pct": 0.335,
+      "slugging_pct": 0.415,
+      "ops": 0.75,
+      "iso": 0.145,
+      "home_runs_per_game": 1.0,
+      "strikeouts_per_game": 8.0,
+      "walks_per_game": 3.4,
+      "hits_per_game": 9.4,
+      "era": 4.85,
+      "whip": 1.42,
+      "k_per_9": 7.8,
+      "bb_per_9": 3.2,
+      "fip": 4.5,
+      "bullpen_fip": 4.4,
+      "oswing_pct": 0.29,
+      "quality_start_pct": 0.36,
+      "recent_form": 0.48,
+      "home_record": 0.5,
+      "away_record": 0.42,
+      "vs_opponent_record": 0.45,
+      "woba": 0.31,
+      "wrc_plus": 88,
+      "swstr_pct": 0.1,
+      "notes": "Average offensive production. Bullpen has been inconsistent. Decent contact rates but lacks power. Struggling on the road."
+    }
+  },
+  "projections": {
+    "home_runs": 2.67,
+    "away_runs": 2.36,
+    "total_runs": 5.02,
+    "run_differential": 0.31
+  },
+  "win_probability": {
+    "home_prob": 0.5714,
+    "away_prob": 0.4286
+  },
+  "totals": {
+    "over_under_75": 0.1358,
+    "over_under_85": 0.0696,
+    "over_under_95": 0.0327,
+    "model_total_lean": "Under",
+    "total_confidence": 0.0,
+    "total_recommendation": "PASS"
+  },
+  "side_analysis": {
+    "edge": 7.1,
+    "confidence": 79.4,
+    "recommendation": "STRONG BET",
+    "lean": "Home"
+  },
+  "sharp_consensus": {
+    "sharp_lean": "Under (Total Runs)",
+    "prop_angle": "Hanwha Starting Pitcher - Over Strikeouts (NC chase rate elevated, SwStr% above league avg)",
+    "park": "Hanwha Life Eagles Park - Neutral park, slightly favoring pitchers on contact suppression",
+    "series_context": "Opening game of series. Hanwha looking to snap offensive slump at home.",
+    "hittersEdge": "NC has slight offensive edge (5.0 R/G vs 4.2 R/G). Hanwha ISO <.120 severe power outage.",
+    "pitchingEdge": "Both staffs have been below average. NC ERA 4.85 vs HAN ERA 4.50. Hanwha bullpen slightly better.",
+    "sharpReasoning": "Syndicates leaning Under due to Hanwha's dead offense. NC also struggling on road (42% away record). Low-scoring affair expected."
+  },
+  "player_props": {
+    "home_sp_k_projected": 9.1,
+    "away_sp_k_projected": 9.4
+  }
+}

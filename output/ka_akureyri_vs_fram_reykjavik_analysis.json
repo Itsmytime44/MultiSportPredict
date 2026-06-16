@@ -1,0 +1,36 @@
+{
+  "game_info": {
+    "home_team": "KA Akureyri",
+    "away_team": "Fram Reykjavik",
+    "league": "Icelandic Besta deild karla",
+    "date": "2026-06"
+  },
+  "projections": {
+    "home_expected_goals": 2.04,
+    "away_expected_goals": 1.6,
+    "total_expected_goals": 3.64,
+    "home_win_prob": 0.489,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.361
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.878,
+    "over_25_prob": 0.705,
+    "over_35_prob": 0.494
+  },
+  "btts_analysis": {
+    "btts_probability": 0.681,
+    "confidence": 80.5,
+    "recommendation": "BTTS YES"
+  },
+  "goal_strength": {
+    "home": 0.34,
+    "away": -0.64
+  },
+  "recommendations": {
+    "match_outcome": "Home Win (KA Akureyri)",
+    "goals": "OVER",
+    "btts": "BTTS YES"
+  },
+  "timestamp": "2026-06-15T13:54:09.358034"
+}

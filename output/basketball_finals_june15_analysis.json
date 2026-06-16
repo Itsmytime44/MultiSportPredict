@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-06-15T10:41:17.281592",
+  "polish_plk_game4": {
+    "match": "Zastal Zielona Góra vs SK Legia Warszawa",
+    "league": "Polish PLK Finals — Game 4 (Best-of-5)",
+    "date": "2026-06-15",
+    "time": "2:15 PM EDT",
+    "venue": "CRS Hall, Zielona Góra",
+    "series_status": "Legia leads 2-1",
+    "full_game_prediction": {
+      "projected_home_score": 72.2,
+      "projected_away_score": 96.3,
+      "projected_total": 168.5,
+      "projected_spread": 24.1,
+      "model_edge": -8.57,
+      "win_probability": 0.005,
+      "lean": "Pass"
+    },
+    "spread_analysis": {
+      "market_line": "Legia -6",
+      "projected_spread": 24.1,
+      "edge": 30.1,
+      "confidence": 78.7,
+      "recommendation": "LEGIA -6"
+    },
+    "total_analysis": {
+      "market_total": 158.5,
+      "projected_total": 168.5,
+      "edge": 10.0,
+      "confidence": 77.8,
+      "recommendation": "OVER"
+    },
+    "player_props": {
+      "andrzej_pluta_jr_pts": {
+        "line": 13.5,
+        "projection": 17.5,
+        "edge": 4.0,
+        "confidence": 80.2,
+        "recommendation": "OVER 13.5"
+      },
+      "conley_garrison_pts": {
+        "line": 14.5,
+        "projection": 10.5,
+        "edge": 4.0,
+        "confidence": 80.2,
+        "recommendation": "UNDER 14.5"
+      }
+    },
+    "recommendations": {
+      "spread": "LEGIA -6 (Conf: 78.7%)",
+      "total": "OVER 158.5 (Conf: 77.8%)",
+      "top_prop": "Andrzej Pluta Jr. OVER 13.5 PTS (Conf: 80.2%)"
+    }
+  },
+  "french_lnb_pro_b_game2": {
+    "match": "Poitiers Basket 86 vs Élan Béarnais Pau-Lacq-Orthez",
+    "league": "French LNB Pro B Finals — Game 2 (Best-of-3)",
+    "date": "2026-06-15",
+    "time": "2:30 PM EDT",
+    "venue": "Salle Saint-Éloi, Poitiers",
+    "series_status": "Poitiers leads 1-0",
+    "full_game_prediction": {
+      "projected_home_score": 118.9,
+      "projected_away_score": 73.3,
+      "projected_total": 192.2,
+      "projected_spread": 45.6,
+      "model_edge": 16.84,
+      "win_probability": 0.992,
+      "lean": "Pass"
+    },
+    "spread_analysis": {
+      "market_line": "Poitiers -6.5",
+      "projected_spread": 45.6,
+      "edge": 39.1,
+      "confidence": 78.7,
+      "recommendation": "POITIERS -6.5"
+    },
+    "total_analysis": {
+      "market_total": 170.5,
+      "projected_total": 192.2,
+      "edge": 21.7,
+      "confidence": 79.4,
+      "recommendation": "OVER"
+    },
+    "first_quarter_analysis": {
+      "market_total": 41.5,
+      "projected_total": 44.5,
+      "edge": 3.0,
+      "confidence": 79.3,
+      "recommendation": "OVER 41.5",
+      "logic": "Pau desperate fast start + Poitiers in rhythm"
+    },
+    "player_props": {
+      "marcus_hammond_pts": {
+        "line": 16.5,
+        "projection": 21.5,
+        "edge": 5.0,
+        "confidence": 80.2,
+        "recommendation": "OVER 16.5"
+      },
+      "bryce_nze_reb": {
+        "line": 8.5,
+        "projection": 11.5,
+        "edge": 3.0,
+        "confidence": 80.2,
+        "recommendation": "OVER 8.5"
+      }
+    },
+    "recommendations": {
+      "spread": "POITIERS -6.5 (Conf: 78.7%)",
+      "total": "OVER 170.5 (Conf: 79.4%)",
+      "first_quarter": "OVER 41.5 (Conf: 79.3%)",
+      "top_prop": "Marcus Hammond OVER 16.5 PTS (Conf: 80.2%)"
+    }
+  }
+}

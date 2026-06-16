@@ -1,9 +1,9 @@
 {
   "sport": "basketball",
   "league": "EuroLeague",
-  "home_team": "Ediliz Moderna Rimini",
-  "away_team": "Tezenis Verona",
-  "timestamp": "2026-06-12T13:55:35.049544",
+  "home_team": "Partizan",
+  "away_team": "BC Dubai",
+  "timestamp": "2026-06-12T14:51:22.983168",
   "full_game": {
     "record_type": "full_game",
     "current_gap": 4.0,

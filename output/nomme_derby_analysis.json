@@ -1,0 +1,143 @@
+{
+  "game_info": {
+    "home_team": "N\u00f5mme Kalju FC U21",
+    "away_team": "FC N\u00f5mme United U21",
+    "league": "Estonia_Esiliiga",
+    "date": "2026-06-15",
+    "venue": "Hiiu Stadium, Tallinn",
+    "competition": "Esiliiga Round 15",
+    "kickoff": "12:00 PM EDT"
+  },
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.55,
+      "xg_against": 1.65,
+      "shots": 11.0,
+      "sot": 3.8,
+      "goals_for": 1.54,
+      "goals_against": 2.46,
+      "clean_sheets": 3,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.15,
+      "width_crossing": 0.52,
+      "final_third_pressure": 0.5
+    },
+    "away": {
+      "xg_for": 1.7,
+      "xg_against": 1.6,
+      "shots": 12.5,
+      "sot": 4.2,
+      "goals_for": 1.85,
+      "goals_against": 1.77,
+      "clean_sheets": 3,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.2,
+      "width_crossing": 0.48,
+      "final_third_pressure": 0.55
+    }
+  },
+  "standings_context": {
+    "home_position": 8,
+    "home_points": 14,
+    "home_record": "4-2-7",
+    "home_goal_diff": "20:32",
+    "home_form": "L, L, D, W, W",
+    "away_position": 5,
+    "away_points": 18,
+    "away_record": "5-3-4",
+    "away_goal_diff": "24:23",
+    "away_form": "L, W, D, L, D"
+  },
+  "head_to_head": {
+    "last_meeting": "2026-04-24",
+    "last_result": "FC N\u00f5mme United U21 0-3 N\u00f5mme Kalju FC U21",
+    "last_meeting_scorers": [
+      "Enrique Esono (2)",
+      "Aleksander Iljin (1)"
+    ],
+    "psychological_edge": "N\u00f5mme Kalju FC U21"
+  },
+  "projections": {
+    "home_expected_goals": 2.02,
+    "away_expected_goals": 2.08,
+    "total_expected_goals": 4.1,
+    "home_win_prob": 0.498,
+    "draw_prob": 0.2,
+    "away_win_prob": 0.302
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.915,
+    "over_25_prob": 0.776,
+    "over_35_prob": 0.585,
+    "over_45_prob": 0.39,
+    "market_line": 2.5,
+    "recommendation": "Over 2.5"
+  },
+  "team_totals": {
+    "home_over_05": 0.867,
+    "home_over_15": 0.599,
+    "home_over_25": 0.328,
+    "away_over_05": 0.875,
+    "away_over_15": 0.615,
+    "away_over_25": 0.345
+  },
+  "btts_analysis": {
+    "home_btts_strength": 1.0,
+    "away_btts_strength": 1.13,
+    "btts_probability": 0.767,
+    "recommendation": "BTTS Yes"
+  },
+  "corners_analysis": {
+    "home_corner_strength": 0.86,
+    "away_corner_strength": 1.08,
+    "projected_total": 11.2,
+    "over_85_prob": 0.782,
+    "over_95_prob": 0.676,
+    "over_105_prob": 0.559,
+    "over_115_prob": 0.439,
+    "market_line": 9.5,
+    "recommendation": "Over 9.5"
+  },
+  "goal_strength": {
+    "home": -0.03,
+    "away": 0.37
+  },
+  "betting_odds": {
+    "home_moneyline": "+135 (2.35)",
+    "draw_odds": "+310 (4.10)",
+    "away_moneyline": "+135 (2.35)",
+    "home_implied_prob": 0.389,
+    "draw_implied_prob": 0.223,
+    "away_implied_prob": 0.389,
+    "vig": 0.095
+  },
+  "kelly_analysis": {
+    "home_ml_kelly": 0.126,
+    "away_ml_kelly": 0,
+    "over_25_kelly": 0.5058,
+    "btts_kelly": 0.5102
+  },
+  "recommendations": {
+    "match_outcome": "Home Win or Draw (N\u00f5mme Kalju FC U21)",
+    "moneyline_value": "KALJU U21",
+    "goals": "Over 2.5",
+    "btts": "BTTS Yes",
+    "corners": "Over 9.5"
+  },
+  "narrative": {
+    "key_players": [
+      "Enrique Esono (Kalju)",
+      "Aleksander Iljin (Kalju)"
+    ],
+    "home_story": "Kalju U21 riding 2-game win streak, won last H2H 3-0",
+    "away_story": "United U21 only 1 win in 5, but higher in table (5th vs 8th)",
+    "derby_context": "Local N\u00f5mme derby - expect competitive match"
+  },
+  "timestamp": "2026-06-15T10:19:18.203066"
+}

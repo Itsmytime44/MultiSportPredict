@@ -1,9 +1,9 @@
 {
   "sport": "soccer",
   "league": "Premier League",
-  "home_team": "USA",
-  "away_team": "Paraguay",
-  "timestamp": "2026-06-12T20:22:52.530011",
+  "home_team": "Derry City",
+  "away_team": "Bohemians Dublin",
+  "timestamp": "2026-06-12T14:52:10.533145",
   "game": {
     "projected_home_goals": 2.41,
     "projected_away_goals": 1.94,

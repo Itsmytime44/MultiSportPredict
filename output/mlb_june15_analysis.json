@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-06-15T13:44:54.576262",
+  "miami_vs_philadelphia": {
+    "match": "Miami Marlins vs Philadelphia Phillies",
+    "projected_score": "MIA 3.4 - 5.2 PHI",
+    "projected_total": 8.6,
+    "home_win_prob": 0.36,
+    "nrfi_analysis": {
+      "probability": 0.5805,
+      "lean": "NRFI",
+      "confidence": 78.2,
+      "recommendation": "STRONG BET"
+    },
+    "total_analysis": {
+      "market": 8.0,
+      "projected": 8.6,
+      "edge": 0.6,
+      "confidence": 75.2,
+      "recommendation": "OVER"
+    },
+    "recommendations": {
+      "side": "PHI ML",
+      "total": "OVER",
+      "nrfi": "NRFI"
+    }
+  },
+  "colorado_vs_chicago": {
+    "match": "Colorado Rockies vs Chicago Cubs",
+    "projected_score": "COL 4.9 - 6.8 CHC",
+    "projected_total": 11.71,
+    "home_win_prob": 0.345,
+    "nrfi_analysis": {
+      "probability": 0.54,
+      "lean": "YRFI",
+      "confidence": 71.6,
+      "recommendation": "BET"
+    },
+    "total_analysis": {
+      "market": 9.5,
+      "projected": 11.71,
+      "edge": 2.21,
+      "confidence": 79.4,
+      "recommendation": "OVER"
+    },
+    "recommendations": {
+      "side": "CHC ML",
+      "total": "OVER",
+      "nrfi": "YRFI"
+    }
+  }
+}

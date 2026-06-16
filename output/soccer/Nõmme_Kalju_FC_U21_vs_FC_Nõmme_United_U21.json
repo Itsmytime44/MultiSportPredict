@@ -1,44 +1,44 @@
 {
   "sport": "soccer",
-  "league": "Premier League",
-  "home_team": "USA",
-  "away_team": "Paraguay",
-  "timestamp": "2026-06-12T20:22:52.530011",
+  "league": "Esiliiga",
+  "home_team": "N\u00f5mme Kalju FC U21",
+  "away_team": "FC N\u00f5mme United U21",
+  "timestamp": "2026-06-15T10:18:13.001665",
   "game": {
-    "projected_home_goals": 2.41,
-    "projected_away_goals": 1.94,
-    "projected_total_goals": 4.36,
-    "home_win_prob": 0.477,
-    "draw_prob": 0.203,
-    "away_win_prob": 0.319
+    "projected_home_goals": 2.19,
+    "projected_away_goals": 1.77,
+    "projected_total_goals": 3.96,
+    "home_win_prob": 0.471,
+    "draw_prob": 0.211,
+    "away_win_prob": 0.318
   },
   "predictions": {
     "side": {
-      "model_xg_diff": 0.467,
+      "model_xg_diff": 0.424,
       "market_line": 0.0,
-      "edge": 0.467,
-      "confidence": 33.6,
+      "edge": 0.424,
+      "confidence": 32.9,
       "recommendation": "PASS"
     },
     "total": {
-      "model_total_xg": 4.355,
+      "model_total_xg": 3.959,
       "market_total": 2.5,
-      "edge": 1.855,
-      "confidence": 54.7,
+      "edge": 1.459,
+      "confidence": 49.2,
       "recommendation": "PASS"
     },
     "btts": {
-      "probability": 0.716,
+      "probability": 0.692,
       "confidence": 80.5,
       "recommendation": "STRONG BET"
     }
   },
   "goals_analysis": {
-    "over_15_prob": 0.931,
-    "over_25_prob": 0.809,
-    "over_35_prob": 0.633
+    "over_15_prob": 0.905,
+    "over_25_prob": 0.756,
+    "over_35_prob": 0.559
   },
-  "btts_probability": 0.716,
+  "btts_probability": 0.692,
   "corner_projection": 10.9,
   "team_metrics": {
     "home": {
@@ -75,10 +75,10 @@
     }
   },
   "league_config": {
-    "goal_variance": 1.1,
-    "avg_goals_per_game": 2.85,
+    "goal_variance": 1.0,
+    "avg_goals_per_game": 2.7,
     "home_advantage": 0.35,
-    "draw_rate": 0.25
+    "draw_rate": 0.26
   },
   "notes": "Soccer prediction using Bivariate Poisson with Dixon-Coles time-decay adjustments on xG metrics"
 }

@@ -1,0 +1,36 @@
+{
+  "game_info": {
+    "home_team": "SJK Akatemia",
+    "away_team": "FC Haka",
+    "league": "Finnish Ykkosliiga",
+    "date": "2026-06"
+  },
+  "projections": {
+    "home_expected_goals": 1.83,
+    "away_expected_goals": 2.08,
+    "total_expected_goals": 3.9,
+    "home_win_prob": 0.423,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.427
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.901,
+    "over_25_prob": 0.748,
+    "over_35_prob": 0.548
+  },
+  "btts_analysis": {
+    "btts_probability": 0.719,
+    "confidence": 80.5,
+    "recommendation": "BTTS YES"
+  },
+  "goal_strength": {
+    "home": -0.23,
+    "away": 0.74
+  },
+  "recommendations": {
+    "match_outcome": "Pass",
+    "goals": "OVER",
+    "btts": "BTTS YES"
+  },
+  "timestamp": "2026-06-15T11:14:08.808520"
+}

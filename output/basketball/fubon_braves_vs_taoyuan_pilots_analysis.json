@@ -1,0 +1,133 @@
+{
+  "sport": "basketball",
+  "league": "P. League+ (Taiwan)",
+  "matchup": "Taoyuan Pilots @ Fubon Braves",
+  "venue": "Taipei Heping Basketball Gymnasium",
+  "date": "2026-06-16",
+  "generated_at": "2026-06-15 22:47",
+  "home_team": {
+    "name": "Fubon Braves",
+    "abbreviation": "FUB",
+    "stats": {
+      "abbreviation": "FUB",
+      "ortg": 114.5,
+      "drtg": 106.8,
+      "net_rating": 7.7,
+      "pace": 76.0,
+      "points_per_game": 87.0,
+      "points_allowed_per_game": 81.0,
+      "three_pt_pct": 0.368,
+      "two_pt_pct": 0.521,
+      "ft_pct": 0.782,
+      "rebounds_per_game": 42.5,
+      "assists_per_game": 21.8,
+      "turnovers_per_game": 12.5,
+      "steals_per_game": 8.2,
+      "blocks_per_game": 3.5,
+      "home_record": 0.72,
+      "away_record": 0.58,
+      "recent_form": 0.65,
+      "vs_opponent_record": 0.62,
+      "rest_days": 3,
+      "rotation_depth": 10,
+      "injury_status": "green",
+      "coach_stability": "green",
+      "motivation": "green",
+      "home_split_edge": 3.5,
+      "three_pt_attempts_per_game": 28.5,
+      "notes": "Defending PLG champions. Elite offensive efficiency with strong three-point shooting and ball movement. Deep rotation with consistent home dominance."
+    }
+  },
+  "away_team": {
+    "name": "Taoyuan Pilots",
+    "abbreviation": "TAO",
+    "stats": {
+      "abbreviation": "TAO",
+      "ortg": 110.2,
+      "drtg": 110.5,
+      "net_rating": -0.3,
+      "pace": 74.0,
+      "points_per_game": 83.0,
+      "points_allowed_per_game": 85.0,
+      "three_pt_pct": 0.342,
+      "two_pt_pct": 0.498,
+      "ft_pct": 0.755,
+      "rebounds_per_game": 40.2,
+      "assists_per_game": 19.5,
+      "turnovers_per_game": 13.2,
+      "steals_per_game": 7.5,
+      "blocks_per_game": 3.0,
+      "home_record": 0.55,
+      "away_record": 0.42,
+      "recent_form": 0.45,
+      "vs_opponent_record": 0.38,
+      "rest_days": 2,
+      "rotation_depth": 9,
+      "injury_status": "yellow",
+      "coach_stability": "green",
+      "motivation": "yellow",
+      "home_split_edge": 2.0,
+      "three_pt_attempts_per_game": 26.8,
+      "notes": "Mid-tier PLG team. Defensive inefficiencies offset decent offensive production. Rebounding disadvantage against elite teams. Inconsistent on the road."
+    }
+  },
+  "projections": {
+    "home_points": 96.6,
+    "away_points": 77.6,
+    "total_points": 174.2,
+    "spread": 19.0
+  },
+  "projection_details": {
+    "net_rating_gap": 8.0,
+    "ortg_gap": 4.3,
+    "drtg_gap": 3.7,
+    "pace": 75.0,
+    "rest_advantage": 1.5,
+    "three_pt_edge": 0.5,
+    "turnover_edge": 1.0
+  },
+  "win_probability": {
+    "home_prob": 0.8012,
+    "away_prob": 0.1988
+  },
+  "spread_analysis": {
+    "model_spread": 19.0,
+    "market_line": -6.5,
+    "edge": 25.5,
+    "cover_probability": 0.9939,
+    "confidence": 82.6,
+    "recommendation": "Fubon Braves -6.5"
+  },
+  "totals_analysis": {
+    "model_total": 174.2,
+    "market_total": 170.5,
+    "edge": 3.7,
+    "over_probability": 0.6292,
+    "confidence": 73.3,
+    "recommendation": "Over 170.5",
+    "lean": "Over"
+  },
+  "moneyline_analysis": {
+    "home_win_prob": 0.8012,
+    "away_win_prob": 0.1988,
+    "edge": 30.1,
+    "confidence": 81.8,
+    "recommendation": "Moneyline Fubon Braves (Strong)"
+  },
+  "sharp_consensus": {
+    "sharp_lean": "Fubon Braves -6.5 (Spread)",
+    "prop_angle": "Fubon Star Player - Over Points (Pilots lack defensive stopper, Braves offense clicking at home)",
+    "venue": "Taipei Heping Basketball Gymnasium",
+    "league_notes": "P. League+ (Taiwan) - 4th season. Fubon Braves are back-to-back champions.",
+    "keyMatchup": "Fubon's elite ORTG (114.5) vs Pilots' below-average DRTG (110.5). Braves should control pace.",
+    "homeCourt": "Fubon has best home record in PLG (72%). Pilots struggle on road (42%).",
+    "fatigueFactor": "Fubon has 3 days rest vs Pilots' 2. No travel issues - both based in Taipei area.",
+    "sharpReasoning": "Fubon dominates this matchup historically (62%). Championship pedigree + home court + significant efficiency gap make Braves a strong play."
+  },
+  "player_props": {
+    "home_star_points": 24.4,
+    "away_star_points": 24.9,
+    "home_team_3pt_made": 10.5,
+    "away_team_3pt_made": 9.2
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "sport": "baseball",
+  "league": "KBO",
+  "matchup": "Doosan Bears @ KIA Tigers",
+  "venue": "KIA Champions Field",
+  "date": "2026-06-13",
+  "series_context": "Series tied 1-1 (Doosan 4-2, KIA 2-1). Rubber match.",
+  "generated_at": "2026-06-13 22:43",
+  "park_factor": {
+    "hr_factor": 1.05,
+    "runs_factor": 1.02,
+    "hits_factor": 1.01,
+    "k_factor": 0.97,
+    "description": "Moderate offensive park."
+  },
+  "home_team": {
+    "name": "KIA Tigers",
+    "abbreviation": "KIA",
+    "stats": {
+      "abbreviation": "KIA",
+      "runs_per_game": 5.0,
+      "runs_allowed_per_game": 4.5,
+      "batting_avg": 0.275,
+      "on_base_pct": 0.342,
+      "slugging_pct": 0.415,
+      "ops": 0.757,
+      "iso": 0.14,
+      "home_runs_per_game": 0.9,
+      "strikeouts_per_game": 7.0,
+      "walks_per_game": 3.4,
+      "hits_per_game": 9.8,
+      "era": 3.9,
+      "whip": 1.3,
+      "k_per_9": 7.2,
+      "bb_per_9": 2.4,
+      "fip": 3.8,
+      "bullpen_fip": 3.55,
+      "oswing_pct": 0.27,
+      "quality_start_pct": 0.43,
+      "recent_form": 0.58,
+      "home_record": 0.62,
+      "away_record": 0.48,
+      "vs_opponent_record": 0.55,
+      "woba": 0.328,
+      "wrc_plus": 98,
+      "swstr_pct": 0.072,
+      "notes": "Classic contact baseball. Lowest team SwStr% in KBO. Neutralizes Doosan's power pitchers by forcing defense to make plays."
+    }
+  },
+  "away_team": {
+    "name": "Doosan Bears",
+    "abbreviation": "DOO",
+    "stats": {
+      "abbreviation": "DOO",
+      "runs_per_game": 5.2,
+      "runs_allowed_per_game": 4.8,
+      "batting_avg": 0.265,
+      "on_base_pct": 0.348,
+      "slugging_pct": 0.44,
+      "ops": 0.788,
+      "iso": 0.175,
+      "home_runs_per_game": 1.2,
+      "strikeouts_per_game": 8.2,
+      "walks_per_game": 3.8,
+      "hits_per_game": 9.2,
+      "era": 4.1,
+      "whip": 1.32,
+      "k_per_9": 8.8,
+      "bb_per_9": 3.2,
+      "fip": 3.85,
+      "bullpen_fip": 3.8,
+      "oswing_pct": 0.3,
+      "quality_start_pct": 0.42,
+      "recent_form": 0.55,
+      "home_record": 0.6,
+      "away_record": 0.5,
+      "vs_opponent_record": 0.52,
+      "woba": 0.325,
+      "wrc_plus": 100,
+      "swstr_pct": 0.1,
+      "notes": "Three-true-outcomes team. Pitchers hunt Ks, batters look for HR/BB. Recent 1st-inning BB% spike."
+    }
+  },
+  "projections": {
+    "home_runs": 2.96,
+    "away_runs": 2.41,
+    "total_runs": 5.37,
+    "run_differential": 0.54
+  },
+  "win_probability": {
+    "home_prob": 0.5882,
+    "away_prob": 0.4118
+  },
+  "totals": {
+    "over_under_75": 0.1742,
+    "over_under_85": 0.0946,
+    "over_under_95": 0.0471,
+    "model_total_lean": "Under",
+    "total_confidence": 0.0,
+    "total_recommendation": "PASS"
+  },
+  "side_analysis": {
+    "edge": 8.8,
+    "confidence": 79.4,
+    "recommendation": "STRONG BET",
+    "lean": "Home"
+  },
+  "sharp_consensus": {
+    "sharp_lean": "KIA Tigers ML (Moneyline) or F5 (First 5 Innings)",
+    "prop_angle": "YRFI (Yes Run First Inning) - Doosan's recent 1st-inning BB% spike + KIA's aggressive top-of-order wRC+",
+    "park": "KIA Champions Field - Moderate offensive park",
+    "series_context": "Tied 1-1 (Doosan 4-2 Fri, KIA 2-1 Sat). Rubber match decides series.",
+    "clashOfStyles": "Doosan = three-true-outcomes (K/BB/HR). KIA = classic contact baseball. KIA neutralizes Doosan's power pitchers.",
+    "kiaContactFee": "KIA has one of the lowest SwStr% in KBO. This mathematically neutralizes Doosan's power pitchers by forcing defense to make plays.",
+    "doosanWeakness": "Doosan's starting rotation has shown spike in 1st-inning BB%. Giving up free passes early is lethal against contact-heavy KIA.",
+    "sharpReasoning": "Sharp money sides with home team in rubber match. KIA holds structural advantage - ability to put ball in play vs Doosan's struggling command gives highest mathematical win probability."
+  },
+  "player_props": {
+    "home_sp_k_projected": 8.5,
+    "away_sp_k_projected": 10.4
+  }
+}

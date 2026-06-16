@@ -1,0 +1,59 @@
+{
+  "sport": "basketball",
+  "league": "BBL (Germany) - BBL Finals Game 2",
+  "matchup": "FC Bayern Munich vs ALBA Berlin",
+  "date": "2026-06-14",
+  "venue": "SAP Garden",
+  "series_context": "Bayern leads 1-0 (102-94 Game 1)",
+  "generated_at": "2026-06-13 22:54",
+  "game1_data": {
+    "result": "Bayern 102 - ALBA 94",
+    "bayern_fg_pct": "~60%",
+    "andi_obst_pts": 33,
+    "agbakoko_pts": 21,
+    "total_points": 196
+  },
+  "projections": {
+    "home_score": 79.4,
+    "away_score": 78.3,
+    "total": 157.7
+  },
+  "regression_analysis": {
+    "bayern_ortg_regessed": 103,
+    "pace_projected": 90.2,
+    "obst_projected_pts": 18.5
+  },
+  "totals": {
+    "market_total": 172.5,
+    "model_total": 157.7,
+    "edge": -14.8,
+    "confidence": 0.0,
+    "recommendation": "PASS",
+    "lean": "Under"
+  },
+  "side": {
+    "home_prob": 0.1508,
+    "away_prob": 0.8492,
+    "confidence": 79.4,
+    "recommendation": "STRONG BET"
+  },
+  "q1": {
+    "home_q1": 23.7,
+    "away_q1": 24.5,
+    "q1_spread": -0.8,
+    "q1_total": 48.2
+  },
+  "sharp_consensus": {
+    "lean": "Under",
+    "strategy": "Fade Game 1 hype, anticipate ALBA tempo slowdown",
+    "regression_factor": 0.88,
+    "obst_regression": true,
+    "alba_paint_edge": true
+  },
+  "recommendations": {
+    "total": "Under 172.5",
+    "side": "ALBA ML",
+    "prop_obst_under": "Under 18.5 pts",
+    "prop_agbakoko_over": "Over 14.5 pts"
+  }
+}

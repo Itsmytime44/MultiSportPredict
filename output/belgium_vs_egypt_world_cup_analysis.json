@@ -1,0 +1,38 @@
+{
+  "game_info": {
+    "home_team": "Belgium",
+    "away_team": "Egypt",
+    "competition": "FIFA World Cup 2026",
+    "stage": "Group Stage"
+  },
+  "projections": {
+    "home_expected_goals": 2.13,
+    "away_expected_goals": 1.53,
+    "total_expected_goals": 3.66,
+    "belgium_win_prob": 0.458,
+    "draw_prob": 0.2,
+    "egypt_win_prob": 0.342
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.88,
+    "over_25_prob": 0.708,
+    "over_35_prob": 0.497,
+    "recommendation": "OVER"
+  },
+  "btts_analysis": {
+    "btts_probability": 0.579,
+    "confidence": 79.9,
+    "recommendation": "BTTS YES"
+  },
+  "goal_strength": {
+    "belgium": 1.63,
+    "egypt": -0.22
+  },
+  "recommendations": {
+    "match_outcome": "Belgium Win",
+    "goals": "OVER",
+    "btts": "BTTS YES"
+  },
+  "analysis_notes": "Belgium enters as favorites with superior attacking talent (De Bruyne, Lukaku) and technical midfield control. Egypt relies on a compact defensive structure and Mohamed Salah's world-class counter-attacking ability. Belgium must break down a disciplined low block — historically a challenge for possession-dominant teams. World Cup group stage context adds tension; both teams will be cautious early.",
+  "timestamp": "2026-06-15T13:48:25.180240"
+}

@@ -26,6 +26,8 @@ import pandas as pd
 from typing import Dict, List, Optional
 from datetime import datetime
 
+from config import ODDS_API_DEFAULT_BASE_URL
+
 
 class OddsApiIngestor:
     """
@@ -45,7 +47,7 @@ class OddsApiIngestor:
         if not self.api_key:
             raise ValueError("API key required. Set ODDS_API_KEY env var or pass api_key parameter.")
         
-        self.base_url = "https://the-odds-api.com"
+        self.base_url = ODDS_API_DEFAULT_BASE_URL
         self.region = region
         self.markets = markets
         self.last_fetch = None

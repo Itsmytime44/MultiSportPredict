@@ -1,0 +1,102 @@
+{
+  "sport": "baseball",
+  "league": "MLB",
+  "game": {
+    "away": "Houston Astros",
+    "home": "Kansas City Royals",
+    "time": "7:10 PM EDT",
+    "venue": "Kauffman Stadium",
+    "records": "HOU 32-39, KC 28-42"
+  },
+  "weather": {
+    "temp": 82,
+    "wind": 10,
+    "mult": 0.1
+  },
+  "pitchers": {
+    "hou": {
+      "name": "Mike Burrows",
+      "era": 5.77,
+      "whip": 1.57,
+      "k9": 7.4
+    },
+    "kc": {
+      "name": "Noah Cameron",
+      "era": 3.84,
+      "whip": 1.19,
+      "k9": 8.6
+    }
+  },
+  "k_props": {
+    "burrows": {
+      "name": "Mike Burrows",
+      "hand": "R",
+      "bk9": 2.47,
+      "proj_ks": 1.51,
+      "line": 5.5,
+      "edge": -3.99,
+      "conf": 95,
+      "rec": "Under"
+    },
+    "cameron": {
+      "name": "Noah Cameron",
+      "hand": "L",
+      "bk9": 2.87,
+      "proj_ks": 1.85,
+      "line": 5.5,
+      "edge": -3.65,
+      "conf": 95,
+      "rec": "Under"
+    }
+  },
+  "hr_props": {
+    "walker": {
+      "name": "Christian Walker",
+      "hand": "R",
+      "vs": "L",
+      "hr_split": 0.052,
+      "barrel": 0.13,
+      "env": 0.1,
+      "match": 0.1,
+      "prob": 0.779,
+      "conf": 95,
+      "rec": "Yes HR"
+    },
+    "witt": {
+      "name": "Bobby Witt Jr.",
+      "hand": "R",
+      "vs": "R",
+      "hr_split": 0.048,
+      "barrel": 0.105,
+      "env": 0.1,
+      "match": 0.05,
+      "prob": 0.7291,
+      "conf": 95,
+      "rec": "Yes HR"
+    },
+    "perez": {
+      "name": "Salvador Perez",
+      "hand": "R",
+      "vs": "R",
+      "hr_split": 0.045,
+      "barrel": 0.11,
+      "env": 0.1,
+      "match": 0.06,
+      "prob": 0.7359,
+      "conf": 95,
+      "rec": "Yes HR"
+    }
+  },
+  "model": {
+    "total_runs": 9.07,
+    "hou_runs": 4.51,
+    "kc_runs": 4.56,
+    "diff": -0.05,
+    "hou_win": 0.4633,
+    "kc_win": 0.5367
+  },
+  "recommendations": {
+    "side": "PASS",
+    "total": "PASS"
+  }
+}

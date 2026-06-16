@@ -1,0 +1,122 @@
+{
+  "sport": "baseball",
+  "league": "KBO",
+  "matchup": "SSG Landers @ Lotte Giants",
+  "venue": "Sajik Baseball Stadium",
+  "date": "2026-06-16",
+  "series_context": "First game of series",
+  "generated_at": "2026-06-15 22:39",
+  "park_factor": {
+    "hr_factor": 1.03,
+    "runs_factor": 1.02,
+    "hits_factor": 1.01,
+    "k_factor": 0.98,
+    "description": "Slightly hitter-friendly park in Busan. Moderate offensive boost."
+  },
+  "home_team": {
+    "name": "Lotte Giants",
+    "abbreviation": "LOT",
+    "stats": {
+      "abbreviation": "LOT",
+      "runs_per_game": 5.0,
+      "runs_allowed_per_game": 5.2,
+      "batting_avg": 0.268,
+      "on_base_pct": 0.335,
+      "slugging_pct": 0.41,
+      "ops": 0.745,
+      "iso": 0.142,
+      "home_runs_per_game": 0.9,
+      "strikeouts_per_game": 8.5,
+      "walks_per_game": 3.2,
+      "hits_per_game": 9.0,
+      "era": 4.9,
+      "whip": 1.42,
+      "k_per_9": 7.2,
+      "bb_per_9": 3.5,
+      "fip": 4.6,
+      "bullpen_fip": 4.5,
+      "oswing_pct": 0.31,
+      "quality_start_pct": 0.35,
+      "recent_form": 0.42,
+      "home_record": 0.52,
+      "away_record": 0.42,
+      "vs_opponent_record": 0.45,
+      "woba": 0.315,
+      "wrc_plus": 85,
+      "swstr_pct": 0.105,
+      "notes": "Inconsistent offense. Pitching staff has struggled with command (elevated BB/9). Bullpen is shaky. Average home team."
+    }
+  },
+  "away_team": {
+    "name": "SSG Landers",
+    "abbreviation": "SSG",
+    "stats": {
+      "abbreviation": "SSG",
+      "runs_per_game": 5.3,
+      "runs_allowed_per_game": 4.8,
+      "batting_avg": 0.275,
+      "on_base_pct": 0.342,
+      "slugging_pct": 0.425,
+      "ops": 0.767,
+      "iso": 0.15,
+      "home_runs_per_game": 1.1,
+      "strikeouts_per_game": 7.8,
+      "walks_per_game": 3.5,
+      "hits_per_game": 9.6,
+      "era": 4.3,
+      "whip": 1.35,
+      "k_per_9": 8.2,
+      "bb_per_9": 2.8,
+      "fip": 4.0,
+      "bullpen_fip": 3.9,
+      "oswing_pct": 0.28,
+      "quality_start_pct": 0.44,
+      "recent_form": 0.55,
+      "home_record": 0.58,
+      "away_record": 0.5,
+      "vs_opponent_record": 0.52,
+      "woba": 0.33,
+      "wrc_plus": 102,
+      "swstr_pct": 0.09,
+      "notes": "Solid all-around club. Above-average offense with decent power. Starting pitching has been consistent. Bullpen is reliable."
+    }
+  },
+  "projections": {
+    "home_runs": 2.83,
+    "away_runs": 2.66,
+    "total_runs": 5.49,
+    "run_differential": 0.16
+  },
+  "win_probability": {
+    "home_prob": 0.5577,
+    "away_prob": 0.4423
+  },
+  "totals": {
+    "over_under_75": 0.1889,
+    "over_under_85": 0.1046,
+    "over_under_95": 0.0531,
+    "model_total_lean": "Under",
+    "total_confidence": 0.0,
+    "total_recommendation": "PASS"
+  },
+  "side_analysis": {
+    "edge": 5.8,
+    "confidence": 79.4,
+    "recommendation": "STRONG BET",
+    "lean": "Home"
+  },
+  "sharp_consensus": {
+    "sharp_lean": "SSG Landers ML (Moneyline)",
+    "prop_angle": "SSG Top Hitter - Over Total Bases (Lotte bullpen struggling, high BB/9 leads to hard contact in scoring positions)",
+    "park": "Sajik Baseball Stadium - Slightly hitter-friendly park in Busan",
+    "series_context": "Opening game of series. SSG has strong form, Lotte struggling with pitching consistency.",
+    "clashOfStyles": "SSG = balanced offense with good power. Lotte = inconsistent contact, shaky bullpen.",
+    "ssgAdvantage": "SSG has clear pitching edge (4.30 ERA vs 4.90, 1.35 WHIP vs 1.42). Bullpen also stronger (3.90 vs 4.50 FIP).",
+    "lotteWeakness": "Lotte's elevated BB/9 (3.5) combined with SSG's patient approach (.342 OBP) spells trouble. Free passes kill.",
+    "sharpReasoning": "Sharp money sides with SSG on the road. Lotte's pitching staff in poor form, giving up too many walks. SSG's balanced attack should find success at Sajik."
+  },
+  "player_props": {
+    "home_sp_k_projected": 8.6,
+    "away_sp_k_projected": 9.8
+  }
+}

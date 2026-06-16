@@ -1,4 +1,4 @@
-r"""
+"""
 MULTI-SPORT HANDICAPPING MODEL
 ==============================
 Unified framework for analyzing and predicting outcomes across multiple sports.
@@ -505,7 +505,7 @@ def _extract_basketball_team_data(row: Dict, prefix: str) -> Dict:
         "back_to_back": to_bool(row.get(f"{prefix}_back_to_back")),
         "three_in_six": to_bool(row.get(f"{prefix}_three_in_six")),
         "split_edge": to_num(row.get(f"{prefix}_split_edge")),
-        "rotation_depth": str(row.get(f"{prefix}_rotation_depth", "yellow")),
+        "rotation_depth": int(to_num(row.get(f"{prefix}_rotation_depth"), 8)),
         "injury_status": str(row.get(f"{prefix}_injury_status", "yellow")),
         "coach_stability": str(row.get(f"{prefix}_coach_stability", "yellow")),
         "motivation": str(row.get(f"{prefix}_motivation", "yellow")),

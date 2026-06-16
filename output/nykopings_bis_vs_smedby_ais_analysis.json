@@ -1,0 +1,37 @@
+{
+  "game_info": {
+    "home_team": "Nykopings BIS",
+    "away_team": "Smedby AIS",
+    "league": "Swedish Division 2 Sodra Svealand",
+    "date": "2026-06-15"
+  },
+  "projections": {
+    "home_expected_goals": 2.07,
+    "away_expected_goals": 1.94,
+    "total_expected_goals": 4.01,
+    "home_win_prob": 0.458,
+    "draw_prob": 0.15,
+    "away_win_prob": 0.392
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.909,
+    "over_25_prob": 0.764,
+    "over_35_prob": 0.569
+  },
+  "btts_analysis": {
+    "btts_probability": 0.757,
+    "confidence": 80.5,
+    "recommendation": "BTTS YES"
+  },
+  "goal_strength": {
+    "home": 0.31,
+    "away": 0.2
+  },
+  "recommendations": {
+    "match_outcome": "Home Win (Nykopings BIS)",
+    "goals": "OVER",
+    "btts": "BTTS YES"
+  },
+  "tactical_notes": "Nykopings BIS (4-3-3) aims to control midfield through Enis Ahmetovic with wide wingers stretching Smedby's fullbacks. However, they are vulnerable to counter-attacks. Smedby AIS (4-4-2/4-3-3) plays aggressive direct football with Joel Unger pressing high to force backline turnovers. Smedby's high tempo (0.40) favors an open, transition-based match.",
+  "timestamp": "2026-06-15T11:07:09.061177"
+}

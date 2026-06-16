@@ -1,0 +1,84 @@
+{
+  "sport": "soccer",
+  "league": "World Cup",
+  "home_team": "Sweden",
+  "away_team": "Tunisia",
+  "timestamp": "2026-06-14T20:14:05.900094",
+  "game": {
+    "projected_home_goals": 1.57,
+    "projected_away_goals": 1.57,
+    "projected_total_goals": 3.14,
+    "home_win_prob": 0.38,
+    "draw_prob": 0.24,
+    "away_win_prob": 0.38
+  },
+  "predictions": {
+    "side": {
+      "model_xg_diff": 0.001,
+      "market_line": 0.0,
+      "edge": 0.001,
+      "confidence": 25.2,
+      "recommendation": "PASS"
+    },
+    "total": {
+      "model_total_xg": 3.136,
+      "market_total": 2.5,
+      "edge": 0.636,
+      "confidence": 35.9,
+      "recommendation": "PASS"
+    },
+    "btts": {
+      "probability": 0.54,
+      "confidence": 73.5,
+      "recommendation": "BET"
+    }
+  },
+  "goals_analysis": {
+    "over_15_prob": 0.82,
+    "over_25_prob": 0.607,
+    "over_35_prob": 0.383
+  },
+  "btts_probability": 0.54,
+  "corner_projection": 9.2,
+  "team_metrics": {
+    "home": {
+      "xg_for": 1.35,
+      "xg_against": 1.55,
+      "shots": 10.5,
+      "sot": 3.5,
+      "goals_for": 1.1,
+      "goals_against": 1.5,
+      "clean_sheets": 3,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.35,
+      "width_crossing": 0.4,
+      "final_third_pressure": 0.35
+    },
+    "away": {
+      "xg_for": 1.15,
+      "xg_against": 0.45,
+      "shots": 9.0,
+      "sot": 3.0,
+      "goals_for": 1.0,
+      "goals_against": 0.3,
+      "clean_sheets": 8,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "tempo": 0.2,
+      "width_crossing": 0.35,
+      "final_third_pressure": 0.3
+    }
+  },
+  "league_config": {
+    "goal_variance": 1.0,
+    "avg_goals_per_game": 2.5,
+    "home_advantage": 0.2,
+    "draw_rate": 0.3
+  },
+  "notes": "Soccer prediction using Bivariate Poisson with Dixon-Coles time-decay adjustments on xG metrics"
+}

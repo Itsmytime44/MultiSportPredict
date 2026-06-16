@@ -1,0 +1,103 @@
+{
+  "sport": "soccer",
+  "league": "Estonian Meistriliiga",
+  "matchup": "FC Kuressaare vs Trans Narva",
+  "venue": "Kuressaare linnastaadion",
+  "date": "2026-06-16",
+  "generated_at": "2026-06-15 22:57",
+  "home_team": {
+    "name": "FC Kuressaare",
+    "abbreviation": "KUR",
+    "stats": {
+      "abbreviation": "KUR",
+      "xg_for": 1.25,
+      "xg_against": 1.55,
+      "shots_per_game": 10.5,
+      "sot_per_game": 3.8,
+      "goals_for_per_game": 1.15,
+      "goals_against_per_game": 1.65,
+      "clean_sheets_last10": 2,
+      "home_record": 0.45,
+      "away_record": 0.25,
+      "recent_form": 0.35,
+      "tempo": 0.35,
+      "width_crossing": 0.55,
+      "final_third_pressure": 0.48,
+      "missing_attacker": 0,
+      "missing_creator": 0,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "notes": "Lower-mid table Estonian club. Struggles offensively with below-average xG creation. Defensively leaky. Relies on home pitch for points."
+    }
+  },
+  "away_team": {
+    "name": "Trans Narva",
+    "abbreviation": "NAR",
+    "stats": {
+      "abbreviation": "NAR",
+      "xg_for": 1.35,
+      "xg_against": 1.45,
+      "shots_per_game": 11.2,
+      "sot_per_game": 4.0,
+      "goals_for_per_game": 1.25,
+      "goals_against_per_game": 1.5,
+      "clean_sheets_last10": 3,
+      "home_record": 0.4,
+      "away_record": 0.3,
+      "recent_form": 0.4,
+      "tempo": 0.3,
+      "width_crossing": 0.5,
+      "final_third_pressure": 0.45,
+      "missing_attacker": 0,
+      "missing_creator": 1,
+      "missing_cb": 0,
+      "missing_gk": 0,
+      "notes": "Mid-table Estonian club. Slightly better than Kuressaare in attack. Decent defensive structure but lacks creativity. Missing key creator."
+    }
+  },
+  "projections": {
+    "home_xg": 1.48,
+    "away_xg": 1.31,
+    "total_xg": 2.79,
+    "home_projected_goals": 1.5,
+    "away_projected_goals": 1.3
+  },
+  "match_outcome": {
+    "home_win_prob": 0.4106,
+    "draw_prob": 0.2521,
+    "away_win_prob": 0.3373,
+    "ml_rec": "Pass (consider Double Chance)",
+    "ml_confidence": 80.7
+  },
+  "totals_analysis": {
+    "model_total": 2.79,
+    "market_total": 2.5,
+    "edge": 0.29,
+    "over_probability": 0.5285,
+    "confidence": 30.5,
+    "recommendation": "Pass",
+    "lean": "Over",
+    "over_15": 0.7674,
+    "over_25": 0.5285,
+    "over_35": 0.3061
+  },
+  "btts_analysis": {
+    "probability": 0.5922,
+    "edge": 0.0922,
+    "confidence": 80.2,
+    "recommendation": "Yes BTTS"
+  },
+  "corner_projection": {
+    "total_corners": 10.3
+  },
+  "sharp_consensus": {
+    "sharp_lean": "Under 2.5 Goals (Both teams below average xG)",
+    "prop_angle": "N/A - Low liquidity market, no reliable player props",
+    "venue": "Kuressaare linnastaadion",
+    "league_notes": "Estonian Meistriliiga - Moderate scoring league (~2.65 goals/match). Lower liquidity market.",
+    "keyMatchup": "Two bottom-half teams. Neither generates high-quality chances. Trans Narva missing key creator.",
+    "homeAdvantage": "Kuressaare relies heavily on home form (45% home win rate vs 25% away). Coastal stadium factor.",
+    "fatigueFactor": "Both teams on normal rest. No major travel concerns.",
+    "sharpReasoning": "Both teams have below-average xG creation. Narva missing creative midfielder. Expect a tight, low-scoring affair typical of mid-table Meistriliiga clashes."
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "sport": "baseball",
+  "league": "KBO",
+  "matchup": "Hanwha Eagles @ Kiwoom Heroes",
+  "venue": "Gocheok Sky Dome",
+  "date": "2026-06-13",
+  "series_context": "Kiwoom leads 2-0 (4-3, 3-1)",
+  "generated_at": "2026-06-13 22:43",
+  "park_factor": {
+    "hr_factor": 0.85,
+    "runs_factor": 0.92,
+    "hits_factor": 0.94,
+    "k_factor": 1.05,
+    "description": "Indoor, pitcher-friendly dome. Suppressed home runs and extra-base hits."
+  },
+  "home_team": {
+    "name": "Kiwoom Heroes",
+    "abbreviation": "KWO",
+    "stats": {
+      "abbreviation": "KWO",
+      "runs_per_game": 5.2,
+      "runs_allowed_per_game": 4.2,
+      "batting_avg": 0.272,
+      "on_base_pct": 0.345,
+      "slugging_pct": 0.43,
+      "ops": 0.775,
+      "iso": 0.158,
+      "home_runs_per_game": 1.0,
+      "strikeouts_per_game": 7.8,
+      "walks_per_game": 3.6,
+      "hits_per_game": 9.8,
+      "era": 3.65,
+      "whip": 1.25,
+      "k_per_9": 8.5,
+      "bb_per_9": 2.2,
+      "fip": 3.7,
+      "bullpen_fip": 3.5,
+      "oswing_pct": 0.28,
+      "quality_start_pct": 0.48,
+      "recent_form": 0.62,
+      "home_record": 0.65,
+      "away_record": 0.52,
+      "vs_opponent_record": 0.6,
+      "woba": 0.338,
+      "wrc_plus": 108,
+      "swstr_pct": 0.09,
+      "notes": "Excellent execution at home. High first-pitch strikes, forcing negative counts. Weak ground balls from opponent."
+    }
+  },
+  "away_team": {
+    "name": "Hanwha Eagles",
+    "abbreviation": "HAN",
+    "stats": {
+      "abbreviation": "HAN",
+      "runs_per_game": 4.2,
+      "runs_allowed_per_game": 5.0,
+      "batting_avg": 0.248,
+      "on_base_pct": 0.31,
+      "slugging_pct": 0.365,
+      "ops": 0.675,
+      "iso": 0.118,
+      "home_runs_per_game": 0.6,
+      "strikeouts_per_game": 8.8,
+      "walks_per_game": 3.2,
+      "hits_per_game": 8.5,
+      "era": 4.5,
+      "whip": 1.4,
+      "k_per_9": 7.5,
+      "bb_per_9": 3.0,
+      "fip": 4.2,
+      "bullpen_fip": 4.1,
+      "oswing_pct": 0.34,
+      "quality_start_pct": 0.36,
+      "recent_form": 0.38,
+      "home_record": 0.5,
+      "away_record": 0.48,
+      "vs_opponent_record": 0.4,
+      "woba": 0.3,
+      "wrc_plus": 78,
+      "swstr_pct": 0.11,
+      "notes": "Severe offensive slump. ISO <.120, O-Swing% spiked. Chasing bad pitches. Severe power outage."
+    }
+  },
+  "projections": {
+    "home_runs": 2.4,
+    "away_runs": 1.45,
+    "total_runs": 3.84,
+    "run_differential": 0.95
+  },
+  "win_probability": {
+    "home_prob": 0.6502,
+    "away_prob": 0.3498
+  },
+  "totals": {
+    "over_under_75": 0.0424,
+    "over_under_85": 0.0171,
+    "over_under_95": 0.0063,
+    "model_total_lean": "Under",
+    "total_confidence": 0.0,
+    "total_recommendation": "PASS"
+  },
+  "side_analysis": {
+    "edge": 15.0,
+    "confidence": 79.4,
+    "recommendation": "STRONG BET",
+    "lean": "Home"
+  },
+  "sharp_consensus": {
+    "sharp_lean": "Under (Total Runs)",
+    "prop_angle": "Kiwoom Starting Pitcher - Over Strikeouts (Hanwha chasing pitches, elevated SwStr%)",
+    "park": "Gocheok Sky Dome - Indoors, pitcher-friendly, suppressed HR/XBH",
+    "series_context": "Kiwoom has completely stifled Hanwha in first two games (4-3, 3-1)",
+    "hittersEdge": "Hanwha ISO <.120, O-Swing% spiked, chasing bad pitches, severe power outage",
+    "pitchingEdge": "Kiwoom staff executing perfectly: high first-pitch strikes, forcing negative counts, weak ground balls",
+    "sharpReasoning": "Syndicates heavily fading Hanwha offense. Classic Under recipe: dead Eagles bat + pitcher-friendly dome."
+  },
+  "player_props": {
+    "home_sp_k_projected": 10.9,
+    "away_sp_k_projected": 9.6
+  }
+}

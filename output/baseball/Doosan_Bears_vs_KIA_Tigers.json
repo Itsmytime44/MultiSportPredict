@@ -1,0 +1,39 @@
+{
+  "sport": "baseball",
+  "league": "KBO",
+  "home_team": "Doosan Bears",
+  "away_team": "KIA Tigers",
+  "timestamp": "2026-06-14T11:27:16.478458",
+  "game": {
+    "projected_home_runs": 6.28,
+    "projected_away_runs": 5.22,
+    "projected_total_runs": 11.5,
+    "projected_run_differential": 1.06,
+    "home_win_probability": 0.6525,
+    "away_win_probability": 0.3475,
+    "confidence": {
+      "total": {
+        "score": 64.9,
+        "recommendation": "BET"
+      },
+      "side": {
+        "score": 43.1,
+        "recommendation": "PASS"
+      }
+    }
+  },
+  "notes": "League-specific run environment and pitcher matchup considered. KBO foreign player impact: 0.0",
+  "player_props": {
+    "sport": "baseball",
+    "league": "KBO",
+    "matchup": "Doosan Bears vs KIA Tigers",
+    "park_factor": {
+      "hr": 1.0,
+      "runs": 1.0,
+      "k": 1.0
+    },
+    "pitcher_props": [],
+    "hitter_props": [],
+    "top_recommendations": []
+  }
+}
