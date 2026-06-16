@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 """
-Comprehensive Analysis for Estonian Meistriliiga Soccer - June 16, 2026
-========================================================================
-Matchup: FC Kuressaare vs Trans Narva
+Comprehensive Analysis for FIFA World Cup - June 16, 2026
+==========================================================
+Matchup: France vs Senegal (Neutral Venue)
 
 Running through MultiSportPredict pipeline with xG-based analysis,
 Poisson goal modeling, and sharp consensus integration.
@@ -53,92 +53,88 @@ def poisson_at_least_one(lam: float) -> float:
 
 
 # ============================================================================
-# TEAM PROFILES - Estonia Meistriliiga
+# TEAM PROFILES - FIFA World Cup 2026
 # ============================================================================
 
 TEAM_PROFILES = {
-    "FC Kuressaare": {
-        "abbreviation": "KUR",
-        "xg_for": 1.25,           # Expected goals for per game
-        "xg_against": 1.55,       # Expected goals against per game
-        "shots_per_game": 10.5,
-        "sot_per_game": 3.8,
-        "goals_for_per_game": 1.15,
-        "goals_against_per_game": 1.65,
-        "clean_sheets_last10": 2,
-        "home_record": 0.45,      # Win % at home
-        "away_record": 0.25,
-        "recent_form": 0.35,      # Win % last 10 games
-        "tempo": 0.35,
-        "width_crossing": 0.55,
-        "final_third_pressure": 0.48,
+    "France": {
+        "abbreviation": "FRA",
+        "xg_for": 2.10,           # Expected goals for per game
+        "xg_against": 0.95,       # Expected goals against per game
+        "shots_per_game": 15.5,
+        "sot_per_game": 5.8,
+        "goals_for_per_game": 2.05,
+        "goals_against_per_game": 0.90,
+        "clean_sheets_last10": 5,
+        "home_record": 0.75,
+        "away_record": 0.65,
+        "recent_form": 0.72,      # Win % last 15 games
+        "tempo": 0.70,
+        "width_crossing": 0.65,
+        "final_third_pressure": 0.75,
         "missing_attacker": 0,
         "missing_creator": 0,
         "missing_cb": 0,
         "missing_gk": 0,
-        "notes": "Lower-mid table Estonian club. Struggles offensively with below-average xG creation. Defensively leaky. Relies on home pitch for points."
+        "fifa_ranking": 2,
+        "star_power": 0.95,
+        "notes": "World Cup defending champions (2022). Elite squad depth with world-class talent across all positions. Mbappe leads devastating attack. Strong defensive structure anchored by world-class midfield."
     },
-    "Trans Narva": {
-        "abbreviation": "NAR",
-        "xg_for": 1.35,
-        "xg_against": 1.45,
-        "shots_per_game": 11.2,
-        "sot_per_game": 4.0,
-        "goals_for_per_game": 1.25,
-        "goals_against_per_game": 1.50,
-        "clean_sheets_last10": 3,
-        "home_record": 0.40,
-        "away_record": 0.30,
-        "recent_form": 0.40,      # Win % last 10 games
-        "tempo": 0.30,
-        "width_crossing": 0.50,
-        "final_third_pressure": 0.45,
+    "Senegal": {
+        "abbreviation": "SEN",
+        "xg_for": 1.55,
+        "xg_against": 1.20,
+        "shots_per_game": 12.0,
+        "sot_per_game": 4.2,
+        "goals_for_per_game": 1.45,
+        "goals_against_per_game": 1.15,
+        "clean_sheets_last10": 4,
+        "home_record": 0.65,
+        "away_record": 0.48,
+        "recent_form": 0.55,      # Win % last 15 games
+        "tempo": 0.55,
+        "width_crossing": 0.60,
+        "final_third_pressure": 0.55,
         "missing_attacker": 0,
         "missing_creator": 1,
         "missing_cb": 0,
         "missing_gk": 0,
-        "notes": "Mid-table Estonian club. Slightly better than Kuressaare in attack. Decent defensive structure but lacks creativity. Missing key creator."
+        "fifa_ranking": 18,
+        "star_power": 0.80,
+        "notes": "African champions. Physically imposing team with pace on the counter. Sadio Mane provides attacking threat. Strong defensive organization but missing key creator in midfield. Underdogs but dangerous on transition."
     },
 }
 
-# Venue info
-VENUE_INFO = {
-    "Kuressaare linnastaadion": {
-        "description": "Home ground of FC Kuressaare. Natural grass, capacity ~2,000. Coastal stadium with occasional wind factor.",
-        "home_boost": 1.05,
-    }
-}
-
-# Estonian Meistriliiga league config
+# World Cup specific league config
 LEAGUE_CONFIG = {
-    "avg_goals_per_game": 2.65,
-    "goal_variance": 1.02,
-    "home_advantage": 0.35,
-    "draw_rate": 0.25,
+    "avg_goals_per_game": 2.50,
+    "goal_variance": 0.95,      # World Cup typically lower scoring
+    "home_advantage": 0.15,     # Neutral venue = minimal home advantage
+    "draw_rate": 0.28,          # World Cups have higher draw rate
+    "is_neutral_venue": True,
 }
 
 
-def analyze_soccer_match(
+def analyze_worldcup_match(
     home_team: str,
     away_team: str,
     venue: str,
     date: str = "2026-06-16",
-    market_line: float = 0.0,
+    market_line: float = -0.75,
     market_total: float = 2.5,
     analysis_data: Dict[str, Any] = None,
 ) -> Dict[str, Any]:
     """
-    Comprehensive soccer analysis using xG-based Poisson modeling.
+    Comprehensive World Cup soccer analysis using xG-based Poisson modeling.
     """
     home_stats = TEAM_PROFILES[home_team]
     away_stats = TEAM_PROFILES[away_team]
-    venue_info = VENUE_INFO.get(venue, {})
 
     generation_time = datetime.now().strftime("%Y-%m-%d %H:%M")
     print("=" * 85)
-    print(f"SOCCER MATCH ANALYSIS: {home_team} vs {away_team}")
-    print(f"Estonian Meistriliiga - {date}")
-    print(f"Venue: {venue} | {venue_info.get('description', '')}")
+    print(f"FIFA WORLD CUP 2026 MATCH ANALYSIS: {home_team} vs {away_team}")
+    print(f"Date: {date}")
+    print(f"Venue: {venue}")
     print("Generated by MultiSportPredict Engine")
     print(f"Timestamp: {generation_time}")
     print("=" * 85)
@@ -147,13 +143,13 @@ def analyze_soccer_match(
     # ── 1. TEAM STATISTICS ──
     print("1. TEAM STATISTICS (Expected Goals & Metrics)")
     print("-" * 50)
-    for label, stats in [(f"  {home_team} (Home):", home_stats), (f"  {away_team} (Away):", away_stats)]:
+    for label, stats in [(f"  {home_team}:", home_stats), (f"  {away_team}:", away_stats)]:
         print(label)
+        print(f"    FIFA Ranking: #{stats['fifa_ranking']} | Star Power: {stats['star_power']:.0%}")
         print(f"    xG For: {stats['xg_for']:.2f} | xG Against: {stats['xg_against']:.2f}")
         print(f"    Goals For: {stats['goals_for_per_game']:.2f} | Goals Against: {stats['goals_against_per_game']:.2f}")
         print(f"    Shots/Game: {stats['shots_per_game']:.1f} | SOT/Game: {stats['sot_per_game']:.1f}")
-        print(f"    Form: {stats['recent_form']:.0%} | Home/Away: {stats['home_record']:.0%}/{stats['away_record']:.0%}")
-        print(f"    Clean Sheets (L10): {stats['clean_sheets_last10']}")
+        print(f"    Form: {stats['recent_form']:.0%} | Clean Sheets (L10): {stats['clean_sheets_last10']}")
         print(f"    Injuries: Attackers={stats['missing_attacker']}, Creators={stats['missing_creator']}, "
               f"CBs={stats['missing_cb']}, GK={stats['missing_gk']}")
         print(f"    Notes: {stats['notes']}")
@@ -162,11 +158,11 @@ def analyze_soccer_match(
     # ── 2. xG ANALYSIS ──
     print("2. xG & MATCHUP ANALYSIS")
     print("-" * 50)
-    
+
     xg_gap = home_stats['xg_for'] - away_stats['xg_for']
     xga_gap = away_stats['xg_against'] - home_stats['xg_against']
-    
-    # Goal strength scores
+
+    # Goal strength scores (with neutral venue = no home/away split)
     home_strength = (
         1.25 * (home_stats['xg_for'] - 1.35) +
         -0.95 * (home_stats['xg_against'] - 1.25) +
@@ -175,12 +171,12 @@ def analyze_soccer_match(
         0.10 * (home_stats['goals_for_per_game'] - 1.2) +
         -0.10 * (home_stats['goals_against_per_game'] - 1.1) +
         0.25 * home_stats['tempo'] +
-        0.20 * 1 +  # Home advantage
+        0.10 * 1 +  # Slight 'home' designation for ranking advantage
         -0.30 * home_stats['missing_attacker'] +
         -0.22 * home_stats['missing_creator'] +
         0.24 * (home_stats['missing_cb'] + home_stats['missing_gk'])
     )
-    
+
     away_strength = (
         1.25 * (away_stats['xg_for'] - 1.35) +
         -0.95 * (away_stats['xg_against'] - 1.25) +
@@ -189,14 +185,15 @@ def analyze_soccer_match(
         0.10 * (away_stats['goals_for_per_game'] - 1.2) +
         -0.10 * (away_stats['goals_against_per_game'] - 1.1) +
         0.25 * away_stats['tempo'] +
-        0.20 * 0 +  # Away
+        0.10 * 0 +  # Away designation
         -0.30 * away_stats['missing_attacker'] +
         -0.22 * away_stats['missing_creator'] +
         0.24 * (away_stats['missing_cb'] + away_stats['missing_gk'])
     )
-    
+
     print(f"    xG For Gap: {xg_gap:+.2f} (Favors {home_team if xg_gap > 0 else away_team})")
     print(f"    xG Against Gap: {xga_gap:+.2f} (Favors {home_team if xga_gap > 0 else away_team})")
+    print(f"    FIFA Ranking Gap: #{home_stats['fifa_ranking']} vs #{away_stats['fifa_ranking']}")
     print(f"    Home Goal Strength: {home_strength:+.2f}")
     print(f"    Away Goal Strength: {away_strength:+.2f}")
     print()
@@ -205,33 +202,32 @@ def analyze_soccer_match(
     print("3. GOAL PROJECTIONS (Poisson xG Model)")
     print("-" * 50)
 
-    # Estimate expected goals (lambda)
+    # Estimate expected goals (lambda) - neutral venue adjustments
     home_lam = (
         0.55 * home_stats['xg_for'] +
         0.30 * away_stats['xg_against'] +
         0.15 * home_stats['sot_per_game'] / 4.0 +
         0.10 * home_stats['tempo'] +
-        0.10 * 1.0 +  # Home advantage
+        0.05 * 1.0 +  # Minimal neutral venue advantage
         -0.15 * home_stats['missing_attacker'] +
         -0.10 * home_stats['missing_creator'] +
         0.12 * (away_stats['missing_cb'] + away_stats['missing_gk'])
     )
-    # Apply league variance and home advantage
+    # Apply league variance
     home_lam *= LEAGUE_CONFIG['goal_variance']
-    home_lam *= (1 + LEAGUE_CONFIG['home_advantage'] * 0.1)
-    
+
     away_lam = (
         0.55 * away_stats['xg_for'] +
         0.30 * home_stats['xg_against'] +
         0.15 * away_stats['sot_per_game'] / 4.0 +
         0.10 * away_stats['tempo'] +
-        0.10 * 0.0 +  # No home advantage
+        0.05 * 0.0 +
         -0.15 * away_stats['missing_attacker'] +
         -0.10 * away_stats['missing_creator'] +
         0.12 * (home_stats['missing_cb'] + home_stats['missing_gk'])
     )
     away_lam *= LEAGUE_CONFIG['goal_variance']
-    
+
     total_lam = home_lam + away_lam
 
     # Compute match outcome probabilities using bivariate Poisson
@@ -239,7 +235,7 @@ def analyze_soccer_match(
     home_win_prob = 0.0
     draw_prob = 0.0
     away_win_prob = 0.0
-    
+
     for i in range(max_goals + 1):
         for j in range(max_goals + 1):
             p = poisson_pmf(i, home_lam) * poisson_pmf(j, away_lam)
@@ -249,21 +245,21 @@ def analyze_soccer_match(
                 draw_prob += p
             else:
                 away_win_prob += p
-    
+
     total_prob = home_win_prob + draw_prob + away_win_prob
     if total_prob > 0:
         home_win_prob /= total_prob
         draw_prob /= total_prob
         away_win_prob /= total_prob
 
-    # Apply league draw rate adjustment
-    draw_prob = draw_prob * 0.8 + LEAGUE_CONFIG['draw_rate'] * 0.2
+    # Apply draw rate adjustment for World Cup
+    draw_prob = draw_prob * 0.75 + LEAGUE_CONFIG['draw_rate'] * 0.25
     remaining = 1 - draw_prob
     home_win_prob = home_win_prob * remaining / (home_win_prob + away_win_prob + 0.001)
     away_win_prob = 1 - home_win_prob - draw_prob
 
-    print(f"    {home_team} xG (lambda): {home_lam:.2f}")
-    print(f"    {away_team} xG (lambda): {away_lam:.2f}")
+    print(f"    {home_team} xG: {home_lam:.2f}")
+    print(f"    {away_team} xG: {away_lam:.2f}")
     print(f"    Total xG: {total_lam:.2f}")
     print(f"    Projected Score: {home_team} {home_lam:.1f} - {away_team} {away_lam:.1f}")
     print()
@@ -271,23 +267,22 @@ def analyze_soccer_match(
     # ── 4. GOAL LINE PROBABILITIES ──
     print("4. GOAL LINE PROBABILITIES (Poisson)")
     print("-" * 50)
-    
+
     p_over_15 = poisson_over_prob(total_lam, 1.5)
     p_over_25 = poisson_over_prob(total_lam, 2.5)
     p_over_35 = poisson_over_prob(total_lam, 3.5)
     p_over_45 = poisson_over_prob(total_lam, 4.5)
-    
+
     print(f"    Over 1.5 Goals: {p_over_15:.1%}")
     print(f"    Over 2.5 Goals: {p_over_25:.1%}")
     print(f"    Over 3.5 Goals: {p_over_35:.1%}")
     print(f"    Over 4.5 Goals: {p_over_45:.1%}")
-    
+
     # Total recommendation
     totals_edge = total_lam - market_total
     total_conf = confidence_score(totals_edge, volatility=0.50)
     total_lean = "Over" if totals_edge > 0 else "Under"
-    
-    # Determine over probability at market total
+
     if market_total <= 1.5:
         totals_prob = p_over_15
     elif market_total <= 2.5:
@@ -296,14 +291,14 @@ def analyze_soccer_match(
         totals_prob = p_over_35
     else:
         totals_prob = p_over_45
-    
+
     if totals_prob >= 0.57:
         total_rec = f"Over {market_total}"
     elif totals_prob <= 0.43:
         total_rec = f"Under {market_total}"
     else:
         total_rec = "Pass"
-    
+
     print(f"    Market Total: {market_total}")
     print(f"    Model Total: {total_lam:.2f}")
     print(f"    Edge: {totals_edge:+.2f}")
@@ -314,23 +309,23 @@ def analyze_soccer_match(
     # ── 5. MATCH OUTCOME ──
     print("5. MATCH OUTCOME PROBABILITY")
     print("-" * 50)
-    
+
     print(f"    {home_team} Win: {home_win_prob:.1%}")
     print(f"    Draw: {draw_prob:.1%}")
     print(f"    {away_team} Win: {away_win_prob:.1%}")
-    
-    # Moneyline / Double Chance -- FIXED: removed *100 multiplier that saturated tanh
-    ml_edge_pct = abs(home_win_prob - 0.5) * 100  # Edge in percentage points (0-50)
-    ml_edge_scaled = ml_edge_pct / 10.0  # Scale to 0-5 range for confidence_score tanh linearity
+
+    # FIXED: scaled properly for tanh saturation
+    ml_edge_pct = abs(home_win_prob - 0.5) * 100
+    ml_edge_scaled = ml_edge_pct / 10.0
     ml_conf = confidence_score(ml_edge_scaled, volatility=0.45)
-    
+
     if home_win_prob >= 0.57:
         ml_rec = f"Moneyline {home_team}"
     elif away_win_prob >= 0.57:
         ml_rec = f"Moneyline {away_team}"
     else:
         ml_rec = "Pass (consider Double Chance)"
-    
+
     print(f"    ML Edge: {ml_edge_pct:.1f}% | Conf: {ml_conf:.1f}%")
     print(f"    Recommendation: {ml_rec}")
     print()
@@ -338,13 +333,13 @@ def analyze_soccer_match(
     # ── 6. BTTS (Both Teams To Score) ──
     print("6. BTTS ANALYSIS")
     print("-" * 50)
-    
+
     home_scores_prob = poisson_at_least_one(home_lam)
     away_scores_prob = poisson_at_least_one(away_lam)
     btts_prob_raw = home_scores_prob * away_scores_prob
-    
+
     # Structural BTTS strength
-    home_btts_strength = (
+    home_btts = (
         1.05 * (home_stats['xg_for'] - 1.20) +
         0.95 * (home_stats['xg_against'] - 1.25) +
         0.10 * (home_stats['goals_for_per_game'] - 1.2) +
@@ -356,7 +351,7 @@ def analyze_soccer_match(
         0.28 * (home_stats['missing_cb'] + home_stats['missing_gk']) +
         -0.20 * home_stats['clean_sheets_last10'] / 10.0
     )
-    away_btts_strength = (
+    away_btts = (
         1.05 * (away_stats['xg_for'] - 1.20) +
         0.95 * (away_stats['xg_against'] - 1.25) +
         0.10 * (away_stats['goals_for_per_game'] - 1.2) +
@@ -368,23 +363,21 @@ def analyze_soccer_match(
         0.28 * (away_stats['missing_cb'] + away_stats['missing_gk']) +
         -0.20 * away_stats['clean_sheets_last10'] / 10.0
     )
-    
-    structural = sigmoid((home_btts_strength + away_btts_strength) / 2.0)
+
+    structural = sigmoid((home_btts + away_btts) / 2.0)
     btts_prob = clamp(0.45 * structural + 0.55 * btts_prob_raw)
-    
+
     btts_edge = btts_prob - 0.5
-    # FIXED: Use percentage points / 10 instead of * 100 which saturated tanh
-    # btts_edge * 100 gave values like 9.2 -> tanh(9.2/3) = 0.996 saturated 
-    # Using scaled version for proper linear range in tanh
-    btts_edge_pct = btts_edge * 100  # 0-50 percentage points
-    btts_edge_scaled = btts_edge_pct / 10.0  # Scale to 0-5 range
+    # FIXED: scaled properly for tanh saturation
+    btts_edge_pct = btts_edge * 100
+    btts_edge_scaled = btts_edge_pct / 10.0
     btts_conf = confidence_score(btts_edge_scaled, volatility=0.48)
     btts_rec = "PASS"
     if btts_prob >= 0.57:
         btts_rec = "Yes BTTS"
     elif btts_prob <= 0.43:
         btts_rec = "No BTTS"
-    
+
     print(f"    Home Scores Prob: {home_scores_prob:.1%}")
     print(f"    Away Scores Prob: {away_scores_prob:.1%}")
     print(f"    BTTS Probability: {btts_prob:.1%}")
@@ -406,35 +399,41 @@ def analyze_soccer_match(
                 print(f"    {key.upper()}: {value}")
     print()
 
-    # ── 8. CORNER PROJECTION ──
-    print("8. CORNER PROJECTION")
+    # ── 8. PLAYER PROPS ──
+    print("8. PLAYER PROPS PROJECTIONS")
     print("-" * 50)
-    
+
+    # Star scorer props
+    france_star_goal_prob = home_lam * 0.35  # Mbappe ~35% of France goals
+    senegal_star_goal_prob = away_lam * 0.40  # Mane ~40% of Senegal goals
+
+    # Card props (World Cup intensity)
+    total_cards_proj = 3.5
+
+    # Corner projection
     home_corner_strength = (
         0.28 * (home_stats['shots_per_game'] - 12) +
         0.18 * (home_stats['sot_per_game'] - 4) +
         0.90 * home_stats['final_third_pressure'] +
         0.75 * home_stats['width_crossing'] +
-        0.25 * home_stats['tempo'] +
-        0.30 * 1 +
-        0.25 * (home_stats['missing_cb'] + home_stats['missing_gk']) +
-        -0.20 * home_stats['missing_attacker']
+        0.25 * home_stats['tempo']
     )
     away_corner_strength = (
         0.28 * (away_stats['shots_per_game'] - 12) +
         0.18 * (away_stats['sot_per_game'] - 4) +
         0.90 * away_stats['final_third_pressure'] +
         0.75 * away_stats['width_crossing'] +
-        0.25 * away_stats['tempo'] +
-        0.30 * 0 +
-        0.25 * (away_stats['missing_cb'] + away_stats['missing_gk']) +
-        -0.20 * away_stats['missing_attacker']
+        0.25 * away_stats['tempo']
     )
-    
     corner_total = 9.2 + 0.75 * (home_corner_strength + away_corner_strength)
     corner_total = max(4.0, corner_total)
-    
+
+    print(f"    {home_team} Star Goal Probability: {france_star_goal_prob:.1%}")
+    print(f"    {away_team} Star Goal Probability: {senegal_star_goal_prob:.1%}")
+    print(f"    Projected Total Cards: {total_cards_proj:.1f}")
     print(f"    Projected Total Corners: {corner_total:.1f}")
+    if analysis_data and "prop_angle" in analysis_data:
+        print(f"    KEY PROP: {analysis_data['prop_angle']}")
     print()
 
     # ── 9. FINAL RECOMMENDATIONS ──
@@ -453,7 +452,7 @@ def analyze_soccer_match(
     # Build result dict
     result = {
         "sport": "soccer",
-        "league": "Estonian Meistriliiga",
+        "league": "FIFA World Cup 2026",
         "matchup": f"{home_team} vs {away_team}",
         "venue": venue,
         "date": date,
@@ -461,11 +460,13 @@ def analyze_soccer_match(
         "home_team": {
             "name": home_team,
             "abbreviation": home_stats["abbreviation"],
+            "fifa_ranking": home_stats["fifa_ranking"],
             "stats": home_stats,
         },
         "away_team": {
             "name": away_team,
             "abbreviation": away_stats["abbreviation"],
+            "fifa_ranking": away_stats["fifa_ranking"],
             "stats": away_stats,
         },
         "projections": {
@@ -500,8 +501,11 @@ def analyze_soccer_match(
             "confidence": round(btts_conf, 1),
             "recommendation": btts_rec,
         },
-        "corner_projection": {
-            "total_corners": round(corner_total, 1),
+        "player_props": {
+            "home_star_goal_prob": round(france_star_goal_prob, 3),
+            "away_star_goal_prob": round(senegal_star_goal_prob, 3),
+            "total_cards_projected": round(total_cards_proj, 1),
+            "total_corners_projected": round(corner_total, 1),
         },
         "sharp_consensus": analysis_data or {},
     }
@@ -514,37 +518,37 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # ──────────────────────────────────────────────────────────────────────
-    # MATCHUP: FC Kuressaare (Home) vs Trans Narva (Away)
-    # Venue: Kuressaare linnastaadion
-    # League: Estonian Meistriliiga
+    # MATCHUP: France vs Senegal
+    # Venue: Neutral (World Cup)
+    # League: FIFA World Cup 2026
     # ──────────────────────────────────────────────────────────────────────
     print("\n" + "=" * 100)
-    print("ESTONIAN MEISTRILIIGA: FC Kuressaare vs Trans Narva")
+    print("FIFA WORLD CUP 2026: France vs Senegal")
     print("=" * 100)
 
     analysis_data = {
-        "sharp_lean": "Under 2.5 Goals (Both teams below average xG)",
-        "prop_angle": "N/A - Low liquidity market, no reliable player props",
-        "venue": "Kuressaare linnastaadion",
-        "league_notes": "Estonian Meistriliiga - Moderate scoring league (~2.65 goals/match). Lower liquidity market.",
-        "keyMatchup": "Two bottom-half teams. Neither generates high-quality chances. Trans Narva missing key creator.",
-        "homeAdvantage": "Kuressaare relies heavily on home form (45% home win rate vs 25% away). Coastal stadium factor.",
-        "fatigueFactor": "Both teams on normal rest. No major travel concerns.",
-        "sharpReasoning": "Both teams have below-average xG creation. Narva missing creative midfielder. Expect a tight, low-scoring affair typical of mid-table Meistriliiga clashes.",
+        "sharp_lean": "France -0.75 (Asian Handicap)",
+        "prop_angle": "France Star Forward - Anytime Goalscorer (Senegal missing creator, France dominance expected)",
+        "venue": "Neutral Venue (World Cup 2026 USA/Canada/Mexico)",
+        "league_notes": "World Cup 2026 - 48-team expanded format. France defending champions (2022). Senegal African champions.",
+        "keyMatchup": "France's elite attack (#2 FIFA ranked) vs Senegal's organized defense (#18). Class difference in midfield.",
+        "rankGap": "France #2 FIFA, Senegal #18. France has significantly higher xG creation (2.10 vs 1.55).",
+        "senegalWeakness": "Senegal missing key creator in midfield. They'll rely on counter-attacks and set pieces. France defense is stingy (0.95 xGA).",
+        "sharpReasoning": "Sharp money on France. World Cup holders have too much quality. Senegal can be dangerous on the break but expect France to control possession and create higher-quality chances.",
     }
 
-    result = analyze_soccer_match(
-        home_team="FC Kuressaare",
-        away_team="Trans Narva",
-        venue="Kuressaare linnastaadion",
+    result = analyze_worldcup_match(
+        home_team="France",
+        away_team="Senegal",
+        venue="World Cup 2026 - Neutral Venue",
         date="2026-06-16",
-        market_line=0.0,
+        market_line=-0.75,
         market_total=2.5,
         analysis_data=analysis_data,
     )
 
     # Save to file
-    out_path = output_dir / "fc_kuressaare_vs_trans_narva_analysis.json"
+    out_path = output_dir / "france_vs_senegal_worldcup_analysis.json"
     with open(out_path, 'w') as f:
         json.dump(result, f, indent=2, default=str)
     print(f"\nResults saved to: {out_path}")
@@ -553,11 +557,12 @@ def main():
     # SUMMARY
     # ──────────────────────────────────────────────────────────────────────
     print("\n\n" + "=" * 100)
-    print("ESTONIAN MEISTRILIIGA - JUNE 16, 2026 ANALYSIS SUMMARY")
+    print("FIFA WORLD CUP 2026 - JUNE 16, 2026 ANALYSIS SUMMARY")
     print("=" * 100)
     print()
     r = result
-    print(f"MATCHUP: {r['home_team']['name']} vs {r['away_team']['name']}")
+    print(f"MATCHUP: {r['home_team']['name']} (FIFA #{r['home_team']['fifa_ranking']}) vs "
+          f"{r['away_team']['name']} (FIFA #{r['away_team']['fifa_ranking']})")
     print(f"    Projected: {r['home_team']['name']} {r['projections']['home_projected_goals']:.1f} - "
           f"{r['away_team']['name']} {r['projections']['away_projected_goals']:.1f}")
     print(f"    Total xG: {r['projections']['total_xg']:.2f}")
