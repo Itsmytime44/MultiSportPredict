@@ -1,0 +1,51 @@
+{
+  "game_info": {
+    "matchup": "NYM @ CIN",
+    "home_team": "Cincinnati Reds",
+    "away_team": "New York Mets",
+    "venue": "Great American Ball Park",
+    "date": "2026-06-17",
+    "game_time": "7:10 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Brady Singer (RHP)",
+      "era": 4.0,
+      "k_rate": 0.21
+    },
+    "away": {
+      "name": "Kodai Senga (RHP)",
+      "era": 3.9,
+      "k_rate": 0.25
+    }
+  },
+  "market_data": {
+    "moneyline_home": -108,
+    "moneyline_away": -112,
+    "total": 9.0,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 5.01,
+    "away_runs": 4.76,
+    "total_runs": 9.77,
+    "run_edge": 0.77,
+    "run_direction": "OVER",
+    "run_confidence": 21.6,
+    "home_win_probability": 0.553,
+    "away_win_probability": 0.447
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.5674,
+    "yrfi_probability": 0.4326,
+    "edge_vs_50pct": 0.0674,
+    "lean": "NRFI/YRFI Toss-up",
+    "confidence": 8.1,
+    "tier": "STRONG BET"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "GABP hitter-friendly (1.12) \u2014 Over lean"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "game_info": {
+    "matchup": "CLE @ MIL",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "Cleveland Guardians",
+    "venue": "American Family Field",
+    "date": "2026-06-17",
+    "game_time": "7:40 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Robert Gasser (LHP)",
+      "era": 3.8,
+      "k_rate": 0.25
+    },
+    "away": {
+      "name": "Slade Cecconi (RHP)",
+      "era": 3.75,
+      "k_rate": 0.23
+    }
+  },
+  "market_data": {
+    "moneyline_home": -130,
+    "moneyline_away": 110,
+    "total": 8.0,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 4.17,
+    "away_runs": 4.09,
+    "total_runs": 8.26,
+    "run_edge": 0.26,
+    "run_direction": "OVER",
+    "run_confidence": 7.2,
+    "home_win_probability": 0.534,
+    "away_win_probability": 0.466
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.5927,
+    "yrfi_probability": 0.4073,
+    "edge_vs_50pct": 0.0927,
+    "lean": "NRFI",
+    "confidence": 11.1,
+    "tier": "STRONG BET"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Gasser effective LHP, Cecconi solid"
+  ]
+}

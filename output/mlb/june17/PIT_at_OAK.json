@@ -1,0 +1,51 @@
+{
+  "game_info": {
+    "matchup": "PIT @ OAK",
+    "home_team": "Athletics",
+    "away_team": "Pittsburgh Pirates",
+    "venue": "Oakland Coliseum",
+    "date": "2026-06-17",
+    "game_time": "9:40 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Jack Perkins (RHP)",
+      "era": 4.25,
+      "k_rate": 0.21
+    },
+    "away": {
+      "name": "Mitch Keller (RHP)",
+      "era": 4.1,
+      "k_rate": 0.23
+    }
+  },
+  "market_data": {
+    "moneyline_home": 110,
+    "moneyline_away": -130,
+    "total": 8.0,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 3.85,
+    "away_runs": 3.97,
+    "total_runs": 7.83,
+    "run_edge": -0.17,
+    "run_direction": "UNDER",
+    "run_confidence": 4.9,
+    "home_win_probability": 0.512,
+    "away_win_probability": 0.488
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.5578,
+    "yrfi_probability": 0.4422,
+    "edge_vs_50pct": 0.0578,
+    "lean": "NRFI/YRFI Toss-up",
+    "confidence": 6.9,
+    "tier": "LEAN"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Perkins unproven \u2014 Keller more reliable"
+  ]
+}

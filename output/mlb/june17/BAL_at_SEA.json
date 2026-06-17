@@ -1,0 +1,99 @@
+{
+  "game_info": {
+    "matchup": "BAL @ SEA",
+    "home_team": "Seattle Mariners",
+    "away_team": "Baltimore Orioles",
+    "venue": "T-Mobile Park",
+    "date": "2026-06-17",
+    "game_time": "9:40 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "George Kirby (RHP)",
+      "era": 3.6,
+      "k_rate": 0.24
+    },
+    "away": {
+      "name": "Kyle Bradish (RHP)",
+      "era": 3.85,
+      "k_rate": 0.25
+    }
+  },
+  "market_data": {
+    "moneyline_home": -138,
+    "moneyline_away": 118,
+    "total": 7.5,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 3.56,
+    "away_runs": 3.91,
+    "total_runs": 7.47,
+    "run_edge": -0.03,
+    "run_direction": "UNDER",
+    "run_confidence": 0.7,
+    "home_win_probability": 0.486,
+    "away_win_probability": 0.514
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.6208,
+    "yrfi_probability": 0.3792,
+    "edge_vs_50pct": 0.1208,
+    "lean": "NRFI",
+    "confidence": 14.5,
+    "tier": "STRONG BET"
+  },
+  "player_props": [
+    {
+      "player": "Pete Alonso",
+      "team": "away",
+      "prop_type": "Total Bases",
+      "projected_probability": 0.0656,
+      "lean": "Under",
+      "line": 1.5,
+      "key_driver": "1.914 career OPS vs Kirby \u2014 massive matchup edge"
+    },
+    {
+      "player": "Pete Alonso",
+      "team": "away",
+      "prop_type": "HR",
+      "projected_probability": 0.0656,
+      "lean": "Under",
+      "line": "TBD",
+      "key_driver": "4 HR allowed by Kirby in last 5 starts"
+    },
+    {
+      "player": "Adley Rutschman",
+      "team": "away",
+      "prop_type": "Walks",
+      "projected_probability": 0.0436,
+      "lean": "Under",
+      "line": 0.5,
+      "key_driver": "12/20 games Over walks (55% ROI), .375 OBP"
+    },
+    {
+      "player": "Gunnar Henderson",
+      "team": "away",
+      "prop_type": "RBIs",
+      "projected_probability": 0.0544,
+      "lean": "Under",
+      "line": 0.5,
+      "key_driver": "17/20 road games Under RBIs \u2014 strong fade"
+    },
+    {
+      "player": "Colton Cowser",
+      "team": "away",
+      "prop_type": "HR",
+      "projected_probability": 0.044,
+      "lean": "Under",
+      "line": "TBD",
+      "key_driver": "3/6 road games with HR recently"
+    }
+  ],
+  "sharp_notes": [
+    "NRFI is sharp play \u2014 T-Mobile (0.92) suppresses 1st inn runs",
+    "Bradish shaky last start (5 ER in 4 IP)",
+    "Kirby allowed 4 HR in last 5 starts"
+  ]
+}

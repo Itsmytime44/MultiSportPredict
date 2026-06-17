@@ -1,0 +1,52 @@
+{
+  "game_info": {
+    "matchup": "CWS @ NYY",
+    "home_team": "New York Yankees",
+    "away_team": "Chicago White Sox",
+    "venue": "Yankee Stadium",
+    "date": "2026-06-17",
+    "game_time": "7:05 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Gerrit Cole (RHP)",
+      "era": 3.55,
+      "k_rate": 0.28
+    },
+    "away": {
+      "name": "Davis Martin (RHP)",
+      "era": 4.45,
+      "k_rate": 0.2
+    }
+  },
+  "market_data": {
+    "moneyline_home": -225,
+    "moneyline_away": 185,
+    "total": 8.0,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 4.77,
+    "away_runs": 3.65,
+    "total_runs": 8.41,
+    "run_edge": 0.41,
+    "run_direction": "OVER",
+    "run_confidence": 11.6,
+    "home_win_probability": 0.648,
+    "away_win_probability": 0.352
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.5744,
+    "yrfi_probability": 0.4256,
+    "edge_vs_50pct": 0.0744,
+    "lean": "NRFI",
+    "confidence": 8.9,
+    "tier": "STRONG BET"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Cole ace, but White Sox poor offense",
+    "Yankees heavy favorite \u2014 run line value on CWS +1.5?"
+  ]
+}

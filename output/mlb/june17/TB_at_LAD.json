@@ -1,0 +1,52 @@
+{
+  "game_info": {
+    "matchup": "TB @ LAD",
+    "home_team": "Los Angeles Dodgers",
+    "away_team": "Tampa Bay Rays",
+    "venue": "Dodger Stadium",
+    "date": "2026-06-17",
+    "game_time": "10:10 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Justin Wrobleski (LHP)",
+      "era": 3.65,
+      "k_rate": 0.23
+    },
+    "away": {
+      "name": "Drew Rasmussen (RHP)",
+      "era": 3.6,
+      "k_rate": 0.26
+    }
+  },
+  "market_data": {
+    "moneyline_home": -155,
+    "moneyline_away": 135,
+    "total": 8.5,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 4.53,
+    "away_runs": 3.99,
+    "total_runs": 8.52,
+    "run_edge": 0.02,
+    "run_direction": "OVER",
+    "run_confidence": 0.7,
+    "home_win_probability": 0.586,
+    "away_win_probability": 0.414
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.6046,
+    "yrfi_probability": 0.3954,
+    "edge_vs_50pct": 0.1046,
+    "lean": "NRFI",
+    "confidence": 12.6,
+    "tier": "STRONG BET"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Rasmussen elite but TOR runs deep lineup",
+    "Wrobleski LHP \u2014 Dodgers defer to pen early"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "game_info": {
+    "matchup": "COL @ CHC",
+    "home_team": "Chicago Cubs",
+    "away_team": "Colorado Rockies",
+    "venue": "Wrigley Field",
+    "date": "2026-06-17",
+    "game_time": "8:05 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Edward Cabrera (RHP)",
+      "era": 3.85,
+      "k_rate": 0.25
+    },
+    "away": {
+      "name": "Ryan Feltner (RHP)",
+      "era": 4.65,
+      "k_rate": 0.2
+    }
+  },
+  "market_data": {
+    "moneyline_home": -165,
+    "moneyline_away": 145,
+    "total": 8.5,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 4.62,
+    "away_runs": 4.12,
+    "total_runs": 8.75,
+    "run_edge": 0.25,
+    "run_direction": "OVER",
+    "run_confidence": 7.0,
+    "home_win_probability": 0.581,
+    "away_win_probability": 0.419
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.5475,
+    "yrfi_probability": 0.4525,
+    "edge_vs_50pct": 0.0475,
+    "lean": "NRFI/YRFI Toss-up",
+    "confidence": 5.7,
+    "tier": "LEAN"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Feltner struggles, Rox pen weak"
+  ]
+}

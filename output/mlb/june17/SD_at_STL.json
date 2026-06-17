@@ -1,0 +1,51 @@
+{
+  "game_info": {
+    "matchup": "SD @ STL",
+    "home_team": "St. Louis Cardinals",
+    "away_team": "San Diego Padres",
+    "venue": "Busch Stadium",
+    "date": "2026-06-17",
+    "game_time": "7:45 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Andre Pallante (RHP)",
+      "era": 4.05,
+      "k_rate": 0.2
+    },
+    "away": {
+      "name": "Michael King (RHP)",
+      "era": 3.85,
+      "k_rate": 0.24
+    }
+  },
+  "market_data": {
+    "moneyline_home": 115,
+    "moneyline_away": -135,
+    "total": 8.0,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 3.86,
+    "away_runs": 4.06,
+    "total_runs": 7.92,
+    "run_edge": -0.08,
+    "run_direction": "UNDER",
+    "run_confidence": 2.2,
+    "home_win_probability": 0.503,
+    "away_win_probability": 0.497
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.5687,
+    "yrfi_probability": 0.4313,
+    "edge_vs_50pct": 0.0687,
+    "lean": "NRFI/YRFI Toss-up",
+    "confidence": 8.2,
+    "tier": "STRONG BET"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Busch Stadium pitcher-friendly (0.96)"
+  ]
+}

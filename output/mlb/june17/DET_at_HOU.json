@@ -1,0 +1,52 @@
+{
+  "game_info": {
+    "matchup": "DET @ HOU",
+    "home_team": "Houston Astros",
+    "away_team": "Detroit Tigers",
+    "venue": "Minute Maid Park",
+    "date": "2026-06-17",
+    "game_time": "8:10 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Hunter Brown (RHP)",
+      "era": 3.75,
+      "k_rate": 0.24
+    },
+    "away": {
+      "name": "Framber Valdez (LHP)",
+      "era": 3.85,
+      "k_rate": 0.22
+    }
+  },
+  "market_data": {
+    "moneyline_home": -145,
+    "moneyline_away": 125,
+    "total": 8.5,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 4.5,
+    "away_runs": 3.82,
+    "total_runs": 8.32,
+    "run_edge": -0.18,
+    "run_direction": "UNDER",
+    "run_confidence": 5.0,
+    "home_win_probability": 0.6,
+    "away_win_probability": 0.4
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.5728,
+    "yrfi_probability": 0.4272,
+    "edge_vs_50pct": 0.0728,
+    "lean": "NRFI",
+    "confidence": 8.7,
+    "tier": "STRONG BET"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Valdez elite groundballer \u2014 suppresses run scoring",
+    "HOU offense boosted by Minute Maid"
+  ]
+}

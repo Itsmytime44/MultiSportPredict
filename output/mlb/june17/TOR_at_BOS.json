@@ -1,0 +1,51 @@
+{
+  "game_info": {
+    "matchup": "TOR @ BOS",
+    "home_team": "Boston Red Sox",
+    "away_team": "Toronto Blue Jays",
+    "venue": "Fenway Park",
+    "date": "2026-06-17",
+    "game_time": "6:45 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Payton Tolle (LHP)",
+      "era": 4.05,
+      "k_rate": 0.22
+    },
+    "away": {
+      "name": "Dylan Cease (RHP)",
+      "era": 3.95,
+      "k_rate": 0.27
+    }
+  },
+  "market_data": {
+    "moneyline_home": 100,
+    "moneyline_away": -120,
+    "total": 8.5,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 4.54,
+    "away_runs": 4.59,
+    "total_runs": 9.14,
+    "run_edge": 0.64,
+    "run_direction": "OVER",
+    "run_confidence": 17.8,
+    "home_win_probability": 0.519,
+    "away_win_probability": 0.481
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.59,
+    "yrfi_probability": 0.41,
+    "edge_vs_50pct": 0.09,
+    "lean": "NRFI",
+    "confidence": 10.8,
+    "tier": "STRONG BET"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Cease elite K-rate (0.27) vs Red Sox"
+  ]
+}

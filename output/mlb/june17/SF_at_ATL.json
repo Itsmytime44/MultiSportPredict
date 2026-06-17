@@ -1,0 +1,53 @@
+{
+  "game_info": {
+    "matchup": "SF @ ATL",
+    "home_team": "Atlanta Braves",
+    "away_team": "San Francisco Giants",
+    "venue": "Truist Park",
+    "date": "2026-06-17",
+    "game_time": "7:15 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Grant Holmes (RHP)",
+      "era": 3.95,
+      "k_rate": 0.23
+    },
+    "away": {
+      "name": "Adrian Houser (RHP)",
+      "era": 3.85,
+      "k_rate": 0.2
+    }
+  },
+  "market_data": {
+    "moneyline_home": -155,
+    "moneyline_away": 135,
+    "total": 9.0,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 5.18,
+    "away_runs": 5.04,
+    "total_runs": 10.22,
+    "run_edge": 1.22,
+    "run_direction": "OVER",
+    "run_confidence": 34.2,
+    "home_win_probability": 0.541,
+    "away_win_probability": 0.459
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.548,
+    "yrfi_probability": 0.452,
+    "edge_vs_50pct": 0.048,
+    "lean": "NRFI/YRFI Toss-up",
+    "confidence": 5.8,
+    "tier": "LEAN"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Houser contact pitcher (.289 BAA, 6.4 K/9)",
+    "Giants BP 6.26 ERA/14d \u2014 fatigue",
+    "Bader CF OUT \u2014 defense weakened"
+  ]
+}

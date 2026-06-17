@@ -1,0 +1,52 @@
+{
+  "game_info": {
+    "matchup": "MIA @ PHI",
+    "home_team": "Philadelphia Phillies",
+    "away_team": "Miami Marlins",
+    "venue": "Citizens Bank Park",
+    "date": "2026-06-17",
+    "game_time": "6:40 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Jesus Luzardo (LHP)",
+      "era": 3.7,
+      "k_rate": 0.26
+    },
+    "away": {
+      "name": "Tyler Phillips (RHP)",
+      "era": 4.1,
+      "k_rate": 0.2
+    }
+  },
+  "market_data": {
+    "moneyline_home": -195,
+    "moneyline_away": 165,
+    "total": 8.5,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 4.81,
+    "away_runs": 4.0,
+    "total_runs": 8.8,
+    "run_edge": 0.3,
+    "run_direction": "OVER",
+    "run_confidence": 8.5,
+    "home_win_probability": 0.615,
+    "away_win_probability": 0.385
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.5666,
+    "yrfi_probability": 0.4334,
+    "edge_vs_50pct": 0.0666,
+    "lean": "NRFI/YRFI Toss-up",
+    "confidence": 8.0,
+    "tier": "STRONG BET"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Luzardo LHB vulnerability (.281) \u2014 Lopez, Chisholm",
+    "Phillips walks (24 BB/48.1 IP)"
+  ]
+}

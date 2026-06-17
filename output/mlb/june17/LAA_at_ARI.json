@@ -1,0 +1,51 @@
+{
+  "game_info": {
+    "matchup": "LAA @ ARI",
+    "home_team": "Arizona Diamondbacks",
+    "away_team": "Los Angeles Angels",
+    "venue": "Chase Field",
+    "date": "2026-06-17",
+    "game_time": "9:40 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Merrill Kelly (RHP)",
+      "era": 4.0,
+      "k_rate": 0.22
+    },
+    "away": {
+      "name": "Reid Detmers (LHP)",
+      "era": 4.15,
+      "k_rate": 0.23
+    }
+  },
+  "market_data": {
+    "moneyline_home": -125,
+    "moneyline_away": 105,
+    "total": 9.0,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 4.69,
+    "away_runs": 4.35,
+    "total_runs": 9.04,
+    "run_edge": 0.04,
+    "run_direction": "OVER",
+    "run_confidence": 1.0,
+    "home_win_probability": 0.564,
+    "away_win_probability": 0.436
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.5687,
+    "yrfi_probability": 0.4313,
+    "edge_vs_50pct": 0.0687,
+    "lean": "NRFI/YRFI Toss-up",
+    "confidence": 8.2,
+    "tier": "STRONG BET"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Chase Field hitter-friendly (1.06)"
+  ]
+}

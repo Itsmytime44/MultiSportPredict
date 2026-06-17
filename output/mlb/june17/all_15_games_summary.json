@@ -1,0 +1,824 @@
+{
+  "date": "2026-06-17",
+  "games": [
+    {
+      "game_info": {
+        "matchup": "SF @ ATL",
+        "home_team": "Atlanta Braves",
+        "away_team": "San Francisco Giants",
+        "venue": "Truist Park",
+        "date": "2026-06-17",
+        "game_time": "7:15 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Grant Holmes (RHP)",
+          "era": 3.95,
+          "k_rate": 0.23
+        },
+        "away": {
+          "name": "Adrian Houser (RHP)",
+          "era": 3.85,
+          "k_rate": 0.2
+        }
+      },
+      "market_data": {
+        "moneyline_home": -155,
+        "moneyline_away": 135,
+        "total": 9.0,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 5.18,
+        "away_runs": 5.04,
+        "total_runs": 10.22,
+        "run_edge": 1.22,
+        "run_direction": "OVER",
+        "run_confidence": 34.2,
+        "home_win_probability": 0.541,
+        "away_win_probability": 0.459
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.548,
+        "yrfi_probability": 0.452,
+        "edge_vs_50pct": 0.048,
+        "lean": "NRFI/YRFI Toss-up",
+        "confidence": 5.8,
+        "tier": "LEAN"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Houser contact pitcher (.289 BAA, 6.4 K/9)",
+        "Giants BP 6.26 ERA/14d \u2014 fatigue",
+        "Bader CF OUT \u2014 defense weakened"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "NYM @ CIN",
+        "home_team": "Cincinnati Reds",
+        "away_team": "New York Mets",
+        "venue": "Great American Ball Park",
+        "date": "2026-06-17",
+        "game_time": "7:10 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Brady Singer (RHP)",
+          "era": 4.0,
+          "k_rate": 0.21
+        },
+        "away": {
+          "name": "Kodai Senga (RHP)",
+          "era": 3.9,
+          "k_rate": 0.25
+        }
+      },
+      "market_data": {
+        "moneyline_home": -108,
+        "moneyline_away": -112,
+        "total": 9.0,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 5.01,
+        "away_runs": 4.76,
+        "total_runs": 9.77,
+        "run_edge": 0.77,
+        "run_direction": "OVER",
+        "run_confidence": 21.6,
+        "home_win_probability": 0.553,
+        "away_win_probability": 0.447
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.5674,
+        "yrfi_probability": 0.4326,
+        "edge_vs_50pct": 0.0674,
+        "lean": "NRFI/YRFI Toss-up",
+        "confidence": 8.1,
+        "tier": "STRONG BET"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "GABP hitter-friendly (1.12) \u2014 Over lean"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "TOR @ BOS",
+        "home_team": "Boston Red Sox",
+        "away_team": "Toronto Blue Jays",
+        "venue": "Fenway Park",
+        "date": "2026-06-17",
+        "game_time": "6:45 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Payton Tolle (LHP)",
+          "era": 4.05,
+          "k_rate": 0.22
+        },
+        "away": {
+          "name": "Dylan Cease (RHP)",
+          "era": 3.95,
+          "k_rate": 0.27
+        }
+      },
+      "market_data": {
+        "moneyline_home": 100,
+        "moneyline_away": -120,
+        "total": 8.5,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 4.54,
+        "away_runs": 4.59,
+        "total_runs": 9.14,
+        "run_edge": 0.64,
+        "run_direction": "OVER",
+        "run_confidence": 17.8,
+        "home_win_probability": 0.519,
+        "away_win_probability": 0.481
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.59,
+        "yrfi_probability": 0.41,
+        "edge_vs_50pct": 0.09,
+        "lean": "NRFI",
+        "confidence": 10.8,
+        "tier": "STRONG BET"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Cease elite K-rate (0.27) vs Red Sox"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "KC @ WAS",
+        "home_team": "Washington Nationals",
+        "away_team": "Kansas City Royals",
+        "venue": "Nationals Park",
+        "date": "2026-06-17",
+        "game_time": "6:45 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Foster Griffin (LHP)",
+          "era": 4.35,
+          "k_rate": 0.2
+        },
+        "away": {
+          "name": "Michael Wacha (RHP)",
+          "era": 3.85,
+          "k_rate": 0.24
+        }
+      },
+      "market_data": {
+        "moneyline_home": 105,
+        "moneyline_away": -125,
+        "total": 8.5,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 3.85,
+        "away_runs": 4.24,
+        "total_runs": 8.08,
+        "run_edge": -0.42,
+        "run_direction": "UNDER",
+        "run_confidence": 11.6,
+        "home_win_probability": 0.48,
+        "away_win_probability": 0.52
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.5571,
+        "yrfi_probability": 0.4429,
+        "edge_vs_50pct": 0.0571,
+        "lean": "NRFI/YRFI Toss-up",
+        "confidence": 6.9,
+        "tier": "LEAN"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Wacha veteran presence, Nats young pitchers"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "CWS @ NYY",
+        "home_team": "New York Yankees",
+        "away_team": "Chicago White Sox",
+        "venue": "Yankee Stadium",
+        "date": "2026-06-17",
+        "game_time": "7:05 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Gerrit Cole (RHP)",
+          "era": 3.55,
+          "k_rate": 0.28
+        },
+        "away": {
+          "name": "Davis Martin (RHP)",
+          "era": 4.45,
+          "k_rate": 0.2
+        }
+      },
+      "market_data": {
+        "moneyline_home": -225,
+        "moneyline_away": 185,
+        "total": 8.0,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 4.77,
+        "away_runs": 3.65,
+        "total_runs": 8.41,
+        "run_edge": 0.41,
+        "run_direction": "OVER",
+        "run_confidence": 11.6,
+        "home_win_probability": 0.648,
+        "away_win_probability": 0.352
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.5744,
+        "yrfi_probability": 0.4256,
+        "edge_vs_50pct": 0.0744,
+        "lean": "NRFI",
+        "confidence": 8.9,
+        "tier": "STRONG BET"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Cole ace, but White Sox poor offense",
+        "Yankees heavy favorite \u2014 run line value on CWS +1.5?"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "MIA @ PHI",
+        "home_team": "Philadelphia Phillies",
+        "away_team": "Miami Marlins",
+        "venue": "Citizens Bank Park",
+        "date": "2026-06-17",
+        "game_time": "6:40 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Jesus Luzardo (LHP)",
+          "era": 3.7,
+          "k_rate": 0.26
+        },
+        "away": {
+          "name": "Tyler Phillips (RHP)",
+          "era": 4.1,
+          "k_rate": 0.2
+        }
+      },
+      "market_data": {
+        "moneyline_home": -195,
+        "moneyline_away": 165,
+        "total": 8.5,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 4.81,
+        "away_runs": 4.0,
+        "total_runs": 8.8,
+        "run_edge": 0.3,
+        "run_direction": "OVER",
+        "run_confidence": 8.5,
+        "home_win_probability": 0.615,
+        "away_win_probability": 0.385
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.5666,
+        "yrfi_probability": 0.4334,
+        "edge_vs_50pct": 0.0666,
+        "lean": "NRFI/YRFI Toss-up",
+        "confidence": 8.0,
+        "tier": "STRONG BET"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Luzardo LHB vulnerability (.281) \u2014 Lopez, Chisholm",
+        "Phillips walks (24 BB/48.1 IP)"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "CLE @ MIL",
+        "home_team": "Milwaukee Brewers",
+        "away_team": "Cleveland Guardians",
+        "venue": "American Family Field",
+        "date": "2026-06-17",
+        "game_time": "7:40 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Robert Gasser (LHP)",
+          "era": 3.8,
+          "k_rate": 0.25
+        },
+        "away": {
+          "name": "Slade Cecconi (RHP)",
+          "era": 3.75,
+          "k_rate": 0.23
+        }
+      },
+      "market_data": {
+        "moneyline_home": -130,
+        "moneyline_away": 110,
+        "total": 8.0,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 4.17,
+        "away_runs": 4.09,
+        "total_runs": 8.26,
+        "run_edge": 0.26,
+        "run_direction": "OVER",
+        "run_confidence": 7.2,
+        "home_win_probability": 0.534,
+        "away_win_probability": 0.466
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.5927,
+        "yrfi_probability": 0.4073,
+        "edge_vs_50pct": 0.0927,
+        "lean": "NRFI",
+        "confidence": 11.1,
+        "tier": "STRONG BET"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Gasser effective LHP, Cecconi solid"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "COL @ CHC",
+        "home_team": "Chicago Cubs",
+        "away_team": "Colorado Rockies",
+        "venue": "Wrigley Field",
+        "date": "2026-06-17",
+        "game_time": "8:05 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Edward Cabrera (RHP)",
+          "era": 3.85,
+          "k_rate": 0.25
+        },
+        "away": {
+          "name": "Ryan Feltner (RHP)",
+          "era": 4.65,
+          "k_rate": 0.2
+        }
+      },
+      "market_data": {
+        "moneyline_home": -165,
+        "moneyline_away": 145,
+        "total": 8.5,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 4.62,
+        "away_runs": 4.12,
+        "total_runs": 8.75,
+        "run_edge": 0.25,
+        "run_direction": "OVER",
+        "run_confidence": 7.0,
+        "home_win_probability": 0.581,
+        "away_win_probability": 0.419
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.5475,
+        "yrfi_probability": 0.4525,
+        "edge_vs_50pct": 0.0475,
+        "lean": "NRFI/YRFI Toss-up",
+        "confidence": 5.7,
+        "tier": "LEAN"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Feltner struggles, Rox pen weak"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "DET @ HOU",
+        "home_team": "Houston Astros",
+        "away_team": "Detroit Tigers",
+        "venue": "Minute Maid Park",
+        "date": "2026-06-17",
+        "game_time": "8:10 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Hunter Brown (RHP)",
+          "era": 3.75,
+          "k_rate": 0.24
+        },
+        "away": {
+          "name": "Framber Valdez (LHP)",
+          "era": 3.85,
+          "k_rate": 0.22
+        }
+      },
+      "market_data": {
+        "moneyline_home": -145,
+        "moneyline_away": 125,
+        "total": 8.5,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 4.5,
+        "away_runs": 3.82,
+        "total_runs": 8.32,
+        "run_edge": -0.18,
+        "run_direction": "UNDER",
+        "run_confidence": 5.0,
+        "home_win_probability": 0.6,
+        "away_win_probability": 0.4
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.5728,
+        "yrfi_probability": 0.4272,
+        "edge_vs_50pct": 0.0728,
+        "lean": "NRFI",
+        "confidence": 8.7,
+        "tier": "STRONG BET"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Valdez elite groundballer \u2014 suppresses run scoring",
+        "HOU offense boosted by Minute Maid"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "MIN @ TEX",
+        "home_team": "Texas Rangers",
+        "away_team": "Minnesota Twins",
+        "venue": "Globe Life Field",
+        "date": "2026-06-17",
+        "game_time": "8:05 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Kumar Rocker (RHP)",
+          "era": 3.9,
+          "k_rate": 0.24
+        },
+        "away": {
+          "name": "Zebby Matthews (RHP)",
+          "era": 3.95,
+          "k_rate": 0.22
+        }
+      },
+      "market_data": {
+        "moneyline_home": -120,
+        "moneyline_away": 100,
+        "total": 8.5,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 4.24,
+        "away_runs": 4.07,
+        "total_runs": 8.32,
+        "run_edge": -0.18,
+        "run_direction": "UNDER",
+        "run_confidence": 5.1,
+        "home_win_probability": 0.544,
+        "away_win_probability": 0.456
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.5784,
+        "yrfi_probability": 0.4216,
+        "edge_vs_50pct": 0.0784,
+        "lean": "NRFI",
+        "confidence": 9.4,
+        "tier": "STRONG BET"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Rocker still building up \u2014 limited workload"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "PIT @ OAK",
+        "home_team": "Athletics",
+        "away_team": "Pittsburgh Pirates",
+        "venue": "Oakland Coliseum",
+        "date": "2026-06-17",
+        "game_time": "9:40 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Jack Perkins (RHP)",
+          "era": 4.25,
+          "k_rate": 0.21
+        },
+        "away": {
+          "name": "Mitch Keller (RHP)",
+          "era": 4.1,
+          "k_rate": 0.23
+        }
+      },
+      "market_data": {
+        "moneyline_home": 110,
+        "moneyline_away": -130,
+        "total": 8.0,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 3.85,
+        "away_runs": 3.97,
+        "total_runs": 7.83,
+        "run_edge": -0.17,
+        "run_direction": "UNDER",
+        "run_confidence": 4.9,
+        "home_win_probability": 0.512,
+        "away_win_probability": 0.488
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.5578,
+        "yrfi_probability": 0.4422,
+        "edge_vs_50pct": 0.0578,
+        "lean": "NRFI/YRFI Toss-up",
+        "confidence": 6.9,
+        "tier": "LEAN"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Perkins unproven \u2014 Keller more reliable"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "SD @ STL",
+        "home_team": "St. Louis Cardinals",
+        "away_team": "San Diego Padres",
+        "venue": "Busch Stadium",
+        "date": "2026-06-17",
+        "game_time": "7:45 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Andre Pallante (RHP)",
+          "era": 4.05,
+          "k_rate": 0.2
+        },
+        "away": {
+          "name": "Michael King (RHP)",
+          "era": 3.85,
+          "k_rate": 0.24
+        }
+      },
+      "market_data": {
+        "moneyline_home": 115,
+        "moneyline_away": -135,
+        "total": 8.0,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 3.86,
+        "away_runs": 4.06,
+        "total_runs": 7.92,
+        "run_edge": -0.08,
+        "run_direction": "UNDER",
+        "run_confidence": 2.2,
+        "home_win_probability": 0.503,
+        "away_win_probability": 0.497
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.5687,
+        "yrfi_probability": 0.4313,
+        "edge_vs_50pct": 0.0687,
+        "lean": "NRFI/YRFI Toss-up",
+        "confidence": 8.2,
+        "tier": "STRONG BET"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Busch Stadium pitcher-friendly (0.96)"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "LAA @ ARI",
+        "home_team": "Arizona Diamondbacks",
+        "away_team": "Los Angeles Angels",
+        "venue": "Chase Field",
+        "date": "2026-06-17",
+        "game_time": "9:40 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Merrill Kelly (RHP)",
+          "era": 4.0,
+          "k_rate": 0.22
+        },
+        "away": {
+          "name": "Reid Detmers (LHP)",
+          "era": 4.15,
+          "k_rate": 0.23
+        }
+      },
+      "market_data": {
+        "moneyline_home": -125,
+        "moneyline_away": 105,
+        "total": 9.0,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 4.69,
+        "away_runs": 4.35,
+        "total_runs": 9.04,
+        "run_edge": 0.04,
+        "run_direction": "OVER",
+        "run_confidence": 1.0,
+        "home_win_probability": 0.564,
+        "away_win_probability": 0.436
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.5687,
+        "yrfi_probability": 0.4313,
+        "edge_vs_50pct": 0.0687,
+        "lean": "NRFI/YRFI Toss-up",
+        "confidence": 8.2,
+        "tier": "STRONG BET"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Chase Field hitter-friendly (1.06)"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "BAL @ SEA",
+        "home_team": "Seattle Mariners",
+        "away_team": "Baltimore Orioles",
+        "venue": "T-Mobile Park",
+        "date": "2026-06-17",
+        "game_time": "9:40 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "George Kirby (RHP)",
+          "era": 3.6,
+          "k_rate": 0.24
+        },
+        "away": {
+          "name": "Kyle Bradish (RHP)",
+          "era": 3.85,
+          "k_rate": 0.25
+        }
+      },
+      "market_data": {
+        "moneyline_home": -138,
+        "moneyline_away": 118,
+        "total": 7.5,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 3.56,
+        "away_runs": 3.91,
+        "total_runs": 7.47,
+        "run_edge": -0.03,
+        "run_direction": "UNDER",
+        "run_confidence": 0.7,
+        "home_win_probability": 0.486,
+        "away_win_probability": 0.514
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.6208,
+        "yrfi_probability": 0.3792,
+        "edge_vs_50pct": 0.1208,
+        "lean": "NRFI",
+        "confidence": 14.5,
+        "tier": "STRONG BET"
+      },
+      "player_props": [
+        {
+          "player": "Pete Alonso",
+          "team": "away",
+          "prop_type": "Total Bases",
+          "projected_probability": 0.0656,
+          "lean": "Under",
+          "line": 1.5,
+          "key_driver": "1.914 career OPS vs Kirby \u2014 massive matchup edge"
+        },
+        {
+          "player": "Pete Alonso",
+          "team": "away",
+          "prop_type": "HR",
+          "projected_probability": 0.0656,
+          "lean": "Under",
+          "line": "TBD",
+          "key_driver": "4 HR allowed by Kirby in last 5 starts"
+        },
+        {
+          "player": "Adley Rutschman",
+          "team": "away",
+          "prop_type": "Walks",
+          "projected_probability": 0.0436,
+          "lean": "Under",
+          "line": 0.5,
+          "key_driver": "12/20 games Over walks (55% ROI), .375 OBP"
+        },
+        {
+          "player": "Gunnar Henderson",
+          "team": "away",
+          "prop_type": "RBIs",
+          "projected_probability": 0.0544,
+          "lean": "Under",
+          "line": 0.5,
+          "key_driver": "17/20 road games Under RBIs \u2014 strong fade"
+        },
+        {
+          "player": "Colton Cowser",
+          "team": "away",
+          "prop_type": "HR",
+          "projected_probability": 0.044,
+          "lean": "Under",
+          "line": "TBD",
+          "key_driver": "3/6 road games with HR recently"
+        }
+      ],
+      "sharp_notes": [
+        "NRFI is sharp play \u2014 T-Mobile (0.92) suppresses 1st inn runs",
+        "Bradish shaky last start (5 ER in 4 IP)",
+        "Kirby allowed 4 HR in last 5 starts"
+      ]
+    },
+    {
+      "game_info": {
+        "matchup": "TB @ LAD",
+        "home_team": "Los Angeles Dodgers",
+        "away_team": "Tampa Bay Rays",
+        "venue": "Dodger Stadium",
+        "date": "2026-06-17",
+        "game_time": "10:10 PM"
+      },
+      "pitching": {
+        "home": {
+          "name": "Justin Wrobleski (LHP)",
+          "era": 3.65,
+          "k_rate": 0.23
+        },
+        "away": {
+          "name": "Drew Rasmussen (RHP)",
+          "era": 3.6,
+          "k_rate": 0.26
+        }
+      },
+      "market_data": {
+        "moneyline_home": -155,
+        "moneyline_away": 135,
+        "total": 8.5,
+        "over_odds": -110,
+        "under_odds": -110
+      },
+      "projections": {
+        "home_runs": 4.53,
+        "away_runs": 3.99,
+        "total_runs": 8.52,
+        "run_edge": 0.02,
+        "run_direction": "OVER",
+        "run_confidence": 0.7,
+        "home_win_probability": 0.586,
+        "away_win_probability": 0.414
+      },
+      "nrfi_analysis": {
+        "nrfi_probability": 0.6046,
+        "yrfi_probability": 0.3954,
+        "edge_vs_50pct": 0.1046,
+        "lean": "NRFI",
+        "confidence": 12.6,
+        "tier": "STRONG BET"
+      },
+      "player_props": [],
+      "sharp_notes": [
+        "Rasmussen elite but TOR runs deep lineup",
+        "Wrobleski LHP \u2014 Dodgers defer to pen early"
+      ]
+    }
+  ]
+}

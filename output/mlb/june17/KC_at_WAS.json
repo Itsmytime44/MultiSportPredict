@@ -1,0 +1,51 @@
+{
+  "game_info": {
+    "matchup": "KC @ WAS",
+    "home_team": "Washington Nationals",
+    "away_team": "Kansas City Royals",
+    "venue": "Nationals Park",
+    "date": "2026-06-17",
+    "game_time": "6:45 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Foster Griffin (LHP)",
+      "era": 4.35,
+      "k_rate": 0.2
+    },
+    "away": {
+      "name": "Michael Wacha (RHP)",
+      "era": 3.85,
+      "k_rate": 0.24
+    }
+  },
+  "market_data": {
+    "moneyline_home": 105,
+    "moneyline_away": -125,
+    "total": 8.5,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 3.85,
+    "away_runs": 4.24,
+    "total_runs": 8.08,
+    "run_edge": -0.42,
+    "run_direction": "UNDER",
+    "run_confidence": 11.6,
+    "home_win_probability": 0.48,
+    "away_win_probability": 0.52
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.5571,
+    "yrfi_probability": 0.4429,
+    "edge_vs_50pct": 0.0571,
+    "lean": "NRFI/YRFI Toss-up",
+    "confidence": 6.9,
+    "tier": "LEAN"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Wacha veteran presence, Nats young pitchers"
+  ]
+}

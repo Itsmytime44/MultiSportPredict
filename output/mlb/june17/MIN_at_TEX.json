@@ -1,0 +1,51 @@
+{
+  "game_info": {
+    "matchup": "MIN @ TEX",
+    "home_team": "Texas Rangers",
+    "away_team": "Minnesota Twins",
+    "venue": "Globe Life Field",
+    "date": "2026-06-17",
+    "game_time": "8:05 PM"
+  },
+  "pitching": {
+    "home": {
+      "name": "Kumar Rocker (RHP)",
+      "era": 3.9,
+      "k_rate": 0.24
+    },
+    "away": {
+      "name": "Zebby Matthews (RHP)",
+      "era": 3.95,
+      "k_rate": 0.22
+    }
+  },
+  "market_data": {
+    "moneyline_home": -120,
+    "moneyline_away": 100,
+    "total": 8.5,
+    "over_odds": -110,
+    "under_odds": -110
+  },
+  "projections": {
+    "home_runs": 4.24,
+    "away_runs": 4.07,
+    "total_runs": 8.32,
+    "run_edge": -0.18,
+    "run_direction": "UNDER",
+    "run_confidence": 5.1,
+    "home_win_probability": 0.544,
+    "away_win_probability": 0.456
+  },
+  "nrfi_analysis": {
+    "nrfi_probability": 0.5784,
+    "yrfi_probability": 0.4216,
+    "edge_vs_50pct": 0.0784,
+    "lean": "NRFI",
+    "confidence": 9.4,
+    "tier": "STRONG BET"
+  },
+  "player_props": [],
+  "sharp_notes": [
+    "Rocker still building up \u2014 limited workload"
+  ]
+}
