@@ -1,0 +1,158 @@
+{
+  "game_info": {
+    "home_team": "Seattle Mariners",
+    "away_team": "Baltimore Orioles",
+    "league": "MLB",
+    "date": "2026-06-16/17",
+    "venue": "T-Mobile Park, Seattle, WA",
+    "game_time": "9:40 PM ET"
+  },
+  "pitching_matchup": {
+    "home": {
+      "name": "George Kirby",
+      "handedness": "R",
+      "era": 3.6,
+      "k_per_9": 8.8,
+      "whip": 1.12,
+      "k_rate": 0.24,
+      "innings_proj": 6.0,
+      "hr_per_9": 1.2,
+      "baa": 0.238,
+      "recent_note": "4 HR allowed in last 5 starts \u2014 HR vulnerability"
+    },
+    "away": {
+      "name": "Kyle Bradish",
+      "handedness": "R",
+      "era": 3.85,
+      "k_per_9": 9.2,
+      "whip": 1.24,
+      "k_rate": 0.25,
+      "innings_proj": 5.5,
+      "hr_per_9": 1.0,
+      "baa": 0.242,
+      "recent_start": "5 ER in 4.0 IP (last outing)"
+    }
+  },
+  "projected_lineups": {
+    "home": [
+      {
+        "name": "J.P. Crawford",
+        "pos": "SS"
+      },
+      {
+        "name": "Cal Raleigh",
+        "pos": "C"
+      },
+      {
+        "name": "Julio Rodr\u00edguez",
+        "pos": "CF"
+      },
+      {
+        "name": "Dominic Canzone",
+        "pos": "LF"
+      },
+      {
+        "name": "Rob Refsnyder",
+        "pos": "DH"
+      },
+      {
+        "name": "Cole Young",
+        "pos": "2B"
+      },
+      {
+        "name": "V\u00edctor Robles",
+        "pos": "RF"
+      },
+      {
+        "name": "Colt Emerson",
+        "pos": "3B"
+      },
+      {
+        "name": "Miles Mastrobuoni",
+        "pos": "1B"
+      }
+    ],
+    "away": [
+      {
+        "name": "Taylor Ward",
+        "pos": "LF"
+      },
+      {
+        "name": "Gunnar Henderson",
+        "pos": "SS"
+      },
+      {
+        "name": "Adley Rutschman",
+        "pos": "DH"
+      },
+      {
+        "name": "Pete Alonso",
+        "pos": "1B"
+      },
+      {
+        "name": "Colton Cowser",
+        "pos": "CF"
+      },
+      {
+        "name": "Leody Taveras",
+        "pos": "RF"
+      },
+      {
+        "name": "Samuel Basallo",
+        "pos": "C"
+      },
+      {
+        "name": "Blaze Alexander",
+        "pos": "3B"
+      },
+      {
+        "name": "Jeremiah Jackson",
+        "pos": "2B"
+      }
+    ]
+  },
+  "market_data": {
+    "moneyline_home": -138,
+    "moneyline_away": 118,
+    "total": 7.5,
+    "over_odds": -115,
+    "under_odds": -105
+  },
+  "projections": {
+    "home_runs": 3.84,
+    "away_runs": 4.0,
+    "total_runs": 7.84,
+    "home_win_probability": 0.514,
+    "away_win_probability": 0.486
+  },
+  "nrfi_analysis": {
+    "probability": 0.6028,
+    "lean": "NRFI",
+    "confidence": 80.0,
+    "recommendation": "STRONG BET"
+  },
+  "prop_recommendations": {
+    "pete_alonso": {
+      "hr_probability": 0.14,
+      "hr_lean": "Yes HR",
+      "total_bases_projection": 2.29,
+      "total_bases_lean": "Over",
+      "key_driver": "1.914 OPS vs Kirby (career)"
+    },
+    "adley_rutschman": {
+      "walks_trend": "12/20 games Over",
+      "roi": "55%",
+      "verdict": "LEAN Over 0.5"
+    },
+    "gunnar_henderson": {
+      "rbis_trend": "17/20 road games Under",
+      "verdict": "LEAN Under 0.5"
+    },
+    "colton_cowser": {
+      "hr_probability": 0.106,
+      "hr_lean": "No HR",
+      "road_hr_trend": "3/6 away games"
+    }
+  },
+  "timestamp": "2026-06-17T08:16:49.621212"
+}
