@@ -1,42 +1,42 @@
 {
   "sport": "soccer",
-  "league": "EPL",
-  "home_team": "Fulham",
-  "away_team": "Chelsea",
-  "timestamp": "2026-08-24T13:52:38.011087",
+  "league": "Ligue 1",
+  "home_team": "Lyon",
+  "away_team": "Fenerbache",
+  "timestamp": "2026-08-26T12:37:04.781271",
   "game": {
-    "projected_home_goals": 2.19,
-    "projected_away_goals": 1.77,
-    "projected_total_goals": 3.96,
-    "home_win_prob": 0.471,
-    "draw_prob": 0.211,
-    "away_win_prob": 0.318
+    "projected_home_goals": 2.37,
+    "projected_away_goals": 1.91,
+    "projected_total_goals": 4.28,
+    "home_win_prob": 0.476,
+    "draw_prob": 0.205,
+    "away_win_prob": 0.319
   },
   "predictions": {
     "side": {
-      "model_xg_diff": 0.424,
+      "model_xg_diff": 0.458,
       "market_line": 0.0,
-      "edge": 0.424,
-      "confidence": 32.9,
+      "edge": 0.458,
+      "confidence": 33.5,
       "recommendation": "PASS"
     },
     "total": {
-      "model_total_xg": 3.959,
+      "model_total_xg": 4.276,
       "market_total": 2.5,
-      "edge": 1.459,
-      "confidence": 49.2,
+      "edge": 1.776,
+      "confidence": 53.6,
       "recommendation": "PASS"
     },
     "btts": {
-      "probability": 0.692,
-      "confidence": 56.6,
+      "probability": 0.712,
+      "confidence": 58.9,
       "recommendation": "PASS"
     }
   },
   "goals_analysis": {
-    "over_15_prob": 0.905,
-    "over_25_prob": 0.756,
-    "over_35_prob": 0.559
+    "over_15_prob": 0.927,
+    "over_25_prob": 0.8,
+    "over_35_prob": 0.618
   },
   "corners_analysis": {
     "projection": 10.9,
@@ -44,7 +44,7 @@
     "over_95_prob": 0.653,
     "over_105_prob": 0.533
   },
-  "btts_probability": 0.692,
+  "btts_probability": 0.712,
   "corner_projection": 10.9,
   "team_metrics": {
     "home": {
@@ -81,17 +81,12 @@
     }
   },
   "league_config": {
-    "goal_variance": 1.0,
-    "avg_goals_per_game": 2.7,
+    "goal_variance": 1.08,
+    "avg_goals_per_game": 2.6,
     "home_advantage": 0.35,
     "draw_rate": 0.26,
-    "data_tier": 2
+    "data_tier": 1
   },
   "notes": "Soccer prediction using Bivariate Poisson with Dixon-Coles time-decay adjustments on xG metrics",
-  "_stats_source": "placeholder_fallback",
-  "live_market": {
-    "source": "odds_api",
-    "status": "event_not_found",
-    "league_key": "soccer_epl"
-  }
+  "_stats_source": "placeholder_fallback"
 }
